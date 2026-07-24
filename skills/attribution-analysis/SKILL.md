@@ -117,6 +117,14 @@ For China work, keep market, language, locale, legal entity, customer, product, 
 
 This Skill creates and reads local artifacts only. Do not access ad platforms, MMPs, analytics, warehouse, CRM, billing, finance, product, support, identity, clean-room, cloud, or other systems; export user or customer journeys; enrich or reidentify people; change tags, events, identity rules, source fields, windows, models, dashboards, budgets, bids, routing, or production data; contact customers, partners, vendors, or platforms; publish; deploy; spend; or claim attribution, causal, or business results without separate task-level authorization and required controls.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm that the decision, outcome, entity, eligibility, source taxonomy, touchpoints, journeys, identity, joins, deduplication, new and returning states, direct and unknown handling, lookbacks, precedence, model rules, windows, versions, market, cohorts, maturity, platform overlap, product outcome, commercial and finance reconciliation, refunds, costs, downstream value, attribution, prediction, incrementality, quality, privacy, governance, handoffs, pinned sources, and external-action boundary are explicit; incompatible counts and entities were not summed; unknowns were not reassigned; signup, install, lead, booking, revenue, and contribution were not conflated; attribution was not called causality; no score, weight, forecast, provider capability, approval, or result was invented; and no external action occurred.

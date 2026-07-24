@@ -89,6 +89,14 @@ Follow [output-contract.md](references/output-contract.md). Deliver the change c
 
 Create and read local artifacts only. Do not access authenticated project, HR, email, chat, CRM, analytics, product, billing, experiment, cloud, support, legal, or vendor systems; export or join personal data; assign owners; send communications; enroll training; change permissions, flags, products, prices, data, systems, or records; execute migrations, cutovers, rollbacks, deletions, or decommissioning; contact people; or claim rollout, communication, competence, adoption, completion, benefit, or impact without separate task-level authorization and controls.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm the output passes [output-contract.md](references/output-contract.md); the decision, authority, scope, current and target states, sources, versions, participants, impacts, dependencies, capacity, readiness, communications, enablement, migration, rollout, adoption, support, outcomes, risks, residual obligations, markets, privacy, fairness, handoffs, and action boundary are explicit; independent changes remain separate; blockers were not averaged away; activities did not become adoption or benefits; the old state was not retired without proof; dissent and sensitive data are protected; specialist work was not replaced; and no external action occurred.

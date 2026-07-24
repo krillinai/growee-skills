@@ -88,6 +88,14 @@ Follow [output-contract.md](references/output-contract.md). Deliver the model co
 
 Create and read local artifacts only. Do not access authenticated advertising, analytics, warehouse, CRM, MMP, billing, finance, planning, product, experiment, campaign, or cloud systems; export data; train or deploy production models; change events, sources, dashboards, forecasts, targets, plans, budgets, bids, campaigns, audiences, prices, or customer states; contact people; publish; send; spend; procure; or claim incremental growth or business improvement without separate task-level authorization and verification.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm that the outcome reconciles; units, markets, periods, vintages, currencies, and definitions are compatible; missing data is not zero; history and variation support the decision or infeasibility is explicit; transformations and priors are versioned; collinearity and endogeneity remain visible; validation exceeds in-sample fit; experiments are reconciled without forced agreement; contribution includes baseline and residual; response stays within support; uncertainty changes scenarios; forecasts, targets, allocations, actions, and results remain separate; market and privacy boundaries hold; specialist work is routed; and no external action occurred.

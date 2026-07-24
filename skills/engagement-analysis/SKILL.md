@@ -74,6 +74,14 @@ Do not copy US event definitions, Google or Meta identities, app-store sources, 
 
 Create and read local artifacts only. Do not access authenticated systems, export or join customer data, mutate events or operations, rank or contact people or accounts, send, launch, publish, spend, deploy, or claim improvement without separate task-level authorization and controls.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm the full output contract; zeroes and buckets reconcile; definitions and comparisons are compatible; aggregate limits remain visible; activity does not become value, retention, PMF, causality, or impact; no benchmark, score, target, holdout, duration, authorization, or result is invented; and no external action occurred.

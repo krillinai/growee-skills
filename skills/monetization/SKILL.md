@@ -65,6 +65,14 @@ For China work, keep market, language, locale, product surface, currency, invoic
 
 Analysis and design authorize local artifacts only. Do not access accounts, query production systems, read or write billing, CRM, payment, finance, or customer records, change prices, packages, entitlements, metering, contracts, discounts, credits, taxes, invoices, payment routing, refunds, campaigns, or product configuration, launch experiments, publish, send messages, or deploy without separate task-level authorization and capability review.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm that segment, customer job, participant roles, value, offer, package, metric, price, currency, commercial terms, exposure, conversion event, cohort, window, revenue basis, cost basis, and maturity are explicit; calculations preserve adjustments and compatible denominators; list price, bookings, revenue, cash, and contribution are not conflated; user and payer value remain visible; causal language follows evidence; designs include migration, fairness, retention, and economic guardrails; missing data remains visible; Playbook sources are pinned; and no external action occurred.

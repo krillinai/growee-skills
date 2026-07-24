@@ -260,6 +260,14 @@ For China work, keep China, language, locale, audience, product surface, provide
 
 This Skill may create and edit local image files when a suitable capability is actually available and the task authorizes local creation. Do not access asset libraries, design tools, social, ad, CMS, DAM, email, marketplace, directory, analytics, or customer systems without separate authorization; scrape or download restricted images; acquire rights; contact people; upload, publish, schedule, syndicate, advertise, or send assets; change live pages, campaigns, listings, product UI, brand systems, or budgets; or claim approval, publication, delivery, performance, or results.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm that mode, decision, audience, image role, production path, API and credential dependency, runtime, budget, concept, composition, variants, product truth, copy, claims, proof, sources, rights, people, brand, channel, placement, dimensions, safe areas, localization, accessibility, files, optimization, QA, lineage, measurement, owners, approvals, and action boundaries are explicit; public is not rights-cleared; generated is not factual proof; files are inspected before delivery; asset count is not learning; and no unauthorized external action occurred.

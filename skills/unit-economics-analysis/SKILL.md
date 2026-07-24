@@ -115,6 +115,14 @@ For China work, keep market, language, locale, legal entity, customer and payer,
 
 This Skill may read supplied artifacts and authorized public sources and create local artifacts. Do not access analytics, warehouse, CRM, billing, payments, finance, product, ad, MMP, support, identity, BI, cloud, partner, marketplace, or customer systems; export, merge, or reidentify people; train, deploy, score, rank, route, price, suppress, or otherwise treat customers; change costs, models, dashboards, forecasts, targets, prices, offers, bids, budgets, channels, staffing, or production data; contact anyone; publish; send; spend; deploy; or claim economics or business improvement without separate task-level authorization and required controls.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm that decision, owner, customer and payer entities, identity, acquisition event, cohort, original denominator, conversion lag, product, offer, market, channel, period, currency, accounting, cash, acquisition costs, allocations, CAC variants, attribution, incrementality, marginal bands, revenue, gross profit, contribution, service costs, refunds, retention, LTV compatibility, observed and forecast horizons, maturity, censoring, accounting payback, cash payback, overlap, mix, saturation, capacity, uncertainty, sensitivity, benchmarks, privacy, market transfer, handoffs, pinned sources, and external actions are explicit; unlike entities were not combined; missing costs were not zero; media-only was not fully loaded; attributed was not incremental; average was not marginal; revenue was not contribution or cash; LTV did not double-count CAC; immature cohorts were not lifetime-equivalent; GMV was not revenue; targets did not become evidence; unsupported precision, causality, approval, and results were not invented; and no unauthorized action occurred.

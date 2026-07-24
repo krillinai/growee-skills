@@ -78,6 +78,14 @@ For China work, keep China, language, locale, organization and spokesperson iden
 
 This Skill creates and reads local artifacts only. Do not scrape or build journalist lists; discover or enrich personal contact data; access media databases, email, social, publishing, analytics, CRM, legal, incident, employee, customer, investor, or partner systems; contact, pitch, brief, invite, pay, threaten, or monitor people; promise exclusives; set or break embargoes; submit contributed articles; issue corrections; use logos, quotes, or private assets; publish, schedule, boost, syndicate, delete, or alter content; buy coverage; respond from live accounts; or claim outreach, coverage, approval, containment, resolution, or results.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm that audience, objective, public relevance, facts, claims, quotes, sources, counterevidence, rights, privacy, approvals, timing, embargo, disclosure, media type, relationship, difficult questions, incident ownership, corrections, measurement, archive, and action boundaries are explicit; advertising is not earned media; a release is not coverage; mentions are not trust; attribution is not causality; unavailable facts stay unavailable; and no external action occurred.

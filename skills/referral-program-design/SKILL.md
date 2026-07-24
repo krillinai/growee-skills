@@ -79,6 +79,14 @@ For China work, keep market, language, locale, product surface, referral mechani
 
 This Skill creates and reads local artifacts only. Do not access product, referral, CRM, analytics, warehouse, billing, payment, messaging, contact, fraud, support, or experiment systems; upload contacts; generate live codes; expose or suppress users; send invitations; contact participants; issue, settle, reverse, or withdraw rewards; block accounts; launch, change, taper, or stop a live program; publish terms; or claim results.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm that decision, participants, value, relationship, permission, trigger, eligibility, exclusions, payload, channel, destination, first value, retained quality, reward, terms, disclosure, identity, deduplication, attribution, incrementality, cohorts, maturity, full economics, fraud, cannibalization, fairness, privacy, trust, complaints, support, capacity, owners, approvals, taper, stop, and evidence states are explicit; invitations are not recipient value; attribution is not incrementality; risk signals are not proof; market conditions are not inferred from language; and no external action occurred.

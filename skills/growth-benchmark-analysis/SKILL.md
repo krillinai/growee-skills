@@ -90,6 +90,14 @@ Use aggregate, redacted, pseudonymous, minimum-necessary evidence and suppress u
 
 Create and read local artifacts only. Do not bypass authentication, paywalls, robots controls, CAPTCHAs, licenses, or access restrictions; create accounts; accept terms; purchase reports; contact sources; access analytics, finance, benchmark, CRM, billing, HR, or other authenticated systems; export or join private data; change metrics, targets, forecasts, budgets, plans, quotas, dashboards, or decisions; rank or notify people; publish; send; spend; deploy; or claim improvement without separate task-level authorization and controls.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm benchmark ID, version, mode, decision, focal unit, metric, entity, eligibility, formula, value meaning, reference class, membership timing, sources, lineage, source type, evidence states, coverage, selection, nonresponse, survivorship, publication, definitions, periods, maturity, normalization, currency, accounting, distribution, uncertainty, privacy, market transfer, verdicts, sensitivity, counterevidence, causal boundary, handoffs, expiry, corrections, and external actions are explicit; citations did not become independent evidence; missing did not become zero; estimates did not become actuals; incompatible evidence was not averaged; context did not become target, forecast, failure, cause, plan, or result; and no external action occurred.

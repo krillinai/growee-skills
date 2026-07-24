@@ -93,6 +93,14 @@ Follow [output-contract.md](references/output-contract.md). Deliver the cycle co
 
 Create and read local artifacts only. Do not access authenticated planning, finance, HR, analytics, data, CRM, billing, advertising, experiment, product, cloud, support, procurement, project, or communication systems; export or join personal data; approve targets, budgets, staffing, organization, prices, products, permissions, contracts, or records; assign work; launch initiatives; contact people; publish; send; spend; procure; deploy; or claim adoption, implementation, completion, or business results without separate task-level authorization and controls.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm the output passes [output-contract.md](references/output-contract.md); artifacts and versions are explicit and compatible; targets remain distinct from forecasts and evidence; outcomes and resources reconcile without duplication; strategy and portfolio choices are supplied or routed; decisions precede dependent commitments; maturity governs the calendar; maintenance and customer protection remain funded; approval states are evidenced; refresh preserves history; specialist work is routed; market and privacy boundaries hold; and no external action occurred.

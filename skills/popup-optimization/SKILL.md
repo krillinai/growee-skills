@@ -79,6 +79,14 @@ For China work, keep China, language, locale, product surface, page, platform, a
 
 This Skill creates and reads local artifacts only. Do not access CMS, product, tag manager, experimentation, consent, analytics, CRM, email, SMS, messaging, account, or customer systems; collect or upload contacts; change pages, components, styles, scripts, forms, events, consent, cookies, identity, targeting, frequency, suppression, experiments, feature flags, or customer state; send messages; publish; launch; deploy; monitor live users; or claim implementation or results.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm that current job, audience, eligibility, exclusions, permission, purpose, offer, claims, surface, trigger, frequency, suppression, priority, collisions, dismissal, focus, accessibility, mobile, performance, form, destination, events, identity, experiment, downstream value, guardrails, owners, approvals, stop, rollback, and action boundaries are explicit; render is not exposure; capture is not consent; local conversion is not customer value; unavailable is not failure; and no external action occurred.

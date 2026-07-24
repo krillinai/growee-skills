@@ -92,6 +92,14 @@ For China work, keep China, language, locale, legal entity, customer, speaker, r
 
 This Skill creates and reads local artifacts only. Do not access CRM, sales, support, call, product, analytics, warehouse, billing, finance, contract, email, ad, website, CMS, design, reference, or customer systems; contact customers or employees; request or obtain signatures; create public identities; change claims, quotes, metrics, permissions, reference states, or source records; publish, send, upload, schedule, or deploy cases, testimonials, ads, press, sales, web, social, app, analyst, or localized assets; spend; or claim conversion, win-rate, revenue, or other results without separate task-level authorization and required controls.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm that decision, customer, role, relationship, product, version, situation, alternative, implementation, outcome, metric, calculation, source, quote, paraphrase, translation, logo, screenshot, conditions, counterevidence, incentive, disclosure, consent, rights, channels, markets, duration, approval, privacy, anonymization, causal boundary, formats, lineage, versions, usage locations, freshness, withdrawal, correction, archive, retirement, owners, pinned sources, and external actions are explicit; logo is not use; statement is not prevalence; association is not causality; possession is not permission; anonymization is not name removal; editing does not change meaning; unavailable is not zero; no proof, quote, metric, right, approval, or result was invented; and no external action occurred.

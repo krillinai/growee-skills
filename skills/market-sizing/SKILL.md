@@ -102,6 +102,14 @@ For China work, keep market, language, locale, customer, role, job, category, pr
 
 This Skill may read supplied artifacts and public or otherwise authorized sources when the task and tools allow it, and may create local artifacts. Do not access analytics, CRM, billing, payments, finance, product, app-store, ad, marketplace, government, partner, customer, competitor, paid research, or private systems; bypass controls or licenses; export or reidentify people; buy reports; contact customers, competitors, analysts, partners, or authorities; change market definitions, ICPs, prices, forecasts, targets, plans, budgets, staffing, dashboards, or production data; publish; send; spend; deploy; or claim market or business growth without separate task-level authorization and required controls.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm that decision, owner, market, category, job, product, geography, time, customer and payer entities, demand opportunity, eligibility, frequency, quantity, value, price, spend, GMV, revenue, contribution, currency, accounting, total, serviceable, reachable, qualified, attainable, sources, lineage, methods, conversion bridges, overlap, coverage, exclusions, uncertainty, scenarios, sensitivity, calibration, privacy, market transfer, handoffs, pinned sources, and external actions are explicit; entities were not added as customers; population was not multiplied by list price; derivative sources were not independent; platform audience was not reachable demand; roadmap was not availability; GMV was not revenue; scenario was not forecast; target did not determine size; market size was not called causal; unsupported precision was not invented; and no unauthorized action occurred.

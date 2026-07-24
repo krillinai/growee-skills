@@ -78,6 +78,14 @@ For China work, keep market, language, locale, product surface, identity, consen
 
 This Skill creates and reads local artifacts only. Do not access cloud, warehouse, CDP, analytics, experiment, feature-flag, CRM, billing, finance, identity, ad, lifecycle, creative, product, support, or observability systems; export production data; install or procure vendors; change schemas, permissions, identities, consent, metrics, models, dashboards, alerts, automation, traffic, budgets, or customer state; stop live systems; publish; send; spend; migrate; or deploy without separate task-level authorization and capability review.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm that the decision, outcome, repeated workflow, consumers, current process, dependencies, systems, owners, contracts, maturity, evidence, reliability, adoption, decision quality, customer outcomes, cost, incidents, risks, centralization boundary, service levels, overrides, stop controls, sourcing assumptions, roadmap, health metrics, and retirement triggers are explicit; upstream foundations precede dependent automation; activity is not called value; higher maturity is not assumed better; local judgment remains local where required; specialist handoffs stay bounded; Playbook sources are pinned; and no external action occurred.

@@ -103,6 +103,14 @@ For China work, keep market, language, locale, legal entity, customer and payer,
 
 Create and read local artifacts only. Do not access analytics, CRM, billing, payment, finance, app-store, sales, support, product, experiment, BI, partner, or cloud systems; export, join, or reidentify people; change offers, packages, entitlements, limits, meters, prices, contracts, discounts, credits, taxes, invoices, payments, refunds, routing, product, or customer records; launch experiments; rank or price individuals; contact anyone; publish; send; spend; deploy; or claim pricing or business improvement without separate task-level authorization and required controls.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm that decision, owner, customer job, segment, participant roles, alternatives, value, proof, offer, package, entitlements, limits, add-ons, service levels, metric, unit, price, currency, terms, discounts, exceptions, free and trial paths, eligibility, exposure, identity, cohort, market, research question, method, sample, raw evidence, uncertainty, activation, paid conversion, realized price, retention, expansion, contraction, churn, refunds, contribution, cash, payback, migration, experiment, fairness, privacy, market transfer, handoffs, pinned sources, and external actions are explicit; user enthusiasm did not become payer willingness; biased research did not become a forecast; competitor price did not become strategy; feature count did not become value; tokens or activity did not become outcomes; list price did not become realized value; short-term conversion did not become retained economics; targets did not become evidence; unsupported precision, causality, recommendations, approvals, and results were not invented; and no external action occurred.

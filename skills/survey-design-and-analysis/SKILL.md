@@ -76,6 +76,14 @@ Follow [output-contract.md](references/output-contract.md). Return the survey co
 
 Create and read local artifacts only. Do not access survey, CRM, analytics, product, support, HR, identity, billing, payment, messaging, ad, or cloud systems; upload or export personal data; scrape sources; contact, recruit, invite, remind, reward, exclude, score, rank, or decide for people; launch or close a survey; change an instrument, sample, weight, dataset, dashboard, product, price, policy, or customer state; publish; send; spend; deploy; or claim fielding, participation, analysis, implementation, improvement, or impact without separate task-level authorization and controls.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm survey ID, versions, mode, state, decision, construct, estimand, population, frame, unit, eligibility, sample, recruitment, incentives, consent, privacy, language, locale, mode, instrument, wording, options, scales, logic, accessibility, cognitive testing, pilot, fielding, response states, quality, missingness, denominators, weighting, uncertainty, multiplicity, open text, comparisons, behavioral and causal limits, owners, handoffs, sources, evidence states, corrections, expiry, and action boundary are explicit; selection did not become representativeness; missing did not become zero; self-report did not become behavior; association or movement did not become cause; domain interpretation was not absorbed; and no external action occurred.

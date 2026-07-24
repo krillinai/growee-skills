@@ -22,6 +22,7 @@ Add `scripts/` only for deterministic or repeatedly implemented operations. Add 
 - Keep YAML frontmatter to `name` and `description` only.
 - Make the trigger description specific enough to distinguish adjacent Skills.
 - State the primary modes, required inputs, evidence states, outputs, external-action boundary, and completion gate.
+- Keep one output language across headings, prose, tables, labels, and actions. Match the requested language, translate ordinary jargon in Simplified Chinese deliverables, and separate explicitly requested multilingual versions instead of mixing languages within sentences or tables.
 - Treat missing private evidence as `unavailable`; do not invent it or penalize its absence.
 - Use `China` or `中国` consistently for the market name.
 - Keep market, language, locale, platform, account, permissions, data, and current rules separate.

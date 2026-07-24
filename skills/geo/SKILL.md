@@ -80,6 +80,14 @@ Order evidence acquisition before dependent remediation. Recommend diagnostic ne
 
 When the user requests HTML, a shareable/visual report, or a browser-openable artifact, read and follow [html-report.md](references/html-report.md). Generate exactly one standalone `{domain-slug}-geo-audit.html` file and preserve semantic parity with the canonical audit record.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Before delivery, confirm that scope remained bounded; provider/platform/product labels and canonical IDs are separate; market and language were selected explicitly; all direct observations have dated sources; unsupported explanations are inferred; missing evidence is unavailable and unpenalized; readiness arithmetic reconciles; visibility uses exact product source URL when applicable, surface, shown model/exposure, search/network, login/access, market/language preselection and product controls, timestamp window, repetition, collection method/protocol, answer/citation definitions, response metadata, answer, mention, per-attempt normalized URL arrays and URL-instance counts, panel citation aggregates, and errors; every legacy required field is normalized deterministically; competitive and incident comparisons use the identical canonical match key; findings and unavailable registers remain distinct; actions have completion checks; current platform claims have primary sources; and limitations forbid unsupported site-wide, crawler, causal, rank, citation, traffic, or uplift conclusions.

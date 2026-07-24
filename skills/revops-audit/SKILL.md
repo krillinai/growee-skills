@@ -95,6 +95,14 @@ For China work, keep market, language, locale, legal entity, customer and payer 
 
 This Skill creates and reads local artifacts only. Do not access CRM, marketing automation, sales engagement, call, support, customer success, product, analytics, warehouse, billing, payment, contract, finance, HR, compensation, partner, or identity systems; export production or employee data; create or change records, entities, identities, stages, sources, fields, routing, ownership, territories, quotas, compensation, forecasts, prices, discounts, quotes, contracts, invoices, revenue, permissions, integrations, automations, dashboards, alerts, or customer state; contact anyone; procure software; deploy; or claim changes or results.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm that decision, motion, entities, identity, lifecycle, buyer progress, stages, sources, ownership, routing, handoffs, service expectations, capacity, systems, fields, lineage, snapshots, quality, forecast, commercial terms, contracts, revenue, cash, customer value, renewal, expansion, privacy, controls, incidents, evidence coverage, owners, dependencies, roadmap, and action boundaries are explicit; unavailable is not a gap; activity is not buyer progress; pipeline is not revenue; bookings are not cash; attribution is not causality; automation follows trustworthy foundations; and no external action occurred.

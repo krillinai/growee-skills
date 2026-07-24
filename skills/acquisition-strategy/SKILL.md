@@ -33,7 +33,7 @@ For a Simplified Chinese deliverable:
 - introduce a standard acronym with its Chinese name on first use, such as “客户获取成本（CAC）”, then use the acronym consistently only when it improves readability;
 - retain proper product, company, platform, protocol, file, code, formula, URL, and quoted source names where translation would be inaccurate.
 
-For an English deliverable, write complete idiomatic English and do not add Chinese translations except for proper nouns or quoted source text that must remain in the original language. If a source term needs explanation, translate it once in prose rather than alternating languages throughout the report.
+For an English deliverable, write complete idiomatic English and do not add Chinese translations except for proper nouns or quoted source text that must remain in the original language. If a source term needs explanation, translate it once in prose rather than alternating languages throughout the report. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables.
 
 ## Freeze The Acquisition Contract
 

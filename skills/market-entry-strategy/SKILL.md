@@ -94,6 +94,14 @@ For China work, keep China, language, locale, customer unit, city or region, pro
 
 This Skill creates and reads local artifacts only. Do not open market, platform, bank, payment, app-store, ad, social, partner, vendor, CRM, product, analytics, support, finance, data, or government accounts; contact customers, partners, media, vendors, or authorities; form entities; make filings; accept terms; buy domains; procure vendors; translate or publish production assets; change product, price, payment, data, support, contracts, or budgets; launch pilots or campaigns; spend; deploy; or claim results.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm that market, language, locale, customer, job, alternatives, product, route, channel, partner, offer, price, payment, data, trust, review, operations, support, economics, capacity, evidence, owners, gates, decision, pilot, stop, rollback, and exit are explicit; unavailable is not failure; translation is not market entry; TAM is not reachable demand; attribution is not incrementality; one local success is not national validation; and no external action occurred.

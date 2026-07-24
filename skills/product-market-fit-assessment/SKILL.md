@@ -83,6 +83,14 @@ For China work, keep market, language, locale, product surface, identity, app di
 
 This Skill creates and reads local artifacts only. Do not access analytics, warehouse, CRM, survey, support, billing, payment, ad, product, or messaging systems; export customer data; change instrumentation, identity, onboarding, product, price, packaging, entitlements, channel, budget, or customer state; recruit or contact customers; launch experiments; publish; send; spend; or deploy without separate task-level authorization and capability review.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm that the decision, product, customer, segment, use case, payer, geography, frequency, period, value events, entities, cohorts, definitions, evidence states, economics, distribution, guardrails, contradictions, maturity, owner, and next decision are explicit; surveys and retention are qualified; fit units are not blended; Four Fits remain distinct; arithmetic is not promoted to forecast; no score, benchmark, causal claim, permanence, or scale recommendation was invented; adjacent Skills remain bounded; Playbook sources are pinned; and no external action occurred.

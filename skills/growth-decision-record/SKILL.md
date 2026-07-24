@@ -91,6 +91,14 @@ Follow [output-contract.md](references/output-contract.md). Deliver the contract
 
 Create and read local artifacts only. Do not access authenticated planning, project, finance, procurement, HR, analytics, CRM, billing, product, experiment, cloud, support, contract, or communication systems; export or join personal data; decide without authority; approve; authorize; assign work; change budgets, targets, forecasts, roadmaps, experiments, flags, products, prices, contracts, permissions, data, systems, or records; notify; contact; publish; sign; spend; hire; fire; launch; deploy; or claim propagation, execution, completion, adoption, or results without separate task-level authorization and controls.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm the output passes [output-contract.md](references/output-contract.md); one decision and owner are explicit or unavailable with the missing authority recorded; sources and evidence states remain bounded; alternatives are credible; decision inputs are not conflated; causality does not exceed evidence; false scoring does not replace rationale; unsupported governing, numeric, time, ownership, acknowledgement, and propagation fields remain unavailable; downside and dissent remain visible; recommendation, decision, approval, authorization, execution, and result are separate; applicability and expiry are explicit only when supported; canonical versions and downstream consumers reconcile; history is not rewritten; outcome quality does not become decision quality; market and privacy boundaries hold; specialist work is routed; and no external action occurred.

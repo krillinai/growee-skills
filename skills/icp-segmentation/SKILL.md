@@ -73,6 +73,14 @@ For China work, keep market, language, locale, product surface, participant unit
 
 This Skill creates local artifacts only. Do not access private systems, enrich or upload customer lists, score named people or accounts, change CRM routing, contact customers, alter product paths or prices, launch experiments, or claim that a segment was deployed without separate task-level authorization.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm that the decision, unit, hierarchy, rules, timing, exclusions, unknowns, overlap, evidence, maturity, rates and volume, downstream value, economics, route, paths, classification quality, privacy, fairness, owner, version, and review triggers are explicit; future-outcome leakage is absent; personas and cohorts are not mislabeled as ICPs; model prediction is not treated as causality; and no external action occurred.

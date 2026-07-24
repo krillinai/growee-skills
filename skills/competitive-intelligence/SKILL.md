@@ -76,6 +76,14 @@ For China work, keep market, language, locale, customer, buying situation, produ
 
 This Skill may read supplied artifacts and public or otherwise authorized sources when the task and tools allow it, and may create local artifacts. Do not access internal analytics, CRM, sales, call, support, billing, finance, warehouse, app-store, ad, employee, customer, paid research, private community, or competitor accounts; bypass controls; export or reidentify people or accounts; contact customers, competitors, employees, partners, analysts, or vendors; create identities; change battlecards, claims, positioning, product, roadmap, prices, offers, campaigns, bids, budgets, alerts, or production data; publish; send; spend; deploy; or claim implementation or business improvement without separate task-level authorization and required controls.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm that mode, decision, owner, product, customer, job, market, segment, alternative boundary, inclusion and exclusion rules, source classes, provenance, dates, versions, evidence states, contradictions, capability and access states, price basis, comparison criteria, missingness, uncertainty, changes, rumors, implications, causal boundary, privacy, market transfer, owners, review cadence, handoffs, pinned sources, and external actions are explicit; a vendor list is not the market; claims are not outcomes; omission is not absence; features are not value; list price is not total cost; correlation is not causality; signals are not roadmaps; unavailable is not failure; and no unauthorized action occurred.

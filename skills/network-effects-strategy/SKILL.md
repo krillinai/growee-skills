@@ -103,6 +103,14 @@ For China work, keep market, language, locale, legal entity, network unit, parti
 
 This Skill creates and reads local artifacts only. Do not access product, graph, CRM, analytics, warehouse, marketplace, messaging, payment, ad, experiment, moderation, identity, or production systems; export identities, contacts, messages, transactions, rankings, or graph edges; recruit participants; upload contacts; issue incentives; change ranking, reputation, prices, permissions, product, instrumentation, or data policy; message users; launch markets or experiments; spend; publish; deploy; or claim network effects, defensibility, or improvement without separate authorization and attributable outcomes.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm that decision, participants, nonparticipants, unit, interaction, value, hard side, availability, density, quality, repeat behavior, retention, contribution, incentives, multi-homing, portability, switching, disintermediation, congestion, trust, safety, privacy, evidence states, counterevidence, causal status, defense, local replication, owners, gates, and action boundaries are explicit; aggregate scale is not local liquidity; propagation is not a network effect; data volume is not improvement; switching friction is not defense; a working unit is not proof of transfer; unavailable evidence is not a gap; and no external action occurred.

@@ -104,6 +104,27 @@ def validate_local_links(skill_dir: Path, text: str, report: Report) -> None:
             report.error(f"{skill_dir.name}: broken local reference: {target}")
 
 
+def validate_output_language_contract(
+    skill_dir: Path, text: str, report: Report
+) -> None:
+    heading = "## Keep One Output Language"
+    if text.count(heading) != 1:
+        report.error(
+            f"{skill_dir.name}: must contain exactly one '{heading}' section"
+        )
+        return
+
+    section = text.split(heading, 1)[1]
+    next_heading = re.search(r"^## ", section, re.MULTILINE)
+    if next_heading:
+        section = section[: next_heading.start()]
+    for required in ("Simplified Chinese", "English", "multiple languages"):
+        if required not in section:
+            report.error(
+                f"{skill_dir.name}: output language contract must mention {required}"
+            )
+
+
 def validate_eval_file(
     skill_dir: Path, global_ids: dict[int, str], report: Report
 ) -> int:
@@ -423,6 +444,7 @@ def main() -> int:
             report.warn(f"{skill_id}: trigger description exceeds 70 words")
         text = skill_path.read_text(encoding="utf-8")
         validate_local_links(skill_dir, text, report)
+        validate_output_language_contract(skill_dir, text, report)
         validate_agent_metadata(skill_dir, skill_id, report)
         eval_count += validate_eval_file(skill_dir, global_eval_ids, report)
 

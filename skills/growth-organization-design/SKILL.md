@@ -120,6 +120,14 @@ For China work, keep market, language, locale, product, customer, channel, creat
 
 This Skill creates and reads local artifacts only. Do not access HRIS, payroll, recruiting, performance, calendar, communication, project, analytics, experiment, warehouse, CRM, finance, identity, customer, or cloud systems; export employee or customer data; change reporting lines, employment, permissions, goals, headcount, compensation, hiring, budgets, project allocation, schedules, ratings, systems, traffic, or customer state; contact employees, candidates, vendors, or customers; publish; procure; deploy; or claim a reorganization is complete without separate task-level authorization and required reviews.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm that the decision, outcome, constraint state, product and market context, required work, levers, capabilities, dependencies, risks, owner, decision classes, functional boundaries, model alternatives, staffing assumptions, management capacity, portfolio, maintenance, cadence, health layers, evidence states, transition costs, review and reorganization triggers, specialist handoffs, privacy boundary, pinned sources, and external-action limit are explicit; shared goals have controllable responsibilities; consensus does not replace authority; activity is not called value; no universal org chart, headcount ratio, maturity target, or composite score was invented; and no external action occurred.

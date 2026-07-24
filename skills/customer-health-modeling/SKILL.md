@@ -96,6 +96,14 @@ Follow [output-contract.md](references/output-contract.md). Deliver the model an
 
 Create and read local artifacts only. Do not access authenticated product, analytics, warehouse, CRM, billing, finance, support, success, sales, HR, experiment, messaging, or cloud systems; export customer data; train or deploy production models; score, rank, route, or enrich named customers or people; contact anyone; change contracts, renewals, prices, discounts, service, support, permissions, ownership, lifecycle state, dashboards, alerts, forecasts, or records; publish; send; spend; or claim retention, renewal, expansion, customer, or business improvement without separate task-level authorization and verification.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm that decision, entity, hierarchy, outcome, prediction time, cutoff, horizon, eligibility, lifecycle, natural opportunity, maturity, censoring, source availability, label, feature, missingness, leakage, baseline, model, validation, calibration, threshold, capacity, reasons, suppressions, uncertainty, group error, drift, privacy, market, versions, and handoffs are explicit; unlike states are not one score; missing is not zero; future information does not leak; accuracy does not replace calibration; risk is not cause; prediction is not treatment effect; score is not authorization; specialist work is routed; and no external action occurred.

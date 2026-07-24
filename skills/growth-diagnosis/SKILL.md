@@ -111,6 +111,14 @@ When intake is complete, include all of the following in both canonical JSON and
 
 Validate JSON against `assets/protocol.schema.json`. Keep Markdown semantically identical to JSON: same facts, values, source IDs, evidence meaning, constraint selection, actions, experiments, routes, and references. Presentation labels may explain schema buckets but may not add conclusions.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Before delivery, confirm that required input is complete; the mode is bounded; market and locale are explicit; direct observations are attributable; reported signals and inferences are not promoted to verified; contradictions and missing evidence are visible; exactly one primary constraint exists; confidence follows evidence; actions fit 30 days and have owners, dependencies, and guardrails; experiments change named decisions; schema validation passes; Markdown has semantic parity; Playbook links are relevant; and no external action was taken without separate authorization.

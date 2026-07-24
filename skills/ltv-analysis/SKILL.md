@@ -90,6 +90,14 @@ For China work, keep market, language, locale, legal entity, customer, beneficia
 
 This Skill creates and reads local artifacts only. Do not access product, analytics, warehouse, CRM, billing, payment, finance, support, identity, ad, MMP, data-science, cloud, or other systems; export or reidentify customer data; train, deploy, score, or route customers; change models, dashboards, prices, offers, lifecycle states, bids, budgets, or production data; contact customers or vendors; publish; spend; deploy; or claim LTV or business improvement without separate task-level authorization and required controls.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm that decision, customer and payer entity, cohort, original denominator, eligibility, opportunity, product, market, currency, value basis, revenue, costs, contribution, retention states, maturity, censoring, observed horizon, forecast horizon, tail, terminal value, discounting, cash, model version, assumptions, uncertainty, calibration, error, privacy, fairness, LTV:CAC compatibility, attribution, incrementality, owners, handoffs, pinned sources, and action boundaries are explicit; incompatible entities and horizons were not combined; actual and forecast value were not conflated; revenue was not called contribution; no universal ratio, churn, plateau, tail, provider condition, forecast, approval, or result was invented; and no external action occurred.

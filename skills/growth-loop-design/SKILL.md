@@ -88,6 +88,14 @@ This Skill creates and reads local artifacts only. Do not access product, analyt
 
 If execution is requested, preserve the useful audit or design and specify the separate authorization, permissions, consent, privacy, fraud, approval, monitoring, rollback, and audit-log controls required for an operational workflow.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm that the decision, entities, eligibility, value, action, output, next input, realized value, re-entry, events, cohorts, windows, maturity, identity, evidence, economics, quality, risks, owner, and guardrails are explicit; the verdict matches observed closure; funnels are not relabeled; attribution is separate from incrementality; incompatible cohorts are not multiplied; no benchmark, network effect, causality, or result was invented; and no external action occurred.

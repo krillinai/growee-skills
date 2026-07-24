@@ -91,6 +91,14 @@ Follow [output-contract.md](references/output-contract.md). Deliver the contract
 
 Create and read local artifacts only. Do not access authenticated finance, banking, planning, procurement, HR, payroll, advertising, analytics, warehouse, CRM, billing, product, cloud, partner, or communication systems; export or join personal data; approve or transfer funds, budgets, headcount, capacity, permissions, or customer exposure; purchase; sign; hire; fire; reorganize; change bids, campaigns, prices, products, contracts, records, or systems; launch; pause; contact; publish; send; spend; procure; deploy; or claim execution or results without separate task-level authorization and controls.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm the output passes [output-contract.md](references/output-contract.md); the envelope and resource states reconcile; protected obligations remain funded; units and bases are compatible or separate; customers and effects are deduplicated; target, attribution, average history, and sunk cost did not become future return; full costs, cash, capacity, risk, and opportunity cost remain visible; scenarios preserve uncertainty; every change has gates and approvers; market and privacy boundaries hold; specialist work is routed; recommendation is not authorization; and no external action occurred.

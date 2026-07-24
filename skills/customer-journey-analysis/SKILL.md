@@ -89,6 +89,14 @@ Follow [output-contract.md](references/output-contract.md). Deliver the journey 
 
 Create and read local artifacts only. Do not scrape sources; conduct research without task-level authority; access authenticated analytics, CRM, billing, product, support, sales, research, identity, communication, experiment, HR, or cloud systems; export, join, or reidentify people; assign owners; contact participants; send messages; change journeys, pages, product, price, entitlement, tracking, routing, data, permissions, support, dashboards, or systems; launch tests; publish; spend; deploy; or claim research, implementation, adoption, improvement, completion, or impact without separate authorization and controls.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm the output passes [output-contract.md](references/output-contract.md); decision, version, current or target state, customers, roles, jobs, triggers, market, boundaries, sources, evidence states, coverage, identities, states, branches, touchpoints, continuity, frontstage, backstage, dependencies, failures, recovery, accessibility, exit, friction, metrics, maturity, causal limits, privacy, fairness, specialist handoffs, and action boundary are explicit; a linear or instrumented path did not become the whole journey; fictional personas and composite scores were not invented; activity did not become value; friction did not become cause; obstruction did not become retention; specialist work was not absorbed; and no external action occurred.

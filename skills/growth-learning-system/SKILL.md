@@ -71,6 +71,14 @@ Follow [output-contract.md](references/output-contract.md). Deliver the system c
 
 Create and read local artifacts only. Do not access authenticated document, wiki, drive, email, chat, analytics, CRM, experiment, product, support, HR, legal, or publishing systems; export or join personal data; ingest, publish, archive, delete, migrate, or change content, sources, permissions, taxonomies, records, training, decisions, or systems; contact or notify people; or claim ingestion, publication, adoption, decision change, execution, deletion, retirement, or impact without separate task-level authorization and controls.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm the output passes [output-contract.md](references/output-contract.md); sources and derivative families are traceable; learning states remain distinct; no provenance, rights, or evidence was invented; unfavorable and missing evidence remains visible; duplicates do not inflate support; contexts and transfer are bounded; contradictions are not overwritten; retrieval is decision-specific and traceable; volatile claims expire; history is not rewritten; usage is not impact; sensitive data and source rights are protected; specialist work is routed; and no external action occurred.

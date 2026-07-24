@@ -132,6 +132,14 @@ For China work, keep market, language, locale, legal entity, customer and payer,
 
 Create and read local artifacts only. Do not access product, analytics, warehouse, CRM, billing, payment, finance, ad, social, app-store, support, sales, partner, experiment, identity, BI, or cloud systems; export, join, or reidentify people; change product access, pages, offers, prices, packages, contracts, tracking, routing, budgets, forecasts, targets, customer records, or systems; contact anyone; launch campaigns or pilots; publish; send; spend; deploy; or claim GTM or business improvement without separate task-level authorization and required controls.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm that decision, owner, product and offer version, customer and buying unit, job, trigger, alternatives, segment, market, participant roles, positioning, proof, package, price, motion, routes, buying milestones, access, exposure, first and repeated value, delivery, support, capacity, readiness gates, entities, identity, cohorts, maturity, attribution, incrementality, economics, uncertainty, pilot, owners, dependencies, positive, negative, harmful, inconclusive, stop, rollback, expansion, privacy, market transfer, handoffs, pinned sources, and external actions are explicit; TAM is not reachability; attention is not value; leads are not customers; bookings are not cash; first value is not retention; attribution is not causality; launch is not GTM repeatability; targets are not evidence; unavailable is not failure; unsupported precision, readiness, Product-Market Fit, approvals, and results were not invented; and no external action occurred.

@@ -78,6 +78,14 @@ For China work, keep China, language, locale, organization or location entity, s
 
 This Skill creates and reads local artifacts only. Do not scrape directories, discover personal contacts, create accounts, accept terms, claim ownership, verify by phone, email, mail, payment, or identity, submit or edit listings, merge or delete records, upload assets, post or solicit reviews, answer reviews, buy placement, change URLs or tracking, access analytics or CRM, contact platforms or customers, publish, or claim acceptance, verification, ranking, traffic, leads, or results.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm that entity, identity, location, category, customer job, eligibility, directory requirements, facts, claims, proof, assets, rights, ownership, verification, paid status, reviews, URLs, duplicates, updates, measurement, owners, sources, evidence states, and action boundaries are explicit; count is not value; backlink is not outcome; public listing is not ownership; unavailable is not failure; and no external action occurred.

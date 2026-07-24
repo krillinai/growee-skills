@@ -72,6 +72,14 @@ Follow [output-contract.md](references/output-contract.md). Deliver the contract
 
 Create and read local artifacts only. Do not access authenticated planning, HR, finance, cloud, analytics, CRM, support, experiment, procurement, project, or communication systems; export private data; assign work; change priorities, quotas, schedules, staffing, compensation, leave, budgets, contracts, systems, or infrastructure; hire, procure, deploy, publish, or contact people; or claim capacity, delivery, customer, or business improvement without separate task-level authorization and verification.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm that units and boundaries are compatible; evidence states are explicit; demand representations are not duplicated; resource states are reconciled; theoretical access is not effective capacity; calendars, skills, obligations, variability, queues, dependencies, service classes, reserves, and shared resources are preserved; utilization is not treated as productivity; scenarios are conditional; gap responses remain options; markets and privacy boundaries hold; specialist work is routed; approval and execution are not invented; and no external action occurred.

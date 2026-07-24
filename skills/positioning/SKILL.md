@@ -78,6 +78,14 @@ For China work, keep market, language, locale, customer unit, product surface, c
 
 This Skill authorizes local analysis and artifacts only. Do not contact customers or competitors, conduct interviews, access private systems, change product or pricing, alter websites, publish messaging, launch campaigns or tests, or claim that positioning was approved or deployed without separate task-level authorization.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm that scope, customer, situation, alternatives, capabilities, differentiated value, proof, best-fit and exclusion conditions, category, claims, message hierarchy, counterevidence, downstream implications, validation, owners, version, and review date are explicit; wording does not exceed evidence; public facts are not treated as customer truth; localization does not assume market equivalence; and no external action occurred.

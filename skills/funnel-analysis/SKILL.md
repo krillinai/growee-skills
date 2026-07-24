@@ -69,6 +69,14 @@ For China work, keep market, language, locale, product surface, identity, app di
 
 Analysis, diagnosis, and design authorize local artifacts only. Do not access accounts, query production systems, read or write CRM, warehouse, CDP, analytics, billing, ad, or messaging data, change events or dashboards, launch experiments, alter product flows, publish, send messages, change spend, or deploy without separate task-level authorization and capability review.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm that decision, outcome, entity, eligibility, states, events, denominators, windows, maturity, identity, exclusions, sources, segments, and guardrails are explicit; counts reconcile or discrepancies remain visible; rates include absolute volume; censoring and incompatible cohorts are not hidden; observed drop-off is separate from causal explanation; the primary constraint reflects downstream contribution rather than the lowest rate alone; recommendations do not exceed evidence; Playbook sources are pinned; and no external action occurred.

@@ -83,6 +83,14 @@ For China work, keep market, language, locale, product surface, identity, app di
 
 This Skill creates and reads local artifacts only. Do not access analytics, warehouse, CRM, billing, payment, finance, ad, product, support, survey, or messaging systems; export production data; change events, identities, dashboards, forecasts, targets, product, onboarding, price, packaging, entitlements, budgets, staffing, or customer state; contact customers; launch experiments; publish; send; spend; or deploy without separate task-level authorization and capability review.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm that the decision, model version, customer, value, entities, periods, stocks, flows, edges, equations, sources, evidence states, causal status, economics, reinvestment, capacity, Four Fits, guardrails, uncertainty, scenarios, constraint, owner, and update trigger are explicit; definitions and cohorts are compatible; reconciliations close or differences remain visible; stocks and flows are not double counted; loops close before being named; scenarios are not forecasts; the constraint is not selected by rate alone; adjacent Skills remain bounded; Playbook sources are pinned; and no external action occurred.

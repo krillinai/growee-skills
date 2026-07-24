@@ -93,6 +93,14 @@ Follow [output-contract.md](references/output-contract.md). Deliver the contract
 
 Create and read local artifacts only. Do not access authenticated warehouse, analytics, CDP, CRM, billing, finance, experiment, identity, product, cloud, support, HR, or communication systems; run production queries; export or join personal data; delete, merge, rewrite, backfill, correct, upload, or change data, identities, schemas, events, metrics, models, pipelines, dashboards, alerts, permissions, or records; contact; publish; send; spend; procure; deploy; or claim correction, incident resolution, control deployment, certification, or improved quality without separate task-level authorization and controls.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm the output passes [output-contract.md](references/output-contract.md); the decision and expected population are frozen; coverage and tests have denominators; missing states remain distinct; identity and duplicates are bounded; events and fields are semantically valid or flagged; maturity precedes comparison; modeled values remain labeled; exclusions are not outcome-driven; sources reconcile without invented plugs; versions and revisions preserve history; findings connect to decisions; controls have owners and actions; public and sample evidence stays bounded; market and privacy boundaries hold; specialist work is routed; and no external action occurred.

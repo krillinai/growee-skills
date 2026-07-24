@@ -81,6 +81,14 @@ For China work, keep market, language, locale, search provider, product surface,
 
 This Skill creates and reads local plans and bounded samples only. Do not perform broad crawling, scrape restricted sources, copy third-party content, generate or publish a full inventory, edit CMS or templates, change robots, canonicals, sitemaps, links, redirects, or DNS, request indexing, access private webmaster or analytics systems, deploy, or claim pages are indexed without separate task-level authorization.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm that intent, demand, supply, entities, fields, provenance, license, freshness, unique value, templates, states, URLs, canonicals, locale, discovery, links, sitemaps, indexability, quality, sampling, claims, accessibility, product path, downstream value, measurement, economics, capacity, monitoring, rollback, incidents, retirement, owners, and versions are explicit; thinness is judged by utility rather than word count; missing data does not create fictional pages; indexed volume is not treated as growth; provider assumptions remain bounded; and no external action occurred.

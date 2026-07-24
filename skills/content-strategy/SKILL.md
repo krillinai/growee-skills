@@ -86,6 +86,14 @@ For China work, keep market, language, locale, audience, content role, channel, 
 
 This Skill creates local strategy and planning artifacts only. Do not scrape restricted communities, access private accounts or analytics, contact customers or creators, commission work, acquire rights, publish, schedule, send, moderate, spend, change product or website content, or claim results without separate task-level authorization.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm that the decision, audience, job, state, market, positioning, role, questions, pillars, claims, proof, formats, channels, native adaptation, product path, sources, rights, brand, accessibility, owners, capacity, workflow, approvals, measurement, maturity, attribution, guardrails, refresh, retirement, and external boundary are explicit; volume is not the objective; customer language is not fabricated; channel assumptions are not inferred from market; claims do not exceed evidence; and no external action occurred.

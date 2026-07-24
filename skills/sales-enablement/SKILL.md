@@ -90,6 +90,14 @@ For China work, keep market, language, locale, product surface, buyer and seller
 
 This Skill creates and reads local artifacts only. Do not access CRM, call recording, enablement, document, email, messaging, calendar, product, analytics, finance, support, partner, or customer systems; scrape or enrich contacts; create or change opportunities, stages, fields, forecasts, tasks, permissions, prices, quotes, or approvals; contact prospects or customers; send assets; schedule meetings; publish content; train or score employees; or claim deployment or results.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm that decision, motion, customer, buying unit, roles, situation, alternatives, qualification, exclusions, buyer milestones, claims, proof, objections, assets, owner, version, approval, localization, findability, usage, behavior, buyer progression, downstream value, cost, evidence quality, causality, feedback, update, retirement, and action boundaries are explicit; seller activity is not buyer progress; content use is not impact; commercial or competitor facts are not invented; missing private evidence is not penalized; and no external action occurred.

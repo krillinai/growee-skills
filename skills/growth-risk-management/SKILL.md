@@ -79,6 +79,14 @@ Follow [output-contract.md](references/output-contract.md). Deliver the portfoli
 
 Create and read local artifacts only. Do not access authenticated finance, procurement, HR, analytics, CRM, billing, product, experiment, cloud, support, security, legal, contract, insurance, or communication systems; export or join personal data; accept risk; change appetite, limits, controls, permissions, users, campaigns, products, data, models, systems, vendors, contracts, or records; notify; file; sign; spend; procure; hire; fire; block; pause; roll back; deploy; or claim mitigation, containment, recovery, closure, certification, compliance, or reduced risk without separate task-level authorization and controls.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm the output passes [output-contract.md](references/output-contract.md); the portfolio and decision use are bounded; risk states remain distinct; evidence and metrics are versioned; unsupported ratings, boundaries, owners, dates, phases, controls, treatments, acceptance, closure, acknowledgement, and propagation remain unavailable; appetite is attributable; no score or threshold was invented; hard constraints are not averaged away; interactions, concentration and duplicate exposure reconcile; control operation is evidenced rather than assumed; treatments retain residual exposure; acceptance has authority and expiry only when supported; monitoring preserves blind spots and maturity; incidents and history are not rewritten; people are not blamed or ranked; market and privacy boundaries hold; specialist work is routed; and no external action occurred.

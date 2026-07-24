@@ -109,6 +109,14 @@ For China work, keep market, language, customer and payer entities, product, con
 
 Create and read local artifacts only. Do not access analytics, warehouse, CRM, billing, payment, finance, product, ad, support, BI, or cloud systems; export, merge, or reidentify people; rewrite historical states; change identity, lifecycle labels, customer records, dashboards, forecasts, targets, budgets, routing, campaigns, prices, or products; contact anyone; publish; send; spend; deploy; or claim growth improvement without separate task-level authorization and required controls.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm that decision, owner, entity, eligibility, active and value states, identity, periods, frequency, timezone, observation, lookback, maturity, censoring, late data, product, version, cohort, segment, market, currency, accounting basis, sources, evidence, retained, new, resurrected, churned, expansion, contraction, adjustments, formulas, numerators, denominators, opening, closing, residuals, mix, concentration, revisions, privacy, market transfer, handoffs, pinned sources, and external actions are explicit; movement classes are mutually exclusive; incomplete history did not become new; missing or immature did not become zero or churn; incompatible populations and values were not combined; accounting did not become attribution or causality; unsupported targets, benchmarks, scores, and precision were not invented; and no external action occurred.

@@ -78,6 +78,14 @@ For China work, keep market, language, locale, partner entity, customer unit, pl
 
 This Skill creates and reads local artifacts only. Do not discover, scrape, enrich, rank, contact, negotiate with, or message partners or customers; access partner, CRM, marketplace, social, ad, email, payment, contract, analytics, or product systems; exchange leads or data; use logos or private assets; create accounts; accept terms; sign agreements; grant rights or exclusivity; change prices, commissions, ownership, routing, data, integrations, or customer state; publish announcements or assets; launch pilots or campaigns; pay; invoice; deploy; or claim results.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm that parties, customer, job, value, contributions, mechanism, eligibility, audience, access, permission, data, rights, claims, offer, commercial terms, attribution, economics, ownership, capacity, service, support, conflicts, concentration, pilot, measurement, renewal, exit, evidence, and action boundaries are explicit; logos are not value; audience is not permission; attributed pipeline is not incremental contribution; agreement is not operation; unavailable is not failure; and no external action occurred.

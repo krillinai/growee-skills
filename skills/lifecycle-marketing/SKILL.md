@@ -77,6 +77,14 @@ Return:
 
 Drafting and planning authorize local artifacts only. Do not send, publish, schedule, submit templates, access accounts, read or write CRM/CDP data, import contacts, upload lists, activate automation, monitor, or deploy. Any such action needs a separate task-level authorization and capability review.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm that classification preceded copy; final-copy fields are resolved or copy is absent; active stops were applied; fallback has independent permission; promotion is absent from service content; claims are attributable; private data is minimized; future actions are not described as complete; cadence and collision rules are owner-supplied; measurement matches supplied capabilities; Simplified Chinese is native when requested; current claims have direct official source records; required review labels are exact; no compliance conclusion was made; and no external action occurred.

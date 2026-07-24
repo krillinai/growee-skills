@@ -130,6 +130,14 @@ For China work, keep market, language, locale, legal entity, account hierarchy, 
 
 This Skill creates and reads local artifacts only. Do not access product, analytics, warehouse, CRM, billing, finance, support, success, sales, identity, messaging, experiment, or cloud systems; export customer data; enrich, score, or route named users or accounts; contact customers, executives, sellers, partners, or vendors; change seats, entitlements, limits, packages, prices, discounts, contracts, permissions, lifecycle states, ownership, forecasts, dashboards, budgets, or product state; launch campaigns, offers, tests, or workflows; publish; send; spend; procure; deploy; or claim expansion results without separate task-level authorization and required controls.
 
+## Keep One Output Language
+
+Use the requested output language consistently across headings, prose, tables, labels, and actions. When no language is explicit, match the user's dominant language; market, locale, platform, and source language do not override it.
+
+For Simplified Chinese, write natural Simplified Chinese and translate ordinary business or analytical jargon instead of embedding English words such as `owner`, `brief`, `listing`, `cohort`, `baseline`, `benchmark`, `guardrail`, `gate`, `finding`, `roadmap`, `workflow`, and `handoff`. Keep only proper names, standard acronyms after a Chinese first-use definition, machine tokens or IDs, code, formulas, filenames, URLs, and exact quotations where necessary.
+
+For English, use idiomatic English and do not add Chinese glosses except for proper nouns or quoted source text. Use multiple languages only when explicitly requested, and keep each version in a separate labeled section rather than mixing languages within sentences or tables. Do not alternate languages for emphasis or perceived expertise.
+
 ## Completion Gate
 
 Confirm that the decision, customer entity, original scope, retained core value, expansion type, adjacent need, receiving participant or unit, eligibility, exclusions, readiness, authority, prerequisites, capacity, state chain, first and repeated new-scope value, original-scope health, total-customer value, cohorts, maturity, adoption, commercial attachment, GRR and NRR decomposition, cost, contribution, cannibalization, signals, leakage, fairness, suppression, causal limits, portfolio gates, market context, evidence states, privacy boundary, specialist handoffs, pinned sources, and external-action limit are explicit; incompatible expansion types were not combined; contract, usage, attach, price, opportunity, and prediction were not called customer value; NRR was not treated as sufficient; no named account was scored or routed; and no external action occurred.
