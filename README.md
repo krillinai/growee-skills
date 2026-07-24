@@ -17,11 +17,13 @@ An open collection of reusable skills for growth and marketing work. Growth & Ma
 
 ## What It Covers
 
-- **Content creation** - Research, ideation, writing, editing, and content distribution.
-- **Data insights** - Measurement, analysis, experimentation, and decision support.
-- **Advertising** - Campaign planning, creative strategy, account audits, measurement, and optimization recommendations.
-- **Acquisition and conversion** - Audience development, lead generation, activation, and conversion improvement.
-- **Marketing strategy** - Positioning, go-to-market planning, campaign design, and growth planning.
+- **Content & Creative** - Research, ideation, copywriting, editing, marketing images, video, and content distribution.
+- **Research & Market Intelligence** - Customer research, competitive intelligence, market sizing, segmentation, and positioning.
+- **Strategy & Planning** - Growth strategy, market entry, go-to-market, product launches, campaigns, and prioritization.
+- **Measurement & Experimentation** - Metrics, tracking, data quality, analytics, forecasting, attribution, and experiments.
+- **Lifecycle & Monetization** - Activation, engagement, retention, lifecycle marketing, pricing, monetization, expansion, and referrals.
+- **Acquisition & Distribution** - Paid media, search, app-store and generative-search optimization, outbound, partnerships, communities, directories, and landing pages.
+- **Operations & Governance** - Operating reviews, decisions, risk, learning, change, infrastructure, organization design, and revenue operations.
 
 ## Install and use
 
