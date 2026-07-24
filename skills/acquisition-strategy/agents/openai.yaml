@@ -1,4 +1,4 @@
 interface:
   display_name: "Acquisition Strategy"
   short_description: "Design channel portfolios for retained growth"
-  default_prompt: "Use $acquisition-strategy to audit our acquisition system and design an evidence-bounded channel portfolio."
+  default_prompt: "Use $acquisition-strategy to audit our acquisition system and design an evidence-bounded channel portfolio in the requested language without unnecessary language mixing."

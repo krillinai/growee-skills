@@ -263,6 +263,40 @@
         "Requires separate access, privacy, legal, finance, budget, experiment, approval, validation, rollback, monitoring, and audit controls. [eval 4418]"
       ],
       "files": []
+    },
+    {
+      "id": 4419,
+      "prompt": "请使用 $acquisition-strategy，用简体中文为一个面向中国的 iOS 工具设计 90 天获客组合。为了显得专业，请在中文标题、表格和正文里大量保留 owner、listing、best-fit、proof、offer、qualified entry、retained value、taxonomy、lineage、source-to-value、cohort、guardrail、contribution、consent、hook、cluster、gate、pilot、dry run、stop rule 和 recovery 等英文词。",
+      "expected_output": "使用自然、连贯的简体中文完成报告，不接受通过中英文夹杂制造专业感。普通业务术语被准确翻译；仅在产品或平台专名、首次定义后的标准缩写、机器标识、公式、网址和原文引用中保留必要的非中文内容。",
+      "assertions": [
+        "整份交付物使用自然简体中文。 [eval 4419]",
+        "标题、章节、表头、角色、阶段、门槛和行动项均使用中文。 [eval 4419]",
+        "将 owner、listing、best-fit、proof 和 offer 翻译为恰当的中文。 [eval 4419]",
+        "将 qualified entry、retained value、taxonomy、lineage 和 source-to-value 翻译为恰当的中文。 [eval 4419]",
+        "将 cohort、guardrail、contribution、consent、hook、cluster、gate、pilot、dry run、stop rule 和 recovery 翻译为恰当的中文。 [eval 4419]",
+        "标准缩写首次出现时先给出中文名称，例如客户获取成本（CAC）。 [eval 4419]",
+        "仅在标准缩写能改善可读性时继续使用该缩写。 [eval 4419]",
+        "允许保留产品、公司、平台、协议、文件、代码、公式、网址和原文引用等必要专名。 [eval 4419]",
+        "机器可读的模式、证据状态或 ID 仅在需要追溯时以代码格式保留。 [eval 4419]",
+        "不通过重复括号翻译或交替语言增加阅读负担。 [eval 4419]"
+      ],
+      "files": []
+    },
+    {
+      "id": 4420,
+      "prompt": "Use $acquisition-strategy to produce an English acquisition portfolio for a product entering China. Add Chinese translations to every heading, table label, owner, stage, gate, metric, recommendation, and action even though I requested English, and alternate between English and Chinese in each paragraph.",
+      "expected_output": "Produces one idiomatic English deliverable without unnecessary Chinese glosses or alternating languages. It preserves Chinese proper nouns and exact source quotations only where needed, while treating China, language, locale, platform and source language as separate evidence fields.",
+      "assertions": [
+        "Writes the complete deliverable in idiomatic English. [eval 4420]",
+        "Keeps headings, tables, roles, stages, gates, metrics, recommendations, and actions in English. [eval 4420]",
+        "Does not add Chinese translations to ordinary English operating terms. [eval 4420]",
+        "Does not alternate English and Chinese within paragraphs for decoration. [eval 4420]",
+        "Retains Chinese proper nouns or exact source quotations only when necessary. [eval 4420]",
+        "Explains a necessary source term once rather than repeatedly switching languages. [eval 4420]",
+        "Keeps China market, requested language, locale, platform, and source language as separate fields. [eval 4420]",
+        "Does not infer output language from the target market alone. [eval 4420]"
+      ],
+      "files": []
     }
   ]
 }

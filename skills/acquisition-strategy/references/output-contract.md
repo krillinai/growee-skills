@@ -13,6 +13,12 @@ Return:
 7. portfolio, concentration, dependency, market, and capacity scenarios;
 8. staged validation, allocation gates, stop and recovery rules, handoffs, and pinned Playbook sources.
 
+## Language Contract
+
+Use the request's language consistently across the complete deliverable. If the request is in Simplified Chinese and does not ask for another language, use natural Simplified Chinese for headings, prose, table fields, stages, roles, decisions, and actions. Translate ordinary English operating jargon instead of embedding it in Chinese sentences. Keep only proper names, standard acronyms after a Chinese first-use definition, machine-readable evidence tokens, IDs, code, formulas, filenames, URLs, and exact source quotations where necessary.
+
+For an English deliverable, use idiomatic English throughout. Do not add Chinese translations except for proper nouns or exact quoted evidence. Market and source language are evidence fields, not instructions to mix languages in the report.
+
 ## Source And Quality Ledger
 
 | Source and version | Customer and intent | Eligibility and qualified arrival | Identity and new status | First value | Mature retained value | Contribution | Attribution state | Incrementality state | Evidence and limitation |

@@ -19,6 +19,22 @@ Read [acquisition-contract.md](references/acquisition-contract.md) before accept
 
 Name one primary mode, acquisition decision, owner, customer and problem, qualified entry state, market, product and business model, horizon, budget or capacity boundary, and external-action limit. Public information may verify visible channels, pages, offers, partners, terms, rankings, ads, and dated claims; it cannot establish private spend, exposure, identity, attribution quality, incrementality, CAC, retention, contribution, saturation, contracts, or operational risk.
 
+## Keep One Output Language
+
+Choose the report language from the request. When no language is explicit, match the user's dominant language. Market, locale, platform, and source language do not override the requested output language.
+
+Use one language consistently across titles, headings, prose, tables, labels, recommendations, owners, stages, gates, and handoffs. Do not make a report appear technical by mixing ordinary English business terms into Chinese prose or adding unnecessary Chinese glosses to English prose.
+
+For a Simplified Chinese deliverable:
+
+- write natural Simplified Chinese throughout;
+- translate ordinary operating terms such as `owner`, `listing`, `best-fit`, `proof`, `offer`, `qualified entry`, `retained value`, `taxonomy`, `lineage`, `source-to-value`, `cohort`, `guardrail`, `contribution`, `consent`, `hook`, `cluster`, `gate`, `pilot`, `dry run`, `stop rule`, and `recovery`;
+- use Chinese labels for the visible mode and evidence state, while retaining required machine tokens or IDs only in code formatting when traceability requires them;
+- introduce a standard acronym with its Chinese name on first use, such as “客户获取成本（CAC）”, then use the acronym consistently only when it improves readability;
+- retain proper product, company, platform, protocol, file, code, formula, URL, and quoted source names where translation would be inaccurate.
+
+For an English deliverable, write complete idiomatic English and do not add Chinese translations except for proper nouns or quoted source text that must remain in the original language. If a source term needs explanation, translate it once in prose rather than alternating languages throughout the report.
+
 ## Freeze The Acquisition Contract
 
 Record customer and account unit, ICP or best-fit hypothesis, problem, intent, trigger, alternatives, promise, proof, offer, channel family and mechanism, source taxonomy, market, language, locale, device, platform, campaign or partner version, entry surface and state; eligible audience, qualified exposure or response, arrival, identity, deduplication, new-versus-returning status, activation, retained value, revenue and contribution; attribution rule, counterfactual, interference, cohort start, windows, cutoff, maturity, source latency, and product version; media, creative, agency, incentive, tool, sales, partner, implementation, support, fraud, refund, discount, and operating costs; capacity, cash, payback, saturation, fatigue, dependency, cannibalization, trust, policy, privacy, risk, owners, sources, evidence states, and requested external actions.
