@@ -2,7 +2,7 @@
 
 **Reusable, AI-Executable Skills for Growth & Marketing**
 
-By [clawee.ai](https://clawee.ai/), an enterprise-grade Growth Agent platform.
+By [clawee.ai](https://clawee.ai/), an Enterprise Growth Agent platform.
 
 [![GitHub Stars](https://img.shields.io/github/stars/krillinai/growth-skills?style=flat-square&logo=github&label=Stars)](https://github.com/krillinai/growth-skills/stargazers)
 [![Growth Playbook](https://img.shields.io/badge/Growth-Playbook-1f883d?style=flat-square)](https://github.com/krillinai/growth-playbook)
