@@ -7,6 +7,7 @@
 [![GitHub Stars](https://img.shields.io/github/stars/krillinai/growth-skills?style=flat-square&logo=github&label=Stars)](https://github.com/krillinai/growth-skills/stargazers)
 [![Growth Playbook](https://img.shields.io/badge/Growth-Playbook-1f883d?style=flat-square)](https://github.com/krillinai/growth-playbook)
 [![clawee.ai](https://img.shields.io/badge/clawee.ai-Enterprise_Growth_Agent-6f42c1?style=flat-square)](https://clawee.ai)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 
 > 由专注于内容智能与全球增长的 AI（人工智能）团队 [KrillinAI](https://github.com/KrillinAI) 创作并维护。[Growth Playbook](https://github.com/krillinai/growth-playbook) 是 Growth & Marketing Skills 的开源知识配套，提供框架、案例与方法；Growth & Marketing Skills 则将其转化为可复用、可由 AI（人工智能）执行的增长能力。
 
@@ -241,3 +242,7 @@ cp -R growth-skills/skills/growth-diagnosis "${CODEX_HOME:-$HOME/.codex}/skills/
 ## 参与贡献
 
 欢迎参与贡献。一个有价值的技能应当解决明确的增长或营销问题，提供可执行的工作流，并产出可以评估的结果。贡献指南和技能规范将随项目发展逐步完善。
+
+## 许可证
+
+本项目采用 [MIT 许可证](LICENSE) 开源。

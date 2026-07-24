@@ -7,6 +7,7 @@ By [clawee.ai](https://clawee.ai/), an enterprise-grade Growth Agent platform.
 [![GitHub Stars](https://img.shields.io/github/stars/krillinai/growth-skills?style=flat-square&logo=github&label=Stars)](https://github.com/krillinai/growth-skills/stargazers)
 [![Growth Playbook](https://img.shields.io/badge/Growth-Playbook-1f883d?style=flat-square)](https://github.com/krillinai/growth-playbook)
 [![clawee.ai](https://img.shields.io/badge/clawee.ai-Enterprise_Growth_Agent-6f42c1?style=flat-square)](https://clawee.ai)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 
 > Created and maintained by [KrillinAI](https://github.com/KrillinAI), an AI team focused on content intelligence and global growth. [Growth Playbook](https://github.com/krillinai/growth-playbook) is the open-source knowledge companion to Growth & Marketing Skills, providing the frameworks, cases, and methods that these reusable AI execution capabilities put into practice.
 
@@ -239,3 +240,7 @@ This repository is at an early stage. New skills will be added as practical, reu
 ## Contributing
 
 Contributions are welcome. A useful skill should address a clear growth or marketing problem, provide an actionable workflow, and produce outcomes that can be evaluated. Contribution guidelines and skill conventions will evolve with the collection.
+
+## License
+
+This project is released under the [MIT License](LICENSE).
