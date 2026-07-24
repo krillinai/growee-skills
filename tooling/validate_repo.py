@@ -45,6 +45,19 @@ def load_json(path: Path, report: Report) -> dict | None:
     return value
 
 
+def validate_catalog_maturity(
+    skill_id: str, status: str, validation: dict, report: Report
+) -> None:
+    if status in {"beta", "stable"} and not all(
+        validation.get(field) is True
+        for field in ("structure", "eval_spec", "forward_tested")
+    ):
+        report.error(
+            f"{skill_id}: {status} status requires structure, eval_spec, and "
+            "forward_tested validation"
+        )
+
+
 def parse_frontmatter(path: Path, report: Report) -> dict[str, str]:
     text = path.read_text(encoding="utf-8")
     lines = text.splitlines()
@@ -256,6 +269,8 @@ def validate_catalog(skill_ids: set[str], report: Report) -> None:
             )
         ):
             report.error(f"{skill_id}: catalog validation values have invalid types")
+        else:
+            validate_catalog_maturity(skill_id, entry.get("status"), validation, report)
 
     if len(catalog_ids) != len(set(catalog_ids)):
         report.error("catalog/skills.json: duplicate skill ids")

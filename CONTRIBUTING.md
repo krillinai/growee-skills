@@ -31,7 +31,14 @@ Add `scripts/` only for deterministic or repeatedly implemented operations. Add 
 
 ## Catalog And Status
 
-Every Skill must appear exactly once in `catalog/taxonomy.json` and once in `catalog/skills.json`. New Skills start as `experimental`. Promote a Skill only after its structure, eval specification, and realistic forward tests support the new status.
+Every Skill must appear exactly once in `catalog/taxonomy.json` and once in `catalog/skills.json`. Catalog status values use internal identifiers while the README presents user-facing maturity labels:
+
+- `experimental` displays as **Preview / 预览版**. The Skill is structurally complete and has evaluation cases, but still needs representative real-world validation.
+- `beta` displays as **Validated / 已验证**. The Skill has passed realistic forward tests, including relevant language, market, missing-evidence, and boundary cases, and its outputs have been reviewed.
+- `stable` displays as **Stable / 稳定版**. The Skill has demonstrated repeatable use across multiple representative tasks, with documented dependencies, stable output contracts, regression coverage, and no known critical issue.
+- `deprecated` displays as **Deprecated / 已弃用**. The Skill is no longer recommended and should identify its replacement or migration path.
+
+New Skills start as `experimental`. Set `validation.forward_tested` to `true` only after recording and reviewing realistic runs. The validator rejects `beta` and `stable` status unless structure, evaluation specification, and forward testing are all complete. Promotion to `stable` additionally requires maintainer review of the qualitative criteria above.
 
 Update English and Simplified Chinese catalog names and descriptions in `catalog/skills.json`. Do not edit generated README tables directly.
 

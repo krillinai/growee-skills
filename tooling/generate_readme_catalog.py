@@ -94,13 +94,24 @@ def catalog_section(
     skill_heading = "Skill" if language == "en" else "技能"
     description_heading = "Description" if language == "en" else "说明"
     status_labels = {
-        "experimental": "Experimental" if language == "en" else "实验性",
-        "beta": "Beta" if language == "en" else "测试版",
+        "experimental": "Preview" if language == "en" else "预览版",
+        "beta": "Validated" if language == "en" else "已验证",
         "stable": "Stable" if language == "en" else "稳定版",
         "deprecated": "Deprecated" if language == "en" else "已弃用",
     }
     integration_status = "Integration" if language == "en" else "集成"
-    lines = [title, ""]
+    if language == "en":
+        maturity_note = (
+            "**Maturity:** Preview Skills need real-world validation; Validated Skills "
+            "have passed realistic forward tests; Stable Skills have demonstrated "
+            "repeatable use."
+        )
+    else:
+        maturity_note = (
+            "**成熟度：** 预览版仍需真实任务验证；已验证版本已通过具有代表性的前向测试；"
+            "稳定版已经过重复使用验证。"
+        )
+    lines = [title, "", maturity_note, ""]
 
     for category in taxonomy["categories"]:
         category_integrations = [

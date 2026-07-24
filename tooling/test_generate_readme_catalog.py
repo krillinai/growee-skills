@@ -41,6 +41,19 @@ class GeneratedCatalogTest(unittest.TestCase):
                 self.assertNotIn("Companion integrations", rendered)
                 self.assertNotIn("配套集成", rendered)
 
+    def test_catalog_uses_skill_maturity_labels(self):
+        cases = (
+            ("en", "**Maturity:**", "<td>Preview</td>", "<td>Experimental</td>"),
+            ("zh", "**成熟度：** ", "<td>预览版</td>", "<td>实验性</td>"),
+        )
+
+        for language, note, current_label, old_label in cases:
+            with self.subTest(language=language):
+                rendered = self.render(language)
+                self.assertIn(note, rendered)
+                self.assertIn(current_label, rendered)
+                self.assertNotIn(old_label, rendered)
+
 
 if __name__ == "__main__":
     unittest.main()
