@@ -13,7 +13,7 @@ By [clawee.ai](https://clawee.ai/), an Enterprise Growth Agent platform.
 
 **[English](README.md) | [简体中文](README.zh-CN.md)**
 
-An open collection of reusable skills for growth and marketing work. Growth & Marketing Skills helps practitioners and AI agents turn marketing knowledge into repeatable workflows across the entire growth lifecycle.
+An open collection of 86 reusable skills for growth and marketing work. Growth & Marketing Skills helps practitioners and AI agents turn marketing knowledge into repeatable workflows across the entire growth lifecycle.
 
 ## What It Covers
 
