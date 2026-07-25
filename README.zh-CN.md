@@ -1,4 +1,4 @@
-# Growth & Marketing Skills
+# 增长营销技能大全
 
 **面向增长与营销、可由 AI（人工智能）执行的复用技能**
 
@@ -9,11 +9,11 @@
 [![clawee.ai](https://img.shields.io/badge/clawee.ai-Enterprise_Growth_Agent-6f42c1?style=flat-square)](https://clawee.ai)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 
-> 由专注于内容智能与全球增长的 AI（人工智能）团队 [KrillinAI](https://github.com/KrillinAI) 创作并维护。[Growth Playbook](https://github.com/krillinai/growth-playbook) 是 Growth & Marketing Skills 的开源知识配套，提供框架、案例与方法；Growth & Marketing Skills 则将其转化为可复用、可由 AI（人工智能）执行的增长能力。
+> 由专注于内容智能与全球增长的 AI（人工智能）团队 [KrillinAI](https://github.com/KrillinAI) 创作并维护。[Growth Playbook](https://github.com/krillinai/growth-playbook) 是增长营销技能大全的开源知识配套，提供框架、案例与方法；增长营销技能大全则将其转化为可复用、可由 AI（人工智能）执行的增长能力。
 
 **[English](README.md) | [简体中文](README.zh-CN.md)**
 
-一个包含 86 个可复用 Skill 的增长与营销开放集合。Growth & Marketing Skills 将营销知识沉淀为可复用的工作流，帮助从业者和 AI（人工智能）智能体覆盖并衔接增长全生命周期中的关键任务。
+一个包含 86 个可复用 Skill 的增长与营销开放集合。增长营销技能大全将营销知识沉淀为可复用的工作流，帮助从业者和 AI（人工智能）智能体覆盖并衔接增长全生命周期中的关键任务。
 
 ## 覆盖领域
 
