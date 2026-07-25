@@ -87,7 +87,7 @@ Keep different entities distinct unless explicit joins and decision logic suppor
 - prompt, session, task, output, accepted output, retained user, account, and cost;
 - order, customer, subscription, invoice, refund, contribution, and cash.
 
-For B2B products, name the buying committee and the unit receiving value. User activity cannot automatically represent account value, buyer intent, renewal, or revenue. For marketplaces, preserve local network units and side-specific entities. For AI products, distinguish generated activity from accepted, useful, safe, and retained outcomes.
+For B2B products, name the buying committee and the unit receiving value. User activity cannot automatically represent account value, buyer intent, renewal, or revenue. In Simplified Chinese output, use `企业客户` for this B2B entity by default, use `客户账户层级` only when the analytical level must be explicit, and reserve `用户账号` for a person's login identity; do not use standalone `账户` when the entity could be misunderstood. For marketplaces, preserve local network units and side-specific entities. For AI products, distinguish generated activity from accepted, useful, safe, and retained outcomes.
 
 ## Rate, Value, And Composite Controls
 
