@@ -54,7 +54,7 @@ Use this order:
 4. **Evidence ledger**: supporting, contradictory, missing evidence, and any reported signals, with canonical state labels and attribution.
 5. **30-day actions**: priorities, routes, owners, decision dates, success signals, dependencies, and guardrails.
 6. **Experiments**: hypothesis, intervention, metric, decision rule, owner, duration, and guardrails.
-7. **Playbook references**: title, pinned URL, and relevance; include cases only when their transfer boundary is explicit.
+7. **Playbook references**: title, source text, and relevance; include cases only when their transfer boundary is explicit.
 8. **Execution**: overall route, Skills, enterprise requirements, owners, dependencies, guardrails, and authorization boundary.
 
 Keep the report decision-oriented. Do not bury the primary constraint under a list of generic tactics.

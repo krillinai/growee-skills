@@ -209,7 +209,9 @@ def extract_playbook_revisions(skill_id: str) -> list[str]:
     return sorted(
         set(
             re.findall(
-                r"growth-playbook/(?:blob|tree|commit)/([0-9a-f]{7,39})", text
+                r"(?:Growth Playbook )?(?:commit|revision)[^0-9a-f]+([0-9a-f]{7,39})",
+                text,
+                flags=re.IGNORECASE,
             )
         )
     )

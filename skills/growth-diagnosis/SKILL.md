@@ -11,7 +11,7 @@ Turn a growth symptom into one evidence-backed primary constraint, a 30-day deci
 
 Read [evidence-and-routing.md](references/evidence-and-routing.md) before classifying evidence, setting confidence, working with private inputs, diagnosing China, or choosing an execution route.
 
-Read [output-contract.md](references/output-contract.md) before producing final JSON or Markdown. Use [protocol.schema.json](assets/protocol.schema.json) unchanged as the canonical machine-readable contract. Use [playbook-sources.md](references/playbook-sources.md) to cite the relevant pinned Growth Playbook chapter.
+Read [output-contract.md](references/output-contract.md) before producing final JSON or Markdown. Use [protocol.schema.json](assets/protocol.schema.json) unchanged as the canonical machine-readable contract. Use [playbook-sources.md](references/playbook-sources.md) to cite the relevant Growth Playbook chapter by title and source text.
 
 ## Gate The Intake
 
@@ -106,7 +106,7 @@ When intake is complete, include all of the following in both canonical JSON and
 4. confidence and its evidence boundary;
 5. prioritized 30-day actions;
 6. decision-oriented experiments;
-7. relevant pinned Growth Playbook references;
+7. relevant Growth Playbook references by title and source text;
 8. execution route, owners, dependencies, and guardrails.
 
 Validate JSON against `assets/protocol.schema.json`. Keep Markdown semantically identical to JSON: same facts, values, source IDs, evidence meaning, constraint selection, actions, experiments, routes, and references. Presentation labels may explain schema buckets but may not add conclusions.

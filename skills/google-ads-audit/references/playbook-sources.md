@@ -1,14 +1,14 @@
 # Playbook And Google Sources
 
-## Pinned Growth Playbook Basis
+## Versioned Growth Playbook Basis
 
-Use Growth Playbook commit [`b2ae914`](https://github.com/krillinai/growth-playbook/commit/b2ae914) as the reviewable conceptual basis:
+Use Growth Playbook commit `b2ae914` as the reviewable conceptual basis:
 
-- [Acquisition](https://github.com/krillinai/growth-playbook/blob/b2ae914/handbook/acquisition/README.md): channel fit, paid acquisition, message continuity, customer quality, and downstream constraints.
-- [Metrics](https://github.com/krillinai/growth-playbook/blob/b2ae914/handbook/metrics/README.md): entities, denominators, definitions, cohorts, guardrails, and decision use.
-- [Experimentation](https://github.com/krillinai/growth-playbook/blob/b2ae914/handbook/experimentation/README.md): causal questions, assignment, guardrails, interpretation, and decision rules.
-- [Growth Infrastructure](https://github.com/krillinai/growth-playbook/blob/b2ae914/handbook/growth-infrastructure/README.md): events, identity, data contracts, attribution, observability, and governance.
-- [Funnel & Constraint](https://github.com/krillinai/growth-playbook/blob/b2ae914/handbook/funnel-and-constraint/README.md): eligible states, absolute contribution, constraint diagnosis, and downstream value.
+- Acquisition: channel fit, paid acquisition, message continuity, customer quality, and downstream constraints.
+- Metrics: entities, denominators, definitions, cohorts, guardrails, and decision use.
+- Experimentation: causal questions, assignment, guardrails, interpretation, and decision rules.
+- Growth Infrastructure: events, identity, data contracts, attribution, observability, and governance.
+- Funnel & Constraint: eligible states, absolute contribution, constraint diagnosis, and downstream value.
 
 These sources shape the method. They do not verify a Google account, current platform behavior, business threshold, policy status, or causal result.
 

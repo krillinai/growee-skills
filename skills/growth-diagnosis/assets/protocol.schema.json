@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/krillinai/growth-playbook/blob/main/handbook/diagnosis/protocol.schema.json",
+  "$id": "urn:krillinai:growth-skills:growth-diagnosis:protocol",
   "title": "Growth Diagnosis Protocol",
   "description": "A machine-readable contract for evidence-backed growth diagnosis and execution routing.",
   "type": "object",
@@ -162,10 +162,10 @@
     "reference": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["title", "url"],
+      "required": ["title", "source"],
       "properties": {
         "title": { "type": "string", "minLength": 1 },
-        "url": { "type": "string", "format": "uri-reference" },
+        "source": { "type": "string", "minLength": 1 },
         "relevance": { "type": "string" }
       }
     }

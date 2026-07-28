@@ -1,14 +1,14 @@
 # Playbook And TikTok Sources
 
-## Pinned Growth Playbook Basis
+## Versioned Growth Playbook Basis
 
-Use Growth Playbook commit [`b2ae914`](https://github.com/krillinai/growth-playbook/commit/b2ae914) as the reviewable conceptual basis:
+Use Growth Playbook commit `b2ae914` as the reviewable conceptual basis:
 
-- [Acquisition](https://github.com/krillinai/growth-playbook/blob/b2ae914/handbook/acquisition/README.md): channel fit, paid acquisition, creative continuity, customer quality, and downstream constraints.
-- [Metrics](https://github.com/krillinai/growth-playbook/blob/b2ae914/handbook/metrics/README.md): definitions, entities, cohorts, qualified outcomes, economics, and guardrails.
-- [Experimentation](https://github.com/krillinai/growth-playbook/blob/b2ae914/handbook/experimentation/README.md): causal questions, assignment, guardrails, interpretation, and decision rules.
-- [Growth Infrastructure](https://github.com/krillinai/growth-playbook/blob/b2ae914/handbook/growth-infrastructure/README.md): events, identity, consent, attribution, observability, and governance.
-- [ByteDance](https://github.com/krillinai/growth-playbook/blob/b2ae914/case-library/companies/bytedance/README.md): measurement horizons, portfolio effects, creative operations, and market context as a methodological lens, not current platform documentation.
+- Acquisition: channel fit, paid acquisition, creative continuity, customer quality, and downstream constraints.
+- Metrics: definitions, entities, cohorts, qualified outcomes, economics, and guardrails.
+- Experimentation: causal questions, assignment, guardrails, interpretation, and decision rules.
+- Growth Infrastructure: events, identity, consent, attribution, observability, and governance.
+- ByteDance: measurement horizons, portfolio effects, creative operations, and market context as a methodological lens, not current platform documentation.
 
 These sources shape the audit method. They do not verify a private account, current platform behavior, creator rights, performance, economics, or causal effects.
 
