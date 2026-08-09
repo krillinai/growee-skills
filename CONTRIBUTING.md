@@ -1,6 +1,6 @@
 # Contributing
 
-Growth Skills accepts focused Agent Skills that solve a clear growth or marketing job with an executable workflow, explicit evidence boundaries, inspectable outputs, and realistic evaluation cases.
+Content Marketing Skills accepts focused Agent Skills that solve a clear content marketing job with an executable workflow, explicit evidence boundaries, inspectable outputs, and realistic evaluation cases. Existing specialist Skills outside the public content marketing set remain available for maintenance, but they are not the default path for new additions.
 
 ## Repository Structure
 
