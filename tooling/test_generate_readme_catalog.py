@@ -54,6 +54,44 @@ class GeneratedCatalogTest(unittest.TestCase):
                 self.assertIn(current_label, rendered)
                 self.assertNotIn(old_label, rendered)
 
+    def test_content_growth_bundle_counts_skills_and_integrations(self):
+        cases = (
+            (
+                "en",
+                "| `content-growth` · Content Growth |",
+                "| 8 |",
+            ),
+            (
+                "zh",
+                "| `content-growth` · 内容增长 |",
+                "| 8 |",
+            ),
+        )
+
+        for language, row_start, row_end in cases:
+            with self.subTest(language=language):
+                rendered = self.render(language)
+                row = next(
+                    line for line in rendered.splitlines() if line.startswith(row_start)
+                )
+                self.assertTrue(row.endswith(row_end))
+                self.assertNotIn("`core-growth`", rendered)
+                self.assertNotIn("`content-creative`", rendered)
+
+    def test_complete_catalog_is_collapsed(self):
+        cases = (
+            ("en", "## Complete Skill Catalog", "Browse every Skill and integration"),
+            ("zh", "## 完整技能目录", "展开查看全部 Skill 与集成"),
+        )
+
+        for language, heading, summary in cases:
+            with self.subTest(language=language):
+                rendered = self.render(language)
+                catalog = rendered.split(heading, 1)[1]
+                self.assertIn("<details>", catalog)
+                self.assertIn(f"<summary>{summary}</summary>", catalog)
+                self.assertIn("</details>\n<!-- END GENERATED: catalog -->", catalog)
+
 
 if __name__ == "__main__":
     unittest.main()

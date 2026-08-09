@@ -2,41 +2,22 @@
   "schema_version": "1.0",
   "bundles": [
     {
-      "id": "core-growth",
-      "name_en": "Core Growth",
-      "name_zh": "核心增长",
-      "description_en": "A compact starting set for diagnosing, measuring, and improving the growth lifecycle.",
-      "description_zh": "用于诊断、测量并改善增长全生命周期的精简入门组合。",
+      "id": "content-growth",
+      "name_en": "Content Growth",
+      "name_zh": "内容增长",
+      "description_en": "The core path for planning, creating, localizing, distributing, and converting content.",
+      "description_zh": "用于策划、创作、本地化、分发内容并承接转化的核心路径。",
       "skills": [
-        "growth-diagnosis",
-        "growth-strategy",
-        "customer-research",
-        "growth-metrics-design",
-        "funnel-analysis",
-        "activation",
-        "retention",
-        "monetization",
-        "acquisition-strategy",
-        "experiment-design",
-        "campaign-planning",
-        "growth-operating-review"
-      ]
-    },
-    {
-      "id": "content-creative",
-      "name_en": "Content & Creative",
-      "name_zh": "内容与创意",
-      "description_en": "Writing, editing, visual production, creative strategy, PR, and customer proof.",
-      "description_zh": "覆盖文案、编辑、视觉制作、创意策略、公共关系与客户证据。",
-      "skills": [
+        "content-strategy",
         "copywriting",
-        "copy-editing",
         "marketing-image",
         "marketing-video",
-        "content-strategy",
-        "ad-creative",
-        "public-relations",
-        "customer-proof-development"
+        "campaign-planning",
+        "landing-page-audit"
+      ],
+      "integrations": [
+        "krillinai-video-localization",
+        "autosocial-publishing"
       ]
     },
     {
