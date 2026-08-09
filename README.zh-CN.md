@@ -1,6 +1,6 @@
-# 增长营销技能大全
+# Growth Skills：AI 内容增长技能库
 
-**面向增长与营销、可由 AI（人工智能）执行的复用技能**
+**让 AI 完成内容策划、创作、本地化、分发与转化优化**
 
 由企业级增长智能体产品 [clawee.ai](https://clawee.ai/) 出品。
 
@@ -8,42 +8,55 @@
 [![clawee.ai](https://img.shields.io/badge/clawee.ai-Enterprise_Growth_Agent-6f42c1?style=flat-square)](https://clawee.ai)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 
-> 由专注于内容智能与全球增长的 AI（人工智能）团队 [KrillinAI](https://github.com/KrillinAI) 创作并维护。Growth Playbook 提供增长框架、案例与方法，增长营销技能大全则将其转化为可复用、可由 AI（人工智能）执行的增长能力。
+> 由专注于内容智能与全球增长的 AI（人工智能）团队 [KrillinAI](https://github.com/KrillinAI) 创作并维护。Growth Playbook 提供方法与框架，Growth Skills 将其转化为可复用、可由 AI 执行的工作流。
 
 **[English](README.md) | [简体中文](README.zh-CN.md)**
 
-一个包含 86 个可复用 Skill 的增长与营销开放集合。增长营销技能大全将营销知识沉淀为可复用的工作流，帮助从业者和 AI（人工智能）智能体覆盖并衔接增长全生命周期中的关键任务。
+Growth Skills 面向创作者、创业者和小型营销团队，先用 8 个核心能力打通一条内容增长路径。完整的 86 个 Skill 仍然保留，作为研究、分析、获客、生命周期和企业运营等专业任务的扩展，而不是要求一次全部安装。
 
-## 覆盖领域
+## 核心内容增长流程
 
-- **内容与创意** - 调研、选题、文案、编辑、营销图片、视频与内容分发。
-- **研究与市场洞察** - 用户研究、竞争情报、市场规模测算、客群细分与市场定位。
-- **策略与规划** - 增长战略、市场进入、产品上市、营销活动与优先级排序。
-- **测量与实验** - 指标、追踪、数据质量、分析、预测、归因与实验。
-- **生命周期与变现** - 激活、互动、留存、生命周期营销、定价、变现、客户扩张与推荐。
-- **获客与分发** - 广告投放、搜索增长、应用商店与生成式搜索优化、外联、合作、社区、目录及落地页优化。
-- **运营与治理** - 经营复盘、决策、风险、学习、变更、基础设施、组织设计与收入运营。
+| 阶段 | 核心能力 | 完成的工作 |
+| --- | --- | --- |
+| 策划 | [`内容策略`](skills/content-strategy/) | 从客户问题、主题支柱和渠道约束形成内容计划 |
+| 创作 | [`文案创作`](skills/copywriting/)、[`营销图片`](skills/marketing-image/)、[`营销视频`](skills/marketing-video/) | 产出文案、封面、视觉与视频素材 |
+| 本地化 | [视频翻译与配音](https://github.com/krillinai/KrillinAI) | 使用 KrillinAI 完成转写、字幕翻译、AI 配音及横竖屏渲染 |
+| 分发 | [社交媒体自动发布](https://github.com/krillinai/autosocial-skills)、[`营销活动规划`](skills/campaign-planning/) | 为渠道适配标题、描述、标签、发布时间和活动节奏 |
+| 转化 | [`落地页诊断`](skills/landing-page-audit/) | 检查内容承诺、页面证据和下一步行动是否连贯 |
+
+视频本地化应使用自有或已获授权的素材，并保留来源、声音、声明和发布权限的审查记录。
 
 ## 安装与使用
 
-`skills/` 下的每个目录都是一个可独立安装的 Agent Skill。建议只安装当前任务需要的 Skill，减少触发冲突与上下文占用。
+`skills/` 下的每个目录都是一个可独立安装的 Agent Skill。建议从内容策略开始，只安装当前任务需要的能力，减少触发冲突与上下文占用。
 
 ```bash
 git clone https://github.com/krillinai/growth-skills.git
 mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
-cp -R growth-skills/skills/growth-diagnosis "${CODEX_HOME:-$HOME/.codex}/skills/"
+cp -R growth-skills/skills/content-strategy "${CODEX_HOME:-$HOME/.codex}/skills/"
 ```
 
 当一个任务可能匹配多个能力时，建议显式调用：
 
 ```text
-使用 $growth-diagnosis 识别当前首要增长约束，并路由下一步分析。
+使用 $content-strategy，围绕目标客户的问题制定接下来 30 天的内容计划。
 ```
 
 对于其他兼容 Agent Skills 的客户端，将所选 `skills/<name>/` 目录复制或链接到对应的 Skill 目录即可。
 
 <!-- BEGIN GENERATED: catalog -->
-## 按任务选择
+## 推荐组合
+
+建议从内容增长开始，仅在任务需要时安装专业组合。
+
+| 组合 | 说明 | 能力数量 |
+| --- | --- | ---: |
+| `content-growth` · 内容增长 | 用于策划、创作、本地化、分发内容并承接转化的核心路径。 | 8 |
+| `measurement-analytics` · 测量与分析 | 覆盖指标、追踪、数据质量、归因、经济性、预测、同期群与实验。 | 16 |
+| `acquisition-distribution` · 获客与分发 | 覆盖渠道策略、营销活动、广告诊断、搜索、转化界面、合作、社区与外联。 | 19 |
+| `growth-operating-system` · 增长运营体系 | 覆盖能力评估、规划、容量、投入、治理、复盘、学习、变更、基础设施、组织与收入运营。 | 17 |
+
+## 按专业任务查找扩展
 
 | 当你需要…… | 建议从这里开始 |
 | --- | --- |
@@ -55,19 +68,10 @@ cp -R growth-skills/skills/growth-diagnosis "${CODEX_HOME:-$HOME/.codex}/skills/
 | 规划、诊断并改善渠道、活动、转化界面与分发 | [`获客策略`](skills/acquisition-strategy/), [`营销活动规划`](skills/campaign-planning/), [`落地页诊断`](skills/landing-page-audit/) |
 | 运营决策、系统、风险、学习、变更与组织能力 | [`增长经营复盘`](skills/growth-operating-review/), [`增长决策记录`](skills/growth-decision-record/), [`增长风险管理`](skills/growth-risk-management/) |
 
-## 精选组合
+## 完整技能目录
 
-任务边界明确时，建议安装精选组合，而不是一次加载整个集合。
-
-| 组合 | 说明 | Skill 数量 |
-| --- | --- | ---: |
-| `core-growth` · 核心增长 | 用于诊断、测量并改善增长全生命周期的精简入门组合。 | 12 |
-| `content-creative` · 内容与创意 | 覆盖文案、编辑、视觉制作、创意策略、公共关系与客户证据。 | 8 |
-| `measurement-analytics` · 测量与分析 | 覆盖指标、追踪、数据质量、归因、经济性、预测、同期群与实验。 | 16 |
-| `acquisition-distribution` · 获客与分发 | 覆盖渠道策略、营销活动、广告诊断、搜索、转化界面、合作、社区与外联。 | 19 |
-| `growth-operating-system` · 增长运营体系 | 覆盖能力评估、规划、容量、投入、治理、复盘、学习、变更、基础设施、组织与收入运营。 | 17 |
-
-## 技能目录
+<details>
+<summary>展开查看全部 Skill 与集成</summary>
 
 **成熟度：** 预览版仍需真实任务验证；已验证版本已通过具有代表性的前向测试；稳定版已经过重复使用验证。
 
@@ -228,23 +232,17 @@ cp -R growth-skills/skills/growth-diagnosis "${CODEX_HOME:-$HOME/.codex}/skills/
     <tr><td><a href="skills/experiment-program-management/">实验项目管理</a></td><td>预览版</td><td>通过以决策为中心的准入、组合选择、流量与承载能力、并发控制、实验前门槛、质量事故、成熟度、决策跟进、长期验证、学习复用与治理，审查、设计和更新跨团队实验项目</td></tr>
   </tbody>
 </table>
+
+</details>
 <!-- END GENERATED: catalog -->
-
-## 增长全生命周期
-
-这个集合致力于支持从首次触达到持续增长的连贯工作流：
-
-**认知 → 获客 → 激活 → 转化 → 留存 → 扩张**
-
-**Discover → Acquire → Activate → Convert → Retain → Expand**
 
 ## 持续完善
 
-本项目仍处于早期阶段。随着更多实用工作流得到开发和验证，我们会持续收录新的技能。
+本项目仍处于早期阶段。当前优先级是验证和完善 8 个核心内容增长能力；只有在现有能力无法覆盖一个明确、可复用的任务时，才新增 Skill。
 
 ## 参与贡献
 
-欢迎参与贡献。一个有价值的技能应当解决明确的增长或营销问题，提供可执行的工作流，并产出可以评估的结果。贡献指南和技能规范将随项目发展逐步完善。
+欢迎参与贡献。一个有价值的 Skill 应当解决明确的内容增长或专业扩展任务，提供可执行的工作流，并产出可以评估的结果。
 
 ## 许可证
 

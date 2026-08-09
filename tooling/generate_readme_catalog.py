@@ -32,14 +32,14 @@ def chooser_section(
 ) -> str:
     if language == "en":
         lines = [
-            "## Choose by job",
+            "## Explore professional extensions",
             "",
             "| When you need to... | Start with |",
             "| --- | --- |",
         ]
     else:
         lines = [
-            "## 按任务选择",
+            "## 按专业任务查找扩展",
             "",
             "| 当你需要…… | 建议从这里开始 |",
             "| --- | --- |",
@@ -58,27 +58,28 @@ def chooser_section(
 def bundle_section(bundles: dict, language: str) -> str:
     if language == "en":
         lines = [
-            "## Focused bundles",
+            "## Recommended bundles",
             "",
-            "Install a focused bundle instead of loading the entire collection when the job is bounded.",
+            "Start with Content Growth. Select a specialist bundle only when the job requires it.",
             "",
-            "| Bundle | Description | Skills |",
+            "| Bundle | Description | Capabilities |",
             "| --- | --- | ---: |",
         ]
     else:
         lines = [
-            "## 精选组合",
+            "## 推荐组合",
             "",
-            "任务边界明确时，建议安装精选组合，而不是一次加载整个集合。",
+            "建议从内容增长开始，仅在任务需要时安装专业组合。",
             "",
-            "| 组合 | 说明 | Skill 数量 |",
+            "| 组合 | 说明 | 能力数量 |",
             "| --- | --- | ---: |",
         ]
 
     for bundle in bundles["bundles"]:
+        capability_count = len(bundle["skills"]) + len(bundle.get("integrations", []))
         lines.append(
             f"| `{bundle['id']}` · {bundle[f'name_{language}']} | "
-            f"{bundle[f'description_{language}']} | {len(bundle['skills'])} |"
+            f"{bundle[f'description_{language}']} | {capability_count} |"
         )
     return "\n".join(lines)
 
@@ -89,7 +90,7 @@ def catalog_section(
     integrations: dict,
     language: str,
 ) -> str:
-    title = "## Skill Catalog" if language == "en" else "## 技能目录"
+    title = "## Complete Skill Catalog" if language == "en" else "## 完整技能目录"
     status_heading = "Status" if language == "en" else "状态"
     skill_heading = "Skill" if language == "en" else "技能"
     description_heading = "Description" if language == "en" else "说明"
@@ -111,7 +112,12 @@ def catalog_section(
             "**成熟度：** 预览版仍需真实任务验证；已验证版本已通过具有代表性的前向测试；"
             "稳定版已经过重复使用验证。"
         )
-    lines = [title, "", maturity_note, ""]
+    summary = (
+        "Browse every Skill and integration"
+        if language == "en"
+        else "展开查看全部 Skill 与集成"
+    )
+    lines = [title, "", "<details>", f"<summary>{summary}</summary>", "", maturity_note, ""]
 
     for category in taxonomy["categories"]:
         category_integrations = [
@@ -158,6 +164,7 @@ def catalog_section(
                 f"<td>{integration_status}</td><td>{description}</td></tr>"
             )
         lines.extend(["  </tbody>", "</table>", ""])
+    lines.append("</details>")
     return "\n".join(lines).rstrip()
 
 
@@ -170,8 +177,8 @@ def generated_block(
 ) -> str:
     skills_by_id = {skill["id"]: skill for skill in catalog["skills"]}
     sections = [
-        chooser_section(taxonomy, skills_by_id, language),
         bundle_section(bundles, language),
+        chooser_section(taxonomy, skills_by_id, language),
         catalog_section(taxonomy, skills_by_id, integrations, language),
     ]
     return (

@@ -1,6 +1,6 @@
-# Growth & Marketing Skills
+# Growth Skills: AI Content Growth Workflows
 
-**Reusable, AI-Executable Skills for Growth & Marketing**
+**Let AI plan, create, localize, distribute, and convert content**
 
 By [clawee.ai](https://clawee.ai/), an Enterprise Growth Agent platform.
 
@@ -8,42 +8,55 @@ By [clawee.ai](https://clawee.ai/), an Enterprise Growth Agent platform.
 [![clawee.ai](https://img.shields.io/badge/clawee.ai-Enterprise_Growth_Agent-6f42c1?style=flat-square)](https://clawee.ai)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 
-> Created and maintained by [KrillinAI](https://github.com/KrillinAI), an AI team focused on content intelligence and global growth. Growth Playbook provides the frameworks, cases, and methods that Growth & Marketing Skills turns into reusable AI execution capabilities.
+> Created and maintained by [KrillinAI](https://github.com/KrillinAI), an AI team focused on content intelligence and global growth. Growth Playbook provides the methods and frameworks; Growth Skills turns them into reusable, AI-executable workflows.
 
 **[English](README.md) | [简体中文](README.zh-CN.md)**
 
-An open collection of 86 reusable skills for growth and marketing work. Growth & Marketing Skills helps practitioners and AI agents turn marketing knowledge into repeatable workflows across the entire growth lifecycle.
+Growth Skills helps creators, founders, and small marketing teams follow one clear content-growth path through eight core capabilities. The complete collection of 86 Skills remains available as professional extensions for research, analytics, acquisition, lifecycle, and enterprise operations; you do not need to install all of them.
 
-## What It Covers
+## Core content-growth workflow
 
-- **Content & Creative** - Research, ideation, copywriting, editing, marketing images, video, and content distribution.
-- **Research & Market Intelligence** - Customer research, competitive intelligence, market sizing, segmentation, and positioning.
-- **Strategy & Planning** - Growth strategy, market entry, go-to-market, product launches, campaigns, and prioritization.
-- **Measurement & Experimentation** - Metrics, tracking, data quality, analytics, forecasting, attribution, and experiments.
-- **Lifecycle & Monetization** - Activation, engagement, retention, lifecycle marketing, pricing, monetization, expansion, and referrals.
-- **Acquisition & Distribution** - Paid media, search, app-store and generative-search optimization, outbound, partnerships, communities, directories, and landing pages.
-- **Operations & Governance** - Operating reviews, decisions, risk, learning, change, infrastructure, organization design, and revenue operations.
+| Stage | Core capabilities | Work completed |
+| --- | --- | --- |
+| Plan | [`Content Strategy`](skills/content-strategy/) | Turn customer questions, content pillars, and channel constraints into a content plan |
+| Create | [`Copywriting`](skills/copywriting/), [`Marketing Image`](skills/marketing-image/), [`Marketing Video`](skills/marketing-video/) | Produce copy, covers, visuals, and video assets |
+| Localize | [Video Translation & Dubbing](https://github.com/krillinai/KrillinAI) | Use KrillinAI for transcription, subtitle translation, AI dubbing, and landscape or portrait rendering |
+| Distribute | [Social Media Publishing](https://github.com/krillinai/autosocial-skills), [`Campaign Planning`](skills/campaign-planning/) | Adapt titles, descriptions, tags, timing, and campaign cadence for each channel |
+| Convert | [`Landing Page Audit`](skills/landing-page-audit/) | Check that the content promise, page proof, and next action remain coherent |
+
+Only localize video you own or are authorized to use, and preserve review records for source rights, voices, claims, and publication permissions.
 
 ## Install and use
 
-Each directory under `skills/` is a standalone Agent Skill. Install only the Skills needed for the current job so selection stays clear and context remains focused.
+Each directory under `skills/` is a standalone Agent Skill. Start with Content Strategy and install only the capabilities needed for the current job so selection stays clear and context remains focused.
 
 ```bash
 git clone https://github.com/krillinai/growth-skills.git
 mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
-cp -R growth-skills/skills/growth-diagnosis "${CODEX_HOME:-$HOME/.codex}/skills/"
+cp -R growth-skills/skills/content-strategy "${CODEX_HOME:-$HOME/.codex}/skills/"
 ```
 
 Invoke an installed Skill explicitly when the task could match several capabilities:
 
 ```text
-Use $growth-diagnosis to identify our primary growth constraint and route the next analysis.
+Use $content-strategy to build a 30-day content plan around our target customers' questions.
 ```
 
 For another Agent Skills-compatible client, copy or link the selected `skills/<name>/` directory into that client's Skill directory.
 
 <!-- BEGIN GENERATED: catalog -->
-## Choose by job
+## Recommended bundles
+
+Start with Content Growth. Select a specialist bundle only when the job requires it.
+
+| Bundle | Description | Capabilities |
+| --- | --- | ---: |
+| `content-growth` · Content Growth | The core path for planning, creating, localizing, distributing, and converting content. | 8 |
+| `measurement-analytics` · Measurement & Analytics | Metrics, tracking, data quality, attribution, economics, forecasting, cohorts, and experiments. | 16 |
+| `acquisition-distribution` · Acquisition & Distribution | Channel strategy, campaigns, paid-media audits, search, conversion surfaces, partnerships, community, and outbound. | 19 |
+| `growth-operating-system` · Growth Operating System | Capability assessment, planning, capacity, investment, governance, reviews, learning, change, infrastructure, organization, and RevOps. | 17 |
+
+## Explore professional extensions
 
 | When you need to... | Start with |
 | --- | --- |
@@ -55,19 +68,10 @@ For another Agent Skills-compatible client, copy or link the selected `skills/<n
 | Plan, audit, and improve channels, campaigns, conversion surfaces, and distribution | [`Acquisition Strategy`](skills/acquisition-strategy/), [`Campaign Planning`](skills/campaign-planning/), [`Landing Page Audit`](skills/landing-page-audit/) |
 | Operate decisions, systems, risks, learning, change, and organizational capacity | [`Growth Operating Review`](skills/growth-operating-review/), [`Growth Decision Record`](skills/growth-decision-record/), [`Growth Risk Management`](skills/growth-risk-management/) |
 
-## Focused bundles
+## Complete Skill Catalog
 
-Install a focused bundle instead of loading the entire collection when the job is bounded.
-
-| Bundle | Description | Skills |
-| --- | --- | ---: |
-| `core-growth` · Core Growth | A compact starting set for diagnosing, measuring, and improving the growth lifecycle. | 12 |
-| `content-creative` · Content & Creative | Writing, editing, visual production, creative strategy, PR, and customer proof. | 8 |
-| `measurement-analytics` · Measurement & Analytics | Metrics, tracking, data quality, attribution, economics, forecasting, cohorts, and experiments. | 16 |
-| `acquisition-distribution` · Acquisition & Distribution | Channel strategy, campaigns, paid-media audits, search, conversion surfaces, partnerships, community, and outbound. | 19 |
-| `growth-operating-system` · Growth Operating System | Capability assessment, planning, capacity, investment, governance, reviews, learning, change, infrastructure, organization, and RevOps. | 17 |
-
-## Skill Catalog
+<details>
+<summary>Browse every Skill and integration</summary>
 
 **Maturity:** Preview Skills need real-world validation; Validated Skills have passed realistic forward tests; Stable Skills have demonstrated repeatable use.
 
@@ -228,21 +232,17 @@ Install a focused bundle instead of loading the entire collection when the job i
     <tr><td><a href="skills/experiment-program-management/">Experiment&nbsp;Program&nbsp;Management</a></td><td>Preview</td><td>Audit, design, and refresh multi-team experimentation programs through decision-centered intake, portfolio selection, traffic and capacity, concurrency, preflight gates, quality incidents, maturity, follow-through, long-term validation, learning reuse, and governance</td></tr>
   </tbody>
 </table>
+
+</details>
 <!-- END GENERATED: catalog -->
-
-## The Growth Lifecycle
-
-The collection is designed to support connected workflows from first contact to compounding growth:
-
-**Discover → Acquire → Activate → Convert → Retain → Expand**
 
 ## Growing the Collection
 
-This repository is at an early stage. New skills will be added as practical, reusable workflows are developed and validated.
+This repository is at an early stage. The current priority is validating and refining the eight core content-growth capabilities. Add a Skill only when the existing collection cannot cover a clear, reusable job.
 
 ## Contributing
 
-Contributions are welcome. A useful skill should address a clear growth or marketing problem, provide an actionable workflow, and produce outcomes that can be evaluated. Contribution guidelines and skill conventions will evolve with the collection.
+Contributions are welcome. A useful Skill should address a clear content-growth or professional-extension job, provide an actionable workflow, and produce outcomes that can be evaluated.
 
 ## License
 

@@ -325,6 +325,7 @@ def validate_catalog(skill_ids: set[str], report: Report) -> None:
         report.error("catalog/taxonomy.json: every skill must appear exactly once")
 
     bundle_rows = bundles.get("bundles")
+    bundle_integration_refs: dict[str, list[str]] = {}
     if bundles.get("schema_version") != "1.0" or not isinstance(bundle_rows, list):
         report.error("catalog/bundles.json: invalid schema_version or bundles")
     else:
@@ -351,14 +352,23 @@ def validate_catalog(skill_ids: set[str], report: Report) -> None:
                 or not set(members) <= skill_ids
             ):
                 report.error(f"{bundle_id}: bundle contains unknown or missing skills")
+            integration_refs = bundle.get("integrations", [])
+            if (
+                not isinstance(integration_refs, list)
+                or not all(isinstance(item, str) for item in integration_refs)
+                or len(integration_refs) != len(set(integration_refs))
+            ):
+                report.error(f"{bundle_id}: bundle contains invalid integrations")
+            else:
+                bundle_integration_refs[bundle_id] = integration_refs
 
     integration_rows = integrations.get("integrations")
+    integration_ids: set[str] = set()
     if integrations.get("schema_version") != "1.0" or not isinstance(
         integration_rows, list
     ):
         report.error("catalog/integrations.json: invalid schema_version or integrations")
     else:
-        integration_ids: set[str] = set()
         for integration in integration_rows:
             if not isinstance(integration, dict):
                 report.error("catalog/integrations.json: integration must be an object")
@@ -387,6 +397,9 @@ def validate_catalog(skill_ids: set[str], report: Report) -> None:
                 report.error(
                     f"{integration_id}: integration position must be first or last"
                 )
+        for bundle_id, integration_refs in bundle_integration_refs.items():
+            if not set(integration_refs) <= integration_ids:
+                report.error(f"{bundle_id}: bundle contains unknown integrations")
 
 
 def validate_banned_terms(report: Report) -> None:
