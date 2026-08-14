@@ -11,7 +11,7 @@ Use the smallest metric set that reveals whether the thesis works and whether it
 - capability readiness, capacity, reliability, and quality;
 - customer, employee, partner, fairness, privacy, trust, regulatory, and concentration guardrails.
 
-Every metric needs an entity, event or state, numerator, denominator, eligibility, identity, segment, market, window, cohort, maturity, source, owner, version, quality rule, and decision use. Targets are commitments or aspirations, not evidence. A metric movement is not automatically causal. Route contract design to `growth-metrics-design`, instrumentation to `tracking-plan`, causal tests to `experiment-design`, and cohort behavior to `cohort-analysis`.
+Every metric needs an entity, event or state, numerator, denominator, eligibility, identity, segment, market, window, cohort, maturity, source, owner, version, quality rule, and decision use. Targets are commitments or aspirations, not evidence. A metric movement is not automatically causal. Route contract design to `growth-metrics-design`, instrumentation to `tracking-plan`, causal tests to `experiment-design`, and cohort behavior to `retention`.
 
 ## Govern The Strategy
 
@@ -55,7 +55,7 @@ Treat every market transfer as a new evidence boundary. Preserve what may transf
 
 Translation, currency conversion, a local domain, or team presence does not validate a strategy transfer. For China, distinguish market, legal entity, language, locale, product, channel, platform, app distribution, identity, payment, invoice, data, content, advertising, customer support, and local accountable review. Use current direct sources and locally accountable expertise. Do not provide legal, tax, regulatory, accounting, provider-availability, or performance conclusions.
 
-Route market selection, readiness, pilot, and exit design to `market-entry-strategy`; market estimates to `market-sizing`; segments to `icp-segmentation`; local customer evidence to `customer-research`; and positioning to `positioning`.
+Route market selection, readiness, pilot, and exit design to `growth-strategy`; market estimates to `market-sizing`; segments to `positioning`; local customer evidence to `customer-research`; and positioning to `positioning`.
 
 ## Protect People And Data
 

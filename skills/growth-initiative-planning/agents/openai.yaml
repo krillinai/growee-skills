@@ -1,4 +1,0 @@
-interface:
-  display_name: "Growth Initiative Planning"
-  short_description: "Plan feasible, decision-gated growth initiatives"
-  default_prompt: "Use $growth-initiative-planning to build a feasible, decision-gated 30-90 day plan for one selected growth initiative."

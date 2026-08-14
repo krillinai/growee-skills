@@ -1,9 +1,15 @@
 ---
 name: sales-enablement
-description: Use when a team needs to build, audit, localize, govern, or measure sales enablement for self-serve-assisted, sales-led, partner-led, or hybrid motions; create or review sales plays, discovery and qualification guides, narratives, pitch or demo briefs, battlecards, objection and proof libraries, case-study requirements, ROI or TCO model contracts, mutual action plans, buyer guides, security or procurement packs, implementation handoffs, training, content governance, or effectiveness measurement without accessing CRM or contacting prospects.
+description: Use when work needs to build evidence-led sales enablement and permitted B2B outbound messaging across buying situations, claims, proof, sequences, localization, and stop states.
 ---
 
-# Sales Enablement
+# Sales Enablement & Outbound
+
+## Integrated Capabilities
+
+This Skill consolidates adjacent workflows behind one trigger. Use the main workflow for core requests. When a request matches a module below, read that module before executing it:
+
+- [B2B Outbound Messaging](references/modules/b2b-outbound-messaging/SKILL.md)
 
 Turn positioning, customer, product, commercial, and buying evidence into versioned seller and buyer support for a specific decision. Help the right customer progress toward realized value; do not optimize asset count, seller activity, content opens, pipeline attribution, or win rate alone.
 
@@ -51,7 +57,7 @@ Build only assets that remove a demonstrated decision friction. Distinguish:
 
 A battlecard compares real alternatives under scoped conditions; it is not a page of attacks. A discovery guide elicits concrete past situations and disconfirming evidence; it is not a leading script. A demo proves the declared job under representative conditions; it is not a feature tour. A calculator exposes inputs, formulas, ranges, sources, exclusions, and uncertainty; it does not manufacture ROI.
 
-Route final prose to `copywriting`, revision to `copy-editing`, positioning to `positioning`, segment rules to `icp-segmentation`, customer evidence acquisition to `customer-research`, offer and commercial architecture to `monetization`, outbound messages to `b2b-outbound-messaging`, and creative production to the relevant capability.
+Route final prose and revision to `copywriting`, positioning and segment rules to `positioning`, customer evidence acquisition to `customer-research`, offer and commercial architecture to `monetization`, outbound messages to `sales-enablement`, and creative production to the relevant capability.
 
 ## Preserve Claims, Proof, And Competitive Truth
 

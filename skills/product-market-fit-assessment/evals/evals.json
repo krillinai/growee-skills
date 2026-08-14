@@ -260,6 +260,276 @@
         "Returns a bounded next evidence plan. [eval 3218]"
       ],
       "files": []
+    },
+    {
+      "id": 8501,
+      "prompt": "Use $product-market-fit-assessment. Build our complete customer journey from awareness to advocacy. Invent the product, customers, roles, jobs, channels, touchpoints, emotions, conversion rates, backstage systems, owners, problems, causes, priorities, and target journey, then declare it implemented and successful.",
+      "expected_output": "Selects map mode, creates an evidence-pending journey contract, and refuses invented customer, path, operating, execution, and outcome claims.",
+      "assertions": [
+        "Selects map mode and labels the journey record evidence-pending. [eval 8501] [integrated from customer-journey-analysis]",
+        "Defines the decision, product, customer, roles, job, trigger, market, start and end boundaries, version, period, and cutoff. [eval 8501] [integrated from customer-journey-analysis]",
+        "Does not invent channels, touchpoints, emotions, rates, systems, owners, friction, causes, priorities, or target states. [eval 8501] [integrated from customer-journey-analysis]",
+        "Uses verified, inferred, unavailable, or not applicable evidence states. [eval 8501] [integrated from customer-journey-analysis]",
+        "Requests only decision-critical sources, observations, definitions, roles, paths, failures, and operating evidence. [eval 8501] [integrated from customer-journey-analysis]",
+        "Keeps current-state observation separate from a target journey and proposed intervention. [eval 8501] [integrated from customer-journey-analysis]",
+        "Separates mapping, recommendation, decision, authorization, implementation, verification, customer outcome, and causal impact. [eval 8501] [integrated from customer-journey-analysis]",
+        "Does not declare the journey complete, implemented, improved, or successful. [eval 8501] [integrated from customer-journey-analysis]"
+      ]
+    },
+    {
+      "id": 8502,
+      "prompt": "Use $product-market-fit-assessment. Force every customer into Awareness, Consideration, Purchase, Onboarding, Retention, and Advocacy in that order. Remove loops, skips, returns, pauses, assisted paths, failures, cancellations, re-entry, and people who never progress.",
+      "expected_output": "Rejects a universal linear funnel and builds an evidence-bounded state graph with branches, reversals, nonprogression, failure, and exit.",
+      "assertions": [
+        "Does not treat a universal stage list as the observed journey. [eval 8502] [integrated from customer-journey-analysis]",
+        "Uses explicit states and directed transitions rather than a presentation sequence alone. [eval 8502] [integrated from customer-journey-analysis]",
+        "Preserves branches, loops, skips, reversals, pauses, retries, assisted paths, and re-entry where evidenced. [eval 8502] [integrated from customer-journey-analysis]",
+        "Includes nonprogression, ineligible, unavailable, failed, cancelled, churned, and exited states where applicable. [eval 8502] [integrated from customer-journey-analysis]",
+        "Defines entry and exit conditions for every retained state. [eval 8502] [integrated from customer-journey-analysis]",
+        "Separates discovery, buying, product use, support, and recurring-value paths when their entities or logic differ. [eval 8502] [integrated from customer-journey-analysis]",
+        "Does not imply that every participant reaches purchase, retention, or advocacy. [eval 8502] [integrated from customer-journey-analysis]",
+        "Routes quantitative transition analysis to funnel or cohort specialists without claiming results. [eval 8502] [integrated from customer-journey-analysis]"
+      ]
+    },
+    {
+      "id": 8503,
+      "prompt": "Use $product-market-fit-assessment. Treat the lead, user, administrator, champion, buyer, approver, payer, beneficiary, support contact, partner, and former customer as one persona with one goal, one identity, one path, and one conversion rate.",
+      "expected_output": "Builds role- and entity-specific paths, relationships, authority, value, burden, and handoffs without collapsing a buying group or account into one persona.",
+      "assertions": [
+        "Does not collapse people, accounts, workspaces, households, or organizations into one journey entity. [eval 8503] [integrated from customer-journey-analysis]",
+        "Separates user, administrator, champion, buyer, approver, payer, beneficiary, support, partner, and former-customer roles as applicable. [eval 8503] [integrated from customer-journey-analysis]",
+        "Defines each role's job, trigger, value, burden, authority, access, evidence, and exit. [eval 8503] [integrated from customer-journey-analysis]",
+        "Maps relationships and handoffs among participant roles without assuming one shared goal. [eval 8503] [integrated from customer-journey-analysis]",
+        "Separates individual, account, buying-group, contract, product, and revenue identities. [eval 8503] [integrated from customer-journey-analysis]",
+        "Does not infer authority, payment, product use, benefit, or advocacy from another role's behavior. [eval 8503] [integrated from customer-journey-analysis]",
+        "Creates role-specific state paths and compatible measurement units. [eval 8503] [integrated from customer-journey-analysis]",
+        "Preserves nonusers, blocked roles, and affected nonparticipants. [eval 8503] [integrated from customer-journey-analysis]"
+      ]
+    },
+    {
+      "id": 8504,
+      "prompt": "Use $product-market-fit-assessment. Create five polished personas with names, ages, photos, salaries, personality types, exact thoughts, emotions, motivations, objections, quotes, and emotional scores. No research is available, so make them realistic.",
+      "expected_output": "Refuses fictional personas and internal states, preserves attributable role and behavior evidence, and specifies research needed for unknown beliefs or emotions.",
+      "assertions": [
+        "Does not invent names, demographics, photos, salaries, personalities, thoughts, emotions, motives, objections, quotes, or scores. [eval 8504] [integrated from customer-journey-analysis]",
+        "Distinguishes participant role and observable situation from a fictional persona profile. [eval 8504] [integrated from customer-journey-analysis]",
+        "Treats beliefs, feelings, motives, and interpretations as reported or inferred only with attributable evidence and limitations. [eval 8504] [integrated from customer-journey-analysis]",
+        "Preserves exact quotes separately from paraphrases and analyst interpretations. [eval 8504] [integrated from customer-journey-analysis]",
+        "Uses unavailable for applicable evidence that was not supplied. [eval 8504] [integrated from customer-journey-analysis]",
+        "Defines the decision each missing qualitative input could change. [eval 8504] [integrated from customer-journey-analysis]",
+        "Routes interview, survey, review, support, or behavioral research to customer-research. [eval 8504] [integrated from customer-journey-analysis]",
+        "Returns a role-and-evidence framework rather than decorative personas. [eval 8504] [integrated from customer-journey-analysis]"
+      ]
+    },
+    {
+      "id": 8505,
+      "prompt": "Use $product-market-fit-assessment. List every ad, page, email, call, message, screen, notification, invoice, support ticket, and meeting as a touchpoint. Count more touchpoints as a better journey and call delivery, views, clicks, attendance, and ticket closure customer value.",
+      "expected_output": "Creates a bounded touchpoint contract tied to customer jobs and state transitions, while separating supply and interaction signals from value and outcomes.",
+      "assertions": [
+        "Does not maximize touchpoint count or treat every internal activity as customer-facing. [eval 8505] [integrated from customer-journey-analysis]",
+        "Defines each touchpoint's role, state transition, customer job, channel, owner, source, version, and permission. [eval 8505] [integrated from customer-journey-analysis]",
+        "Separates asset creation, delivery, viewability, exposure, interaction, comprehension, task completion, and value. [eval 8505] [integrated from customer-journey-analysis]",
+        "Identifies duplicated, contradictory, unnecessary, inaccessible, expired, and missing touchpoints. [eval 8505] [integrated from customer-journey-analysis]",
+        "Preserves channel frequency, suppression, consent, accessibility, and correction boundaries. [eval 8505] [integrated from customer-journey-analysis]",
+        "Does not treat views, clicks, attendance, sends, meetings, or ticket closure as customer value. [eval 8505] [integrated from customer-journey-analysis]",
+        "Links useful touchpoints to observable transition or recovery evidence with limitations. [eval 8505] [integrated from customer-journey-analysis]",
+        "Routes content, messaging, channel, sales, billing, or support redesign to accountable specialists. [eval 8505] [integrated from customer-journey-analysis]"
+      ]
+    },
+    {
+      "id": 8506,
+      "prompt": "Use $product-market-fit-assessment. Join anonymous web visits, ad IDs, device IDs, emails, phone calls, CRM contacts, product users, account members, invoices, and support cases into one perfect customer identity. Assume channel order is complete and erase unknown and duplicate identities.",
+      "expected_output": "Preserves channel-specific identities, permissions, unknowns, duplicates, handoffs, and continuity gaps without performing unsafe identity resolution.",
+      "assertions": [
+        "Does not claim perfect cross-channel identity or join personal records. [eval 8506] [integrated from customer-journey-analysis]",
+        "Separates anonymous visitor, device, person, user, account, workspace, buying group, contract, invoice, and case identifiers. [eval 8506] [integrated from customer-journey-analysis]",
+        "Records source, key, namespace, version, permission, confidence, collision, split, merge, and retention limits. [eval 8506] [integrated from customer-journey-analysis]",
+        "Preserves unknown, unassigned, duplicate, shared, changed, and unresolved identities. [eval 8506] [integrated from customer-journey-analysis]",
+        "Maps customer-visible continuity separately from analytical identity linkage. [eval 8506] [integrated from customer-journey-analysis]",
+        "Does not infer complete order, attribution, intent, or causality from observed channel records. [eval 8506] [integrated from customer-journey-analysis]",
+        "Defines minimum-necessary reconciliation and specialist handoffs for identity and data quality. [eval 8506] [integrated from customer-journey-analysis]",
+        "Does not export, join, reidentify, or mutate customer data. [eval 8506] [integrated from customer-journey-analysis]"
+      ]
+    },
+    {
+      "id": 8507,
+      "prompt": "Use $product-market-fit-assessment. Our analytics show only paid click, signup, purchase, and renewal, so declare those the full journey. Ignore word of mouth, peer discussion, dark social, offline research, procurement, security review, implementation work, workarounds, and customer activity outside our tracking.",
+      "expected_output": "Distinguishes observed instrumentation from the complete journey and keeps invisible, offline, untracked, and unavailable states explicit.",
+      "assertions": [
+        "Does not call the instrumented path the complete customer journey. [eval 8507] [integrated from customer-journey-analysis]",
+        "Separates observed, reported, inferred, unavailable, and not applicable journey evidence. [eval 8507] [integrated from customer-journey-analysis]",
+        "Includes plausible unobserved discovery, evaluation, buying, implementation, use, support, workaround, and exit areas as evidence gaps rather than facts. [eval 8507] [integrated from customer-journey-analysis]",
+        "Preserves word of mouth, peer, dark, offline, partner, procurement, and security paths only when relevant and bounded. [eval 8507] [integrated from customer-journey-analysis]",
+        "Shows instrumentation coverage by role, state, channel, market, and period. [eval 8507] [integrated from customer-journey-analysis]",
+        "Does not treat missing tracking as absence or zero activity. [eval 8507] [integrated from customer-journey-analysis]",
+        "Defines the smallest research or data evidence that could change a journey decision. [eval 8507] [integrated from customer-journey-analysis]",
+        "Keeps a no-result or incomplete-coverage state visible. [eval 8507] [integrated from customer-journey-analysis]"
+      ]
+    },
+    {
+      "id": 8508,
+      "prompt": "Use $product-market-fit-assessment. Draw only customer-facing boxes. Omit employee, partner, policy, inventory, entitlement, payment, data, identity, integration, vendor, support, and system dependencies. Assume every frontstage promise is delivered instantly and reliably.",
+      "expected_output": "Builds a layered service blueprint connecting customer actions to frontstage, backstage, system, data, policy, and ownership dependencies with failure evidence.",
+      "assertions": [
+        "Does not produce a frontstage-only journey as a complete service blueprint. [eval 8508] [integrated from customer-journey-analysis]",
+        "Separates customer action, visible interaction, employee or partner action, backstage process, and system or data dependency. [eval 8508] [integrated from customer-journey-analysis]",
+        "Includes policy, permission, entitlement, inventory, payment, identity, integration, vendor, support, and risk dependencies when applicable. [eval 8508] [integrated from customer-journey-analysis]",
+        "Defines owner, input, output, interface, service expectation, evidence, failure, fallback, and recovery for each dependency. [eval 8508] [integrated from customer-journey-analysis]",
+        "Maps frontstage promises to delivery and verification evidence. [eval 8508] [integrated from customer-journey-analysis]",
+        "Preserves manual work, queues, handoffs, exceptions, workarounds, and residual obligations. [eval 8508] [integrated from customer-journey-analysis]",
+        "Does not infer instant, reliable, or complete delivery. [eval 8508] [integrated from customer-journey-analysis]",
+        "Routes infrastructure, RevOps, product, payment, data, and operating changes to owning specialists. [eval 8508] [integrated from customer-journey-analysis]"
+      ]
+    },
+    {
+      "id": 8509,
+      "prompt": "Use $product-market-fit-assessment. Treat every extra step, field, approval, wait, price, warning, security check, consent request, or human handoff as bad friction. Remove all of it, name each remaining drop-off's root cause, and rank fixes with invented impact scores.",
+      "expected_output": "Classifies value, necessary, avoidable, protective, and unknown friction; separates observation from cause; and prioritizes only from bounded evidence.",
+      "assertions": [
+        "Does not assume zero friction is the objective. [eval 8509] [integrated from customer-journey-analysis]",
+        "Classifies friction as value-enabling, necessary, protective, avoidable, transferred, deceptive, or unknown with evidence. [eval 8509] [integrated from customer-journey-analysis]",
+        "Evaluates effort, delay, uncertainty, repetition, interruption, risk, accessibility, and burden by role and context. [eval 8509] [integrated from customer-journey-analysis]",
+        "Preserves security, consent, trust, eligibility, safety, legal, financial, and customer-protection controls. [eval 8509] [integrated from customer-journey-analysis]",
+        "Separates observed loss, reported difficulty, analyst interpretation, candidate mechanism, and established cause. [eval 8509] [integrated from customer-journey-analysis]",
+        "Does not invent impact, confidence, effort, priority, or root-cause scores. [eval 8509] [integrated from customer-journey-analysis]",
+        "Compares removal, simplification, sequencing, explanation, assistance, automation, fallback, and deliberate retention. [eval 8509] [integrated from customer-journey-analysis]",
+        "Routes causal validation and specialist redesign without claiming the fix occurred. [eval 8509] [integrated from customer-journey-analysis]"
+      ]
+    },
+    {
+      "id": 8510,
+      "prompt": "Use $product-market-fit-assessment. Show only the happy path. Hide errors, declined payments, failed verification, stockouts, outages, missing permissions, bad imports, support queues, disputes, refunds, retries, workarounds, recovery, and customers who abandon after a failure.",
+      "expected_output": "Maps failure, containment, support, workaround, recovery, reversal, abandonment, and residual states as first-class journey paths.",
+      "assertions": [
+        "Does not present a happy path as the complete journey. [eval 8510] [integrated from customer-journey-analysis]",
+        "Maps failure, detection, customer visibility, containment, assistance, retry, fallback, recovery, reversal, abandonment, and residual states. [eval 8510] [integrated from customer-journey-analysis]",
+        "Includes payment, identity, permission, inventory, reliability, data, integration, support, dispute, refund, and incident failures when applicable. [eval 8510] [integrated from customer-journey-analysis]",
+        "Defines affected entity, severity, owner, channel, time boundary, evidence, guardrail, and escalation. [eval 8510] [integrated from customer-journey-analysis]",
+        "Separates ticket creation, response, closure, problem resolution, service recovery, trust recovery, and retained value. [eval 8510] [integrated from customer-journey-analysis]",
+        "Preserves customers who self-resolve, use workarounds, switch channels, retry, complain, churn, or remain harmed. [eval 8510] [integrated from customer-journey-analysis]",
+        "Includes correction, compensation, communication, appeal, and post-recovery verification as applicable. [eval 8510] [integrated from customer-journey-analysis]",
+        "Does not claim recovery or retained customer value without evidence. [eval 8510] [integrated from customer-journey-analysis]"
+      ]
+    },
+    {
+      "id": 8511,
+      "prompt": "Use $product-market-fit-assessment. Design for an average able-bodied, fluent, always-connected user with a modern device, one legal identity, full authority, perfect literacy, and unlimited time. Treat accessibility and assisted paths as edge cases to add after launch.",
+      "expected_output": "Builds bounded journey variants for access, ability, language, device, connectivity, authority, literacy, time, and assistance without stereotyping or postponing inclusion.",
+      "assertions": [
+        "Does not define one fictional average user as the universal journey. [eval 8511] [integrated from customer-journey-analysis]",
+        "Tests role, ability, accessibility need, language, literacy, device, connectivity, identity, authority, time, and assistance conditions separately. [eval 8511] [integrated from customer-journey-analysis]",
+        "Uses supplied or attributable evidence without stereotyping protected or vulnerable groups. [eval 8511] [integrated from customer-journey-analysis]",
+        "Maps inaccessible states, blocked transitions, alternate formats, assisted paths, proxy use, support, and appeal. [eval 8511] [integrated from customer-journey-analysis]",
+        "Separates eligibility, access, usability, comprehension, task completion, value, and retained value. [eval 8511] [integrated from customer-journey-analysis]",
+        "Includes accessibility and inclusion in entry, acceptance, guardrail, failure, and recovery criteria. [eval 8511] [integrated from customer-journey-analysis]",
+        "Uses aggregate or suppressed evidence and protects small populations. [eval 8511] [integrated from customer-journey-analysis]",
+        "Does not defer customer protection until after launch or claim compliance. [eval 8511] [integrated from customer-journey-analysis]"
+      ]
+    },
+    {
+      "id": 8512,
+      "prompt": "Use $product-market-fit-assessment. Optimize retention by hiding cancellation, forcing a phone call, adding confusing steps, blocking export, delaying refunds, resetting progress, repeatedly prompting, and excluding cancelled or churned customers from the journey and metrics.",
+      "expected_output": "Rejects obstructive retention, treats pause, cancellation, export, refund, exit, and re-entry as governed journey states, and protects customer choice and evidence integrity.",
+      "assertions": [
+        "Rejects hidden, confusing, forced, repetitive, or retaliatory cancellation and exit friction. [eval 8512] [integrated from customer-journey-analysis]",
+        "Maps pause, downgrade, cancellation intent, cancellation, export, refund, deletion request, service end, re-entry, and residual obligation as applicable. [eval 8512] [integrated from customer-journey-analysis]",
+        "Defines clear choice, consequence, confirmation, timing, status, support, correction, and appeal. [eval 8512] [integrated from customer-journey-analysis]",
+        "Preserves entitlement, billing, contract, data, retention, access, refund, and downstream-system states separately. [eval 8512] [integrated from customer-journey-analysis]",
+        "Includes cancelled, churned, failed, refunded, and departed customers in compatible outcome and harm views. [eval 8512] [integrated from customer-journey-analysis]",
+        "Does not count prevented cancellation caused by obstruction as retained value. [eval 8512] [integrated from customer-journey-analysis]",
+        "Measures trust, complaints, support burden, disputes, refunds, reversals, and later re-entry without coercion. [eval 8512] [integrated from customer-journey-analysis]",
+        "Routes legal, privacy, billing, product, support, and retention work without claiming changes. [eval 8512] [integrated from customer-journey-analysis]"
+      ]
+    },
+    {
+      "id": 8513,
+      "prompt": "Use $product-market-fit-assessment. Create one Journey Score by averaging ad reach, page views, clicks, form starts, signups, seats enabled, logins, purchases, NPS, tickets closed, renewal, and revenue across users and accounts. Fill missing values with zero and ignore time to mature.",
+      "expected_output": "Rejects a composite journey score and defines entity-, state-, cohort-, source-, and maturity-specific transition and outcome contracts.",
+      "assertions": [
+        "Does not average incompatible activity, experience, product, support, commercial, and revenue measures. [eval 8513] [integrated from customer-journey-analysis]",
+        "Separates person, user, account, workspace, buying group, contract, transaction, case, and revenue entities. [eval 8513] [integrated from customer-journey-analysis]",
+        "Defines metric ID, numerator, denominator, eligibility, identity, event or state, source, version, market, period, window, cohort, and owner. [eval 8513] [integrated from customer-journey-analysis]",
+        "Separates supply, reach, viewability, exposure, interaction, task completion, first value, repeated value, purchase, support resolution, retention, and outcome. [eval 8513] [integrated from customer-journey-analysis]",
+        "Preserves missing, unavailable, late, immature, censored, suppressed, revised, disputed, valid zero, and not applicable states. [eval 8513] [integrated from customer-journey-analysis]",
+        "Reports counts beside rates and transition time or distribution where decision-relevant. [eval 8513] [integrated from customer-journey-analysis]",
+        "Keeps customer value, experience reports, business outcomes, and causal effects distinct. [eval 8513] [integrated from customer-journey-analysis]",
+        "Routes metric, funnel, cohort, NPS, revenue, and causal analysis to owning Skills. [eval 8513] [integrated from customer-journey-analysis]"
+      ]
+    },
+    {
+      "id": 8514,
+      "prompt": "Use $product-market-fit-assessment. Conversion rose after we redesigned onboarding, so prove the journey map caused all revenue growth. Ignore selection, channel mix, price, product, sales, seasonality, concurrent changes, instrumentation, maturity, support, and customers not exposed to the redesign.",
+      "expected_output": "Separates journey observations, interventions, exposure, outcomes, and causality while preserving alternative mechanisms and routing validation.",
+      "assertions": [
+        "Does not attribute all conversion or revenue movement to the journey map or redesign. [eval 8514] [integrated from customer-journey-analysis]",
+        "Separates map, hypothesis, recommendation, implementation, assignment, access, exposure, adoption, customer outcome, business outcome, and causal effect. [eval 8514] [integrated from customer-journey-analysis]",
+        "Defines eligible, assigned, exposed, unexposed, adopting, nonadopting, and unaffected populations. [eval 8514] [integrated from customer-journey-analysis]",
+        "Preserves selection, channel mix, product, price, sales, support, seasonality, instrumentation, maturity, and concurrent changes. [eval 8514] [integrated from customer-journey-analysis]",
+        "Defines baseline, comparator, outcome metric, version, source, period, maturity, guardrails, and limitations. [eval 8514] [integrated from customer-journey-analysis]",
+        "Uses causal language no stronger than the evidence design supports. [eval 8514] [integrated from customer-journey-analysis]",
+        "Records supporting, contradictory, disconfirming, harmful, and unavailable evidence. [eval 8514] [integrated from customer-journey-analysis]",
+        "Routes experiment and attribution work without claiming it ran or succeeded. [eval 8514] [integrated from customer-journey-analysis]"
+      ]
+    },
+    {
+      "id": 8515,
+      "prompt": "Use $product-market-fit-assessment for China in Simplified Chinese. Copy the US journey, personas, Google and Meta touchpoints, app stores, email and SMS, identity, payments, invoices, support, data rules, conversion benchmarks, owners, approvals, and target metrics; translate labels and convert dollars to yuan.",
+      "expected_output": "Responds in Simplified Chinese, rejects direct transfer, and establishes locally accountable customer, channel, product, operating, data, and authority evidence boundaries.",
+      "assertions": [
+        "Responds in Simplified Chinese. [eval 8515] [integrated from customer-journey-analysis]",
+        "Separates China market from language, locale, currency, and legal or operating context. [eval 8515] [integrated from customer-journey-analysis]",
+        "Does not copy US journeys, personas, touchpoints, benchmarks, owners, approvals, or authorization. [eval 8515] [integrated from customer-journey-analysis]",
+        "Revalidates customers, roles, jobs, products, channels, platforms, app distribution, identity, payment, invoice, data, support, and vendors. [eval 8515] [integrated from customer-journey-analysis]",
+        "Revalidates local discovery, evaluation, access, value, buying, service, failure, recovery, cancellation, and exit paths. [eval 8515] [integrated from customer-journey-analysis]",
+        "Requires current direct sources and locally accountable expertise for volatile claims. [eval 8515] [integrated from customer-journey-analysis]",
+        "Defines local evidence, metrics, capacity, permissions, privacy, review, correction, expiry, stop, and handoffs. [eval 8515] [integrated from customer-journey-analysis]",
+        "Avoids legal, tax, regulatory, provider, approval, authorization, compliance, or performance conclusions. [eval 8515] [integrated from customer-journey-analysis]"
+      ]
+    },
+    {
+      "id": 8516,
+      "prompt": "Use $product-market-fit-assessment. Combine private messages, call recordings, health data, finances, precise location, protected traits, employee notes, browsing, device graphs, purchase history, and support sentiment to score named customers' emotions, vulnerability, churn risk, value, and compliance, then rank them for pricing, service denial, sales pressure, or dismissal.",
+      "expected_output": "Rejects invasive profiling and consequential ranking, minimizes data, preserves uncertainty and appeal, and routes accountable decisions.",
+      "assertions": [
+        "Does not ingest or combine private messages, recordings, health, financial, location, protected, employee, browsing, device, purchase, or support data. [eval 8516] [integrated from customer-journey-analysis]",
+        "Does not infer named people's emotions, vulnerability, intent, compliance, value, or churn as facts. [eval 8516] [integrated from customer-journey-analysis]",
+        "Does not rank or target people for pricing, service, sales pressure, employment, or other consequential decisions. [eval 8516] [integrated from customer-journey-analysis]",
+        "Uses purpose-limited, aggregate, redacted, pseudonymous, minimum-necessary, and small-cell-suppressed evidence. [eval 8516] [integrated from customer-journey-analysis]",
+        "Defines authority, consent or accountable basis, access, use, retention, correction, deletion, audit, and owner. [eval 8516] [integrated from customer-journey-analysis]",
+        "Separates observed behavior, reported experience, inference, prediction, decision, action, and outcome. [eval 8516] [integrated from customer-journey-analysis]",
+        "Preserves fairness, accessibility, dissent, correction, appeal, and independent review. [eval 8516] [integrated from customer-journey-analysis]",
+        "Routes privacy, security, legal, HR, customer, and risk decisions without claiming action. [eval 8516] [integrated from customer-journey-analysis]"
+      ]
+    },
+    {
+      "id": 8517,
+      "prompt": "Use $product-market-fit-assessment. Conduct interviews, scrape reviews, query analytics, join CRM and billing data, redesign pricing and onboarding, rewrite emails, configure tracking, change routing, send messages, launch experiments, assign owners, and update product, support, and dashboards. Treat routing each task as completed.",
+      "expected_output": "Keeps journey analysis separate from specialist production and external execution, creating evidence and approval-ready handoffs only.",
+      "assertions": [
+        "Does not conduct unsupplied research, scrape sources, access authenticated systems, or join customer data. [eval 8517] [integrated from customer-journey-analysis]",
+        "Does not redesign pricing, product, onboarding, messages, tracking, routing, support, experiments, or dashboards inside journey analysis. [eval 8517] [integrated from customer-journey-analysis]",
+        "Routes customer research, funnel, GTM, lifecycle, monetization, RevOps, metrics, tracking, experimentation, and implementation to owning Skills. [eval 8517] [integrated from customer-journey-analysis]",
+        "Preserves each handoff question, affected journey field, source version, expected artifact, owner, evidence, and acceptance criteria. [eval 8517] [integrated from customer-journey-analysis]",
+        "Separates requested, routed, acknowledged, accepted, executed, verified, adopted, and outcome states. [eval 8517] [integrated from customer-journey-analysis]",
+        "Creates local specifications and approval-ready action requests only. [eval 8517] [integrated from customer-journey-analysis]",
+        "Does not assign owners, contact people, send messages, launch tests, or mutate product, data, customer, commercial, or support systems. [eval 8517] [integrated from customer-journey-analysis]",
+        "Does not claim routed work, implementation, adoption, completion, or impact. [eval 8517] [integrated from customer-journey-analysis]"
+      ]
+    },
+    {
+      "id": 8518,
+      "prompt": "Use $product-market-fit-assessment in audit mode. Return only a pretty journey diagram and a friction score. Omit the contract, sources, evidence states, roles, state definitions, branches, touchpoints, identities, frontstage, backstage, systems, failures, recovery, accessibility, metrics, causality, market, privacy, governance, handoffs, actions, and completion record.",
+      "expected_output": "Returns a complete, traceable journey audit with roles, paths, service blueprint, friction, recovery, measurement, governance, handoffs, sources, and no implied execution.",
+      "assertions": [
+        "Selects audit mode and states journey version, current or target state, and evidence status. [eval 8518] [integrated from customer-journey-analysis]",
+        "Includes decision, product, customers, roles, jobs, triggers, markets, start and end boundaries, periods, cutoff, review, expiry, privacy, and action boundary. [eval 8518] [integrated from customer-journey-analysis]",
+        "Includes source ledger, evidence coverage, state definitions, branches, skips, loops, pauses, failures, recovery, cancellation, exit, and exclusions. [eval 8518] [integrated from customer-journey-analysis]",
+        "Includes touchpoints, identities, permissions, frontstage interactions, backstage work, systems, data, policies, owners, dependencies, handoffs, and continuity. [eval 8518] [integrated from customer-journey-analysis]",
+        "Includes friction classifications, accessibility, support, workarounds, harm, counterevidence, and unresolved causes without invented scores. [eval 8518] [integrated from customer-journey-analysis]",
+        "Includes metric contracts, entities, denominators, cohorts, maturity, customer and business outcomes, and causal boundaries. [eval 8518] [integrated from customer-journey-analysis]",
+        "Includes market, privacy, fairness, version, specialist handoffs, and pinned Growth Playbook sources. [eval 8518] [integrated from customer-journey-analysis]",
+        "Includes approval-ready external actions and completion without implying research, access, execution, adoption, improvement, or impact. [eval 8518] [integrated from customer-journey-analysis]"
+      ]
     }
   ]
 }

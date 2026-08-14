@@ -1,4 +1,0 @@
-interface:
-  display_name: "Growth Target Setting"
-  short_description: "Set evidence-bounded growth targets and guardrails"
-  default_prompt: "Use $growth-target-setting to audit or design growth targets with explicit baselines, forecasts, capacity, guardrails, ownership, and review rules."

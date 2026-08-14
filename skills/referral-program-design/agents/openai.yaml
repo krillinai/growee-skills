@@ -1,4 +1,0 @@
-interface:
-  display_name: "Referral Program Design"
-  short_description: "Design trustworthy, value-led referral programs"
-  default_prompt: "Use $referral-program-design to design or audit a referral program for this product."

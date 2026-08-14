@@ -1,4 +1,0 @@
-interface:
-  display_name: "Meta Ads Audit"
-  short_description: "Audit Meta Ads evidence without live account access"
-  default_prompt: "Use $meta-ads-audit to audit these Meta Ads exports and identify evidence-bounded next steps."

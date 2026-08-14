@@ -16,9 +16,9 @@ Always retain a reproducible comparison such as last observed value, seasonal na
 | Driver model | Outcome as compatible drivers with explicit relationships | Driver forecast, lag, saturation, interaction, endogeneity, range, owner |
 | Marketplace or network | Local supply, demand, matching, fulfillment, liquidity, congestion, and economics | Atomic unit, sides, multi-homing, local capacity, quality, interference |
 | Hierarchical portfolio | Bottom-up, top-down, middle-out, or reconciled component forecasts | Overlap, hierarchy, currency, totals, residuals, local versus shared drivers |
-| Commercial pipeline | Stage, timing, amount, slippage, loss, capacity, booking and revenue bridge | Route entity and finance controls to `revops-audit` |
+| Commercial pipeline | Stage, timing, amount, slippage, loss, capacity, booking and revenue bridge | Route entity and finance controls to `growth-infrastructure-assessment` |
 
-Route full business topology and mechanism equations to `growth-model-design`; LTV models to `ltv-analysis`.
+Route full business topology and mechanism equations to `growth-model-design`; LTV models to `monetization`.
 
 ## Driver Contract
 

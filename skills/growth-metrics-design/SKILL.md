@@ -1,9 +1,16 @@
 ---
 name: growth-metrics-design
-description: Use when a team needs to audit KPIs, dashboards, targets, metric definitions, North Star Metrics, metric trees, guardrails, business-health measures, or reporting governance; design a decision-useful growth metric system; or specify reproducible metric contracts across product, marketing, sales, marketplace, AI, subscription, commerce, or B2B work.
+description: Use when work needs to design growth metrics, targets, and benchmarks with reproducible contracts, compatible baselines, uncertainty, ownership, and review rules.
 ---
 
-# Growth Metrics Design
+# Growth Metrics, Targets & Benchmarks
+
+## Integrated Capabilities
+
+This Skill consolidates adjacent workflows behind one trigger. Use the main workflow for core requests. When a request matches a module below, read that module before executing it:
+
+- [Growth Target Setting](references/modules/growth-target-setting/SKILL.md)
+- [Growth Benchmark Analysis](references/modules/growth-benchmark-analysis/SKILL.md)
 
 Audit, design, or specify a growth metric system that connects delivered customer value to sustainable business outcomes. Keep activity, attribution, prediction, association, and causality distinct. Missing evidence produces a bounded specification, never invented values.
 
@@ -82,9 +89,9 @@ This Skill owns metric roles, contracts, constellation and tree design, relation
 | Need | Route |
 | --- | --- |
 | Primary-constraint selection | `growth-diagnosis` |
-| Value-state transitions or equal-maturity comparisons | `funnel-analysis`, `cohort-analysis` |
-| Decision-critical identity, completeness, validity, lineage, or reconciliation defects | `growth-data-quality-audit` |
-| Organization target commitments or time-indexed projections | `growth-target-setting`, `growth-forecasting` |
+| Value-state transitions or equal-maturity comparisons | `growth-diagnosis`, `retention` |
+| Decision-critical identity, completeness, validity, lineage, or reconciliation defects | `tracking-plan` |
+| Organization target commitments or time-indexed projections | `growth-metrics-design`, `growth-forecasting` |
 | One causal test or a cross-team experiment portfolio | `experiment-design`, `experiment-program-management` |
 | Recurring weekly, monthly, or quarterly decision review | `growth-operating-review` |
 | First value, recurring value, monetization, or returned-input mechanisms | `activation`, `retention`, `monetization`, `growth-loop-design` |

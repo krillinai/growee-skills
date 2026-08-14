@@ -8,15 +8,10 @@
       "job_en": "Identify the primary constraint and choose the smallest evidence-backed execution route",
       "job_zh": "识别首要增长约束，并选择最小且有证据支撑的执行路径",
       "skills": [
-        "growth-diagnosis",
-        "funnel-analysis",
-        "growth-anomaly-investigation",
-        "growth-maturity-assessment"
+        "growth-diagnosis"
       ],
       "start_skills": [
-        "growth-diagnosis",
-        "funnel-analysis",
-        "growth-anomaly-investigation"
+        "growth-diagnosis"
       ]
     },
     {
@@ -27,23 +22,15 @@
       "job_zh": "定义客户、市场、匹配、定位、增长模型与战略选择",
       "skills": [
         "product-market-fit-assessment",
-        "icp-segmentation",
         "positioning",
         "growth-model-design",
         "customer-research",
-        "survey-design-and-analysis",
-        "competitive-intelligence",
-        "customer-journey-analysis",
         "market-sizing",
         "growth-strategy",
-        "growth-opportunity-sizing",
-        "market-entry-strategy",
-        "go-to-market-strategy",
-        "product-launch-strategy"
+        "go-to-market-strategy"
       ],
       "start_skills": [
         "product-market-fit-assessment",
-        "icp-segmentation",
         "positioning"
       ]
     },
@@ -56,12 +43,10 @@
       "skills": [
         "content-strategy",
         "copywriting",
-        "copy-editing",
         "marketing-image",
         "marketing-video",
         "ad-creative",
-        "public-relations",
-        "customer-proof-development"
+        "public-relations"
       ],
       "start_skills": [
         "content-strategy",
@@ -77,26 +62,15 @@
       "job_zh": "通过渠道、营销活动、搜索、广告、合作与外联，把有效需求连接到产品",
       "skills": [
         "acquisition-strategy",
-        "campaign-planning",
         "partnership-marketing",
-        "community-growth-strategy",
         "sales-enablement",
-        "meta-ads-audit",
-        "google-ads-audit",
-        "tiktok-ads-audit",
-        "douyin-ads-audit",
+        "paid-media-audit",
         "seo-audit",
-        "programmatic-seo",
         "aso-audit",
-        "geo",
-        "structured-data-builder",
-        "search-site-planner",
-        "directory-submissions",
-        "b2b-outbound-messaging"
+        "geo"
       ],
       "start_skills": [
         "acquisition-strategy",
-        "campaign-planning",
         "seo-audit"
       ]
     },
@@ -107,14 +81,10 @@
       "job_en": "Move qualified visitors and new users to first value and the next meaningful action",
       "job_zh": "推动有效访客和新用户到达首次价值与下一项关键行动",
       "skills": [
-        "activation",
-        "landing-page-audit",
-        "popup-optimization"
+        "activation"
       ],
       "start_skills": [
-        "activation",
-        "landing-page-audit",
-        "popup-optimization"
+        "activation"
       ]
     },
     {
@@ -125,16 +95,11 @@
       "job_zh": "维持持续价值，理解同期群与流失，并修复有价值的客户关系",
       "skills": [
         "retention",
-        "cohort-analysis",
-        "growth-accounting",
-        "engagement-analysis",
-        "lifecycle-marketing",
-        "customer-health-modeling"
+        "lifecycle-marketing"
       ],
       "start_skills": [
         "retention",
-        "lifecycle-marketing",
-        "cohort-analysis"
+        "lifecycle-marketing"
       ]
     },
     {
@@ -144,15 +109,10 @@
       "job_en": "Convert customer value into durable revenue through pricing, packaging, LTV, and unit economics",
       "job_zh": "通过定价、套餐、LTV 与单位经济，把客户价值转化为可持续收入",
       "skills": [
-        "monetization",
-        "pricing-and-packaging-strategy",
-        "unit-economics-analysis",
-        "ltv-analysis"
+        "monetization"
       ],
       "start_skills": [
-        "monetization",
-        "pricing-and-packaging-strategy",
-        "unit-economics-analysis"
+        "monetization"
       ]
     },
     {
@@ -162,16 +122,11 @@
       "job_en": "Create deeper value and new distribution through referrals, loops, expansion, marketplaces, and network effects",
       "job_zh": "通过推荐、增长循环、客户扩张、多边市场与网络效应创造更深价值和新分发",
       "skills": [
-        "referral-program-design",
         "growth-loop-design",
-        "network-effects-strategy",
-        "customer-expansion-strategy",
-        "marketplace-growth-strategy",
-        "incentive-system-design"
+        "customer-expansion-strategy"
       ],
       "start_skills": [
         "growth-loop-design",
-        "referral-program-design",
         "customer-expansion-strategy"
       ]
     },
@@ -183,12 +138,8 @@
       "job_zh": "让增长可观察、可解释、可预测并可进行因果验证",
       "skills": [
         "growth-metrics-design",
-        "growth-target-setting",
-        "growth-benchmark-analysis",
         "tracking-plan",
-        "growth-data-quality-audit",
         "attribution-analysis",
-        "marketing-mix-modeling",
         "growth-forecasting",
         "experiment-design"
       ],
@@ -206,19 +157,10 @@
       "job_zh": "构建规划、决策、数据、运营、治理与组织系统，让增长可以重复运行",
       "skills": [
         "growth-planning-cycle",
-        "growth-capacity-planning",
-        "growth-investment-case",
-        "growth-budget-allocation",
-        "growth-initiative-planning",
         "growth-operating-review",
-        "growth-decision-record",
-        "growth-risk-management",
         "growth-learning-system",
-        "growth-change-management",
-        "growth-postmortem",
         "growth-infrastructure-assessment",
         "growth-organization-design",
-        "revops-audit",
         "experiment-program-management"
       ],
       "start_skills": [

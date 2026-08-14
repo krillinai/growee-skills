@@ -21,12 +21,12 @@ Use `evidence acquisition`, `compare`, `validate`, `specialist review`, `hold`, 
 
 | Sizing dependency or implication | Route |
 | --- | --- |
-| Segment, ICP, eligibility, and observable identification rules | `icp-segmentation` |
+| Segment, ICP, eligibility, and observable identification rules | `positioning` |
 | Customer need, frequency, prevalence, alternatives, and primary research | `customer-research` |
-| Competitor set, category alternatives, capability, offer, and change evidence | `competitive-intelligence` |
+| Competitor set, category alternatives, capability, offer, and change evidence | `market-sizing` |
 | Category frame and differentiated customer value | `positioning` |
 | Price, packaging, willingness to pay, revenue, contribution, and value capture | `monetization` |
-| Product, commercial, operational, data, and market readiness or entry | `market-entry-strategy` |
+| Product, commercial, operational, data, and market readiness or entry | `growth-strategy` |
 | Channel reach, qualified demand, economics, saturation, and allocation | `acquisition-strategy` |
 | Future market or company outcome forecast | `growth-forecasting` |
 | Full business topology and mechanism scenarios | `growth-model-design` |

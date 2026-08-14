@@ -1,9 +1,18 @@
 ---
 name: seo-audit
-description: Use when organic search visibility, crawling, indexing, rankings, or search traffic need diagnosis, including focused page reviews, technical audits, migrations, and evidence-backed SEO reports.
+description: Use when work needs to audit and design SEO, programmatic pages, site architecture, structured data, and directory presence with evidence-backed quality and rollout controls.
 ---
 
-# SEO Audit
+# SEO & Search Systems
+
+## Integrated Capabilities
+
+This Skill consolidates adjacent workflows behind one trigger. Use the main workflow for core requests. When a request matches a module below, read that module before executing it:
+
+- [Programmatic SEO](references/modules/programmatic-seo/SKILL.md)
+- [Structured Data Builder](references/modules/structured-data-builder/SKILL.md)
+- [Search Site Planner](references/modules/search-site-planner/SKILL.md)
+- [Directory Submissions](references/modules/directory-submissions/SKILL.md)
 
 Diagnose from inspectable evidence; separate observations, hypotheses, and missing inputs.
 

@@ -32,7 +32,7 @@ Do not call a message, price, route, partner, seller, product, or launch causal 
 
 Connect compatible acquisition cohorts to activation, retained value, conversion, realized price, renewal, expansion, contraction, churn, refunds, delivery cost, gross profit, contribution, cash, CAC, LTV, and payback. Keep attributed, incremental, average, and marginal economics separate.
 
-Do not backsolve a model to hit revenue, growth, LTV:CAC, payback, or margin targets. Route detailed economics to `unit-economics-analysis`, LTV to `ltv-analysis`, forecasts to `growth-forecasting`, pricing to `pricing-and-packaging-strategy`, and recurring-value movement to `growth-accounting`.
+Do not backsolve a model to hit revenue, growth, LTV:CAC, payback, or margin targets. Route detailed economics to `monetization`, LTV to `monetization`, forecasts to `growth-forecasting`, pricing to `monetization`, and recurring-value movement to `retention`.
 
 ## Decision And Operating Cadence
 

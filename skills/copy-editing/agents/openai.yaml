@@ -1,4 +1,0 @@
-interface:
-  display_name: "Copy Editing"
-  short_description: "Edit copy while preserving supported meaning"
-  default_prompt: "Use $copy-editing to review and revise existing copy with an exact change ledger and evidence-preserving claims."

@@ -1,9 +1,15 @@
 ---
 name: acquisition-strategy
-description: Use when a team needs to audit, design, compare, sequence, diversify, scale, cap, or stop acquisition channels or a channel portfolio; evaluate channel-model fit, source quality, attribution versus incrementality, full or marginal CAC, payback, retained contribution, saturation, creative or audience decay, platform and partner dependency, product-led distribution, market entry, or acquisition budget scenarios across paid, organic, earned, owned, sales, partner, app-store, search, content, social, and portfolio mechanisms.
+description: Use when work needs to design acquisition portfolios and bounded campaigns across audience, offer, channels, journeys, assets, economics, measurement, and operating constraints.
 ---
 
-# Acquisition Strategy
+# Acquisition Strategy & Campaigns
+
+## Integrated Capabilities
+
+This Skill consolidates adjacent workflows behind one trigger. Use the main workflow for core requests. When a request matches a module below, read that module before executing it:
+
+- [Campaign Planning](references/modules/campaign-planning/SKILL.md)
 
 Design a portfolio that connects a defined customer problem and reachable intent to incremental customers who activate, retain, and create acceptable contribution. Reach, traffic, leads, signups, rankings, followers, attributed conversions, low historical CAC, and channel count are operating signals; none proves acquisition quality, incrementality, economics, or diversification.
 
@@ -111,7 +117,7 @@ For every scale, market, or channel expansion, define eligible audience, exposur
 
 ## Route Specialist Work
 
-Route primary constraint selection to `growth-diagnosis`; customer and segment evidence to `customer-research` and `icp-segmentation`; positioning to `positioning`; campaign briefs and asset plans to `campaign-planning`; creative systems to `ad-creative`; pages to `landing-page-audit`; paid account diagnosis to the relevant ad-audit Skill; search, GEO, app-store, programmatic page, structured-data, site, and content execution to their specialist Skills; source instrumentation to `tracking-plan`; cohort construction to `cohort-analysis`; activation and retention work to `activation` and `retention`; referral and product-loop mechanics to `referral-program-design` and `growth-loop-design`; metrics to `growth-metrics-design`; experiments to `experiment-design`; economics, pricing, and packaging to `monetization`; and shared acquisition infrastructure to `growth-infrastructure-assessment`.
+Route primary constraint selection to `growth-diagnosis`; customer evidence to `customer-research`; segment and positioning work to `positioning`; campaign briefs and asset plans to `acquisition-strategy`; creative systems to `ad-creative`; pages and first-value work to `activation`; paid account diagnosis to the relevant ad-audit Skill; search, GEO, app-store, programmatic page, structured-data, site, and content execution to their specialist Skills; source instrumentation to `tracking-plan`; cohort and recurring-value work to `retention`; referral and product-loop mechanics to `growth-loop-design`; metrics to `growth-metrics-design`; experiments to `experiment-design`; economics, pricing, and packaging to `monetization`; and shared acquisition infrastructure to `growth-infrastructure-assessment`.
 
 This Skill owns the acquisition contract, source-to-value diagnosis, channel hypothesis and model fit, portfolio and concentration analysis, attribution-versus-incrementality boundary, full and marginal economics, saturation and dependency decisions, market-entry sequence, and evidence-gated scale or stop plan. It does not create specialist deliverables or operate channels.
 

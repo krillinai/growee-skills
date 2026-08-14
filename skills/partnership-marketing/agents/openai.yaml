@@ -1,4 +1,4 @@
 interface:
-  display_name: "Partnership Marketing"
-  short_description: "Design accountable growth partnerships"
-  default_prompt: "Use $partnership-marketing to assess or design this growth partnership."
+  display_name: "Partnerships & Community"
+  short_description: "Integrated Partnerships & Community workflows"
+  default_prompt: "Use $partnership-marketing to handle this partnerships & community request as one evidence-backed workflow."

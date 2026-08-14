@@ -1,4 +1,0 @@
-interface:
-  display_name: "Douyin Ads Audit"
-  short_description: "Audit Douyin advertising evidence without live account access"
-  default_prompt: "Use $douyin-ads-audit to audit these Douyin, Ocean Engine, or Qianchuan exports and identify evidence-bounded next steps."

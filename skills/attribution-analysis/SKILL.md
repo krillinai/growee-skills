@@ -1,9 +1,15 @@
 ---
 name: attribution-analysis
-description: Use when a team needs to audit, design, compare, reconcile, or govern attribution across channels, campaigns, content, partners, sales, product, web, apps, offline journeys, or customer accounts; resolve identity, deduplication, source taxonomy, touchpoint eligibility, lookback windows, first-touch, last-touch, multi-touch, platform or MMP claims, unknown sources, downstream value, revenue reconciliation, model sensitivity, and attribution-versus-incrementality boundaries without changing live systems.
+description: Use when work needs to audit attribution and marketing mix models across journeys, media, identity, outcomes, reconciliation, incrementality, calibration, and uncertainty.
 ---
 
-# Attribution Analysis
+# Attribution & Marketing Mix
+
+## Integrated Capabilities
+
+This Skill consolidates adjacent workflows behind one trigger. Use the main workflow for core requests. When a request matches a module below, read that module before executing it:
+
+- [Marketing Mix Modeling](references/modules/marketing-mix-modeling/SKILL.md)
 
 Assign operational credit under explicit rules, reconcile it to observed customer and business outcomes, and expose how identity, windows, sources, models, and missing evidence change the result. Attribution describes a journey or allocates credit; it does not prove what caused growth or what would disappear if a channel stopped.
 
@@ -72,7 +78,7 @@ Preserve:
 - new, returning, reactivated, existing-customer, expansion, and unknown customer states;
 - revenue, gross profit, contribution, CAC, payback, and retained economics as separate calculations.
 
-A discrepancy narrows investigation; it does not establish bad attribution or one root cause. Route revenue lifecycle, CRM ownership, routing, stage, forecast, and finance integrity to `revops-audit`.
+A discrepancy narrows investigation; it does not establish bad attribution or one root cause. Route revenue lifecycle, CRM ownership, routing, stage, forecast, and finance integrity to `growth-infrastructure-assessment`.
 
 ## Join Attribution To Mature Value
 
@@ -94,7 +100,7 @@ Require lineage, reproducibility, reason codes, out-of-time validation, calibrat
 
 ## Route Specialist Work
 
-Route event schemas, identity instrumentation, and lineage to `tracking-plan`; metric roles and contracts to `growth-metrics-design`; funnel and cohort analysis to `funnel-analysis` and `cohort-analysis`; causal tests to `experiment-design`; channel quality, saturation, marginal economics, and allocation to `acquisition-strategy`; commercial entities and finance reconciliation to `revops-audit`; pricing and contribution design to `monetization`; campaign setup to `campaign-planning`; platform-specific evidence to the relevant ads audit; and shared data or decision capability gaps to `growth-infrastructure-assessment`.
+Route event schemas, identity instrumentation, and lineage to `tracking-plan`; metric roles and contracts to `growth-metrics-design`; funnel and cohort analysis to `growth-diagnosis` and `retention`; causal tests to `experiment-design`; channel quality, saturation, marginal economics, allocation, and campaign setup to `acquisition-strategy`; commercial entities, finance reconciliation, and shared data or decision capability gaps to `growth-infrastructure-assessment`; pricing and contribution design to `monetization`; and platform-specific evidence to the relevant ads audit.
 
 This Skill owns attribution decision framing, identity and source contracts, touchpoint and journey rules, model comparison and sensitivity, overlap and unknown handling, outcome reconciliation, downstream joins, and attribution-versus-incrementality boundaries. It does not implement tracking, operate platforms, approve budgets, or claim causality.
 

@@ -1,9 +1,16 @@
 ---
 name: activation
-description: Use when a product needs an activation definition, first-value or time-to-value analysis, onboarding or funnel diagnosis, retained-activation validation, or evidence-bounded activation intervention design across consumer, B2B, marketplace, AI, low-frequency, or assisted products.
+description: Use when work needs to define first value and improve activation across onboarding, landing pages, popups, friction, accessibility, measurement, and experiments.
 ---
 
-# Activation
+# Activation & Conversion
+
+## Integrated Capabilities
+
+This Skill consolidates adjacent workflows behind one trigger. Use the main workflow for core requests. When a request matches a module below, read that module before executing it:
+
+- [Landing Page Audit](references/modules/landing-page-audit/SKILL.md)
+- [Popup Optimization](references/modules/popup-optimization/SKILL.md)
 
 Determine whether an eligible new user, account, or participant received meaningful first value and has a credible path to receive value again. Work from supplied data or attributable public context. Private product, analytics, CRM, implementation, support, or research data is optional; mark missing or declined inputs `unavailable`, never as failure.
 

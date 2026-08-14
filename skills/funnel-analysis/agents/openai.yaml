@@ -1,4 +1,0 @@
-interface:
-  display_name: "Funnel Analysis"
-  short_description: "Analyze value-state funnels and constraints"
-  default_prompt: "Use $funnel-analysis to define and analyze a value-state funnel with compatible cohorts, denominators, maturity, and causal boundaries."

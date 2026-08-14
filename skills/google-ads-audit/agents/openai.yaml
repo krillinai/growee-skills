@@ -1,4 +1,0 @@
-interface:
-  display_name: "Google Ads Audit"
-  short_description: "Audit Google Ads evidence without live account access"
-  default_prompt: "Use $google-ads-audit to audit these Google Ads exports and identify evidence-bounded next steps."

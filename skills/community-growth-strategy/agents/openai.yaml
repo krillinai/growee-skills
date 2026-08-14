@@ -1,4 +1,0 @@
-interface:
-  display_name: "Community Growth Strategy"
-  short_description: "Design communities around participant value and trust"
-  default_prompt: "Use $community-growth-strategy to audit this community and design an evidence-bounded growth plan."

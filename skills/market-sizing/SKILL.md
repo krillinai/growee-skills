@@ -1,9 +1,15 @@
 ---
 name: market-sizing
-description: Use when a team needs to build, audit, compare, reconcile, refresh, or govern a market size, demand pool, value pool, TAM, SAM, SOM, serviceable market, reachable demand, qualified demand, attainable-share scenario, category estimate, or market portfolio; define customer, buyer, payer, usage, transaction, geographic, time, source, overlap, frequency, value, capacity, uncertainty, and market-transfer boundaries without changing live systems.
+description: Use when work needs to research alternatives and size markets with attributable competitive evidence, compatible market units, scenarios, and uncertainty.
 ---
 
-# Market Sizing
+# Market Intelligence & Sizing
+
+## Integrated Capabilities
+
+This Skill consolidates adjacent workflows behind one trigger. Use the main workflow for core requests. When a request matches a module below, read that module before executing it:
+
+- [Competitive Intelligence](references/modules/competitive-intelligence/SKILL.md)
 
 Estimate a bounded demand and economic opportunity from explicit customer, job, geography, time, eligibility, frequency, value, serviceability, reachability, overlap, and evidence contracts. Treat TAM, SAM, and SOM as labels only after their definitions are frozen; a market size is a versioned decision model, not a fact that exists independently of units and assumptions.
 
@@ -79,7 +85,7 @@ Attainable share is a conditional scenario, not a universal percentage. Define p
 
 ## Route Specialist Work
 
-This Skill owns the market contract, market layers, demand and economic units, universe and exclusions, source lineage, sizing methods, conversion bridges, overlap, serviceability, reachability, attainable scenarios, uncertainty, reconciliation, comparison, and refresh governance. Route segment and ICP definitions to `icp-segmentation`; prevalence and customer research to `customer-research`; competitors and alternatives to `competitive-intelligence`; category and positioning to `positioning`; pricing, willingness-to-pay, and economics to `monetization`; market readiness and entry to `market-entry-strategy`; channel reach and capture to `acquisition-strategy`; company forecasts to `growth-forecasting`; full business topology to `growth-model-design`; and causal effects to `experiment-design`.
+This Skill owns the market contract, market layers, demand and economic units, universe and exclusions, source lineage, sizing methods, conversion bridges, overlap, serviceability, reachability, attainable scenarios, uncertainty, reconciliation, comparison, and refresh governance. Route segment, ICP, category, and positioning work to `positioning`; prevalence and customer research to `customer-research`; competitors and alternatives to `market-sizing`; pricing, willingness-to-pay, and economics to `monetization`; market readiness and entry to `growth-strategy`; channel reach and capture to `acquisition-strategy`; company forecasts to `growth-forecasting`; full business topology to `growth-model-design`; and causal effects to `experiment-design`.
 
 Specialist evidence may enter the sizing model only with its entity, population, method, market, period, version, uncertainty, and limitations. Market size does not approve entry, product, price, budget, staffing, fundraising claims, or customer action.
 

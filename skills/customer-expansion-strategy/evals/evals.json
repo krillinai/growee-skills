@@ -56,7 +56,7 @@
         "Includes task success, errors, quality, variable cost, complaints, fatigue, and retained outcomes. [eval 4604]",
         "Distinguishes organic, prompted, rewarded, mandatory, failed, and repeated usage. [eval 4604]",
         "Does not recommend mandatory or indiscriminate activity. [eval 4604]",
-        "Routes detailed reward mechanics to incentive-system-design. [eval 4604]"
+        "Routes detailed reward mechanics to growth-loop-design. [eval 4604]"
       ],
       "files": []
     },
@@ -101,7 +101,7 @@
         "Separates user, beneficiary, champion, administrator, buyer, approver, payer, and receiving team. [eval 4607]",
         "Requires adjacent-unit need, readiness, authority, governance, implementation, and value proof. [eval 4607]",
         "Does not auto-upgrade or contact executives. [eval 4607]",
-        "Routes seller assets to sales-enablement and commercial workflow to revops-audit. [eval 4607]"
+        "Routes seller assets to sales-enablement and commercial workflow to growth-infrastructure-assessment. [eval 4607]"
       ],
       "files": []
     },
@@ -191,7 +191,7 @@
         "Suppresses incidents, implementation, renewal risk, support escalation, declined, ineligible, and capacity-exceeding states as appropriate. [eval 4613]",
         "Defines product, success, sales, operations, and account ownership plus feedback. [eval 4613]",
         "Measures first value, retained expansion, total-customer outcome, contribution, trust, and complaints. [eval 4613]",
-        "Routes CRM and lifecycle workflow audit to revops-audit. [eval 4613]"
+        "Routes CRM and lifecycle workflow audit to growth-infrastructure-assessment. [eval 4613]"
       ],
       "files": []
     },

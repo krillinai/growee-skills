@@ -1,4 +1,4 @@
 interface:
-  display_name: "Tracking Plan"
-  short_description: "Specify reliable events, identity, and tracking QA"
-  default_prompt: "Use $tracking-plan to design or audit an implementation-ready tracking specification."
+  display_name: "Tracking & Data Quality"
+  short_description: "Integrated Tracking & Data Quality workflows"
+  default_prompt: "Use $tracking-plan to handle this tracking & data quality request as one evidence-backed workflow."

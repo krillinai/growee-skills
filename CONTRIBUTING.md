@@ -12,6 +12,7 @@ skills/<skill-name>/
 ├── agents/openai.yaml
 ├── evals/evals.json
 └── references/
+    └── modules/<specialized-workflow>/
 ```
 
 Add `scripts/` only for deterministic or repeatedly implemented operations. Add `assets/` only when the Skill directly uses those files in its output. Do not add a README, changelog, installation guide, or other process documentation inside a Skill directory.
@@ -19,6 +20,8 @@ Add `scripts/` only for deterministic or repeatedly implemented operations. Add 
 ## Skill Requirements
 
 - Use a short lowercase hyphenated name that describes the recognizable job.
+- Prefer extending an existing lifecycle-level Skill. Create a new top-level Skill only when the job has a distinct trigger, completion gate, output contract, or execution dependency that would make an existing Skill ambiguous.
+- Put specialized methods under `references/modules/` and route to them from the top-level `SKILL.md`; do not make every analysis method, channel, surface, or operating artifact independently installable.
 - Keep YAML frontmatter to `name` and `description` only.
 - Make the trigger description specific enough to distinguish adjacent Skills.
 - State the primary modes, required inputs, evidence states, outputs, external-action boundary, and completion gate.
@@ -42,7 +45,7 @@ Classify each Skill by its primary decision and output using the Growth Playbook
 
 New Skills start as `experimental`. Set `validation.forward_tested` to `true` only after recording and reviewing realistic runs. The validator rejects `beta` and `stable` status unless structure, evaluation specification, and forward testing are all complete. Promotion to `stable` additionally requires maintainer review of the qualitative criteria above.
 
-Update English and Simplified Chinese catalog names and descriptions in `catalog/skills.json`. Do not edit generated README tables directly.
+Update English and Simplified Chinese catalog names and descriptions in `catalog/skills.json`. Record retired top-level names and their replacement in `catalog/consolidations.json`, move reusable workflow resources under the replacement Skill, and merge the retired eval cases instead of deleting their coverage. Do not edit generated README tables directly.
 
 ## Validation
 

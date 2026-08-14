@@ -1,9 +1,15 @@
 ---
 name: tracking-plan
-description: Use when a team needs to design, audit, migrate, or govern a product, website, app, lifecycle, commerce, sales, or marketing tracking plan; define event and property taxonomies; separate intent, action, result, quality, refund, and reversal states; specify entities, identity, consent, sources, schema versions, and data retention; map metrics and experiments to instrumentation; or create implementation, QA, reconciliation, release, monitoring, rollback, and deprecation requirements.
+description: Use when work needs to design tracking plans and audit data quality across events, identity, consent, lineage, reconciliation, monitoring, releases, and deprecation.
 ---
 
-# Tracking Plan
+# Tracking & Data Quality
+
+## Integrated Capabilities
+
+This Skill consolidates adjacent workflows behind one trigger. Use the main workflow for core requests. When a request matches a module below, read that module before executing it:
+
+- [Growth Data Quality Audit](references/modules/growth-data-quality-audit/SKILL.md)
 
 Translate decisions and value states into an implementation-ready instrumentation contract. Track the smallest set of observable facts that can support the declared metric, funnel, cohort, experiment, attribution, lifecycle, or operational decision. Do not treat a tracking plan as a list of clicks or assume an SDK event is true because it fires.
 
@@ -75,7 +81,7 @@ Return:
 8. version, migration, dual-run, cutover, rollback, backfill, and deprecation plan;
 9. unresolved semantics, evidence gaps, handoffs, and pinned Playbook sources.
 
-Route metric definition to `growth-metrics-design`, funnel semantics to `funnel-analysis`, cohort requirements to `cohort-analysis`, experiments to `experiment-design`, lifecycle classification to `lifecycle-marketing`, ad-platform-specific evidence to the relevant ads audit, and production implementation to an authorized engineering workflow.
+Route metric definition to `growth-metrics-design`, funnel semantics to `growth-diagnosis`, cohort requirements to `retention`, experiments to `experiment-design`, lifecycle classification to `lifecycle-marketing`, ad-platform-specific evidence to the relevant ads audit, and production implementation to an authorized engineering workflow.
 
 For China work, keep market, language, locale, product surface, device, app distribution, identity, payment, invoice, consent, collection purpose, storage, transfer, analytics provider, platform, channel, and applicable review separate. Do not infer any platform, provider, payment, consent, or data condition from market or language.
 

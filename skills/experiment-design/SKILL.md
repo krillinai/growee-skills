@@ -49,7 +49,7 @@ Use predefined result states: meaningful benefit with guardrails passing; harm o
 
 ## Route Domain Work
 
-Experiment Design owns causal design and readout integrity, not the domain intervention. Route first-value questions to `activation`, recurring value to `retention`, commercial design to `monetization`, lifecycle messages to `lifecycle-marketing`, copy to `copywriting`, campaign strategy to `campaign-planning` when available, and broad constraint selection to `growth-diagnosis`.
+Experiment Design owns causal design and readout integrity, not the domain intervention. Route first-value questions to `activation`, recurring value to `retention`, commercial design to `monetization`, lifecycle messages to `lifecycle-marketing`, copy to `copywriting`, campaign strategy to `acquisition-strategy` when available, and broad constraint selection to `growth-diagnosis`.
 
 ## Deliver In Order
 

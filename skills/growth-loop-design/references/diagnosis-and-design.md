@@ -156,13 +156,13 @@ Do not set an uplift, K-factor, participation, conversion, cycle-time, payback, 
 
 | Need | Route |
 | --- | --- |
-| Transition and denominator analysis | `funnel-analysis` |
+| Transition and denominator analysis | `growth-diagnosis` |
 | First value and onboarding | `activation` |
 | Recurring value, churn, or resurrection | `retention` |
 | Pricing, rewards economics, contribution, or payback | `monetization` |
 | Customer motivation, jobs, trust, or mechanism research | `customer-research` |
 | Causal test design and interpretation | `experiment-design` |
-| Campaign journey or asset requirements | `campaign-planning` |
+| Campaign journey or asset requirements | `acquisition-strategy` |
 | Primary constraint across the complete growth system | `growth-diagnosis` |
 
 Growth Loop Design can specify a required message, product surface, reward, event, campaign, or experiment. It does not create, publish, send, issue, deploy, or launch it.

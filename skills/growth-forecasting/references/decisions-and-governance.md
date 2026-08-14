@@ -32,10 +32,10 @@ Show target-to-forecast gap and the assumptions required to close it. Do not adj
 | Forecast input or decision | Route |
 | --- | --- |
 | Full business topology, stocks, flows, loops, and scenario mechanisms | `growth-model-design` |
-| Commercial pipeline, stages, bookings, contracts, revenue, invoice, and cash reconciliation | `revops-audit` |
-| Customer lifetime value, survival, repeat purchase, and LTV:CAC | `ltv-analysis` |
+| Commercial pipeline, stages, bookings, contracts, revenue, invoice, and cash reconciliation | `growth-infrastructure-assessment` |
+| Customer lifetime value, survival, repeat purchase, and LTV:CAC | `monetization` |
 | Metric definitions and lineage | `growth-metrics-design` |
-| Cohort construction and maturity comparisons | `cohort-analysis` |
+| Cohort construction and maturity comparisons | `retention` |
 | Activation, retention, monetization, or expansion mechanism | Relevant lifecycle Skill |
 | Causal intervention effect | `experiment-design` |
 | Acquisition channel portfolio and budget allocation | `acquisition-strategy` |

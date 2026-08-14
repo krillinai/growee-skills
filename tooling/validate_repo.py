@@ -402,6 +402,163 @@ def validate_catalog(skill_ids: set[str], report: Report) -> None:
                 report.error(f"{bundle_id}: bundle contains unknown integrations")
 
 
+def validate_consolidations(skill_ids: set[str], report: Report) -> None:
+    data = load_json(CATALOG_DIR / "consolidations.json", report)
+    catalog = load_json(CATALOG_DIR / "skills.json", report)
+    if data is None or catalog is None:
+        return
+
+    groups = data.get("groups")
+    if data.get("schema_version") != "1.0" or not isinstance(groups, list):
+        report.error("catalog/consolidations.json: invalid schema_version or groups")
+        return
+
+    entries = catalog.get("skills", [])
+    catalog_by_id = {
+        entry.get("id"): entry for entry in entries if isinstance(entry, dict)
+    }
+    required = {
+        "target",
+        "name_en",
+        "name_zh",
+        "description_en",
+        "description_zh",
+        "absorbed",
+    }
+    allowed = required | {"renamed_from"}
+    targets: set[str] = set()
+    aliases: set[str] = set()
+
+    for index, group in enumerate(groups):
+        label = f"catalog/consolidations.json: group[{index}]"
+        if not isinstance(group, dict) or not required <= set(group) <= allowed:
+            report.error(f"{label} has invalid keys")
+            continue
+
+        target = group.get("target")
+        if (
+            not isinstance(target, str)
+            or not SKILL_NAME_RE.fullmatch(target)
+            or target not in skill_ids
+            or target in targets
+        ):
+            report.error(f"{label} has an invalid or duplicate target")
+            continue
+        targets.add(target)
+
+        for key in ("name_en", "name_zh", "description_en", "description_zh"):
+            value = group.get(key)
+            if not isinstance(value, str) or not value.strip():
+                report.error(f"{label} {key} must be a non-empty string")
+            elif catalog_by_id.get(target, {}).get(key) != value:
+                report.error(f"{target}: catalog {key} differs from consolidation metadata")
+
+        absorbed = group.get("absorbed")
+        if (
+            not isinstance(absorbed, list)
+            or not absorbed
+            or not all(
+                isinstance(item, str) and SKILL_NAME_RE.fullmatch(item)
+                for item in absorbed
+            )
+            or len(absorbed) != len(set(absorbed))
+        ):
+            report.error(f"{label} absorbed must contain unique skill ids")
+            continue
+
+        group_aliases = list(absorbed)
+        renamed_from = group.get("renamed_from")
+        if renamed_from is not None:
+            if not isinstance(renamed_from, str) or not SKILL_NAME_RE.fullmatch(
+                renamed_from
+            ):
+                report.error(f"{label} renamed_from must be a skill id")
+            else:
+                group_aliases.append(renamed_from)
+
+        for alias in group_aliases:
+            if alias in aliases or alias in skill_ids or alias == target:
+                report.error(f"{label} has an invalid or duplicate alias: {alias}")
+            aliases.add(alias)
+
+
+def validate_consolidated_modules(skill_ids: set[str], report: Report) -> None:
+    data = load_json(CATALOG_DIR / "consolidations.json", report)
+    if data is None:
+        return
+    for group in data.get("groups", []):
+        if not isinstance(group, dict):
+            continue
+        target = group.get("target")
+        if target not in skill_ids:
+            continue
+        for source in group.get("absorbed", []):
+            module = SKILLS_DIR / target / "references" / "modules" / source / "SKILL.md"
+            if not module.is_file():
+                report.error(f"{target}: missing consolidated module for {source}")
+
+
+def validate_retired_skill_references(report: Report) -> None:
+    data = load_json(CATALOG_DIR / "consolidations.json", report)
+    if data is None:
+        return
+
+    aliases = sorted(
+        {
+            alias
+            for group in data.get("groups", [])
+            if isinstance(group, dict)
+            for alias in [group.get("renamed_from"), *group.get("absorbed", [])]
+            if isinstance(alias, str)
+        },
+        key=len,
+        reverse=True,
+    )
+    if not aliases:
+        return
+
+    alternatives = "|".join(re.escape(alias) for alias in aliases)
+    alias_re = re.compile(
+        rf"(?<![a-z0-9-])(?P<alias>{alternatives})(?![a-z0-9-])"
+    )
+    provenance_re = re.compile(rf"\[integrated from (?:{alternatives})\]")
+    module_link_re = re.compile(rf"references/modules/(?:{alternatives})/")
+    suffixes = {".md", ".json", ".yaml", ".yml", ".py"}
+    roots = [
+        ROOT / "README.md",
+        ROOT / "README.zh-CN.md",
+        ROOT / "CONTRIBUTING.md",
+        CATALOG_DIR,
+        SKILLS_DIR,
+    ]
+
+    paths: list[Path] = []
+    for root in roots:
+        if root.is_file():
+            paths.append(root)
+        else:
+            paths.extend(path for path in root.rglob("*") if path.suffix in suffixes)
+
+    for path in sorted(set(paths)):
+        relative = path.relative_to(ROOT)
+        relative_text = relative.as_posix()
+        if relative == Path("catalog/consolidations.json"):
+            continue
+        if "/references/modules/" in f"/{relative_text}":
+            continue
+        for line_number, line in enumerate(
+            path.read_text(encoding="utf-8").splitlines(), start=1
+        ):
+            current = provenance_re.sub("", line)
+            current = module_link_re.sub("", current)
+            match = alias_re.search(current)
+            if match:
+                report.error(
+                    f"{relative}:{line_number}: retired Skill id remains routed: "
+                    f"{match.group('alias')}"
+                )
+
+
 def validate_banned_terms(report: Report) -> None:
     suffixes = {".md", ".json", ".yaml", ".yml", ".py"}
     roots = [ROOT / "README.md", ROOT / "README.zh-CN.md", SKILLS_DIR, CATALOG_DIR]
@@ -433,7 +590,7 @@ def run_script_tests(report: Report) -> None:
     env = os.environ.copy()
     env["PYTHONDONTWRITEBYTECODE"] = "1"
     tests = sorted((ROOT / "tooling").glob("test_*.py"))
-    tests.extend(sorted(SKILLS_DIR.glob("*-ads-audit/scripts/test_validate_input_bundle.py")))
+    tests.extend(sorted(SKILLS_DIR.glob("**/scripts/test_validate_input_bundle.py")))
     for test in tests:
         result = subprocess.run(
             [sys.executable, str(test)],
@@ -479,6 +636,9 @@ def main() -> int:
         eval_count += validate_eval_file(skill_dir, global_eval_ids, report)
 
     validate_catalog(skill_ids, report)
+    validate_consolidations(skill_ids, report)
+    validate_consolidated_modules(skill_ids, report)
+    validate_retired_skill_references(report)
     validate_banned_terms(report)
     validate_generated_readmes(report)
     run_script_tests(report)

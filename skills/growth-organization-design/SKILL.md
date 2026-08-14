@@ -97,7 +97,7 @@ Before recommending change, define which decisions improve; alternatives; affect
 
 ## Route Specialist Work
 
-Route primary constraint selection and enterprise execution routing to `growth-diagnosis`; model structure to `growth-model-design`; metric semantics to `growth-metrics-design`; event implementation to `tracking-plan`; test assignment, power, analysis, and causal readout to `experiment-design`; technical shared-capability architecture and sourcing to `growth-infrastructure-assessment`; customer evidence to `customer-research` and `icp-segmentation`; product value evidence to `product-market-fit-assessment`; and reward mechanics to `incentive-system-design`.
+Route primary constraint selection and enterprise execution routing to `growth-diagnosis`; model structure to `growth-model-design`; metric semantics to `growth-metrics-design`; event implementation to `tracking-plan`; test assignment, power, analysis, and causal readout to `experiment-design`; technical shared-capability architecture and sourcing to `growth-infrastructure-assessment`; customer evidence to `customer-research` and `positioning`; product value evidence to `product-market-fit-assessment`; and reward mechanics to `growth-loop-design`.
 
 This Skill owns organization contracts, outcome and decision rights, model selection, functional boundaries, staffing scenarios, initiative portfolios, operating cadence, maintenance ownership, health evidence, and reorganization specifications. It does not replace employment, legal, labor, compensation, security, privacy, finance, or local-market review.
 

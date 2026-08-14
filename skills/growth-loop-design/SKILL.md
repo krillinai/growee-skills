@@ -1,9 +1,18 @@
 ---
 name: growth-loop-design
-description: Use when a team needs to audit, measure, diagnose, or design a growth, referral, collaboration, content, marketplace, network, data, reinvestment, or sales-capacity loop; distinguish loops from funnels; define propagation and cycle metrics; identify why a loop does not close; or create an evidence-bounded validation plan. Do not use for contact uploads, invitations, rewards, product or tracking changes, media buying, or experiment launches.
+description: Use when work needs to design and audit referrals, incentives, growth loops, marketplaces, and network effects through participant value, closure, economics, trust, and governance.
 ---
 
-# Growth Loop Design
+# Growth Loops & Network Effects
+
+## Integrated Capabilities
+
+This Skill consolidates adjacent workflows behind one trigger. Use the main workflow for core requests. When a request matches a module below, read that module before executing it:
+
+- [Referral Program Design](references/modules/referral-program-design/SKILL.md)
+- [Incentive System Design](references/modules/incentive-system-design/SKILL.md)
+- [Marketplace Growth Strategy](references/modules/marketplace-growth-strategy/SKILL.md)
+- [Network Effects Strategy](references/modules/network-effects-strategy/SKILL.md)
 
 Determine whether a qualified output from one cycle creates a qualified input for a later cycle, where that mechanism weakens, and what evidence or design should come next. Do not call a funnel a loop because it is drawn as a circle, or treat gross sharing, revenue, content, or invitations as proof of retained growth.
 
@@ -50,7 +59,7 @@ Separate an observed weak transition from candidate causes across value, eligibi
 
 For new designs, begin with the customer or system value and intended next input. Then define the mechanism hypothesis, entities, action, output, value exchange, re-entry, prerequisites, quality, economics, failure and abuse risks, and a 30-day evidence or experiment plan with owner, maturity, decision rule, stop rule, and completion proof.
 
-Route causal tests to `experiment-design`, transition analysis to `funnel-analysis`, first value to `activation`, recurring value to `retention`, economics and offers to `monetization`, mechanism research to `customer-research`, campaign requirements to `campaign-planning`, and broader constraint selection to `growth-diagnosis`.
+Route causal tests to `experiment-design`, transition analysis and broader constraint selection to `growth-diagnosis`, first value to `activation`, recurring value to `retention`, economics and offers to `monetization`, mechanism research to `customer-research`, and campaign requirements to `acquisition-strategy`.
 
 ## Common Mistakes
 

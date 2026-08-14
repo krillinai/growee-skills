@@ -1,9 +1,15 @@
 ---
 name: growth-model-design
-description: Use when a team needs to map, audit, calculate, version, or scenario-test a business-specific growth model that connects customer value, acquisition, activation, retention, monetization, expansion, propagation, reinvestment, economics, capacity, and constraints; distinguish a growth model from a lifecycle, funnel, loop, flywheel, dashboard, or forecast; reconcile customer or revenue stock-and-flow equations; or identify which model assumption deserves the next decision test.
+description: Use when work needs to design growth models and size opportunities across lifecycle behavior, economics, reach, capacity, overlap, scenarios, and risk.
 ---
 
-# Growth Model Design
+# Growth Model & Opportunity
+
+## Integrated Capabilities
+
+This Skill consolidates adjacent workflows behind one trigger. Use the main workflow for core requests. When a request matches a module below, read that module before executing it:
+
+- [Growth Opportunity Sizing](references/modules/growth-opportunity-sizing/SKILL.md)
 
 Build an explicit, falsifiable explanation of how a defined customer reaches value, retains, creates a durable business outcome, and replenishes future growth inputs. Use equations and diagrams to expose assumptions, not to manufacture causality, certainty, or exponential forecasts.
 
@@ -59,7 +65,7 @@ Identify a primary model constraint only when compatible evidence shows it limit
 
 ## Route Specialist Work
 
-Route customer evidence to `customer-research`; fit assessment to `product-market-fit-assessment`; segmentation to `icp-segmentation`; market framing to `positioning`; transition analysis to `funnel-analysis`; first value to `activation`; cohort construction to `cohort-analysis`; recurring value to `retention`; pricing and economics to `monetization`; metric systems to `growth-metrics-design`; individual loops to `growth-loop-design`; causal tests to `experiment-design`; channel plans to `campaign-planning`; and broad company constraint triage and execution routing to `growth-diagnosis`.
+Route customer evidence to `customer-research`; fit assessment to `product-market-fit-assessment`; segmentation and market framing to `positioning`; transition analysis and broad company constraint triage to `growth-diagnosis`; first value to `activation`; cohort construction and recurring-value work to `retention`; pricing and economics to `monetization`; metric systems to `growth-metrics-design`; individual loops to `growth-loop-design`; causal tests to `experiment-design`; and channel plans to `acquisition-strategy`.
 
 The model may specify what evidence these capabilities must return, but it does not duplicate their full workflows or execute their actions.
 

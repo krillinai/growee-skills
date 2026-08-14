@@ -1,4 +1,0 @@
-interface:
-  display_name: "LTV Analysis"
-  short_description: "Estimate and validate customer lifetime value"
-  default_prompt: "Use $ltv-analysis to estimate observed and forecast LTV with explicit cohorts, contribution, maturity, uncertainty, and calibration."

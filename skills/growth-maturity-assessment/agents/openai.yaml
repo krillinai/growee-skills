@@ -1,4 +1,0 @@
-interface:
-  display_name: "Growth Maturity Assessment"
-  short_description: "Assess growth capabilities with evidence"
-  default_prompt: "Use $growth-maturity-assessment to assess our growth capabilities, evidence gaps, and dependency-ordered priorities."

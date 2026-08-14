@@ -1,4 +1,0 @@
-interface:
-  display_name: "Marketplace Growth Strategy"
-  short_description: "Design marketplace growth by local liquidity"
-  default_prompt: "Use $marketplace-growth-strategy to diagnose our local marketplace constraint and design evidence-gated next decisions."

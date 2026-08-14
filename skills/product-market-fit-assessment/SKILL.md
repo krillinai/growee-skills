@@ -1,9 +1,15 @@
 ---
 name: product-market-fit-assessment
-description: Use when a founder, product team, or growth team needs to assess, measure, or revalidate Product-Market Fit; evaluate a Sean Ellis must-have survey; reconcile activation, retention, customer, willingness-to-pay, market, channel, or unit-economic evidence; distinguish Market-Product, Product-Channel, Channel-Model, and Model-Market Fit; bound fit by segment, use case, payer, geography, product, or period; or decide whether to deepen, measure, scale, adapt, narrow, or stop.
+description: Use when work needs to assess product-market fit and customer journeys across problem, first and repeated value, path friction, service dependencies, and evidence boundaries.
 ---
 
-# Product-Market Fit Assessment
+# Product-Market Fit & Journey
+
+## Integrated Capabilities
+
+This Skill consolidates adjacent workflows behind one trigger. Use the main workflow for core requests. When a request matches a module below, read that module before executing it:
+
+- [Customer Journey Analysis](references/modules/customer-journey-analysis/SKILL.md)
 
 Assess whether a defined market repeatedly receives meaningful value from a product and whether the surrounding channel and business system can support the intended decision. Treat PMF as a bounded, revisable judgment supported by an evidence stack, not a company badge, survey threshold, retention curve, revenue milestone, or synthetic score.
 
@@ -61,7 +67,7 @@ Label the result a hypothesis, not a forecast. Preserve uncertainty in market de
 
 Choose one primary decision: `deepen`, `measure`, `scale one mechanism`, `test one adjacent unit`, `adapt`, `narrow`, or `stop`. Scaling is defensible only when repeated value, the named segment, marginal economics, channel quality, and guardrails support that bounded move. Revalidate after any material change to the fit contract.
 
-Route interview design and synthesis to `customer-research`; durable segment or ICP construction to a segmentation capability; market framing to `positioning`; first value to `activation`; cohort construction to `cohort-analysis`; recurring-value mechanisms to `retention`; pricing and unit economics to `monetization`; channel planning to `campaign-planning`; referral or compounding mechanics to `growth-loop-design`; causal tests to `experiment-design`; and company-wide constraint triage to `growth-diagnosis`.
+Route interview design and synthesis to `customer-research`; durable segment, ICP, and market framing work to `positioning`; first value to `activation`; cohort construction and recurring-value mechanisms to `retention`; pricing and unit economics to `monetization`; channel planning to `acquisition-strategy`; referral or compounding mechanics to `growth-loop-design`; causal tests to `experiment-design`; and company-wide constraint triage to `growth-diagnosis`.
 
 ## Deliver In Order
 

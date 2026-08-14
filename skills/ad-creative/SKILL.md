@@ -51,7 +51,7 @@ Build portfolio coverage across validated audience situations, value pillars, ob
 
 Specify concept ID and lineage; hypothesis; audience; problem; pillar; angle; promise; proof; offer; CTA; landing continuity; required scenes or information beats; hook and narrative; visual, motion, sound, copy, product, creator, and accessibility requirements; channel and placement variants; safe areas and current sourced platform constraints; prohibited claims and elements; asset and music rights; market and locale; review gates; deliverables; versioning; due date; owner; QA; measurement; and completion proof.
 
-The brief defines what must be produced and why. Route final copy to `copywriting`, images to the relevant image capability, video production or localization to the relevant video capability, and final edits to `copy-editing`. Do not pretend a brief is a finished asset.
+The brief defines what must be produced and why. Route final copy and edits to `copywriting`, images to the relevant image capability, and video production or localization to the relevant video capability. Do not pretend a brief is a finished asset.
 
 ## Learn From Delivery Without Overclaiming
 
@@ -74,7 +74,7 @@ Return:
 7. measurement, business reconciliation, experiment, fatigue, and learning plan;
 8. production handoffs, owners, approvals, stop rules, and pinned Playbook sources.
 
-Route campaign objectives, audiences, budgets, journeys, and launch operations to `campaign-planning`; platform account diagnosis to the relevant ads audit; positioning to `positioning`; landing pages to `landing-page-audit`; content portfolios to `content-strategy`; and causal tests to `experiment-design`.
+Route campaign objectives, audiences, budgets, journeys, and launch operations to `acquisition-strategy`; platform account diagnosis to the relevant ads audit; positioning to `positioning`; landing pages to `activation`; content portfolios to `content-strategy`; and causal tests to `experiment-design`.
 
 For China work, keep market, language, locale, audience, channel, platform, account, placement, creator identity, content and music rights, product surface, app distribution, payment, consent, claims, content review, data access, and applicable rules separate. Do not infer Douyin, Xiaohongshu, Kuaishou, WeChat, Bilibili, Baidu, account access, format limits, creator rights, or performance from China or Simplified Chinese.
 

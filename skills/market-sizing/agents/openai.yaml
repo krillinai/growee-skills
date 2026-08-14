@@ -1,4 +1,4 @@
 interface:
-  display_name: "Market Sizing"
-  short_description: "Estimate market demand with traceable assumptions"
-  default_prompt: "Use $market-sizing to audit this market estimate and build a reconciled, evidence-bounded model."
+  display_name: "Market Intelligence & Sizing"
+  short_description: "Integrated Market Intelligence & Sizing workflows"
+  default_prompt: "Use $market-sizing to handle this market intelligence & sizing request as one evidence-backed workflow."

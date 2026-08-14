@@ -19,7 +19,7 @@ Read [program-contract.md](references/program-contract.md) before accepting prog
 
 Name one primary mode and state `draft`, `reconciling`, `decision-ready`, `approved-record`, `active-record`, `superseded`, or `expired`. A record state does not prove approval, assignment, exposure, completion, adoption, or impact.
 
-Route one experiment or alternative evidence design, including assignment, power, analysis, and readout, to `experiment-design`; company strategy to `growth-strategy`; cross-functional resources to `growth-budget-allocation`; platform capability and sourcing to `growth-infrastructure-assessment`; team structure to `growth-organization-design`; and broad recurring business review to `growth-operating-review`. This Skill owns the multi-experiment portfolio and operating system, not each specialist analysis or external execution.
+Route one experiment or alternative evidence design, including assignment, power, analysis, and readout, to `experiment-design`; company strategy to `growth-strategy`; cross-functional resources to `growth-planning-cycle`; platform capability and sourcing to `growth-infrastructure-assessment`; team structure to `growth-organization-design`; and broad recurring business review to `growth-operating-review`. This Skill owns the multi-experiment portfolio and operating system, not each specialist analysis or external execution.
 
 ## Freeze The Program Contract
 

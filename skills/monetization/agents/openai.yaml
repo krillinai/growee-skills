@@ -1,4 +1,4 @@
 interface:
-  display_name: "Monetization"
-  short_description: "Analyze and design sustainable value capture"
-  default_prompt: "Use $monetization to analyze or design value, offers, packaging, pricing, revenue, and sustainable economics."
+  display_name: "Monetization & Economics"
+  short_description: "Integrated Monetization & Economics workflows"
+  default_prompt: "Use $monetization to handle this monetization & economics request as one evidence-backed workflow."

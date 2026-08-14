@@ -1,9 +1,15 @@
 ---
 name: go-to-market-strategy
-description: Use when a team needs to audit, design, compare, sequence, validate, govern, pause, or scale a go-to-market motion for a product, offer, customer segment, buying situation, market, channel portfolio, product-led, sales-led, partner, marketplace, or hybrid route without changing live systems.
+description: Use when work needs to design and govern go-to-market systems and product launches across audience, offer, motion, readiness, exposure, value, measurement, and scale gates.
 ---
 
-# Go-To-Market Strategy
+# Go-to-Market & Launch
+
+## Integrated Capabilities
+
+This Skill consolidates adjacent workflows behind one trigger. Use the main workflow for core requests. When a request matches a module below, read that module before executing it:
+
+- [Product Launch Strategy](references/modules/product-launch-strategy/SKILL.md)
 
 Turn one defined product-market unit into a repeatable system connecting customer value, buying roles, positioning, proof, offer, motion, routes, first and repeated value, delivery, measurement, retained economics, and an evidence-gated expansion decision. GTM is not a campaign calendar, launch announcement, sales target, channel list, or theoretical market share.
 
@@ -41,7 +47,7 @@ product and offer version
 
 Split units when products, APIs, services, migrations, customer roles, prices, markets, routes, sales cycles, implementation, risk, or economics differ materially. A portfolio may coordinate units, but each keeps its own evidence, readiness, capacity, measurement, owner, stop, rollback, and retirement.
 
-Route customer and ICP discovery to `icp-segmentation`, market estimates to `market-sizing`, entry into new regions or verticals to `market-entry-strategy`, positioning to `positioning`, Product-Market Fit to `product-market-fit-assessment`, and pricing to `pricing-and-packaging-strategy`.
+Route customer discovery to `customer-research`, ICP and positioning work to `positioning`, market estimates to `market-sizing`, entry into new regions or verticals to `growth-strategy`, Product-Market Fit to `product-market-fit-assessment`, and pricing to `monetization`.
 
 ## Audit Readiness In Dependency Order
 
@@ -79,7 +85,7 @@ qualified problem or demand signal
 
 Attention is not reachability. A lead, demo, signup, feature enablement, purchase, or contract is not customer value. First value is not retention. Bookings are not cash. Attributed revenue is not incrementality. One channel, partner, sales rep, or large account is not repeatability.
 
-Map buying roles and milestones, qualification and disqualification, proof, security and procurement, commercial negotiation, implementation, promise handoff, adoption, success, renewal, and expansion. Route seller and buyer assets to `sales-enablement`, pipeline and commercial controls to `revops-audit`, first value to `activation`, and recurring value to `retention`.
+Map buying roles and milestones, qualification and disqualification, proof, security and procurement, commercial negotiation, implementation, promise handoff, adoption, success, renewal, and expansion. Route seller and buyer assets to `sales-enablement`, pipeline and commercial controls to `growth-infrastructure-assessment`, first value to `activation`, and recurring value to `retention`.
 
 ## Sequence A Bounded GTM Pilot
 
@@ -103,7 +109,7 @@ Do not launch all channels, markets, or motions at once. Every expansion spends 
 
 Freeze entity, eligibility, identity, source, product and offer version, market, route, assignment or access, exposure, cohort, window, maturity, cutoff, currency, value basis, and exclusions. Report counts beside rates. Keep attention, qualified demand, access, exposure, response, buying milestone, first value, repeated value, retention, purchase, revenue, contribution, cash, support, trust, and harm separate.
 
-Use actuals, forecasts, targets, plans, and benchmarks separately. Never backsolve leads, conversion, price, retention, spend, or capacity to reach a target. Route metric design to `growth-metrics-design`, instrumentation to `tracking-plan`, funnel analysis to `funnel-analysis`, cohorts to `cohort-analysis`, attribution to `attribution-analysis`, economics to `unit-economics-analysis`, and outlooks to `growth-forecasting`.
+Use actuals, forecasts, targets, plans, and benchmarks separately. Never backsolve leads, conversion, price, retention, spend, or capacity to reach a target. Route metric design to `growth-metrics-design`, instrumentation to `tracking-plan`, funnel analysis to `growth-diagnosis`, cohorts to `retention`, attribution to `attribution-analysis`, economics to `monetization`, and outlooks to `growth-forecasting`.
 
 Observed before-after movement can nominate a mechanism, not prove it. Preserve product, offer, price, message, channel, partner, sales, market, seasonality, mix, selection, attribution, and concurrent changes. Route causal validation to `experiment-design`.
 
@@ -111,7 +117,7 @@ Observed before-after movement can nominate a mechanism, not prove it. Preserve 
 
 This Skill owns the GTM unit, readiness gates, motion choice, route and buying-path orchestration, dependency sequence, pilot, cross-functional handoffs, portfolio comparison, and expansion or stop decision. It consumes specialist outputs only when their customer, segment, product, market, version, period, evidence state, uncertainty, and owner remain compatible.
 
-Route launch units and audience ladders to `product-launch-strategy`; channel portfolio and budget decisions to `acquisition-strategy`; campaigns to `campaign-planning`; partners to `partnership-marketing`; communities to `community-growth-strategy`; customer proof to `customer-proof-development`; sales systems to `sales-enablement` and `revops-audit`; infrastructure to `growth-infrastructure-assessment`; and decision rights and capacity portfolios to `growth-organization-design`.
+Route launch units and audience ladders to `go-to-market-strategy`; channel portfolio, budget decisions, and campaigns to `acquisition-strategy`; partners and communities to `partnership-marketing`; customer proof to `content-strategy`; seller workflows to `sales-enablement`; sales systems and infrastructure to `growth-infrastructure-assessment`; and decision rights and capacity portfolios to `growth-organization-design`.
 
 ## Deliver In Order
 

@@ -1,9 +1,15 @@
 ---
 name: positioning
-description: Use when a team needs to define, audit, compare, localize, or revise product or company positioning; map real competitive alternatives and status quo; connect unique capabilities to differentiated customer value and proof; choose a category or market frame; define best-fit and exclusion conditions; build a messaging hierarchy or sales narrative; or create an evidence-bounded positioning validation plan.
+description: Use when work needs to define evidence-backed ICPs, segments, positioning, exclusions, category choices, messages, and validation plans.
 ---
 
-# Positioning
+# ICP & Positioning
+
+## Integrated Capabilities
+
+This Skill consolidates adjacent workflows behind one trigger. Use the main workflow for core requests. When a request matches a module below, read that module before executing it:
+
+- [ICP Segmentation](references/modules/icp-segmentation/SKILL.md)
 
 Turn product, customer, competitive, and market evidence into a scoped reason why a specific customer should choose this product in a specific situation. Treat positioning as a versioned market hypothesis, not a slogan. Public artifacts are sufficient to begin; private research, analytics, CRM, win/loss, retention, or revenue data are optional and must be marked `unavailable` when absent.
 
@@ -51,7 +57,7 @@ Choose an existing category, qualified subcategory, reframe, or new category acc
 
 Produce one scoped positioning thesis, then translate it into problem and category frame, value pillars, capabilities, proof, objections, qualification, audience and stage messages, and channel requirements. Messaging may vary while the underlying position remains coherent.
 
-Route final page or campaign copy to `copywriting`, revisions to `copy-editing`, customer evidence acquisition to `customer-research`, segment design to `icp-segmentation` when available, offers to `monetization`, campaigns to `campaign-planning`, sales assets to `sales-enablement` when available, and causal tests to `experiment-design`.
+Route final page or campaign copy and revisions to `copywriting`, customer evidence acquisition to `customer-research`, segment design to `positioning` when available, offers to `monetization`, campaigns to `acquisition-strategy`, sales assets to `sales-enablement` when available, and causal tests to `experiment-design`.
 
 ## Validate The Whole Chain
 

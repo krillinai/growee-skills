@@ -1,4 +1,0 @@
-interface:
-  display_name: "Campaign Planning"
-  short_description: "Plan evidence-bounded multichannel campaigns"
-  default_prompt: "Use $campaign-planning to build a bounded campaign strategy, journey, channel, asset, budget, measurement, and operations plan."

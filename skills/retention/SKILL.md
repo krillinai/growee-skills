@@ -1,9 +1,18 @@
 ---
 name: retention
-description: Use when a product needs a retention definition, cohort or growth-accounting analysis, recurring-value or churn diagnosis, resurrection analysis, or evidence-bounded retention intervention design across user, account, product, or revenue levels.
+description: Use when work needs to analyze and improve retention through cohorts, growth accounting, engagement, recurring value, churn, resurrection, and customer health.
 ---
 
-# Retention
+# Retention & Customer Health
+
+## Integrated Capabilities
+
+This Skill consolidates adjacent workflows behind one trigger. Use the main workflow for core requests. When a request matches a module below, read that module before executing it:
+
+- [Cohort Analysis](references/modules/cohort-analysis/SKILL.md)
+- [Growth Accounting](references/modules/growth-accounting/SKILL.md)
+- [Engagement Analysis](references/modules/engagement-analysis/SKILL.md)
+- [Customer Health Modeling](references/modules/customer-health-modeling/SKILL.md)
 
 Determine whether a defined cohort continues receiving recurring value at the product's natural opportunity. Work from supplied data or attributable public context. Private product, billing, CRM, support, or analytics data is optional; mark missing or declined inputs `unavailable`, never as failure.
 

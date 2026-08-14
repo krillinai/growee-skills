@@ -1,4 +1,0 @@
-interface:
-  display_name: "Network Effects Strategy"
-  short_description: "Audit and build evidence-led network effects"
-  default_prompt: "Use $network-effects-strategy to audit this network mechanism and design a bounded strategy."

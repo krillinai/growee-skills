@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paid Media Audit"
+  short_description: "Integrated Paid Media Audit workflows"
+  default_prompt: "Use $paid-media-audit to handle this paid media audit request as one evidence-backed workflow."

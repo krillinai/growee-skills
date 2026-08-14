@@ -64,7 +64,7 @@ Do not access authenticated experiment, feature-flag, product, analytics, wareho
 | --- | --- |
 | One experiment, alternative evidence design, power, analysis, or readout | `experiment-design` |
 | Company strategy, portfolio thesis, or exclusions | `growth-strategy` |
-| Cross-functional resources and budget | `growth-budget-allocation` |
+| Cross-functional resources and budget | `growth-planning-cycle` |
 | Platform capability, service contract, sourcing, or roadmap | `growth-infrastructure-assessment` |
 | Team structure, staffing, or organization decision rights | `growth-organization-design` |
 | Metric contract, event schema, attribution, anomaly, or data issue | the relevant data and measurement Skill |

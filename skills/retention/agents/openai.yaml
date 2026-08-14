@@ -1,4 +1,4 @@
 interface:
-  display_name: "Retention"
-  short_description: "Analyze recurring value, churn, and resurrection"
-  default_prompt: "Use $retention to define, analyze, diagnose, or improve recurring customer value with maturity-aware cohorts."
+  display_name: "Retention & Customer Health"
+  short_description: "Integrated Retention & Customer Health workflows"
+  default_prompt: "Use $retention to handle this retention & customer health request as one evidence-backed workflow."

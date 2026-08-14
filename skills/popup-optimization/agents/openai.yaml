@@ -1,4 +1,0 @@
-interface:
-  display_name: "Popup Optimization"
-  short_description: "Design respectful, measurable popup experiences"
-  default_prompt: "Use $popup-optimization to design or audit this popup experience and experiment."

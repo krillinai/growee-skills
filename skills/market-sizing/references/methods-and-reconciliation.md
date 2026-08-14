@@ -64,4 +64,4 @@ Investigate disagreement through unit, category, time, geography, coverage, pric
 
 ## Marketplaces And Networks
 
-Model each side, role, atomic geography or category, availability, demand, matching, fulfillment, quality, frequency, multi-homing, congestion, incentives, refunds, and economics. Distinguish participant population, active supply, active demand, successful transactions, GMV, platform revenue, and contribution. Route network-effect claims to `network-effects-strategy`.
+Model each side, role, atomic geography or category, availability, demand, matching, fulfillment, quality, frequency, multi-homing, congestion, incentives, refunds, and economics. Distinguish participant population, active supply, active demand, successful transactions, GMV, platform revenue, and contribution. Route network-effect claims to `growth-loop-design`.

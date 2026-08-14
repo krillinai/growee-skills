@@ -72,7 +72,7 @@ Time-phase:
 - metric, logging, assignment, exposure, and repository services;
 - maintenance, incident response, long-term follow-up, and capacity reserve.
 
-Do not double-book populations, people, systems, or decision attention. Show committed, requested, available, protected, reserved, contingent, and unavailable capacity. Route cross-functional budget changes to `growth-budget-allocation`.
+Do not double-book populations, people, systems, or decision attention. Show committed, requested, available, protected, reserved, contingent, and unavailable capacity. Route cross-functional budget changes to `growth-planning-cycle`.
 
 ## Sequence The Portfolio
 

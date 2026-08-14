@@ -1,4 +1,0 @@
-interface:
-  display_name: "Customer Health Modeling"
-  short_description: "Model customer health safely and calibrate risk"
-  default_prompt: "Use $customer-health-modeling to specify or audit a calibrated customer health model."

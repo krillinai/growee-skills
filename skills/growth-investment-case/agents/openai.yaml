@@ -1,4 +1,0 @@
-interface:
-  display_name: "Growth Investment Case"
-  short_description: "Build decision-ready growth investment cases"
-  default_prompt: "Use $growth-investment-case to evaluate this proposed growth investment and produce an evidence-bounded decision case."

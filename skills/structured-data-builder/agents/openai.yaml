@@ -1,4 +1,0 @@
-interface:
-  display_name: "Structured Data Builder"
-  short_description: "Build evidence-traced Schema.org JSON-LD"
-  default_prompt: "Use $structured-data-builder to build, audit, repair, or template evidence-traced Schema.org JSON-LD."

@@ -1,4 +1,0 @@
-interface:
-  display_name: "Marketing Mix Modeling"
-  short_description: "Model aggregate channel contribution and response"
-  default_prompt: "Use $marketing-mix-modeling to specify or audit an evidence-bounded Marketing Mix Model."

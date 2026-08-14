@@ -1,4 +1,0 @@
-interface:
-  display_name: "Growth Capacity Planning"
-  short_description: "Plan demand, flow, constraints, and capacity"
-  default_prompt: "Use $growth-capacity-planning to build an evidence-bounded capacity plan for this growth system."

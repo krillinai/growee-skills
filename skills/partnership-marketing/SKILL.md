@@ -1,9 +1,15 @@
 ---
 name: partnership-marketing
-description: Use when a team needs to assess, design, audit, compare, pilot, govern, scale, renegotiate, pause, or exit a co-marketing, co-selling, channel, reseller, affiliate, referral, integration, ecosystem, marketplace, event, content, distribution, or strategic marketing partnership; define shared-customer value, partner fit, contributions, audience access, leads, consent, data, brand and content rights, claims, attribution, incentives, economics, ownership, operations, measurement, conflicts, concentration, and termination without contacting or signing partners.
+description: Use when work needs to design accountable partnerships and communities around shared customer value, roles, contribution, trust, operations, economics, and product paths.
 ---
 
-# Partnership Marketing
+# Partnerships & Community
+
+## Integrated Capabilities
+
+This Skill consolidates adjacent workflows behind one trigger. Use the main workflow for core requests. When a request matches a module below, read that module before executing it:
+
+- [Community Growth Strategy](references/modules/community-growth-strategy/SKILL.md)
 
 Turn a proposed relationship into an accountable shared-customer mechanism. Optimize incremental retained customer value above full joint cost and risk, not partner count, logos, announced reach, leads exchanged, content volume, attributed pipeline, or signed agreements alone.
 
@@ -47,7 +53,7 @@ Distinguish co-marketing, co-selling, referral, affiliate, reseller, distributor
 
 Define who creates, approves, funds, distributes, receives, qualifies, follows up, delivers, supports, reports, corrects, and retires each element. Audience access never authorizes data transfer or contact. A co-branded asset requires scoped trademark, claim, content, derivative, channel, market, term, and approval rights.
 
-Route customer referral mechanics to `referral-program-design`, reward design to `incentive-system-design`, acquisition portfolio decisions to `acquisition-strategy`, campaign assets to `campaign-planning`, sales assets and handoffs to `sales-enablement`, integrations and platform sourcing to `growth-infrastructure-assessment`, and causal tests to `experiment-design`.
+Route customer referral mechanics and reward design to `growth-loop-design`, acquisition portfolio decisions and campaign assets to `acquisition-strategy`, sales assets and handoffs to `sales-enablement`, integrations and platform sourcing to `growth-infrastructure-assessment`, and causal tests to `experiment-design`.
 
 ## Pilot Before Dependence
 

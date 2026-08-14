@@ -44,7 +44,7 @@ Parallelize only when capacity and dependencies allow it and the tests answer di
 
 Keep users, customers, accounts, seats, transactions, orders, revenue, GMV, gross profit, contribution, cash, and valuation separate. Keep average and marginal economics separate. Include acquisition, onboarding, delivery, incentives, payment, support, success, sales, partner, compliance, data, infrastructure, model inference, refunds, fraud, and opportunity costs where relevant.
 
-Do not backsolve conversion, retention, margin, payback, LTV, price, or capacity to satisfy a target. Use attributable actuals, explicit assumptions, bounded ranges, sensitivity, downside, maturity, and reconciliation. Route detailed models to `unit-economics-analysis`, `ltv-analysis`, `growth-forecasting`, and `growth-model-design`.
+Do not backsolve conversion, retention, margin, payback, LTV, price, or capacity to satisfy a target. Use attributable actuals, explicit assumptions, bounded ranges, sensitivity, downside, maturity, and reconciliation. Route detailed models to `monetization`, `growth-forecasting`, and `growth-model-design`.
 
 Capacity is a strategic constraint. Connect customer volume and complexity to product, engineering, sales, support, fulfillment, moderation, security, finance, legal or regulatory review, partner, and leadership capacity. State where growth would reduce quality, trust, reliability, or contribution.
 

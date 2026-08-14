@@ -1,4 +1,0 @@
-interface:
-  display_name: "Growth Postmortem"
-  short_description: "Turn growth outcomes into durable learning"
-  default_prompt: "Use $growth-postmortem to build an evidence-bounded postmortem for one completed or stopped growth initiative."

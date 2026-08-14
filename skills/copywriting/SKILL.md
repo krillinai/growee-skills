@@ -1,9 +1,15 @@
 ---
 name: copywriting
-description: Use when a landing page, campaign asset, product message, offer, or localized conversion copy needs supportable claims and an explicit audience, market, language, locale, and channel.
+description: Use when work needs to write and edit evidence-led copy for pages, campaigns, products, offers, and localization while preserving factual meaning and recording material edits.
 ---
 
-# Copywriting
+# Copywriting & Editing
+
+## Integrated Capabilities
+
+This Skill consolidates adjacent workflows behind one trigger. Use the main workflow for core requests. When a request matches a module below, read that module before executing it:
+
+- [Copy Editing](references/modules/copy-editing/SKILL.md)
 
 Write persuasive copy from supportable product truth. Match the audience, decision context, market, language, locale, and channel without inventing evidence or silently taking implementation actions.
 

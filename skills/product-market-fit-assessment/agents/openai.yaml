@@ -1,4 +1,4 @@
 interface:
-  display_name: "Product-Market Fit Assessment"
-  short_description: "Assess product-market fit from bounded evidence"
-  default_prompt: "Use $product-market-fit-assessment to assess this product-market fit claim and define the next evidence-backed decision."
+  display_name: "Product-Market Fit & Journey"
+  short_description: "Integrated Product-Market Fit & Journey workflows"
+  default_prompt: "Use $product-market-fit-assessment to handle this product-market fit & journey request as one evidence-backed workflow."

@@ -1,4 +1,4 @@
 interface:
   display_name: "Growth Diagnosis"
-  short_description: "Find the primary growth constraint and next decision"
-  default_prompt: "Use $growth-diagnosis to identify one evidence-backed growth constraint and a routed 30-day decision plan."
+  short_description: "Integrated Growth Diagnosis workflows"
+  default_prompt: "Use $growth-diagnosis to handle this growth diagnosis request as one evidence-backed workflow."

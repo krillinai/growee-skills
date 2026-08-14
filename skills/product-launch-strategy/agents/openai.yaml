@@ -1,4 +1,0 @@
-interface:
-  display_name: "Product Launch Strategy"
-  short_description: "Design staged, value-led product launches"
-  default_prompt: "Use $product-launch-strategy to audit or design this launch as a staged customer-value learning system."

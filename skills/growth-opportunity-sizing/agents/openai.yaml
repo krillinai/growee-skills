@@ -1,4 +1,0 @@
-interface:
-  display_name: "Growth Opportunity Sizing"
-  short_description: "Size growth opportunities without invented uplift"
-  default_prompt: "Use $growth-opportunity-sizing to compare bounded growth opportunities with explicit evidence, ranges, overlap, economics, and decision gates."

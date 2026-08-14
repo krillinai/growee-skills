@@ -1,4 +1,0 @@
-interface:
-  display_name: "Customer Proof Development"
-  short_description: "Build traceable customer proof and case studies"
-  default_prompt: "Use $customer-proof-development to turn approved customer evidence into a credible case, testimonial, or proof library."

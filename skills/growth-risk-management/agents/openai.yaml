@@ -1,4 +1,0 @@
-interface:
-  display_name: "Growth Risk Management"
-  short_description: "Manage a traceable portfolio of growth risks"
-  default_prompt: "Use $growth-risk-management to build, audit, or refresh a bounded growth risk portfolio without inventing scores or implying control execution."

@@ -1,4 +1,0 @@
-interface:
-  display_name: "Market Entry Strategy"
-  short_description: "Plan evidence-led entry into new markets"
-  default_prompt: "Use $market-entry-strategy to assess and plan entry into this target market."
