@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/krillinai/content-marketing-skills/schemas/catalog.schema.json",
-  "title": "Skills Catalog",
+  "$id": "https://github.com/krillinai/Growee/schemas/catalog.schema.json",
+  "title": "Growee Catalog",
   "type": "object",
   "required": ["schema_version", "default_status", "skills"],
   "additionalProperties": false,

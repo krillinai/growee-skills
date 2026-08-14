@@ -5,7 +5,7 @@
     {
       "id": "copywriting",
       "path": "skills/copywriting/",
-      "category": "content-creative",
+      "category": "content-production",
       "status": "experimental",
       "name_en": "Copywriting",
       "name_zh": "文案创作",
@@ -21,7 +21,7 @@
     {
       "id": "copy-editing",
       "path": "skills/copy-editing/",
-      "category": "content-creative",
+      "category": "content-production",
       "status": "experimental",
       "name_en": "Copy Editing",
       "name_zh": "文案编辑",
@@ -37,7 +37,7 @@
     {
       "id": "marketing-image",
       "path": "skills/marketing-image/",
-      "category": "content-creative",
+      "category": "content-production",
       "status": "experimental",
       "name_en": "Marketing Image",
       "name_zh": "营销图片",
@@ -55,7 +55,7 @@
     {
       "id": "marketing-video",
       "path": "skills/marketing-video/",
-      "category": "content-creative",
+      "category": "content-production",
       "status": "experimental",
       "name_en": "Marketing Video",
       "name_zh": "营销视频",
@@ -73,7 +73,7 @@
     {
       "id": "content-strategy",
       "path": "skills/content-strategy/",
-      "category": "content-creative",
+      "category": "content-production",
       "status": "experimental",
       "name_en": "Content Strategy",
       "name_zh": "内容策略",
@@ -91,7 +91,7 @@
     {
       "id": "ad-creative",
       "path": "skills/ad-creative/",
-      "category": "content-creative",
+      "category": "content-production",
       "status": "experimental",
       "name_en": "Ad Creative",
       "name_zh": "广告创意",
@@ -109,7 +109,7 @@
     {
       "id": "public-relations",
       "path": "skills/public-relations/",
-      "category": "content-creative",
+      "category": "content-production",
       "status": "experimental",
       "name_en": "Public Relations",
       "name_zh": "公共关系",
@@ -127,7 +127,7 @@
     {
       "id": "customer-proof-development",
       "path": "skills/customer-proof-development/",
-      "category": "content-creative",
+      "category": "content-production",
       "status": "experimental",
       "name_en": "Customer Proof Development",
       "name_zh": "客户证据开发",
@@ -145,7 +145,7 @@
     {
       "id": "customer-research",
       "path": "skills/customer-research/",
-      "category": "research-intelligence",
+      "category": "growth-foundations",
       "status": "experimental",
       "name_en": "Customer Research",
       "name_zh": "客户研究",
@@ -163,7 +163,7 @@
     {
       "id": "survey-design-and-analysis",
       "path": "skills/survey-design-and-analysis/",
-      "category": "research-intelligence",
+      "category": "growth-foundations",
       "status": "experimental",
       "name_en": "Survey Design & Analysis",
       "name_zh": "调查设计与分析",
@@ -181,7 +181,7 @@
     {
       "id": "competitive-intelligence",
       "path": "skills/competitive-intelligence/",
-      "category": "research-intelligence",
+      "category": "growth-foundations",
       "status": "experimental",
       "name_en": "Competitive Intelligence",
       "name_zh": "竞争情报",
@@ -199,7 +199,7 @@
     {
       "id": "positioning",
       "path": "skills/positioning/",
-      "category": "research-intelligence",
+      "category": "growth-foundations",
       "status": "experimental",
       "name_en": "Positioning",
       "name_zh": "市场定位",
@@ -217,7 +217,7 @@
     {
       "id": "icp-segmentation",
       "path": "skills/icp-segmentation/",
-      "category": "research-intelligence",
+      "category": "growth-foundations",
       "status": "experimental",
       "name_en": "ICP Segmentation",
       "name_zh": "ICP（理想客户画像）与客户分群",
@@ -235,7 +235,7 @@
     {
       "id": "product-market-fit-assessment",
       "path": "skills/product-market-fit-assessment/",
-      "category": "research-intelligence",
+      "category": "growth-foundations",
       "status": "experimental",
       "name_en": "Product-Market Fit Assessment",
       "name_zh": "产品市场匹配评估",
@@ -253,7 +253,7 @@
     {
       "id": "customer-journey-analysis",
       "path": "skills/customer-journey-analysis/",
-      "category": "research-intelligence",
+      "category": "growth-foundations",
       "status": "experimental",
       "name_en": "Customer Journey Analysis",
       "name_zh": "客户旅程分析",
@@ -271,7 +271,7 @@
     {
       "id": "market-sizing",
       "path": "skills/market-sizing/",
-      "category": "research-intelligence",
+      "category": "growth-foundations",
       "status": "experimental",
       "name_en": "Market Sizing",
       "name_zh": "市场规模估算",
@@ -289,7 +289,7 @@
     {
       "id": "growth-diagnosis",
       "path": "skills/growth-diagnosis/",
-      "category": "strategy-planning",
+      "category": "growth-diagnosis",
       "status": "experimental",
       "name_en": "Growth Diagnosis",
       "name_zh": "增长诊断",
@@ -307,7 +307,7 @@
     {
       "id": "growth-maturity-assessment",
       "path": "skills/growth-maturity-assessment/",
-      "category": "strategy-planning",
+      "category": "growth-diagnosis",
       "status": "experimental",
       "name_en": "Growth Maturity Assessment",
       "name_zh": "增长成熟度评估",
@@ -325,7 +325,7 @@
     {
       "id": "growth-strategy",
       "path": "skills/growth-strategy/",
-      "category": "strategy-planning",
+      "category": "growth-foundations",
       "status": "experimental",
       "name_en": "Growth Strategy",
       "name_zh": "增长战略",
@@ -343,7 +343,7 @@
     {
       "id": "growth-model-design",
       "path": "skills/growth-model-design/",
-      "category": "strategy-planning",
+      "category": "growth-foundations",
       "status": "experimental",
       "name_en": "Growth Model Design",
       "name_zh": "增长模型设计",
@@ -361,7 +361,7 @@
     {
       "id": "growth-planning-cycle",
       "path": "skills/growth-planning-cycle/",
-      "category": "strategy-planning",
+      "category": "growth-infrastructure-organization",
       "status": "experimental",
       "name_en": "Growth Planning Cycle",
       "name_zh": "增长规划周期",
@@ -379,7 +379,7 @@
     {
       "id": "growth-capacity-planning",
       "path": "skills/growth-capacity-planning/",
-      "category": "strategy-planning",
+      "category": "growth-infrastructure-organization",
       "status": "experimental",
       "name_en": "Growth Capacity Planning",
       "name_zh": "增长承载能力规划",
@@ -397,7 +397,7 @@
     {
       "id": "growth-opportunity-sizing",
       "path": "skills/growth-opportunity-sizing/",
-      "category": "strategy-planning",
+      "category": "growth-foundations",
       "status": "experimental",
       "name_en": "Growth Opportunity Sizing",
       "name_zh": "增长机会测算",
@@ -415,7 +415,7 @@
     {
       "id": "growth-investment-case",
       "path": "skills/growth-investment-case/",
-      "category": "strategy-planning",
+      "category": "growth-infrastructure-organization",
       "status": "experimental",
       "name_en": "Growth Investment Case",
       "name_zh": "增长投资决策案",
@@ -433,7 +433,7 @@
     {
       "id": "growth-budget-allocation",
       "path": "skills/growth-budget-allocation/",
-      "category": "strategy-planning",
+      "category": "growth-infrastructure-organization",
       "status": "experimental",
       "name_en": "Growth Budget Allocation",
       "name_zh": "增长预算与资源配置",
@@ -451,7 +451,7 @@
     {
       "id": "growth-initiative-planning",
       "path": "skills/growth-initiative-planning/",
-      "category": "strategy-planning",
+      "category": "growth-infrastructure-organization",
       "status": "experimental",
       "name_en": "Growth Initiative Planning",
       "name_zh": "增长项目规划",
@@ -469,7 +469,7 @@
     {
       "id": "market-entry-strategy",
       "path": "skills/market-entry-strategy/",
-      "category": "strategy-planning",
+      "category": "growth-foundations",
       "status": "experimental",
       "name_en": "Market Entry Strategy",
       "name_zh": "市场进入策略",
@@ -487,7 +487,7 @@
     {
       "id": "go-to-market-strategy",
       "path": "skills/go-to-market-strategy/",
-      "category": "strategy-planning",
+      "category": "growth-foundations",
       "status": "experimental",
       "name_en": "Go-to-Market Strategy",
       "name_zh": "产品市场推进策略",
@@ -505,7 +505,7 @@
     {
       "id": "product-launch-strategy",
       "path": "skills/product-launch-strategy/",
-      "category": "strategy-planning",
+      "category": "growth-foundations",
       "status": "experimental",
       "name_en": "Product Launch Strategy",
       "name_zh": "产品发布策略",
@@ -523,7 +523,7 @@
     {
       "id": "growth-metrics-design",
       "path": "skills/growth-metrics-design/",
-      "category": "measurement-experimentation",
+      "category": "metrics-experimentation",
       "status": "experimental",
       "name_en": "Growth Metrics Design",
       "name_zh": "增长指标设计",
@@ -541,7 +541,7 @@
     {
       "id": "growth-target-setting",
       "path": "skills/growth-target-setting/",
-      "category": "measurement-experimentation",
+      "category": "metrics-experimentation",
       "status": "experimental",
       "name_en": "Growth Target Setting",
       "name_zh": "增长目标设定",
@@ -559,7 +559,7 @@
     {
       "id": "growth-benchmark-analysis",
       "path": "skills/growth-benchmark-analysis/",
-      "category": "measurement-experimentation",
+      "category": "metrics-experimentation",
       "status": "experimental",
       "name_en": "Growth Benchmark Analysis",
       "name_zh": "增长基准分析",
@@ -577,7 +577,7 @@
     {
       "id": "growth-anomaly-investigation",
       "path": "skills/growth-anomaly-investigation/",
-      "category": "measurement-experimentation",
+      "category": "growth-diagnosis",
       "status": "experimental",
       "name_en": "Growth Anomaly Investigation",
       "name_zh": "增长异常调查",
@@ -595,7 +595,7 @@
     {
       "id": "tracking-plan",
       "path": "skills/tracking-plan/",
-      "category": "measurement-experimentation",
+      "category": "metrics-experimentation",
       "status": "experimental",
       "name_en": "Tracking Plan",
       "name_zh": "数据追踪方案",
@@ -613,7 +613,7 @@
     {
       "id": "growth-data-quality-audit",
       "path": "skills/growth-data-quality-audit/",
-      "category": "measurement-experimentation",
+      "category": "metrics-experimentation",
       "status": "experimental",
       "name_en": "Growth Data Quality Audit",
       "name_zh": "增长数据质量审计",
@@ -631,7 +631,7 @@
     {
       "id": "attribution-analysis",
       "path": "skills/attribution-analysis/",
-      "category": "measurement-experimentation",
+      "category": "metrics-experimentation",
       "status": "experimental",
       "name_en": "Attribution Analysis",
       "name_zh": "归因分析",
@@ -649,7 +649,7 @@
     {
       "id": "marketing-mix-modeling",
       "path": "skills/marketing-mix-modeling/",
-      "category": "measurement-experimentation",
+      "category": "metrics-experimentation",
       "status": "experimental",
       "name_en": "Marketing Mix Modeling",
       "name_zh": "营销组合建模",
@@ -667,7 +667,7 @@
     {
       "id": "ltv-analysis",
       "path": "skills/ltv-analysis/",
-      "category": "measurement-experimentation",
+      "category": "monetization",
       "status": "experimental",
       "name_en": "LTV Analysis",
       "name_zh": "LTV（客户终身价值）分析",
@@ -685,7 +685,7 @@
     {
       "id": "unit-economics-analysis",
       "path": "skills/unit-economics-analysis/",
-      "category": "measurement-experimentation",
+      "category": "monetization",
       "status": "experimental",
       "name_en": "Unit Economics Analysis",
       "name_zh": "单位经济分析",
@@ -703,7 +703,7 @@
     {
       "id": "growth-forecasting",
       "path": "skills/growth-forecasting/",
-      "category": "measurement-experimentation",
+      "category": "metrics-experimentation",
       "status": "experimental",
       "name_en": "Growth Forecasting",
       "name_zh": "增长预测",
@@ -721,7 +721,7 @@
     {
       "id": "growth-accounting",
       "path": "skills/growth-accounting/",
-      "category": "measurement-experimentation",
+      "category": "retention",
       "status": "experimental",
       "name_en": "Growth Accounting",
       "name_zh": "增长核算",
@@ -739,7 +739,7 @@
     {
       "id": "cohort-analysis",
       "path": "skills/cohort-analysis/",
-      "category": "measurement-experimentation",
+      "category": "retention",
       "status": "experimental",
       "name_en": "Cohort Analysis",
       "name_zh": "Cohort（同期群）分析",
@@ -757,7 +757,7 @@
     {
       "id": "engagement-analysis",
       "path": "skills/engagement-analysis/",
-      "category": "measurement-experimentation",
+      "category": "retention",
       "status": "experimental",
       "name_en": "Engagement Analysis",
       "name_zh": "参与度分析",
@@ -775,7 +775,7 @@
     {
       "id": "experiment-design",
       "path": "skills/experiment-design/",
-      "category": "measurement-experimentation",
+      "category": "metrics-experimentation",
       "status": "experimental",
       "name_en": "Experiment Design",
       "name_zh": "实验设计",
@@ -793,7 +793,7 @@
     {
       "id": "funnel-analysis",
       "path": "skills/funnel-analysis/",
-      "category": "measurement-experimentation",
+      "category": "growth-diagnosis",
       "status": "experimental",
       "name_en": "Funnel Analysis",
       "name_zh": "漏斗分析",
@@ -811,7 +811,7 @@
     {
       "id": "activation",
       "path": "skills/activation/",
-      "category": "lifecycle-monetization",
+      "category": "activation",
       "status": "experimental",
       "name_en": "Activation",
       "name_zh": "激活",
@@ -829,7 +829,7 @@
     {
       "id": "lifecycle-marketing",
       "path": "skills/lifecycle-marketing/",
-      "category": "lifecycle-monetization",
+      "category": "retention",
       "status": "experimental",
       "name_en": "Lifecycle Marketing",
       "name_zh": "生命周期营销",
@@ -845,7 +845,7 @@
     {
       "id": "retention",
       "path": "skills/retention/",
-      "category": "lifecycle-monetization",
+      "category": "retention",
       "status": "experimental",
       "name_en": "Retention",
       "name_zh": "留存",
@@ -863,7 +863,7 @@
     {
       "id": "customer-health-modeling",
       "path": "skills/customer-health-modeling/",
-      "category": "lifecycle-monetization",
+      "category": "retention",
       "status": "experimental",
       "name_en": "Customer Health Modeling",
       "name_zh": "客户健康建模",
@@ -881,7 +881,7 @@
     {
       "id": "customer-expansion-strategy",
       "path": "skills/customer-expansion-strategy/",
-      "category": "lifecycle-monetization",
+      "category": "referral-expansion",
       "status": "experimental",
       "name_en": "Customer Expansion Strategy",
       "name_zh": "客户扩张策略",
@@ -899,7 +899,7 @@
     {
       "id": "monetization",
       "path": "skills/monetization/",
-      "category": "lifecycle-monetization",
+      "category": "monetization",
       "status": "experimental",
       "name_en": "Monetization",
       "name_zh": "变现",
@@ -917,7 +917,7 @@
     {
       "id": "pricing-and-packaging-strategy",
       "path": "skills/pricing-and-packaging-strategy/",
-      "category": "lifecycle-monetization",
+      "category": "monetization",
       "status": "experimental",
       "name_en": "Pricing & Packaging Strategy",
       "name_zh": "定价与套餐策略",
@@ -935,7 +935,7 @@
     {
       "id": "referral-program-design",
       "path": "skills/referral-program-design/",
-      "category": "lifecycle-monetization",
+      "category": "referral-expansion",
       "status": "experimental",
       "name_en": "Referral Program Design",
       "name_zh": "推荐计划设计",
@@ -953,7 +953,7 @@
     {
       "id": "incentive-system-design",
       "path": "skills/incentive-system-design/",
-      "category": "lifecycle-monetization",
+      "category": "referral-expansion",
       "status": "experimental",
       "name_en": "Incentive System Design",
       "name_zh": "激励系统设计",
@@ -971,7 +971,7 @@
     {
       "id": "growth-loop-design",
       "path": "skills/growth-loop-design/",
-      "category": "lifecycle-monetization",
+      "category": "referral-expansion",
       "status": "experimental",
       "name_en": "Growth Loop Design",
       "name_zh": "增长循环设计",
@@ -989,7 +989,7 @@
     {
       "id": "marketplace-growth-strategy",
       "path": "skills/marketplace-growth-strategy/",
-      "category": "lifecycle-monetization",
+      "category": "referral-expansion",
       "status": "experimental",
       "name_en": "Marketplace Growth Strategy",
       "name_zh": "Marketplace（多边市场）增长策略",
@@ -1007,7 +1007,7 @@
     {
       "id": "network-effects-strategy",
       "path": "skills/network-effects-strategy/",
-      "category": "lifecycle-monetization",
+      "category": "referral-expansion",
       "status": "experimental",
       "name_en": "Network Effects Strategy",
       "name_zh": "网络效应策略",
@@ -1025,7 +1025,7 @@
     {
       "id": "acquisition-strategy",
       "path": "skills/acquisition-strategy/",
-      "category": "acquisition-distribution",
+      "category": "acquisition",
       "status": "experimental",
       "name_en": "Acquisition Strategy",
       "name_zh": "获客策略",
@@ -1043,7 +1043,7 @@
     {
       "id": "campaign-planning",
       "path": "skills/campaign-planning/",
-      "category": "acquisition-distribution",
+      "category": "acquisition",
       "status": "experimental",
       "name_en": "Campaign Planning",
       "name_zh": "营销活动规划",
@@ -1061,7 +1061,7 @@
     {
       "id": "partnership-marketing",
       "path": "skills/partnership-marketing/",
-      "category": "acquisition-distribution",
+      "category": "acquisition",
       "status": "experimental",
       "name_en": "Partnership Marketing",
       "name_zh": "合作伙伴营销",
@@ -1079,7 +1079,7 @@
     {
       "id": "community-growth-strategy",
       "path": "skills/community-growth-strategy/",
-      "category": "acquisition-distribution",
+      "category": "acquisition",
       "status": "experimental",
       "name_en": "Community Growth Strategy",
       "name_zh": "社区增长策略",
@@ -1097,7 +1097,7 @@
     {
       "id": "sales-enablement",
       "path": "skills/sales-enablement/",
-      "category": "acquisition-distribution",
+      "category": "acquisition",
       "status": "experimental",
       "name_en": "Sales Enablement",
       "name_zh": "销售赋能",
@@ -1115,7 +1115,7 @@
     {
       "id": "landing-page-audit",
       "path": "skills/landing-page-audit/",
-      "category": "acquisition-distribution",
+      "category": "activation",
       "status": "experimental",
       "name_en": "Landing Page Audit",
       "name_zh": "落地页诊断",
@@ -1133,7 +1133,7 @@
     {
       "id": "popup-optimization",
       "path": "skills/popup-optimization/",
-      "category": "acquisition-distribution",
+      "category": "activation",
       "status": "experimental",
       "name_en": "Popup Optimization",
       "name_zh": "弹窗优化",
@@ -1151,7 +1151,7 @@
     {
       "id": "meta-ads-audit",
       "path": "skills/meta-ads-audit/",
-      "category": "acquisition-distribution",
+      "category": "acquisition",
       "status": "experimental",
       "name_en": "Meta Ads Audit",
       "name_zh": "Meta Ads 诊断",
@@ -1169,7 +1169,7 @@
     {
       "id": "google-ads-audit",
       "path": "skills/google-ads-audit/",
-      "category": "acquisition-distribution",
+      "category": "acquisition",
       "status": "experimental",
       "name_en": "Google Ads Audit",
       "name_zh": "Google Ads 诊断",
@@ -1187,7 +1187,7 @@
     {
       "id": "tiktok-ads-audit",
       "path": "skills/tiktok-ads-audit/",
-      "category": "acquisition-distribution",
+      "category": "acquisition",
       "status": "experimental",
       "name_en": "TikTok Ads Audit",
       "name_zh": "TikTok Ads 诊断",
@@ -1205,7 +1205,7 @@
     {
       "id": "douyin-ads-audit",
       "path": "skills/douyin-ads-audit/",
-      "category": "acquisition-distribution",
+      "category": "acquisition",
       "status": "experimental",
       "name_en": "Douyin Ads Audit",
       "name_zh": "抖音广告诊断",
@@ -1223,7 +1223,7 @@
     {
       "id": "seo-audit",
       "path": "skills/seo-audit/",
-      "category": "acquisition-distribution",
+      "category": "acquisition",
       "status": "experimental",
       "name_en": "SEO Audit",
       "name_zh": "SEO（搜索引擎优化）诊断",
@@ -1239,7 +1239,7 @@
     {
       "id": "programmatic-seo",
       "path": "skills/programmatic-seo/",
-      "category": "acquisition-distribution",
+      "category": "acquisition",
       "status": "experimental",
       "name_en": "Programmatic SEO",
       "name_zh": "程序化 SEO（搜索引擎优化）",
@@ -1257,7 +1257,7 @@
     {
       "id": "aso-audit",
       "path": "skills/aso-audit/",
-      "category": "acquisition-distribution",
+      "category": "acquisition",
       "status": "experimental",
       "name_en": "ASO Audit",
       "name_zh": "ASO（应用商店优化）诊断",
@@ -1273,7 +1273,7 @@
     {
       "id": "geo",
       "path": "skills/geo/",
-      "category": "acquisition-distribution",
+      "category": "acquisition",
       "status": "experimental",
       "name_en": "GEO Audit",
       "name_zh": "GEO（生成式引擎优化）诊断",
@@ -1289,7 +1289,7 @@
     {
       "id": "structured-data-builder",
       "path": "skills/structured-data-builder/",
-      "category": "acquisition-distribution",
+      "category": "acquisition",
       "status": "experimental",
       "name_en": "Structured Data Builder",
       "name_zh": "结构化数据构建",
@@ -1305,7 +1305,7 @@
     {
       "id": "search-site-planner",
       "path": "skills/search-site-planner/",
-      "category": "acquisition-distribution",
+      "category": "acquisition",
       "status": "experimental",
       "name_en": "Search Site Planner",
       "name_zh": "搜索站点规划",
@@ -1321,7 +1321,7 @@
     {
       "id": "directory-submissions",
       "path": "skills/directory-submissions/",
-      "category": "acquisition-distribution",
+      "category": "acquisition",
       "status": "experimental",
       "name_en": "Directory Submissions",
       "name_zh": "目录提交",
@@ -1339,7 +1339,7 @@
     {
       "id": "b2b-outbound-messaging",
       "path": "skills/b2b-outbound-messaging/",
-      "category": "acquisition-distribution",
+      "category": "acquisition",
       "status": "experimental",
       "name_en": "B2B Outbound Messaging",
       "name_zh": "B2B（企业对企业）外联沟通",
@@ -1355,7 +1355,7 @@
     {
       "id": "growth-operating-review",
       "path": "skills/growth-operating-review/",
-      "category": "operations-governance",
+      "category": "growth-infrastructure-organization",
       "status": "experimental",
       "name_en": "Growth Operating Review",
       "name_zh": "增长经营复盘",
@@ -1373,7 +1373,7 @@
     {
       "id": "growth-decision-record",
       "path": "skills/growth-decision-record/",
-      "category": "operations-governance",
+      "category": "growth-infrastructure-organization",
       "status": "experimental",
       "name_en": "Growth Decision Record",
       "name_zh": "增长决策记录",
@@ -1391,7 +1391,7 @@
     {
       "id": "growth-risk-management",
       "path": "skills/growth-risk-management/",
-      "category": "operations-governance",
+      "category": "growth-infrastructure-organization",
       "status": "experimental",
       "name_en": "Growth Risk Management",
       "name_zh": "增长风险管理",
@@ -1409,7 +1409,7 @@
     {
       "id": "growth-learning-system",
       "path": "skills/growth-learning-system/",
-      "category": "operations-governance",
+      "category": "growth-infrastructure-organization",
       "status": "experimental",
       "name_en": "Growth Learning System",
       "name_zh": "增长学习系统",
@@ -1427,7 +1427,7 @@
     {
       "id": "growth-change-management",
       "path": "skills/growth-change-management/",
-      "category": "operations-governance",
+      "category": "growth-infrastructure-organization",
       "status": "experimental",
       "name_en": "Growth Change Management",
       "name_zh": "增长变更管理",
@@ -1445,7 +1445,7 @@
     {
       "id": "growth-postmortem",
       "path": "skills/growth-postmortem/",
-      "category": "operations-governance",
+      "category": "growth-infrastructure-organization",
       "status": "experimental",
       "name_en": "Growth Postmortem",
       "name_zh": "增长专项复盘",
@@ -1463,7 +1463,7 @@
     {
       "id": "growth-infrastructure-assessment",
       "path": "skills/growth-infrastructure-assessment/",
-      "category": "operations-governance",
+      "category": "growth-infrastructure-organization",
       "status": "experimental",
       "name_en": "Growth Infrastructure Assessment",
       "name_zh": "增长基础设施评估",
@@ -1481,7 +1481,7 @@
     {
       "id": "growth-organization-design",
       "path": "skills/growth-organization-design/",
-      "category": "operations-governance",
+      "category": "growth-infrastructure-organization",
       "status": "experimental",
       "name_en": "Growth Organization Design",
       "name_zh": "增长组织设计",
@@ -1499,7 +1499,7 @@
     {
       "id": "revops-audit",
       "path": "skills/revops-audit/",
-      "category": "operations-governance",
+      "category": "growth-infrastructure-organization",
       "status": "experimental",
       "name_en": "RevOps Audit",
       "name_zh": "RevOps（收入运营）诊断",
@@ -1517,7 +1517,7 @@
     {
       "id": "experiment-program-management",
       "path": "skills/experiment-program-management/",
-      "category": "operations-governance",
+      "category": "growth-infrastructure-organization",
       "status": "experimental",
       "name_en": "Experiment Program Management",
       "name_zh": "实验项目管理",

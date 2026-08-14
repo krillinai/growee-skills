@@ -2,11 +2,11 @@
   "schema_version": "1.0",
   "bundles": [
     {
-      "id": "content-marketing",
-      "name_en": "Content Marketing",
-      "name_zh": "内容营销",
-      "description_en": "Plan, create, localize, distribute, and convert content with one focused set of AI workflows.",
-      "description_zh": "用一组聚焦的 AI 工作流完成内容策划、创作、本地化、分发与转化。",
+      "id": "content-growth",
+      "name_en": "Content Growth",
+      "name_zh": "内容增长",
+      "description_en": "A focused content-marketing path connecting customer questions, content production, localization, distribution, and conversion.",
+      "description_zh": "把客户问题、内容生产、本地化、分发与转化连接起来的内容营销路径。",
       "skills": [
         "content-strategy",
         "copywriting",
@@ -18,43 +18,85 @@
       "integrations": [
         "krillinai-video-localization",
         "autosocial-publishing"
-      ],
-      "extensions": [
-        {
-          "skill_id": "customer-research",
-          "job_en": "Ground topics in attributable customer questions",
-          "job_zh": "从可追溯的客户问题中寻找选题"
-        },
-        {
-          "skill_id": "competitive-intelligence",
-          "job_en": "Find content gaps across real alternatives",
-          "job_zh": "从真实替代方案中发现内容空白"
-        },
-        {
-          "skill_id": "positioning",
-          "job_en": "Align content with a clear market position",
-          "job_zh": "让内容与清晰的市场定位保持一致"
-        },
-        {
-          "skill_id": "copy-editing",
-          "job_en": "Improve existing copy without changing its factual meaning",
-          "job_zh": "在不改变事实含义的前提下完善现有文案"
-        },
-        {
-          "skill_id": "ad-creative",
-          "job_en": "Adapt content into traceable advertising concepts",
-          "job_zh": "将内容适配为可追溯的广告创意"
-        },
-        {
-          "skill_id": "customer-proof-development",
-          "job_en": "Turn permissioned customer evidence into case content",
-          "job_zh": "将获得授权的客户证据转化为案例内容"
-        },
-        {
-          "skill_id": "seo-audit",
-          "job_en": "Diagnose content and technical search visibility",
-          "job_zh": "诊断内容与技术层面的搜索可见性"
-        }
+      ]
+    },
+    {
+      "id": "measurement-analytics",
+      "name_en": "Measurement & Analytics",
+      "name_zh": "测量与分析",
+      "description_en": "Make growth observable and decision-ready through metrics, tracking, attribution, economics, forecasting, cohorts, and experiments.",
+      "description_zh": "通过指标、追踪、归因、经济性、预测、同期群与实验，让增长可观察、可用于决策。",
+      "skills": [
+        "growth-metrics-design",
+        "growth-target-setting",
+        "growth-benchmark-analysis",
+        "growth-anomaly-investigation",
+        "tracking-plan",
+        "growth-data-quality-audit",
+        "attribution-analysis",
+        "marketing-mix-modeling",
+        "ltv-analysis",
+        "unit-economics-analysis",
+        "growth-forecasting",
+        "growth-accounting",
+        "cohort-analysis",
+        "engagement-analysis",
+        "experiment-design",
+        "funnel-analysis"
+      ]
+    },
+    {
+      "id": "acquisition-distribution",
+      "name_en": "Acquisition & Distribution",
+      "name_zh": "获客与分发",
+      "description_en": "Connect qualified demand to product value through channels, campaigns, search, conversion surfaces, partnerships, community, and outbound.",
+      "description_zh": "通过渠道、营销活动、搜索、转化界面、合作、社区与外联，把有效需求连接到产品价值。",
+      "skills": [
+        "acquisition-strategy",
+        "campaign-planning",
+        "partnership-marketing",
+        "community-growth-strategy",
+        "sales-enablement",
+        "landing-page-audit",
+        "popup-optimization",
+        "meta-ads-audit",
+        "google-ads-audit",
+        "tiktok-ads-audit",
+        "douyin-ads-audit",
+        "seo-audit",
+        "programmatic-seo",
+        "aso-audit",
+        "geo",
+        "structured-data-builder",
+        "search-site-planner",
+        "directory-submissions",
+        "b2b-outbound-messaging"
+      ]
+    },
+    {
+      "id": "growth-operating-system",
+      "name_en": "Growth Operating System",
+      "name_zh": "增长运营体系",
+      "description_en": "Turn growth decisions into a repeatable operating cadence across planning, capacity, investment, governance, reviews, learning, infrastructure, organization, and RevOps.",
+      "description_zh": "通过规划、承载能力、投入、治理、复盘、学习、基础设施、组织与收入运营，把增长决策变成可重复的运行节奏。",
+      "skills": [
+        "growth-maturity-assessment",
+        "growth-planning-cycle",
+        "growth-capacity-planning",
+        "growth-opportunity-sizing",
+        "growth-investment-case",
+        "growth-budget-allocation",
+        "growth-initiative-planning",
+        "growth-operating-review",
+        "growth-decision-record",
+        "growth-risk-management",
+        "growth-learning-system",
+        "growth-change-management",
+        "growth-postmortem",
+        "growth-infrastructure-assessment",
+        "growth-organization-design",
+        "revops-audit",
+        "experiment-program-management"
       ]
     }
   ]

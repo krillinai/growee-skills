@@ -1,6 +1,6 @@
 # Contributing
 
-Content Marketing Skills accepts focused Agent Skills that solve a clear content marketing job with an executable workflow, explicit evidence boundaries, inspectable outputs, and realistic evaluation cases. Existing specialist Skills outside the public content marketing set remain available for maintenance, but they are not the default path for new additions.
+Growee accepts focused Agent Skills that solve a clear growth or marketing job with an executable workflow, explicit evidence boundaries, inspectable outputs, and realistic evaluation cases.
 
 ## Repository Structure
 
@@ -32,6 +32,8 @@ Add `scripts/` only for deterministic or repeatedly implemented operations. Add 
 ## Catalog And Status
 
 Every Skill must appear exactly once in `catalog/taxonomy.json` and once in `catalog/skills.json`. Catalog status values use internal identifiers while the README presents user-facing maturity labels:
+
+Classify each Skill by its primary decision and output using the Growth Playbook mainline: Growth Diagnosis, Growth Foundations, Content Production, Acquisition, Activation, Retention, Monetization, Referral & Expansion, Metrics & Experimentation, or Growth Infrastructure & Organization. Content Production is the execution layer between foundations and acquisition; the two growth-system categories support every lifecycle stage. When a Skill touches several categories, place it where its main completion gate belongs and link adjacent capabilities rather than duplicating the Skill.
 
 - `experimental` displays as **Preview / 预览版**. The Skill is structurally complete and has evaluation cases, but still needs representative real-world validation.
 - `beta` displays as **Validated / 已验证**. The Skill has passed realistic forward tests, including relevant language, market, missing-evidence, and boundary cases, and its outputs have been reviewed.

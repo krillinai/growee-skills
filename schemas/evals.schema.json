@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/krillinai/content-marketing-skills/schemas/evals.schema.json",
+  "$id": "https://github.com/krillinai/Growee/schemas/evals.schema.json",
   "title": "Growth Skill Evaluation Specification",
   "type": "object",
   "required": ["skill_name", "evals"],

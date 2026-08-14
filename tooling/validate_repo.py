@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate the complete Skills collection with standard-library tools."""
+"""Validate the complete Growee collection with standard-library tools."""
 
 from __future__ import annotations
 
@@ -329,8 +329,6 @@ def validate_catalog(skill_ids: set[str], report: Report) -> None:
     if bundles.get("schema_version") != "1.0" or not isinstance(bundle_rows, list):
         report.error("catalog/bundles.json: invalid schema_version or bundles")
     else:
-        if len(bundle_rows) != 1:
-            report.error("catalog/bundles.json: require one public content-marketing bundle")
         bundle_ids: set[str] = set()
         for bundle in bundle_rows:
             bundle_id = bundle.get("id") if isinstance(bundle, dict) else None
@@ -343,8 +341,6 @@ def validate_catalog(skill_ids: set[str], report: Report) -> None:
                 report.error("catalog/bundles.json: invalid or duplicate bundle id")
                 continue
             bundle_ids.add(bundle_id)
-            if bundle_id != "content-marketing":
-                report.error("catalog/bundles.json: public bundle must be content-marketing")
             for key in ("name_en", "name_zh", "description_en", "description_zh"):
                 if not isinstance(bundle.get(key), str) or not bundle[key].strip():
                     report.error(f"{bundle_id}: bundle {key} must be a non-empty string")
@@ -365,32 +361,6 @@ def validate_catalog(skill_ids: set[str], report: Report) -> None:
                 report.error(f"{bundle_id}: bundle contains invalid integrations")
             else:
                 bundle_integration_refs[bundle_id] = integration_refs
-            extension_rows = bundle.get("extensions")
-            if not isinstance(extension_rows, list) or not extension_rows:
-                report.error(f"{bundle_id}: bundle extensions must be a non-empty array")
-                continue
-            extension_ids: list[str] = []
-            for index, extension in enumerate(extension_rows):
-                label = f"{bundle_id}: extension[{index}]"
-                if not isinstance(extension, dict) or set(extension) != {
-                    "skill_id",
-                    "job_en",
-                    "job_zh",
-                }:
-                    report.error(f"{label} has invalid fields")
-                    continue
-                extension_id = extension.get("skill_id")
-                if not isinstance(extension_id, str) or extension_id not in skill_ids:
-                    report.error(f"{label} references an unknown skill")
-                    continue
-                extension_ids.append(extension_id)
-                if isinstance(members, list) and extension_id in members:
-                    report.error(f"{label} duplicates a core skill")
-                for key in ("job_en", "job_zh"):
-                    if not isinstance(extension.get(key), str) or not extension[key].strip():
-                        report.error(f"{label} {key} must be a non-empty string")
-            if len(extension_ids) != len(set(extension_ids)):
-                report.error(f"{bundle_id}: bundle contains duplicate extensions")
 
     integration_rows = integrations.get("integrations")
     integration_ids: set[str] = set()
