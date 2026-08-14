@@ -49,7 +49,7 @@ Use cohort or lag allocation when sales cycles cross periods. State whether cost
 
 Attribution assigns descriptive credit under a model. Incrementality estimates outcomes caused relative to a counterfactual. Keep platform-reported, last-touch, first-touch, multi-touch, sales-sourced, partner-sourced, self-reported, and unknown views separate.
 
-For incremental CAC, define eligible population, assignment, exposure, spillover, counterfactual, incremental cost, incremental acquired entity, maturity, power, uncertainty, and guardrails. If estimated incremental customers are zero or negative, report the estimate and uncertainty; do not divide into an attractive positive CAC. Route causal design and interpretation to `experiment-design`.
+For incremental CAC, define eligible population, assignment, exposure, spillover, counterfactual, incremental cost, incremental acquired entity, maturity, power, uncertainty, and guardrails. If estimated incremental customers are zero or negative, report the estimate and uncertainty; do not divide into an attractive positive CAC. Route causal design and interpretation to `growth-measurement`.
 
 ## Average And Marginal Economics
 

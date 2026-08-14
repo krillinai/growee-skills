@@ -93,4 +93,4 @@ Do not infer product health from a Gini coefficient, top-decile share, or power-
 
 Freeze entity, eligibility, zero state, event, opportunity, bucket rules, identity, source, window length, cutoff, timezone, latency, maturity, product, market, and version. Keep a canonical total beside predeclared segment, cohort, role, or product cuts and preserve unknown groups.
 
-When definitions change, create an overlap bridge, dual-run, restatement, or separate series. Decompose observed movement into population mix and within-group change when supported. Do not call an incompatible or immature difference a trend or attribute it to a release; route unexpected changes to `growth-diagnosis`, source defects to `tracking-plan`, and causal questions to `experiment-design`.
+When definitions change, create an overlap bridge, dual-run, restatement, or separate series. Decompose observed movement into population mix and within-group change when supported. Do not call an incompatible or immature difference a trend or attribute it to a release; route unexpected changes to `growth-diagnosis`, source defects to `growth-measurement`, and causal questions to `growth-measurement`.

@@ -73,7 +73,7 @@ Messages, reactions, daily active members, attendance, and time spent are operat
 
 ## Keep Adjacent Mechanisms Separate
 
-An invite is not automatically a referral program, a conversation is not automatically a closed growth loop, and a larger group is not automatically a network effect. Route referral value and recipient paths to `growth-loop-design`; loop closure to `growth-loop-design`; cross-participant value and defensibility to `growth-loop-design`; rewards to `growth-loop-design`; product first value to `activation`; recurring product value to `retention`; and causal tests to `experiment-design`.
+An invite is not automatically a referral program, a conversation is not automatically a closed growth loop, and a larger group is not automatically a network effect. Route referral value and recipient paths to `growth-loop-design`; loop closure to `growth-loop-design`; cross-participant value and defensibility to `growth-loop-design`; rewards to `growth-loop-design`; product first value to `activation`; recurring product value to `retention`; and causal tests to `growth-measurement`.
 
 This Skill owns community purpose, member and role contracts, onboarding to community value, program portfolio, contribution and recognition, trust and moderation, operating capacity, platform portfolio, measurement, and community governance. It does not produce all content, send invitations, operate moderation, prove network effects, set product strategy, or approve budgets.
 

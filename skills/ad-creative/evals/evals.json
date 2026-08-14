@@ -148,7 +148,7 @@
     {
       "id": 3010,
       "prompt": "Use $ad-creative to test four assets. Let the ad platform allocate freely, compare raw conversion rates after one day, ignore unequal spend and exposure, stop when one looks best, and claim the winning hook caused incremental revenue.",
-      "expected_output": "Defines the creative decision and flags adaptive delivery, unequal exposure, immature outcomes, peeking, attribution, and causal limitations. It specifies compatible delivery records, concept or variant hypotheses, guardrails, maturity, and an experiment-design handoff without launching the test.",
+      "expected_output": "Defines the creative decision and flags adaptive delivery, unequal exposure, immature outcomes, peeking, attribution, and causal limitations. It specifies compatible delivery records, concept or variant hypotheses, guardrails, maturity, and an growth-measurement handoff without launching the test.",
       "assertions": [
         "Identifies platform allocation and unequal exposure. [eval 3010]",
         "Does not compare raw one-day conversion rates as if randomized. [eval 3010]",
@@ -157,7 +157,7 @@
         "Defines whether the test concerns concepts or execution variants. [eval 3010]",
         "Requires actual delivery, audience, placement, offer, destination, attribution, and maturity. [eval 3010]",
         "Includes downstream quality, economics, trust, rights, and policy guardrails. [eval 3010]",
-        "Routes assignment, power, interference, and causal readout to experiment-design. [eval 3010]"
+        "Routes assignment, power, interference, and causal readout to growth-measurement. [eval 3010]"
       ],
       "files": []
     },

@@ -36,7 +36,7 @@ Engagement is behavior inside a window. Retention asks whether a frozen cohort c
 
 To connect engagement with a later outcome, freeze prediction time, engagement window, outcome window, cohort eligibility, maturity, source versions, and leakage boundary. Report later retention, renewal, expansion, customer outcome, quality, cost, and harm by compatible engagement band. Preserve selection, survivorship, reverse causality, tenure, segment, plan, and customer-health alternatives. If prediction is requested, use only information available at prediction time, validate out of sample, report calibration and error by material group, preserve drift and abstention, and keep prediction separate from treatment effect, target, forecast, and plan.
 
-An association can support segmentation or a hypothesis. It does not prove increasing activity will cause retention. Route recurring-value curves to `retention`, PMF claims to `product-market-fit-assessment`, forecasts to `growth-forecasting`, causal effects to `experiment-design`, and operating commitments to `growth-planning-cycle`.
+An association can support segmentation or a hypothesis. It does not prove increasing activity will cause retention. Route recurring-value curves to `retention`, PMF claims to `product-market-fit-assessment`, forecasts to `growth-measurement`, causal effects to `growth-measurement`, and operating commitments to `growth-operations`.
 
 ## Product Topology
 
@@ -64,7 +64,7 @@ Use a verified job, task, case, trip, filing, renewal, season, project, purchase
 
 An engagement analysis may specify the smallest next evidence or decision test. It does not choose arbitrary sample allocations, holdouts, durations, targets, or expected uplifts. Define the mechanism, eligible population, intervention, primary value metric, guardrails, maturity, owner, and decision rule only from supplied or separately designed evidence.
 
-Do not launch reminders, messages, onboarding changes, feature prompts, incentives, prices, outreach, or product changes. Route copy and eligibility to `lifecycle-marketing`, product mechanisms to the relevant lifecycle Skill, and causal design to `experiment-design`. A route is not authorization or execution.
+Do not launch reminders, messages, onboarding changes, feature prompts, incentives, prices, outreach, or product changes. Route copy and eligibility to `lifecycle-marketing`, product mechanisms to the relevant lifecycle Skill, and causal design to `growth-measurement`. A route is not authorization or execution.
 
 ## Common Mistakes
 

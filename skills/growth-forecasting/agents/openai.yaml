@@ -1,4 +1,0 @@
-interface:
-  display_name: "Growth Forecasting"
-  short_description: "Build calibrated forecasts with explicit uncertainty"
-  default_prompt: "Use $growth-forecasting to audit this forecast and build a versioned, decision-ready outlook."

@@ -1,4 +1,0 @@
-interface:
-  display_name: "Experiment Program Management"
-  short_description: "Govern an experimentation decision system"
-  default_prompt: "Use $experiment-program-management to design a decision-centered experimentation portfolio and operating system."

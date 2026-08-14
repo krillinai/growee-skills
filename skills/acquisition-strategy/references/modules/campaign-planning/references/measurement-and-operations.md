@@ -24,7 +24,7 @@ Preserve the original campaign and source through activation, retention, and rev
 
 Attribution assigns observed credit; incrementality estimates what would not have happened without the campaign. Keep platform attribution, first-touch, last-touch, multi-touch, and company reporting as operational views with stated limits.
 
-Use randomized holdout, geo or market tests, time-based tests, or another credible design when causal contribution changes budget allocation. Route causal design and readout to `experiment-design`. Do not sum overlapping platform-reported conversions and call the total company growth.
+Use randomized holdout, geo or market tests, time-based tests, or another credible design when causal contribution changes budget allocation. Route causal design and readout to `growth-measurement`. Do not sum overlapping platform-reported conversions and call the total company growth.
 
 ## Budget Scenarios
 

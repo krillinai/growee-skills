@@ -15,46 +15,6 @@
       ]
     },
     {
-      "id": "growth-foundations",
-      "name_en": "Growth Foundations",
-      "name_zh": "增长基础",
-      "job_en": "Define customer, market, fit, positioning, growth model, and strategic choices",
-      "job_zh": "定义客户、市场、匹配、定位、增长模型与战略选择",
-      "skills": [
-        "product-market-fit-assessment",
-        "positioning",
-        "growth-model-design",
-        "customer-research",
-        "market-sizing",
-        "growth-strategy",
-        "go-to-market-strategy"
-      ],
-      "start_skills": [
-        "product-market-fit-assessment",
-        "positioning"
-      ]
-    },
-    {
-      "id": "content-production",
-      "name_en": "Content Production",
-      "name_zh": "内容生产",
-      "job_en": "Turn strategy, customer evidence, and proof into governed content and creative assets",
-      "job_zh": "把战略、客户证据与证明转化为受治理的内容和创意资产",
-      "skills": [
-        "content-strategy",
-        "copywriting",
-        "marketing-image",
-        "marketing-video",
-        "ad-creative",
-        "public-relations"
-      ],
-      "start_skills": [
-        "content-strategy",
-        "copywriting",
-        "marketing-video"
-      ]
-    },
-    {
       "id": "acquisition",
       "name_en": "Acquisition",
       "name_zh": "获客",
@@ -131,42 +91,47 @@
       ]
     },
     {
-      "id": "metrics-experimentation",
-      "name_en": "Metrics & Experimentation",
-      "name_zh": "测量与实验",
-      "job_en": "Make growth observable, explainable, forecastable, and causally testable",
-      "job_zh": "让增长可观察、可解释、可预测并可进行因果验证",
+      "id": "content-production",
+      "name_en": "Content Production",
+      "name_zh": "内容生产",
+      "job_en": "Turn strategy, customer evidence, and proof into governed content and creative assets",
+      "job_zh": "把战略、客户证据与证明转化为受治理的内容和创意资产",
       "skills": [
-        "growth-metrics-design",
-        "tracking-plan",
-        "attribution-analysis",
-        "growth-forecasting",
-        "experiment-design"
+        "content-strategy",
+        "copywriting",
+        "marketing-image",
+        "marketing-video",
+        "ad-creative",
+        "public-relations"
       ],
       "start_skills": [
-        "growth-metrics-design",
-        "tracking-plan",
-        "experiment-design"
+        "content-strategy",
+        "copywriting",
+        "marketing-video"
       ]
     },
     {
-      "id": "growth-infrastructure-organization",
-      "name_en": "Growth Infrastructure & Organization",
-      "name_zh": "增长基础设施与组织",
-      "job_en": "Build the planning, decision, data, operating, governance, and organizational systems that make growth repeatable",
-      "job_zh": "构建规划、决策、数据、运营、治理与组织系统，让增长可以重复运行",
+      "id": "growth-foundations",
+      "name_en": "Growth Foundations",
+      "name_zh": "增长基础",
+      "job_en": "Define customer, market, fit, positioning, growth model, measurement, experimentation, and operating foundations",
+      "job_zh": "定义客户、市场、匹配、定位、增长模型、测量、实验与运营基础",
       "skills": [
-        "growth-planning-cycle",
-        "growth-operating-review",
-        "growth-learning-system",
-        "growth-infrastructure-assessment",
-        "growth-organization-design",
-        "experiment-program-management"
+        "product-market-fit-assessment",
+        "positioning",
+        "growth-model-design",
+        "customer-research",
+        "market-sizing",
+        "growth-strategy",
+        "go-to-market-strategy",
+        "growth-measurement",
+        "growth-operations"
       ],
       "start_skills": [
-        "growth-infrastructure-assessment",
-        "growth-organization-design",
-        "growth-operating-review"
+        "product-market-fit-assessment",
+        "positioning",
+        "growth-measurement",
+        "growth-operations"
       ]
     }
   ]

@@ -562,7 +562,7 @@
     {
       "id": 4113,
       "prompt": "Design an incentive A/B test. Randomize individual buyers even though sellers serve both arms in the same local market, expose reward terms publicly, let users switch accounts, change reward amounts during the test, stop when p<0.05, and ignore downstream retention, cost, fraud, cannibalization, fairness, and interference.",
-      "expected_output": "Selects design mode and identifies marketplace interference, identity, contamination, amendment, peeking, and incomplete-outcome risks. It specifies a suitable cluster, switchback, geographic, or other bounded design with predeclared metrics, maturity, economics, risk, taper, and decisions, and routes statistical details to experiment-design.",
+      "expected_output": "Selects design mode and identifies marketplace interference, identity, contamination, amendment, peeking, and incomplete-outcome risks. It specifies a suitable cluster, switchback, geographic, or other bounded design with predeclared metrics, maturity, economics, risk, taper, and decisions, and routes statistical details to growth-measurement.",
       "assertions": [
         "Selects design mode for incentive validation. [eval 4113] [integrated from incentive-system-design]",
         "Identifies cross-arm seller and market interference. [eval 4113] [integrated from incentive-system-design]",
@@ -571,7 +571,7 @@
         "Rejects stopping only when p is below 0.05. [eval 4113] [integrated from incentive-system-design]",
         "Includes incremental behavior, retained value, full cost, fraud, cannibalization, fairness, and guardrails. [eval 4113] [integrated from incentive-system-design]",
         "Includes taper and stop rules. [eval 4113] [integrated from incentive-system-design]",
-        "Routes assignment, power, interference, and readout details to experiment-design. [eval 4113] [integrated from incentive-system-design]"
+        "Routes assignment, power, interference, and readout details to growth-measurement. [eval 4113] [integrated from incentive-system-design]"
       ],
       "files": []
     },
@@ -843,7 +843,7 @@
         "Checks novelty, ramp, maturity, reversals, and post-treatment persistence. [eval 9313] [integrated from marketplace-growth-strategy]",
         "Considers cluster, geographic, switchback, saturation, phased, or other mechanism-compatible designs. [eval 9313] [integrated from marketplace-growth-strategy]",
         "Separates observed result, attribution, causal estimate, uncertainty, and decision. [eval 9313] [integrated from marketplace-growth-strategy]",
-        "Routes power, assignment, diagnostics, inference, and readout to experiment-design. [eval 9313] [integrated from marketplace-growth-strategy]"
+        "Routes power, assignment, diagnostics, inference, and readout to growth-measurement. [eval 9313] [integrated from marketplace-growth-strategy]"
       ]
     },
     {
@@ -1059,7 +1059,7 @@
     {
       "id": 4510,
       "prompt": "Use $growth-loop-design. Test whether adding suppliers improves buyer outcomes by randomizing individual buyers inside one city while all buyers share the same suppliers, prices, availability, and ranking. Ignore spillovers, equilibrium, congestion, and carryover.",
-      "expected_output": "Rejects contaminated individual randomization, identifies interference and equilibrium risks, defines the causal estimand, and routes a suitable cluster, geographic, switchback, saturation, or phased design to experiment-design.",
+      "expected_output": "Rejects contaminated individual randomization, identifies interference and equilibrium risks, defines the causal estimand, and routes a suitable cluster, geographic, switchback, saturation, or phased design to growth-measurement.",
       "assertions": [
         "Does not accept independent buyer randomization as valid without interference controls. [eval 4510] [integrated from network-effects-strategy]",
         "Identifies shared supply and ranking interference. [eval 4510] [integrated from network-effects-strategy]",
@@ -1067,7 +1067,7 @@
         "Defines the participant-value causal estimand. [eval 4510] [integrated from network-effects-strategy]",
         "Preserves network unit and treatment exposure. [eval 4510] [integrated from network-effects-strategy]",
         "Suggests only design families compatible with network interference. [eval 4510] [integrated from network-effects-strategy]",
-        "Routes statistical design and readout to experiment-design. [eval 4510] [integrated from network-effects-strategy]",
+        "Routes statistical design and readout to growth-measurement. [eval 4510] [integrated from network-effects-strategy]",
         "Does not claim causal lift before a valid test. [eval 4510] [integrated from network-effects-strategy]"
       ]
     },

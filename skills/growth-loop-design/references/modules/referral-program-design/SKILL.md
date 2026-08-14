@@ -73,7 +73,7 @@ Return:
 7. bounded pilot or remediation backlog with dependencies, owners, guardrails, stop rules, and completion proof;
 8. operating handoffs, Playbook sources, and unresolved evidence.
 
-Route loop closure to `growth-loop-design`; rewards to `growth-loop-design`; recipient activation to `activation`; retained recipient quality to `retention`; causal design to `experiment-design`; events to `tracking-plan`; metrics to `growth-metrics-design`; customer mechanism research to `customer-research`; referral copy to `copywriting`; and broader acquisition planning to `acquisition-strategy`.
+Route loop closure to `growth-loop-design`; rewards to `growth-loop-design`; recipient activation to `activation`; retained recipient quality to `retention`; causal design to `growth-measurement`; events to `growth-measurement`; metrics to `growth-measurement`; customer mechanism research to `customer-research`; referral copy to `copywriting`; and broader acquisition planning to `acquisition-strategy`.
 
 For China work, keep market, language, locale, product surface, referral mechanism, participant relationship, platform, channel, account access, message classification, consent, contact access, identity, payment, settlement, withdrawal, tax, invoice, terms, support, dispute, content review, privacy, data access, and applicable rules separate. Do not infer WeChat, WeCom, SMS, Douyin, Xiaohongshu, another platform, a payment method, contact-book permission, channel access, or program legality from China or Simplified Chinese.
 

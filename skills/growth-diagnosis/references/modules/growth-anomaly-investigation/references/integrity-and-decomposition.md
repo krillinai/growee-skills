@@ -12,7 +12,7 @@ For every source or dashboard record:
 
 Common discontinuities include renamed or split events, trigger changes, client-to-server migration, duplicate suppression, missing backfill, identity merges or splits, consent changes, bot filters, attribution windows, currency treatment, account hierarchy changes, late data, retry storms, and report-query edits.
 
-Do not average disagreeing sources. Build compatible views, quantify coverage and residual differences, and leave unresolved discrepancies visible. Route schema and implementation repair to `tracking-plan`; do not modify production during investigation.
+Do not average disagreeing sources. Build compatible views, quantify coverage and residual differences, and leave unresolved discrepancies visible. Route schema and implementation repair to `growth-measurement`; do not modify production during investigation.
 
 ## Quantify The Observed Change
 

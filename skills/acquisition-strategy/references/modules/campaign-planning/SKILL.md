@@ -45,7 +45,7 @@ A campaign is a bounded coordinated initiative. Lifecycle communication is state
 
 Create an asset matrix with audience, job, funnel role, channel, format, claim, proof, CTA, source, owner, due date, variant, locale, accessibility, approval, and reuse rule. Campaign Planning defines requirements and message architecture; it does not draft final copy, design creative, render video, publish, or send.
 
-Route copy to `copywriting`, revisions to `copywriting`, lifecycle messages to `lifecycle-marketing`, one-to-one B2B outreach to `sales-enablement`, causal tests to `experiment-design`, first-value work to `activation`, recurring value to `retention`, commercial offers to `monetization`, and broad constraint selection to `growth-diagnosis`.
+Route copy to `copywriting`, revisions to `copywriting`, lifecycle messages to `lifecycle-marketing`, one-to-one B2B outreach to `sales-enablement`, causal tests to `growth-measurement`, first-value work to `activation`, recurring value to `retention`, commercial offers to `monetization`, and broad constraint selection to `growth-diagnosis`.
 
 ## Measure Decisions, Not Activity
 

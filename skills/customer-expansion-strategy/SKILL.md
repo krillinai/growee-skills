@@ -89,7 +89,7 @@ Show price increases, foreign exchange, one-time revenue, credits, and recovery 
 
 Freeze account entity, original value state, eligible opportunity, expansion type, start event, exposure, new-scope first value, repeat and renewal windows, cutoff, maturity, product and contract versions, and original-scope outcomes. Compare compatible accounts and report rates plus absolute retained contribution.
 
-Expanded customers are often older, larger, healthier, seller-selected, or already more likely to renew. Preserve selection, survivorship, reverse causality, account interference, shared workflows, pooled usage, and contract spillovers. Use account, workspace, team, or another mechanism-compatible assignment and route power, interference, analysis, and readout details to `experiment-design`.
+Expanded customers are often older, larger, healthier, seller-selected, or already more likely to renew. Preserve selection, survivorship, reverse causality, account interference, shared workflows, pooled usage, and contract spillovers. Use account, workspace, team, or another mechanism-compatible assignment and route power, interference, analysis, and readout details to `growth-measurement`.
 
 ## Govern Product-Qualified Expansion Signals
 
@@ -97,7 +97,7 @@ For each signal, define source, entity, value state, adjacent need, rule or mode
 
 Prediction of expansion does not show who benefits from an offer or who is authorized to buy. Exclude future contract changes, post-offer behavior, post-close notes, renewal, and later outcomes from pre-treatment features. Require calibration, precision, recall, segment error, fairness, drift, abstention, override, and causal validation before automated use.
 
-Route CRM routing and lifecycle-state integrity to `growth-infrastructure-assessment`, seller and buyer assets plus permitted one-to-one messages to `sales-enablement`, customer research to `customer-research`, and lifecycle messages to `lifecycle-marketing` only under its permission boundary.
+Route CRM routing and lifecycle-state integrity to `growth-operations`, seller and buyer assets plus permitted one-to-one messages to `sales-enablement`, customer research to `customer-research`, and lifecycle messages to `lifecycle-marketing` only under its permission boundary.
 
 ## Build A Value-Led Portfolio
 
@@ -107,7 +107,7 @@ Return allocation scenarios, owners, evidence horizons, guardrails, decision gat
 
 ## Route Specialist Work
 
-Route core recurring-value diagnosis to `retention`; new-scope onboarding to `activation`; pricing, packaging, entitlements, discounts, contracts, GRR, NRR, and revenue economics to `monetization`; commercial lifecycle, ownership, CRM, routing, forecasting, reconciliation, and shared capability needs to `growth-infrastructure-assessment`; seller and buyer assets to `sales-enablement`; customer and segment evidence to `customer-research` and `positioning`; market expansion to `growth-strategy`; network-unit replication to `growth-loop-design`; signal instrumentation to `tracking-plan`; metrics to `growth-metrics-design`; causal tests to `experiment-design`; and organization design to `growth-organization-design`.
+Route core recurring-value diagnosis to `retention`; new-scope onboarding to `activation`; pricing, packaging, entitlements, discounts, contracts, GRR, NRR, and revenue economics to `monetization`; commercial lifecycle, ownership, CRM, routing, forecasting, reconciliation, and shared capability needs to `growth-operations`; seller and buyer assets to `sales-enablement`; customer and segment evidence to `customer-research` and `positioning`; market expansion to `growth-strategy`; network-unit replication to `growth-loop-design`; signal instrumentation to `growth-measurement`; metrics to `growth-measurement`; causal tests to `growth-measurement`; and organization design to `growth-operations`.
 
 This Skill owns the expansion contract, retained-core-value gate, expansion-type and entity separation, opportunity qualification, new-scope value path, original and total-customer guardrails, expansion cohorts, signal specification, adoption-commercial reconciliation, and value-led portfolio. It does not operate product or commercial systems.
 

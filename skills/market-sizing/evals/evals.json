@@ -193,7 +193,7 @@
         "Separates current estimate, scenario, target, company plan, and forecast. [eval 6513]",
         "Defines observable triggers and counterconditions. [eval 6513]",
         "Shows sensitivity and conditions where decisions change. [eval 6513]",
-        "Routes time-series company or market forecasting to growth-forecasting. [eval 6513]"
+        "Routes time-series company or market forecasting to growth-measurement. [eval 6513]"
       ]
     },
     {

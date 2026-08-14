@@ -101,7 +101,7 @@
         "Separates user, beneficiary, champion, administrator, buyer, approver, payer, and receiving team. [eval 4607]",
         "Requires adjacent-unit need, readiness, authority, governance, implementation, and value proof. [eval 4607]",
         "Does not auto-upgrade or contact executives. [eval 4607]",
-        "Routes seller assets to sales-enablement and commercial workflow to growth-infrastructure-assessment. [eval 4607]"
+        "Routes seller assets to sales-enablement and commercial workflow to growth-operations. [eval 4607]"
       ],
       "files": []
     },
@@ -146,7 +146,7 @@
         "Requires compatible account eligibility, expansion start, type, scope, windows, maturity, renewal, and product versions. [eval 4610]",
         "Addresses account size, tenure, prior health, seller selection, survivorship, and reverse causality. [eval 4610]",
         "Measures new-scope and original-scope value, contraction, support, and total-customer outcome. [eval 4610]",
-        "Defines an account or cluster-level counterfactual and routes causal design to experiment-design. [eval 4610]"
+        "Defines an account or cluster-level counterfactual and routes causal design to growth-measurement. [eval 4610]"
       ],
       "files": []
     },
@@ -161,7 +161,7 @@
         "Defines account, team, workspace, or another mechanism-compatible assignment and exposure unit. [eval 4611]",
         "Requires original and new-scope value, retention, contribution, support, trust, and account guardrails. [eval 4611]",
         "Rejects stopping only when p is below 0.05. [eval 4611]",
-        "Routes power, assignment, interference, and readout details to experiment-design. [eval 4611]"
+        "Routes power, assignment, interference, and readout details to growth-measurement. [eval 4611]"
       ],
       "files": []
     },
@@ -191,7 +191,7 @@
         "Suppresses incidents, implementation, renewal risk, support escalation, declined, ineligible, and capacity-exceeding states as appropriate. [eval 4613]",
         "Defines product, success, sales, operations, and account ownership plus feedback. [eval 4613]",
         "Measures first value, retained expansion, total-customer outcome, contribution, trust, and complaints. [eval 4613]",
-        "Routes CRM and lifecycle workflow audit to growth-infrastructure-assessment. [eval 4613]"
+        "Routes CRM and lifecycle workflow audit to growth-operations. [eval 4613]"
       ],
       "files": []
     },

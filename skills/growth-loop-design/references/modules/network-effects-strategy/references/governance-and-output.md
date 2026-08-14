@@ -10,7 +10,7 @@ For each finding record observed condition, source, affected group and unit, mec
 
 Define the estimand before the design: value change for which participant, caused by what change in relevant participation, within which unit and density band, over which horizon. Separate assignment from actual exposure and preserve mature quality, retention, contribution, trust, and safety outcomes.
 
-Networks violate independent-user assumptions through shared supply, inventory, ranking, prices, reputation, graph neighbors, equilibrium, congestion, learning, and carryover. Consider cluster, geographic, switchback, saturation, phased, encouragement, or other designs only when their assumptions fit. Route power, randomization, sample-ratio mismatch, statistical analysis, and readout to `experiment-design`.
+Networks violate independent-user assumptions through shared supply, inventory, ranking, prices, reputation, graph neighbors, equilibrium, congestion, learning, and carryover. Consider cluster, geographic, switchback, saturation, phased, encouragement, or other designs only when their assumptions fit. Route power, randomization, sample-ratio mismatch, statistical analysis, and readout to `growth-measurement`.
 
 Observational designs may use discontinuities, natural changes, matched units, fixed effects, or dose-response patterns when justified, but must retain assumptions, pre-trends, spillovers, time effects, and alternative explanations. Do not convert association into causality.
 

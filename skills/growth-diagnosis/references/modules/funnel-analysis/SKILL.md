@@ -49,7 +49,7 @@ Name a primary constraint only when the evidence distinguishes it and it plausib
 
 Tie every proposed change to a named mechanism, eligible population, target transition, downstream outcome, guardrails, owner, maturity window, evidence plan, and decision rule. Preserve the original cohort and denominator through downstream validation.
 
-Route first-value definition or onboarding mechanisms to `activation`, recurring-value and churn mechanisms to `retention`, offer, pricing, payment, revenue, or unit-economics mechanisms to `monetization`, causal validation to `experiment-design`, broader system constraint selection to `growth-diagnosis`, and customer-mechanism research to `customer-research`. Funnel Analysis may specify required messages, campaigns, or copy, but does not draft, launch, send, or publish them.
+Route first-value definition or onboarding mechanisms to `activation`, recurring-value and churn mechanisms to `retention`, offer, pricing, payment, revenue, or unit-economics mechanisms to `monetization`, causal validation to `growth-measurement`, broader system constraint selection to `growth-diagnosis`, and customer-mechanism research to `customer-research`. Funnel Analysis may specify required messages, campaigns, or copy, but does not draft, launch, send, or publish them.
 
 ## Deliver In Order
 

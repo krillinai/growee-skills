@@ -74,7 +74,7 @@ Return:
 7. measurement, business reconciliation, experiment, fatigue, and learning plan;
 8. production handoffs, owners, approvals, stop rules, and pinned Playbook sources.
 
-Route campaign objectives, audiences, budgets, journeys, and launch operations to `acquisition-strategy`; platform account diagnosis to the relevant ads audit; positioning to `positioning`; landing pages to `activation`; content portfolios to `content-strategy`; and causal tests to `experiment-design`.
+Route campaign objectives, audiences, budgets, journeys, and launch operations to `acquisition-strategy`; platform account diagnosis to the relevant ads audit; positioning to `positioning`; landing pages to `activation`; content portfolios to `content-strategy`; and causal tests to `growth-measurement`.
 
 For China work, keep market, language, locale, audience, channel, platform, account, placement, creator identity, content and music rights, product surface, app distribution, payment, consent, claims, content review, data access, and applicable rules separate. Do not infer Douyin, Xiaohongshu, Kuaishou, WeChat, Bilibili, Baidu, account access, format limits, creator rights, or performance from China or Simplified Chinese.
 

@@ -556,7 +556,7 @@
         "Defines eligibility, assignment, exposure, identity, interference, overrides, and maturity. [eval 6714] [integrated from pricing-and-packaging-strategy]",
         "Defines fairness, transparency, consistency, customer harm, complaint, and support controls. [eval 6714] [integrated from pricing-and-packaging-strategy]",
         "Includes retained value, churn, refund, margin, trust, and heterogeneous-effect guardrails. [eval 6714] [integrated from pricing-and-packaging-strategy]",
-        "Routes causal design and interpretation to experiment-design. [eval 6714] [integrated from pricing-and-packaging-strategy]"
+        "Routes causal design and interpretation to growth-measurement. [eval 6714] [integrated from pricing-and-packaging-strategy]"
       ]
     },
     {
@@ -944,8 +944,8 @@
         "Does not claim paid search caused every acquired customer. [eval 6604] [integrated from unit-economics-analysis]",
         "Defines attribution model, lookback, identity, unknown source, and cost scope. [eval 6604] [integrated from unit-economics-analysis]",
         "Requires a credible counterfactual for incremental customers and incremental cost. [eval 6604] [integrated from unit-economics-analysis]",
-        "Routes source credit to attribution-analysis. [eval 6604] [integrated from unit-economics-analysis]",
-        "Routes causal lift to experiment-design and allocation to acquisition-strategy. [eval 6604] [integrated from unit-economics-analysis]",
+        "Routes source credit to growth-measurement. [eval 6604] [integrated from unit-economics-analysis]",
+        "Routes causal lift to growth-measurement and allocation to acquisition-strategy. [eval 6604] [integrated from unit-economics-analysis]",
         "Does not scale or change spend. [eval 6604] [integrated from unit-economics-analysis]"
       ]
     },

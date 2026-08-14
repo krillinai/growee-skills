@@ -74,7 +74,7 @@ Translation and currency conversion do not validate transfer. For China, use cur
 
 ## Specialist Routing
 
-Route overall commercial-system diagnosis to `monetization`, customer evidence to `customer-research`, segments to `positioning`, alternatives and value framing to `positioning`, causal design and readout to `experiment-design`, unit economics to `monetization`, LTV to `monetization`, retained-value mechanisms to `retention`, copy to `copywriting`, sales assets to `sales-enablement`, lifecycle communication to `lifecycle-marketing`, and launch sequencing to `go-to-market-strategy`. Preserve entity, segment, market, offer version, cohort, terms, evidence state, uncertainty, and owner in every handoff.
+Route overall commercial-system diagnosis to `monetization`, customer evidence to `customer-research`, segments to `positioning`, alternatives and value framing to `positioning`, causal design and readout to `growth-measurement`, unit economics to `monetization`, LTV to `monetization`, retained-value mechanisms to `retention`, copy to `copywriting`, sales assets to `sales-enablement`, lifecycle communication to `lifecycle-marketing`, and launch sequencing to `go-to-market-strategy`. Preserve entity, segment, market, offer version, cohort, terms, evidence state, uncertainty, and owner in every handoff.
 
 ## Decision States And Actions
 

@@ -235,14 +235,14 @@
       }
     },
     {
-      "id": "growth-planning-cycle",
-      "path": "skills/growth-planning-cycle/",
-      "category": "growth-infrastructure-organization",
+      "id": "growth-operations",
+      "path": "skills/growth-operations/",
+      "category": "growth-foundations",
       "status": "experimental",
-      "name_en": "Growth Planning & Allocation",
-      "name_zh": "增长规划与资源配置",
-      "description_en": "Build integrated growth plans across strategy, capacity, investments, budgets, initiatives, dependencies, scenarios, approvals, and review cadence",
-      "description_zh": "围绕策略、承载能力、投资、预算、项目、依赖、情景、审批与复盘节奏构建一体化增长计划",
+      "name_en": "Growth Operations & Infrastructure",
+      "name_zh": "增长运营与基础设施",
+      "description_en": "Plan and operate growth across allocation, reviews, decisions, learning, infrastructure, organization, RevOps, and experiment programs",
+      "description_zh": "围绕资源配置、复盘、决策、学习、基础设施、组织、收入运营与实验项目规划并运营增长",
       "playbook_revisions": [
         "d906be388a79953be86e8fe7ae72490aa741cf9d"
       ],
@@ -271,87 +271,17 @@
       }
     },
     {
-      "id": "growth-metrics-design",
-      "path": "skills/growth-metrics-design/",
-      "category": "metrics-experimentation",
+      "id": "growth-measurement",
+      "path": "skills/growth-measurement/",
+      "category": "growth-foundations",
       "status": "experimental",
-      "name_en": "Growth Metrics, Targets & Benchmarks",
-      "name_zh": "增长指标、目标与基准",
-      "description_en": "Design growth metrics, targets, and benchmarks with reproducible contracts, compatible baselines, uncertainty, ownership, and review rules",
-      "description_zh": "以可复现契约、兼容基线、不确定性、归属与复盘规则设计增长指标、目标和基准",
+      "name_en": "Growth Measurement & Experimentation",
+      "name_zh": "增长测量与实验",
+      "description_en": "Design and audit metrics, targets, tracking, data quality, attribution, forecasts, and causal experiments as one evidence-backed growth measurement system",
+      "description_zh": "把指标、目标、追踪、数据质量、归因、预测与因果实验作为一套证据驱动的增长测量系统进行设计和诊断",
       "playbook_revisions": [
-        "b2ae914"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "tracking-plan",
-      "path": "skills/tracking-plan/",
-      "category": "metrics-experimentation",
-      "status": "experimental",
-      "name_en": "Tracking & Data Quality",
-      "name_zh": "数据追踪与质量",
-      "description_en": "Design tracking plans and audit data quality across events, identity, consent, lineage, reconciliation, monitoring, releases, and deprecation",
-      "description_zh": "围绕事件、身份、同意、血缘、对账、监控、发布与退场设计追踪方案并诊断数据质量",
-      "playbook_revisions": [
-        "b2ae91400ec280479ca31903bf90534ca95a9b18"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "attribution-analysis",
-      "path": "skills/attribution-analysis/",
-      "category": "metrics-experimentation",
-      "status": "experimental",
-      "name_en": "Attribution & Marketing Mix",
-      "name_zh": "归因与营销组合",
-      "description_en": "Audit attribution and marketing mix models across journeys, media, identity, outcomes, reconciliation, incrementality, calibration, and uncertainty",
-      "description_zh": "围绕旅程、媒体、身份、结果、对账、增量性、校准与不确定性诊断归因和营销组合模型",
-      "playbook_revisions": [
-        "d906be388a79953be86e8fe7ae72490aa741cf9d"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "growth-forecasting",
-      "path": "skills/growth-forecasting/",
-      "category": "metrics-experimentation",
-      "status": "experimental",
-      "name_en": "Growth Forecasting",
-      "name_zh": "增长预测",
-      "description_en": "Build, audit, compare, back-test, calibrate, version, and govern decision-ready growth forecasts through explicit as-of snapshots, actual and forecast periods, drivers, assumptions, methods, uncertainty, revisions, bias, and market boundaries",
-      "description_zh": "通过明确的截至时间快照、实际与预测区间、驱动因素、假设、方法、不确定性、修订、偏差与市场边界，构建、诊断、比较、回测、校准、版本化并治理可用于决策的增长预测",
-      "playbook_revisions": [
-        "d906be388a79953be86e8fe7ae72490aa741cf9d"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "experiment-design",
-      "path": "skills/experiment-design/",
-      "category": "metrics-experimentation",
-      "status": "experimental",
-      "name_en": "Experiment Design",
-      "name_zh": "实验设计",
-      "description_en": "Decide when to experiment, design or review trustworthy causal and alternative evidence plans, and interpret mature results through explicit assignment, exposure, metrics, power, SRM, interference, guardrails, and decision rules",
-      "description_zh": "判断何时适合实验，设计或审查可信的因果及替代证据方案，并通过明确的分配、曝光、指标、功效、SRM（样本比例失配）、干扰、护栏和决策规则解读成熟结果",
-      "playbook_revisions": [
+        "b2ae91400ec280479ca31903bf90534ca95a9b18",
+        "d906be388a79953be86e8fe7ae72490aa741cf9d",
         "dade6460925c4bb87cbe38381aebf2c84fd556d2"
       ],
       "validation": {
@@ -580,96 +510,6 @@
       "description_en": "Assess website readiness for AI-generated search with evidence-based scoring, while separately measuring observed mentions and citations across bounded query panels",
       "description_zh": "基于证据评估网站面向 AI（人工智能）生成式搜索的准备度，并通过边界明确的查询面板独立观测品牌提及与引用表现",
       "playbook_revisions": [],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "growth-operating-review",
-      "path": "skills/growth-operating-review/",
-      "category": "growth-infrastructure-organization",
-      "status": "experimental",
-      "name_en": "Growth Reviews, Decisions & Risk",
-      "name_zh": "增长复盘、决策与风险",
-      "description_en": "Run growth reviews and govern decisions and risks through reconciled evidence, alternatives, authority, commitments, monitoring, and escalation",
-      "description_zh": "通过已对账证据、备选方案、权限、承诺、监控与升级机制运营增长复盘并治理决策和风险",
-      "playbook_revisions": [
-        "d906be388a79953be86e8fe7ae72490aa741cf9d"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "growth-learning-system",
-      "path": "skills/growth-learning-system/",
-      "category": "growth-infrastructure-organization",
-      "status": "experimental",
-      "name_en": "Growth Learning & Change",
-      "name_zh": "增长学习与变更",
-      "description_en": "Build growth learning, postmortems, and change systems with source lineage, causal boundaries, adoption, correction, follow-through, and retirement",
-      "description_zh": "以来源谱系、因果边界、采用、纠正、后续行动与退场机制构建增长学习、复盘和变更体系",
-      "playbook_revisions": [
-        "d906be388a79953be86e8fe7ae72490aa741cf9d"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "growth-infrastructure-assessment",
-      "path": "skills/growth-infrastructure-assessment/",
-      "category": "growth-infrastructure-organization",
-      "status": "experimental",
-      "name_en": "Growth Infrastructure & RevOps",
-      "name_zh": "增长基础设施与收入运营",
-      "description_en": "Assess growth infrastructure and RevOps across data, metrics, experiments, revenue entities, systems, handoffs, governance, and remediation",
-      "description_zh": "围绕数据、指标、实验、收入实体、系统、交接、治理与修复诊断增长基础设施和收入运营",
-      "playbook_revisions": [
-        "d906be388a79953be86e8fe7ae72490aa741cf9d"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "growth-organization-design",
-      "path": "skills/growth-organization-design/",
-      "category": "growth-infrastructure-organization",
-      "status": "experimental",
-      "name_en": "Growth Organization Design",
-      "name_zh": "增长组织设计",
-      "description_en": "Audit and design constraint-aligned outcome ownership, decision rights, central and embedded boundaries, staffing scenarios, initiative portfolios, operating cadence, maintenance ownership, organization health, and evidence-based reorganization triggers",
-      "description_zh": "围绕当前约束诊断并设计结果归属、决策权、中心与嵌入边界、人员配置情景、项目组合、运行节奏、长期维护、组织健康与基于证据的重组触发条件",
-      "playbook_revisions": [
-        "d906be388a79953be86e8fe7ae72490aa741cf9d"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "experiment-program-management",
-      "path": "skills/experiment-program-management/",
-      "category": "growth-infrastructure-organization",
-      "status": "experimental",
-      "name_en": "Experiment Program Management",
-      "name_zh": "实验项目管理",
-      "description_en": "Audit, design, and refresh multi-team experimentation programs through decision-centered intake, portfolio selection, traffic and capacity, concurrency, preflight gates, quality incidents, maturity, follow-through, long-term validation, learning reuse, and governance",
-      "description_zh": "通过以决策为中心的准入、组合选择、流量与承载能力、并发控制、实验前门槛、质量事故、成熟度、决策跟进、长期验证、学习复用与治理，审查、设计和更新跨团队实验项目",
-      "playbook_revisions": [
-        "d906be388a79953be86e8fe7ae72490aa741cf9d"
-      ],
       "validation": {
         "structure": true,
         "eval_spec": true,

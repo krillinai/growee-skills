@@ -22,7 +22,7 @@ Use `continue`, `review`, `validate`, `hold`, `escalate`, or `retire intelligenc
 
 A competitor launch followed by lower win rate, search shifts, churn, or revenue movement is an observation. Preserve concurrent changes in segment mix, category demand, pricing, product quality, sales execution, distribution, seasonality, measurement, and your own product.
 
-Route attribution questions to `attribution-analysis` and counterfactual testing to `experiment-design`. Do not estimate incremental revenue, lost customers, or market-share transfer without compatible outcome, identity, time, and causal evidence.
+Route attribution questions to `growth-measurement` and counterfactual testing to `growth-measurement`. Do not estimate incremental revenue, lost customers, or market-share transfer without compatible outcome, identity, time, and causal evidence.
 
 ## Specialist Ownership
 
@@ -36,7 +36,7 @@ Route attribution questions to `attribution-analysis` and counterfactual testing
 | Release sequencing, audience, readiness, or rollback | `go-to-market-strategy` |
 | Seller and buyer materials | `sales-enablement` |
 | Channel strategy or budget allocation | `acquisition-strategy` |
-| Attribution or causal effect | `attribution-analysis` and `experiment-design` |
+| Attribution or causal effect | `growth-measurement` |
 | Primary growth constraint | `growth-diagnosis` |
 
 The intelligence brief supplies evidence and uncertainty; the specialist Skill owns method and decision design.

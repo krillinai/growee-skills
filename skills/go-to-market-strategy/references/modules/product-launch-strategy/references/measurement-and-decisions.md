@@ -41,7 +41,7 @@ Fast-moving AI releases still need versioned evidence. Shorten feedback loops by
 
 Launch participants often self-select and differ by intent, tenure, role, product fit, channel, support, novelty, and timing. Concurrent PR, campaigns, discounts, sales, partners, product changes, and seasonality confound before-after results.
 
-Define the estimand, eligible population, assignment unit, exposure, control, product version, maturity, interference, and guardrails. Accounts, teams, networks, shared quotas, invitations, and collaborative workflows violate independent-user assumptions. Route randomization, power, SRM, statistical analysis, and readout to `experiment-design`.
+Define the estimand, eligible population, assignment unit, exposure, control, product version, maturity, interference, and guardrails. Accounts, teams, networks, shared quotas, invitations, and collaborative workflows violate independent-user assumptions. Route randomization, power, SRM, statistical analysis, and readout to `growth-measurement`.
 
 ## Decision Record
 

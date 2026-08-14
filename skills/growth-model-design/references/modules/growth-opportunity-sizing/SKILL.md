@@ -18,7 +18,7 @@ Read [opportunity-contract.md](references/opportunity-contract.md) before accept
 | `audit` | Reproduce and challenge an existing estimate from its original evidence and as-of date |
 | `refresh` | Version an estimate after material evidence, scope, market, cost, capacity, or mechanism change |
 
-Name one primary mode. Route external market demand to `market-sizing`, current constraint selection to `growth-diagnosis`, mechanism equations to `growth-model-design`, time-indexed projections to `growth-forecasting`, medium-term portfolio choices to `growth-strategy`, and the approval case for one bounded resource commitment to `growth-planning-cycle`. Opportunity sizing can supply an input range to those decisions; it does not replace them or constitute an investment case.
+Name one primary mode. Route external market demand to `market-sizing`, current constraint selection to `growth-diagnosis`, mechanism equations to `growth-model-design`, time-indexed projections to `growth-measurement`, medium-term portfolio choices to `growth-strategy`, and the approval case for one bounded resource commitment to `growth-operations`. Opportunity sizing can supply an input range to those decisions; it does not replace them or constitute an investment case.
 
 ## Freeze The Opportunity Contract
 
@@ -84,7 +84,7 @@ Classify each opportunity as `advance`, `validate`, `preserve`, `defer`, `reject
 
 ## Validate Before Commitment
 
-Match evidence strength to cost, irreversibility, customer exposure, and downside. Use `experiment-design` for causal tests, `tracking-plan` for instrumentation, `retention` for maturity-aware groups, and relevant lifecycle or channel Skills for specialist diagnosis and design.
+Match evidence strength to cost, irreversibility, customer exposure, and downside. Use `growth-measurement` for causal tests, `growth-measurement` for instrumentation, `retention` for maturity-aware groups, and relevant lifecycle or channel Skills for specialist diagnosis and design.
 
 Define the smallest evidence that distinguishes material alternatives. Preserve negative, flat, harmful, contradictory, and delayed results. Version the original estimate and as-of evidence; do not rewrite assumptions with hindsight. Sunk cost is not future opportunity value.
 

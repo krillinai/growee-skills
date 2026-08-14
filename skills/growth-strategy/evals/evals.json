@@ -54,7 +54,7 @@
         "Does not invent coefficients, user counts, revenue, or forecasts. [eval 6904]",
         "Does not choose strategy from the largest modeled number. [eval 6904]",
         "Routes stock, flow, equation, and mechanism topology to growth-model-design. [eval 6904]",
-        "Routes time-based forecasts to growth-forecasting. [eval 6904]",
+        "Routes time-based forecasts to growth-measurement. [eval 6904]",
         "Defines the strategic decisions the model must inform. [eval 6904]",
         "Uses compatible scenarios and sensitivities rather than one deterministic result. [eval 6904]",
         "Connects model constraints to choices and sequencing. [eval 6904]",
@@ -162,21 +162,21 @@
         "Separates existing, missing, buildable, purchasable, partner, and unavailable capabilities. [eval 6911]",
         "Sequences prerequisite evidence and infrastructure before dependent scale. [eval 6911]",
         "Defines owners, decision rights, dates, gates, and fallbacks. [eval 6911]",
-        "Routes detailed infrastructure assessment to growth-infrastructure-assessment. [eval 6911]",
+        "Routes detailed infrastructure assessment to growth-operations. [eval 6911]",
         "Preserves an alternative strategy compatible with current capabilities. [eval 6911]"
       ]
     },
     {
       "id": 6912,
       "prompt": "Use $growth-strategy. Our growth strategy is to rename the marketing team Growth, centralize every product decision under one executive, hire 50 people, and create a weekly meeting. Do not define customers, value, choices, mechanisms, economics, or decisions the organization should enable.",
-      "expected_output": "Rejects organization design as a substitute for strategy, establishes strategic choices first, and routes outcome ownership, structure, staffing, and operating cadence to growth-organization-design.",
+      "expected_output": "Rejects organization design as a substitute for strategy, establishes strategic choices first, and routes outcome ownership, structure, staffing, and operating cadence to growth-operations.",
       "assertions": [
         "Does not call renaming, centralization, hiring, or meetings a growth strategy. [eval 6912]",
         "Defines customer, market, value, mechanism, economic, and portfolio choices first. [eval 6912]",
         "Connects organization needs to named strategic decisions and constraints. [eval 6912]",
         "Does not endorse universal centralization or a 50-person plan. [eval 6912]",
         "Defines required capabilities, decision rights, dependencies, and capacity. [eval 6912]",
-        "Routes detailed structure and staffing to growth-organization-design. [eval 6912]",
+        "Routes detailed structure and staffing to growth-operations. [eval 6912]",
         "Includes opportunity cost, transition risk, and review triggers. [eval 6912]",
         "Separates strategy ownership from specialist execution ownership. [eval 6912]"
       ]
@@ -277,15 +277,15 @@
       "expected_output": "Keeps growth strategy responsible for medium-term choices, exclusions, portfolio direction, and sequencing while routing each downstream artifact to the smallest owning Skill. It does not recreate planning, investment, allocation, initiative, decision, risk, learning, change, or postmortem artifacts inside strategy.",
       "assertions": [
         "Keeps growth-strategy responsible for medium-term choices, exclusions, portfolio direction, and sequencing. [eval 6919]",
-        "Routes annual, quarterly, or rolling integrated planning to growth-planning-cycle. [eval 6919]",
-        "Routes one bounded investment case to growth-planning-cycle. [eval 6919]",
-        "Routes cross-functional budget and resource allocation to growth-planning-cycle. [eval 6919]",
-        "Routes one selected 30-90 day initiative to growth-planning-cycle. [eval 6919]",
-        "Routes one canonical material decision to growth-operating-review. [eval 6919]",
-        "Routes correlated cross-initiative risks to growth-operating-review. [eval 6919]",
-        "Routes reusable cross-source learning to growth-learning-system. [eval 6919]",
-        "Routes adoption, transition, and legacy retirement to growth-learning-system. [eval 6919]",
-        "Routes one completed initiative retrospective to growth-learning-system. [eval 6919]",
+        "Routes annual, quarterly, or rolling integrated planning to growth-operations. [eval 6919]",
+        "Routes one bounded investment case to growth-operations. [eval 6919]",
+        "Routes cross-functional budget and resource allocation to growth-operations. [eval 6919]",
+        "Routes one selected 30-90 day initiative to growth-operations. [eval 6919]",
+        "Routes one canonical material decision to growth-operations. [eval 6919]",
+        "Routes correlated cross-initiative risks to growth-operations. [eval 6919]",
+        "Routes reusable cross-source learning to growth-operations. [eval 6919]",
+        "Routes adoption, transition, and legacy retirement to growth-operations. [eval 6919]",
+        "Routes one completed initiative retrospective to growth-operations. [eval 6919]",
         "Does not recreate specialist artifacts inside growth strategy. [eval 6919]",
         "Preserves decision lineage, owners, dependencies, evidence gates, authority, and review rules in each handoff. [eval 6919]"
       ]

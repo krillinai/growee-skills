@@ -52,7 +52,7 @@ Name a primary mechanism only when evidence distinguishes it. Otherwise preserve
 
 Tie every intervention to a named mechanism, eligible cohort, current lifecycle state, expected recurring value event, measurement window, guardrails, owner, and decision rule. Prefer fixing recurring value, activation, reliability, or workflow before adding reminders, discounts, or outreach.
 
-This Skill may specify lifecycle-message eligibility and measurement, but it does not draft message copy. Route copy to `lifecycle-marketing`. Route causal validation to an experiment-design capability when needed.
+This Skill may specify lifecycle-message eligibility and measurement, but it does not draft message copy. Route copy to `lifecycle-marketing`. Route causal validation to an growth-measurement capability when needed.
 
 ## Deliver In Order
 

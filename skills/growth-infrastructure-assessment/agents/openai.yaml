@@ -1,4 +1,0 @@
-interface:
-  display_name: "Growth Infrastructure & RevOps"
-  short_description: "Integrated Growth Infrastructure & RevOps workflows"
-  default_prompt: "Use $growth-infrastructure-assessment to handle this growth infrastructure & revops request as one evidence-backed workflow."

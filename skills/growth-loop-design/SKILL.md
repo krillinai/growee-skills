@@ -59,7 +59,7 @@ Separate an observed weak transition from candidate causes across value, eligibi
 
 For new designs, begin with the customer or system value and intended next input. Then define the mechanism hypothesis, entities, action, output, value exchange, re-entry, prerequisites, quality, economics, failure and abuse risks, and a 30-day evidence or experiment plan with owner, maturity, decision rule, stop rule, and completion proof.
 
-Route causal tests to `experiment-design`, transition analysis and broader constraint selection to `growth-diagnosis`, first value to `activation`, recurring value to `retention`, economics and offers to `monetization`, mechanism research to `customer-research`, and campaign requirements to `acquisition-strategy`.
+Route causal tests to `growth-measurement`, transition analysis and broader constraint selection to `growth-diagnosis`, first value to `activation`, recurring value to `retention`, economics and offers to `monetization`, mechanism research to `customer-research`, and campaign requirements to `acquisition-strategy`.
 
 ## Common Mistakes
 

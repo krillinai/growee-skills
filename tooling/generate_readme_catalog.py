@@ -13,15 +13,13 @@ ROOT = Path(__file__).resolve().parents[1]
 CATALOG_DIR = ROOT / "catalog"
 GROWTH_SEQUENCE = (
     "growth-diagnosis",
-    "growth-foundations",
-    "content-production",
     "acquisition",
     "activation",
     "retention",
     "monetization",
     "referral-expansion",
-    "metrics-experimentation",
-    "growth-infrastructure-organization",
+    "content-production",
+    "growth-foundations",
 )
 
 

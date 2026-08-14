@@ -67,7 +67,7 @@ For portfolio work, keep product, market, channel, customer overlap, cannibaliza
 
 ## Route Specialist Work
 
-Route metric contracts to `growth-metrics-design`; general cohort construction to `retention`; retention-state mechanisms to `retention`; pricing, packaging, and cost architecture to `monetization`; source credit to `attribution-analysis`; causal acquisition cost and allocation to `experiment-design` and `acquisition-strategy`; account expansion to `customer-expansion-strategy`; revenue-system reconciliation to `growth-infrastructure-assessment`; and full-system scenarios to `growth-model-design`.
+Route metric contracts to `growth-measurement`; general cohort construction to `retention`; retention-state mechanisms to `retention`; pricing, packaging, and cost architecture to `monetization`; source credit to `growth-measurement`; causal acquisition cost and allocation to `growth-measurement` and `acquisition-strategy`; account expansion to `customer-expansion-strategy`; revenue-system reconciliation to `growth-operations`; and full-system scenarios to `growth-model-design`.
 
 This Skill owns the LTV decision contract, observed cohort value, forecast selection and assumptions, value basis, horizon, censoring, uncertainty, calibration, compatible comparisons, and LTV decision boundaries. It does not redefine adjacent metrics, diagnose retention causes, set prices, assign channel credit, approve budgets, or operate systems.
 

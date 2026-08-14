@@ -11,7 +11,7 @@ Use the smallest metric set that reveals whether the thesis works and whether it
 - capability readiness, capacity, reliability, and quality;
 - customer, employee, partner, fairness, privacy, trust, regulatory, and concentration guardrails.
 
-Every metric needs an entity, event or state, numerator, denominator, eligibility, identity, segment, market, window, cohort, maturity, source, owner, version, quality rule, and decision use. Targets are commitments or aspirations, not evidence. A metric movement is not automatically causal. Route contract design to `growth-metrics-design`, instrumentation to `tracking-plan`, causal tests to `experiment-design`, and cohort behavior to `retention`.
+Every metric needs an entity, event or state, numerator, denominator, eligibility, identity, segment, market, window, cohort, maturity, source, owner, version, quality rule, and decision use. Targets are commitments or aspirations, not evidence. A metric movement is not automatically causal. Route contract design to `growth-measurement`, instrumentation to `growth-measurement`, causal tests to `growth-measurement`, and cohort behavior to `retention`.
 
 ## Govern The Strategy
 

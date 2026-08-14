@@ -67,7 +67,7 @@ Label the result a hypothesis, not a forecast. Preserve uncertainty in market de
 
 Choose one primary decision: `deepen`, `measure`, `scale one mechanism`, `test one adjacent unit`, `adapt`, `narrow`, or `stop`. Scaling is defensible only when repeated value, the named segment, marginal economics, channel quality, and guardrails support that bounded move. Revalidate after any material change to the fit contract.
 
-Route interview design and synthesis to `customer-research`; durable segment, ICP, and market framing work to `positioning`; first value to `activation`; cohort construction and recurring-value mechanisms to `retention`; pricing and unit economics to `monetization`; channel planning to `acquisition-strategy`; referral or compounding mechanics to `growth-loop-design`; causal tests to `experiment-design`; and company-wide constraint triage to `growth-diagnosis`.
+Route interview design and synthesis to `customer-research`; durable segment, ICP, and market framing work to `positioning`; first value to `activation`; cohort construction and recurring-value mechanisms to `retention`; pricing and unit economics to `monetization`; channel planning to `acquisition-strategy`; referral or compounding mechanics to `growth-loop-design`; causal tests to `growth-measurement`; and company-wide constraint triage to `growth-diagnosis`.
 
 ## Deliver In Order
 

@@ -71,7 +71,7 @@ Keep availability, findability, access, use, comprehension, seller behavior, buy
 
 Use compatible entities, opportunities, buying units, stages, segments, versions, owners, cohorts, windows, maturity, definitions, sources, and cost boundaries. Preserve absolute counts, no-decision, disqualification, discounting, cycle time, forecast error, implementation failure, activation, renewal, churn, support, and trust alongside win rate.
 
-Prefer the strongest feasible evidence: task observation, knowledge or skill checks, artifact QA, staged rollout, randomized recommendation where ethical, team or manager cluster designs, matched comparisons, interrupted time series, and downstream cohort joins. Route causal design to `experiment-design`.
+Prefer the strongest feasible evidence: task observation, knowledge or skill checks, artifact QA, staged rollout, randomized recommendation where ethical, team or manager cluster designs, matched comparisons, interrupted time series, and downstream cohort joins. Route causal design to `growth-measurement`.
 
 ## Operate A Living System
 

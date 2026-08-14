@@ -6,16 +6,16 @@ Growth accounting is a versioned analytical service. It does not operate source 
 
 | Need | Route |
 | --- | --- |
-| Metric constellation, North Star, target, lineage, and governance | `growth-metrics-design` |
+| Metric constellation, North Star, target, lineage, and governance | `growth-measurement` |
 | Cohort construction, age matrices, and maturity comparison | `retention` |
 | Recurring-value, churn, resurrection, and retention mechanisms | `retention` |
 | Full stocks, flows, loops, economics, and business constraint model | `growth-model-design` |
-| Acquisition touchpoint credit and model reconciliation | `attribution-analysis` |
+| Acquisition touchpoint credit and model reconciliation | `growth-measurement` |
 | Channel strategy, marginal economics, and budget allocation | `acquisition-strategy` |
-| Intervention causality and experimental evidence | `experiment-design` |
-| Future movement forecast and uncertainty | `growth-forecasting` |
+| Intervention causality and experimental evidence | `growth-measurement` |
+| Future movement forecast and uncertainty | `growth-measurement` |
 | Customer lifetime value | `monetization` |
-| Pipeline, bookings, invoices, revenue, cash, and finance controls | `growth-infrastructure-assessment` |
+| Pipeline, bookings, invoices, revenue, cash, and finance controls | `growth-operations` |
 
 Preserve entity, period, maturity, market, value basis, version, uncertainty, and owner at every handoff.
 

@@ -51,7 +51,7 @@ An incentive can remove temporary coordination friction; it cannot prove demand,
 
 Define barrier, side, eligible population, exposure, action, fulfillment, organic counterfactual, full cost, quality, fraud, cannibalization, pull-forward, post-incentive behavior, retained incremental contribution, budget, cap, taper, pause, and stop.
 
-Do not count all rewarded activity as incremental. Preserve timing, market, category, channel, and organic displacement. Route mechanism, fairness, fulfillment, and portfolio details to `growth-loop-design` and causal design to `experiment-design`.
+Do not count all rewarded activity as incremental. Preserve timing, market, category, channel, and organic displacement. Route mechanism, fairness, fulfillment, and portfolio details to `growth-loop-design` and causal design to `growth-measurement`.
 
 ## Multi-Homing And Disintermediation
 

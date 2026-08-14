@@ -28,9 +28,9 @@ Use `evidence acquisition`, `compare`, `validate`, `specialist review`, `hold`, 
 | Price, packaging, willingness to pay, revenue, contribution, and value capture | `monetization` |
 | Product, commercial, operational, data, and market readiness or entry | `growth-strategy` |
 | Channel reach, qualified demand, economics, saturation, and allocation | `acquisition-strategy` |
-| Future market or company outcome forecast | `growth-forecasting` |
+| Future market or company outcome forecast | `growth-measurement` |
 | Full business topology and mechanism scenarios | `growth-model-design` |
-| Causal effect | `experiment-design` |
+| Causal effect | `growth-measurement` |
 
 The sizing model preserves each specialist output's entity, method, population, market, period, version, uncertainty, and limitations.
 

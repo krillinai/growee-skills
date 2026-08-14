@@ -82,7 +82,7 @@ For data or AI claims, trace permissioned interaction data through coverage, lab
 
 Use local density, available supply, qualified demand, match and completion, time to value, quality, repeat behavior, side-specific retention, contribution, concentration, multi-homing, disintermediation, trust, safety, congestion, and marginal participant value. Compare compatible units, sides, cohorts, windows, maturity, product versions, incentives, and market conditions.
 
-Observational slopes and before-after growth can nominate mechanisms but do not prove causality. Networks create interference, equilibrium, saturation, congestion, and carryover. Define the estimand and exposure unit, then route cluster, geographic, switchback, saturation, phased, or other causal design details to `experiment-design`.
+Observational slopes and before-after growth can nominate mechanisms but do not prove causality. Networks create interference, equilibrium, saturation, congestion, and carryover. Define the estimand and exposure unit, then route cluster, geographic, switchback, saturation, phased, or other causal design details to `growth-measurement`.
 
 ## Deliver In Order
 
@@ -97,7 +97,7 @@ Return:
 7. evidence, causal-measurement, governance, and risk plan;
 8. dependency-ordered actions with owner, decision rule, guardrail, pause or stop rule, and completion proof.
 
-Route referral mechanics to `growth-loop-design`; loop closure and K-factor work to `growth-loop-design`; incentives and subsidies to `growth-loop-design`; activation and retention definitions to `activation` and `retention`; participant and segment research to `customer-research` and `positioning`; metric contracts to `growth-metrics-design`; instrumentation to `tracking-plan`; causal design to `experiment-design`; marketplace or business economics to `monetization`; and broader constraint selection to `growth-diagnosis`.
+Route referral mechanics to `growth-loop-design`; loop closure and K-factor work to `growth-loop-design`; incentives and subsidies to `growth-loop-design`; activation and retention definitions to `activation` and `retention`; participant and segment research to `customer-research` and `positioning`; metric contracts to `growth-measurement`; instrumentation to `growth-measurement`; causal design to `growth-measurement`; marketplace or business economics to `monetization`; and broader constraint selection to `growth-diagnosis`.
 
 For China work, keep market, language, locale, legal entity, network unit, participant roles, platform, identity, graph, contact, messaging, invitation, ranking, reputation, payment, hosting, transfer, moderation, privacy, security, procurement, permissions, and applicable rules separate. Do not infer WeChat, WeCom, graph, contact, identity, payment, data, messaging, or launch availability from China or Simplified Chinese.
 

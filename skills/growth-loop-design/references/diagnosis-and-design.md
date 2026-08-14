@@ -148,7 +148,7 @@ Order work by dependency:
 5. preserve assignment through activation, retention, contribution, and guardrail maturity;
 6. review the verdict and decide whether to stop, revise, extend, or hand off.
 
-Every action needs an owner, decision date, dependency, guardrail, and completion proof. Every experiment needs the eligible unit, assignment, exposure, primary metric, downstream quality, guardrails, maturation, interference treatment, decision rule, and stop or rollback rule. Route the full design to `experiment-design`.
+Every action needs an owner, decision date, dependency, guardrail, and completion proof. Every experiment needs the eligible unit, assignment, exposure, primary metric, downstream quality, guardrails, maturation, interference treatment, decision rule, and stop or rollback rule. Route the full design to `growth-measurement`.
 
 Do not set an uplift, K-factor, participation, conversion, cycle-time, payback, saturation, or budget threshold unless it comes from declared business requirements or a prospectively approved design.
 
@@ -161,7 +161,7 @@ Do not set an uplift, K-factor, participation, conversion, cycle-time, payback, 
 | Recurring value, churn, or resurrection | `retention` |
 | Pricing, rewards economics, contribution, or payback | `monetization` |
 | Customer motivation, jobs, trust, or mechanism research | `customer-research` |
-| Causal test design and interpretation | `experiment-design` |
+| Causal test design and interpretation | `growth-measurement` |
 | Campaign journey or asset requirements | `acquisition-strategy` |
 | Primary constraint across the complete growth system | `growth-diagnosis` |
 

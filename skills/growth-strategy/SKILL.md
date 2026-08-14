@@ -23,7 +23,7 @@ Read [strategy-contract.md](references/strategy-contract.md) before accepting sc
 | `design` | Create an evidence-bounded strategy for a declared owner, decision, arena, and horizon |
 | `refresh` | Re-evaluate a strategy after a material market, product, channel, economic, capability, regulatory, platform, or organization change |
 
-Name one primary mode. A request about a current symptom, primary constraint, and 30-day action plan belongs to `growth-diagnosis`. A request for stocks, flows, mechanism topology, equations, coefficients, or scenario math belongs to `growth-model-design`. A request for monthly projections belongs to `growth-forecasting`. Use strategy only when a medium-term choice, commitment, exclusion, portfolio, or assumption must be governed.
+Name one primary mode. A request about a current symptom, primary constraint, and 30-day action plan belongs to `growth-diagnosis`. A request for stocks, flows, mechanism topology, equations, coefficients, or scenario math belongs to `growth-model-design`. A request for monthly projections belongs to `growth-measurement`. Use strategy only when a medium-term choice, commitment, exclusion, portfolio, or assumption must be governed.
 
 ## Freeze The Strategy Contract
 
@@ -86,7 +86,7 @@ Identify robust commitments, contingencies, hedges, options, and irreversible co
 
 ## Govern And Refresh
 
-Use a focused metric system spanning customer value, the selected growth mechanism, retained growth, economics, capabilities, capacity, and guardrails. Define every metric contract and route detailed design to `growth-metrics-design`. Targets do not become evidence and movement does not become causality.
+Use a focused metric system spanning customer value, the selected growth mechanism, retained growth, economics, capabilities, capacity, and guardrails. Define every metric contract and route detailed design to `growth-measurement`. Targets do not become evidence and movement does not become causality.
 
 Set scheduled reviews and event-driven triggers. At each review compare evidence with the thesis and alternatives, then decide to retain, revise, accelerate, cap, preserve, pause, graduate, or retire. Version the prior assumptions and decisions; do not rewrite history to fit outcomes.
 
@@ -104,13 +104,13 @@ Use `refresh` when a durable assumption or choice may have changed. Preserve unc
 | Product-Market Fit | `product-market-fit-assessment` |
 | Acquisition, lifecycle, loops, and networks | `acquisition-strategy`, `activation`, `retention`, `customer-expansion-strategy`, `growth-loop-design` |
 | Monetization, pricing, and economics | `monetization` |
-| Metrics, data quality, experiments, and forecasts | `growth-metrics-design`, `tracking-plan`, `experiment-design`, `experiment-program-management`, `growth-forecasting` |
-| Annual, quarterly, or rolling integrated planning | `growth-planning-cycle` |
-| One opportunity, investment case, shared allocation, or selected 30-90 day initiative | `growth-model-design`, `growth-planning-cycle` |
-| Recurring review, one canonical decision, or cross-initiative risks | `growth-operating-review` |
-| Reusable learning or one completed-work retrospective | `growth-learning-system` |
-| Adoption and legacy retirement for an authorized strategic change | `growth-learning-system` |
-| Infrastructure and organization | `growth-infrastructure-assessment`, `growth-organization-design` |
+| Metrics, data quality, experiments, and forecasts | `growth-measurement`, `growth-operations`, `growth-measurement` |
+| Annual, quarterly, or rolling integrated planning | `growth-operations` |
+| One opportunity, investment case, shared allocation, or selected 30-90 day initiative | `growth-model-design`, `growth-operations` |
+| Recurring review, one canonical decision, or cross-initiative risks | `growth-operations` |
+| Reusable learning or one completed-work retrospective | `growth-operations` |
+| Adoption and legacy retirement for an authorized strategic change | `growth-operations` |
+| Infrastructure and organization | `growth-operations` |
 
 A handoff defines the input, owner, decision, expected artifact, dependency, and permission boundary. It does not imply execution.
 

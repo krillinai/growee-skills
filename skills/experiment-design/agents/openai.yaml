@@ -1,4 +1,0 @@
-interface:
-  display_name: "Experiment Design"
-  short_description: "Design and review trustworthy causal evidence"
-  default_prompt: "Use $experiment-design to design, review, or interpret a controlled experiment or the strongest feasible evidence alternative."

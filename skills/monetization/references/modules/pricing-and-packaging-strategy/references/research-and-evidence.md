@@ -68,7 +68,7 @@ Visible prices cannot establish competitor conversion, realized discounts, reten
 
 For a price, package, metric, or term experiment define eligible population, ethical and fairness review, assignment, exposure, identity, interference, sales overrides, product and offer versions, primary outcome, activation, retained value, churn, refund, support, contribution, cash, trust guardrails, maturity, power, analysis, decision, rollback, and correction.
 
-Observational conversion, before-after change, sales exceptions, and platform attribution do not establish causal effect. Route counterfactual design and interpretation to `experiment-design`.
+Observational conversion, before-after change, sales exceptions, and platform attribution do not establish causal effect. Route counterfactual design and interpretation to `growth-measurement`.
 
 ## Synthesis
 

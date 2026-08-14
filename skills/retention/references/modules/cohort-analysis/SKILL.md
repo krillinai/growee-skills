@@ -49,7 +49,7 @@ Keep exact, bounded, rolling, bracket, opportunity, survival, cumulative-value, 
 
 A cohort table establishes what changed for a defined group at a defined age. It does not establish why the result changed or what an intervention caused. Preserve seasonality, customer mix, concurrent changes, instrumentation, product version, selection, regression to the mean, and survivorship as alternatives.
 
-Route causal validation to `experiment-design`; first-value mechanisms to `activation`; recurring value, churn, resurrection, GRR, or NRR to `retention`; pricing, revenue, contribution, payback, or LTV policy to `monetization`; lifecycle copy to `lifecycle-marketing`; and broader constraint selection to `growth-diagnosis`.
+Route causal validation to `growth-measurement`; first-value mechanisms to `activation`; recurring value, churn, resurrection, GRR, or NRR to `retention`; pricing, revenue, contribution, payback, or LTV policy to `monetization`; lifecycle copy to `lifecycle-marketing`; and broader constraint selection to `growth-diagnosis`.
 
 ## Deliver In Order
 

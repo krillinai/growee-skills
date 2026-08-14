@@ -27,14 +27,10 @@
       "description_en": "Make growth observable and decision-ready through metrics, tracking, attribution, economics, forecasting, cohorts, and experiments.",
       "description_zh": "通过指标、追踪、归因、经济性、预测、同期群与实验，让增长可观察、可用于决策。",
       "skills": [
-        "growth-metrics-design",
+        "growth-measurement",
         "growth-diagnosis",
-        "tracking-plan",
-        "attribution-analysis",
         "monetization",
-        "growth-forecasting",
-        "retention",
-        "experiment-design"
+        "retention"
       ]
     },
     {
@@ -62,13 +58,8 @@
       "description_zh": "通过规划、承载能力、投入、治理、复盘、学习、基础设施、组织与收入运营，把增长决策变成可重复的运行节奏。",
       "skills": [
         "growth-diagnosis",
-        "growth-planning-cycle",
-        "growth-model-design",
-        "growth-operating-review",
-        "growth-learning-system",
-        "growth-infrastructure-assessment",
-        "growth-organization-design",
-        "experiment-program-management"
+        "growth-operations",
+        "growth-model-design"
       ]
     }
   ]

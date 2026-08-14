@@ -19,7 +19,7 @@ Define:
 - availability, discovery, response, match, fulfillment, quality, participant economics, repeat, retention, and guardrails;
 - contamination, migration, anticipation, novelty, carryover, reversals, and post-treatment persistence.
 
-Consider cluster, geographic, switchback, saturation, phased, threshold, matched, synthetic-control, or other mechanism-compatible designs. Route power, assignment, SRM, diagnostics, inference, and readout to `experiment-design`. Separate observed result, attribution, causal estimate, uncertainty, and decision.
+Consider cluster, geographic, switchback, saturation, phased, threshold, matched, synthetic-control, or other mechanism-compatible designs. Route power, assignment, SRM, diagnostics, inference, and readout to `growth-measurement`. Separate observed result, attribution, causal estimate, uncertainty, and decision.
 
 ## AI And Automation
 

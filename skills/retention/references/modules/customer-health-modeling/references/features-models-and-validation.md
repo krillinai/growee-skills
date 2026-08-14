@@ -75,4 +75,4 @@ Evaluate performance, calibration, missingness, thresholds, actions, overrides a
 
 ## Prediction Is Not Treatment
 
-A risk model estimates a defined outcome under historical conditions. It does not prove a cause, preventability, incremental treatment response or customer value. Define intervention, eligible population, assignment or identification, exposure, outcome, horizon, guardrails, interference and decision rule separately. Route causal design to `experiment-design`.
+A risk model estimates a defined outcome under historical conditions. It does not prove a cause, preventability, incremental treatment response or customer value. Define intervention, eligible population, assignment or identification, exposure, outcome, horizon, guardrails, interference and decision rule separately. Route causal design to `growth-measurement`.

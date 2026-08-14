@@ -46,7 +46,7 @@ Prefer a non-modal banner, inline component, contextual prompt, or product-nativ
 
 All dialogs need a programmatic name, logical focus entry, focus containment where appropriate, keyboard operation, visible focus, Escape behavior unless a valid critical reason is documented, clear close control, return focus, screen-reader state, sufficient contrast, readable text, zoom and reflow, touch targets, reduced motion, and mobile safe-area behavior. Avoid layout shift, delayed interaction, blocked content rendering, and heavy third-party scripts.
 
-Route final copy to `copywriting`, edits to `copywriting`, page diagnosis to `activation`, forms and conversion paths to `growth-diagnosis`, offers to `monetization`, lifecycle messages and permission to `lifecycle-marketing`, and event implementation to `tracking-plan`.
+Route final copy to `copywriting`, edits to `copywriting`, page diagnosis to `activation`, forms and conversion paths to `growth-diagnosis`, offers to `monetization`, lifecycle messages and permission to `lifecycle-marketing`, and event implementation to `growth-measurement`.
 
 ## Measure The Whole Effect
 

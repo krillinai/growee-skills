@@ -29,7 +29,7 @@ Do not call concentration good or bad without the decision, dependency, customer
 
 Movement source labels describe joined evidence, not causal credit. Preserve unknown, direct, multi-touch, offline, partner, and migrated source states. Compare source cohorts on compatible retained outcomes before using quality language.
 
-Route attribution model design and reconciliation to `attribution-analysis`, allocation to `acquisition-strategy`, and causal effects to `experiment-design`. A bridge cannot prove that a release caused expansion, a campaign prevented churn, or a touchpoint created a customer.
+Route attribution model design and reconciliation to `growth-measurement`, allocation to `acquisition-strategy`, and causal effects to `growth-measurement`. A bridge cannot prove that a release caused expansion, a campaign prevented churn, or a touchpoint created a customer.
 
 ## Adjustment Effects
 

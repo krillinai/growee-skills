@@ -77,7 +77,7 @@ For B2B, separate lead, contact, opportunity, account, buyer, user, workspace, i
 
 For supplied counts, report uncertainty appropriate to the design and sample. Do not call a difference significant, causal, or generalizable without a valid comparison method. Historical before-after movement may be affected by mix, seasonality, concurrent changes, instrumentation, and regression to the mean.
 
-Use `experiment-design` when assignment is feasible. Otherwise specify the strongest feasible bounded design, such as a staged pilot, interrupted time series, matched comparison, switchback, process observation, or qualitative mechanism study, with explicit limitations.
+Use `growth-measurement` when assignment is feasible. Otherwise specify the strongest feasible bounded design, such as a staged pilot, interrupted time series, matched comparison, switchback, process observation, or qualitative mechanism study, with explicit limitations.
 
 ## Reconciliation Table
 

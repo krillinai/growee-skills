@@ -47,7 +47,7 @@ An ambiguous statement such as `we saved 70%` remains a reported signal until it
 
 Before-and-after movement, customer belief, product adoption timing, or attributed outcomes do not by themselves prove causal lift. Preserve changes in customer mix, headcount, process, pricing, channels, market, seasonality, other tools, implementation, and measurement. Use `reported by the customer`, `associated with`, `used in`, `supported`, or another bounded construction only when source meaning supports it.
 
-For causal claims require a credible counterfactual, assignment or identification, exposure, compatible outcome, maturity, assumptions, and guardrails, then route method and interpretation to `experiment-design`. Do not calculate incremental ROI from a simple before-and-after difference.
+For causal claims require a credible counterfactual, assignment or identification, exposure, compatible outcome, maturity, assumptions, and guardrails, then route method and interpretation to `growth-measurement`. Do not calculate incremental ROI from a simple before-and-after difference.
 
 ## Tell The Complete Decision-Relevant Story
 

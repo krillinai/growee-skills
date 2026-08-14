@@ -38,7 +38,7 @@ Show price changes, foreign exchange, one-time revenue, payment recovery, credit
 
 Expanded accounts differ through size, tenure, health, need, seller selection, success attention, contract timing, budget, and survivorship. Expansion can cause retention, retention can enable expansion, or both can share a third cause.
 
-Define the estimand: value change for which eligible account or unit, caused by which product or commercial intervention, over which horizon. Account members share workflows, seats, pooled usage, admins, contracts, and outcomes, so individual randomization often contaminates treatment. Consider account, workspace, team, cluster, staged, threshold, encouragement, or other compatible designs and route statistical details to `experiment-design`.
+Define the estimand: value change for which eligible account or unit, caused by which product or commercial intervention, over which horizon. Account members share workflows, seats, pooled usage, admins, contracts, and outcomes, so individual randomization often contaminates treatment. Consider account, workspace, team, cluster, staged, threshold, encouragement, or other compatible designs and route statistical details to `growth-measurement`.
 
 ## Signal Contract
 

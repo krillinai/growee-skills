@@ -285,7 +285,7 @@
         "Marks treatment lift unavailable. [eval 2506] [integrated from icp-segmentation]",
         "Includes capacity and false-positive costs. [eval 2506] [integrated from icp-segmentation]",
         "Includes drift, group error, fairness, and overrides. [eval 2506] [integrated from icp-segmentation]",
-        "Routes causal validation to experiment-design. [eval 2506] [integrated from icp-segmentation]"
+        "Routes causal validation to growth-measurement. [eval 2506] [integrated from icp-segmentation]"
       ],
       "files": []
     },

@@ -35,4 +35,4 @@ Do not assign cause from the pattern alone.
 
 Record decision, hypothesis, mechanism, eligible population, exclusions, randomization unit, assignment, exposure, control, treatment, primary outcome, diagnostics, guardrails, minimum meaningful effect, sample and duration assumptions, observation and maturation windows, identity, repeated exposure, interference, SRM, analysis, positive, negative, harmful and inconclusive rules, stop, rollback, owner, and follow-up.
 
-Preserve treatment assignment and popup version through downstream readout. Check novelty, primacy, contamination, concurrent campaigns, page changes, cookie or consent changes, and device switching. Route detailed statistical design to `experiment-design`.
+Preserve treatment assignment and popup version through downstream readout. Check novelty, primacy, contamination, concurrent campaigns, page changes, cookie or consent changes, and device switching. Route detailed statistical design to `growth-measurement`.

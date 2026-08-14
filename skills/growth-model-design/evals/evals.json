@@ -199,8 +199,8 @@
         "Routes customer evidence to customer-research and ICP work to positioning. [eval 3714]",
         "Routes positioning to positioning. [eval 3714]",
         "Routes activation, cohort, retention, and monetization work to their specialist Skills. [eval 3714]",
-        "Routes loop closure to growth-loop-design and metric systems to growth-metrics-design. [eval 3714]",
-        "Routes causal tests to experiment-design and broad constraint triage to growth-diagnosis. [eval 3714]",
+        "Routes loop closure to growth-loop-design and metric systems to growth-measurement. [eval 3714]",
+        "Routes causal tests to growth-measurement and broad constraint triage to growth-diagnosis. [eval 3714]",
         "Does not duplicate all adjacent workflows. [eval 3714]"
       ],
       "files": []
@@ -298,11 +298,11 @@
     {
       "id": 7105,
       "prompt": "Use $growth-model-design to forecast monthly users and revenue for three years, invent seasonality and coefficients, and call the largest forecast gap the best opportunity.",
-      "expected_output": "Keeps opportunity sizing distinct from forecasting, sizes decision-relevant headroom from bounded baselines and mechanisms, and routes time-series projections and calibration to growth-forecasting.",
+      "expected_output": "Keeps opportunity sizing distinct from forecasting, sizes decision-relevant headroom from bounded baselines and mechanisms, and routes time-series projections and calibration to growth-measurement.",
       "assertions": [
         "Does not invent monthly forecasts, seasonality, or coefficients. [eval 7105] [integrated from growth-opportunity-sizing]",
         "Does not equate the largest forecast gap with the best opportunity. [eval 7105] [integrated from growth-opportunity-sizing]",
-        "Routes time-indexed projection work to growth-forecasting. [eval 7105] [integrated from growth-opportunity-sizing]",
+        "Routes time-indexed projection work to growth-measurement. [eval 7105] [integrated from growth-opportunity-sizing]",
         "Defines the decision and opportunity unit before calculation. [eval 7105] [integrated from growth-opportunity-sizing]",
         "Uses current baseline, eligible population, bounded change, reach, and value. [eval 7105] [integrated from growth-opportunity-sizing]",
         "Separates opportunity range from committed plan. [eval 7105] [integrated from growth-opportunity-sizing]",
@@ -321,7 +321,7 @@
         "Separates observed loss, theoretical headroom, reachable change, and retained value. [eval 7106] [integrated from growth-opportunity-sizing]",
         "Includes payment failures, mix, intent, trust, and measurement alternatives. [eval 7106] [integrated from growth-opportunity-sizing]",
         "Uses contribution net of implementation and operating cost where relevant. [eval 7106] [integrated from growth-opportunity-sizing]",
-        "Routes causal validation to experiment-design or another valid design. [eval 7106] [integrated from growth-opportunity-sizing]",
+        "Routes causal validation to growth-measurement or another valid design. [eval 7106] [integrated from growth-opportunity-sizing]",
         "Does not authorize a redesign or claim profit. [eval 7106] [integrated from growth-opportunity-sizing]"
       ]
     },
@@ -381,7 +381,7 @@
         "Uses attributable conversion and cycle evidence by compatible cohort. [eval 7110] [integrated from growth-opportunity-sizing]",
         "Includes sales, implementation, support, product, security, and legal capacity. [eval 7110] [integrated from growth-opportunity-sizing]",
         "Accounts for discounting, collection, churn, expansion, and timing where relevant. [eval 7110] [integrated from growth-opportunity-sizing]",
-        "Routes detailed revenue operations evidence to growth-infrastructure-assessment. [eval 7110] [integrated from growth-opportunity-sizing]",
+        "Routes detailed revenue operations evidence to growth-operations. [eval 7110] [integrated from growth-opportunity-sizing]",
         "Keeps unavailable qualification or capacity bridges visible. [eval 7110] [integrated from growth-opportunity-sizing]"
       ]
     },
@@ -486,7 +486,7 @@
         "Quantifies observed loss, delay, rework, incidents, capacity, and risk where evidence exists. [eval 7117] [integrated from growth-opportunity-sizing]",
         "Maps dependent opportunities and prevents double counting. [eval 7117] [integrated from growth-opportunity-sizing]",
         "Includes adoption, reliability, maintenance, retirement, and total cost. [eval 7117] [integrated from growth-opportunity-sizing]",
-        "Routes capability assessment to growth-infrastructure-assessment. [eval 7117] [integrated from growth-opportunity-sizing]",
+        "Routes capability assessment to growth-operations. [eval 7117] [integrated from growth-opportunity-sizing]",
         "Uses staged evidence and decision gates before investment. [eval 7117] [integrated from growth-opportunity-sizing]"
       ]
     },

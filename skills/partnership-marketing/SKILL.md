@@ -53,7 +53,7 @@ Distinguish co-marketing, co-selling, referral, affiliate, reseller, distributor
 
 Define who creates, approves, funds, distributes, receives, qualifies, follows up, delivers, supports, reports, corrects, and retires each element. Audience access never authorizes data transfer or contact. A co-branded asset requires scoped trademark, claim, content, derivative, channel, market, term, and approval rights.
 
-Route customer referral mechanics and reward design to `growth-loop-design`, acquisition portfolio decisions and campaign assets to `acquisition-strategy`, sales assets and handoffs to `sales-enablement`, integrations and platform sourcing to `growth-infrastructure-assessment`, and causal tests to `experiment-design`.
+Route customer referral mechanics and reward design to `growth-loop-design`, acquisition portfolio decisions and campaign assets to `acquisition-strategy`, sales assets and handoffs to `sales-enablement`, integrations and platform sourcing to `growth-operations`, and causal tests to `growth-measurement`.
 
 ## Pilot Before Dependence
 

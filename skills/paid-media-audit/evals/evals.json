@@ -244,7 +244,7 @@
     {
       "id": 1917,
       "prompt": "Brand-search conversions rose after we launched YouTube and Performance Max. Attribute the increase to both campaigns and call every reported conversion incremental without a holdout or causal design.",
-      "expected_output": "Selects measurement mode and separates temporal association and Google attribution from incrementality. It considers overlap, demand capture, view or engaged-view credit, seasonality, and other changes and routes causal validation to experiment-design.",
+      "expected_output": "Selects measurement mode and separates temporal association and Google attribution from incrementality. It considers overlap, demand capture, view or engaged-view credit, seasonality, and other changes and routes causal validation to growth-measurement.",
       "assertions": [
         "Selects measurement mode for the cross-campaign claim. [eval 1917]",
         "Records the timing association without causal inflation. [eval 1917]",
@@ -252,7 +252,7 @@
         "Considers campaign overlap and demand capture. [eval 1917]",
         "Considers view-through, engaged-view, and seasonal explanations. [eval 1917]",
         "Does not call every conversion incremental. [eval 1917]",
-        "Routes a credible causal design to experiment-design. [eval 1917]"
+        "Routes a credible causal design to growth-measurement. [eval 1917]"
       ],
       "files": []
     },
@@ -965,7 +965,7 @@
     {
       "id": 2217,
       "prompt": "Organic Douyin views and Qianchuan attributed orders rose after a creator video launched. Call the full increase incremental and caused by the creator without a control, holdout, or causal design.",
-      "expected_output": "Selects measurement mode and separates timing, organic engagement, platform attribution, business outcomes, and incrementality. It considers selection, paid overlap, seasonality, product and livestream changes and routes causal validation to experiment-design.",
+      "expected_output": "Selects measurement mode and separates timing, organic engagement, platform attribution, business outcomes, and incrementality. It considers selection, paid overlap, seasonality, product and livestream changes and routes causal validation to growth-measurement.",
       "assertions": [
         "Selects measurement mode for the creator impact claim. [eval 2217] [integrated from douyin-ads-audit]",
         "Records the timing association without causal inflation. [eval 2217] [integrated from douyin-ads-audit]",
@@ -973,7 +973,7 @@
         "Separates platform attribution from business outcomes and incrementality. [eval 2217] [integrated from douyin-ads-audit]",
         "Considers creator selection, paid overlap, seasonality, product, and livestream changes. [eval 2217] [integrated from douyin-ads-audit]",
         "Does not assign the full increase to the creator. [eval 2217] [integrated from douyin-ads-audit]",
-        "Routes a credible causal design to experiment-design. [eval 2217] [integrated from douyin-ads-audit]"
+        "Routes a credible causal design to growth-measurement. [eval 2217] [integrated from douyin-ads-audit]"
       ],
       "files": []
     },

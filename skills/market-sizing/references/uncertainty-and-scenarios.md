@@ -48,7 +48,7 @@ Keep distinct:
 - `forecast`: expected future outcome from a versioned forecasting process;
 - `actual`: observed result under a compatible definition.
 
-Do not invent scenario probabilities, average scenarios into an expected value without a basis, or change the market definition until a target is achieved. Route time-series and company forecasts to `growth-forecasting`.
+Do not invent scenario probabilities, average scenarios into an expected value without a basis, or change the market definition until a target is achieved. Route time-series and company forecasts to `growth-measurement`.
 
 ## Historical And Forecast Sources
 

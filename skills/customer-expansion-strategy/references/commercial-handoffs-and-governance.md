@@ -15,7 +15,7 @@
 
 Product-Led Sales is a coordinated value path, not an automatic lead-scoring shortcut. Product retains responsibility for product value; success supports realized outcomes; sales or commercial roles validate need, authority, buying process, and terms; operations preserves routing and reconciliation.
 
-Route CRM entity, stage, owner, assignment, forecast, and finance reconciliation defects to `growth-infrastructure-assessment`. Route claims, proof, discovery, objection, security, implementation, and buyer materials to `sales-enablement`.
+Route CRM entity, stage, owner, assignment, forecast, and finance reconciliation defects to `growth-operations`. Route claims, proof, discovery, objection, security, implementation, and buyer materials to `sales-enablement`.
 
 ## Customer Controls
 

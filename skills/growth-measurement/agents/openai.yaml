@@ -1,0 +1,4 @@
+interface:
+  display_name: "Growth Measurement & Experimentation"
+  short_description: "Integrated growth measurement and experimentation"
+  default_prompt: "Use $growth-measurement to handle this growth measurement or experimentation request as one evidence-backed workflow."

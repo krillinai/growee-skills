@@ -1,0 +1,4 @@
+interface:
+  display_name: "Growth Operations & Infrastructure"
+  short_description: "Integrated growth operations and infrastructure"
+  default_prompt: "Use $growth-operations to handle this growth operations or infrastructure request as one evidence-backed workflow."

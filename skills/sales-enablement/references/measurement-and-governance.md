@@ -36,7 +36,7 @@ Choose according to risk and feasibility:
 - matched comparison or interrupted time series with assumptions explicit;
 - downstream implementation, activation, retention, and renewal joins.
 
-Preserve assignment, exposure, actual use, version, contamination, manager effects, and maturity. Route statistical design and interpretation to `experiment-design`.
+Preserve assignment, exposure, actual use, version, contamination, manager effects, and maturity. Route statistical design and interpretation to `growth-measurement`.
 
 ## Portfolio Audit
 

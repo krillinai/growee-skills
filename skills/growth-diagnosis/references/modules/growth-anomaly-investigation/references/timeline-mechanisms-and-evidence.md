@@ -46,13 +46,13 @@ Do not begin with stakeholder explanations and retrofit data. Preserve hypothese
 
 Preserve eligible, assigned, accessed, exposed, noncompliant, contaminated, and outcome populations; randomization unit; identity; mutual exclusion; overlapping experiments; interference; carryover; novelty; sample-ratio mismatch; metric contract; horizon; and maturity.
 
-Do not assign effects by the last experiment seen, compare raw exposed users as if randomized, or add overlapping experiment estimates. Route integrity, power, estimand, multiple testing, and causal readout to `experiment-design`.
+Do not assign effects by the last experiment seen, compare raw exposed users as if randomized, or add overlapping experiment estimates. Route integrity, power, estimand, multiple testing, and causal readout to `growth-measurement`.
 
 ## Handle Attribution And Channels
 
 Version touchpoint rules, lookback windows, view-through and click treatment, UTMs, platform models, identity coverage, consent, unknown source, organic, direct, overlap, and unattributed states. Keep total observed outcomes, attributed outcomes, incremental outcomes, retained value, contribution, and cash distinct.
 
-An attribution-model change can move channel credit without changing demand. Route detailed source and touchpoint reconciliation to `attribution-analysis`, and channel economics and action decisions to `acquisition-strategy`.
+An attribution-model change can move channel credit without changing demand. Route detailed source and touchpoint reconciliation to `growth-measurement`, and channel economics and action decisions to `acquisition-strategy`.
 
 ## Handle Quality, Fraud, And Abuse
 

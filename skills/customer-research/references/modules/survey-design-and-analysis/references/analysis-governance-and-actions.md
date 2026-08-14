@@ -40,7 +40,7 @@ Do not equate statistical significance with practical value, `p > 0.05` with no 
 
 Keep recommendation, satisfaction, effort, loyalty, referral, retention, and revenue distinct. Record exact wording, scale, anchors, reference event, eligibility, timing, product, market, language, mode, instrument version, and item denominator. Derive promoter, passive, detractor, satisfied, or effort categories only under the specified instrument.
 
-Check frame, nonresponse, tenure, lifecycle, channel, market, product, language, and case mix before comparison. Keep open-text reasons attributable and separate from the numeric score. Declared recommendation is not observed referral; one response is not durable loyalty; score movement does not cause retention or revenue. Route customer experience mechanisms to `customer-research`, metrics to `growth-metrics-design`, retention to `retention`, referral to `growth-loop-design`, and causal validation to `experiment-design`.
+Check frame, nonresponse, tenure, lifecycle, channel, market, product, language, and case mix before comparison. Keep open-text reasons attributable and separate from the numeric score. Declared recommendation is not observed referral; one response is not durable loyalty; score movement does not cause retention or revenue. Route customer experience mechanisms to `customer-research`, metrics to `growth-measurement`, retention to `retention`, referral to `growth-loop-design`, and causal validation to `growth-measurement`.
 
 ### Must-Have, Pricing, And Choice Surveys
 
@@ -48,7 +48,7 @@ Do not certify PMF from a very-disappointed threshold or declare an optimal pric
 
 For a must-have survey, check core-value exposure, eligibility, segment, role, tenure, recruitment, response process, wording, reasons, survivorship, nonresponse, retention, willingness to pay, and economics. Route fit interpretation to `product-market-fit-assessment`.
 
-For Van Westendorp, check all four items, currency, package and product stimulus, price range, logical consistency, frame, sample, weighting, sparse regions, and uncertainty. For Gabor-Granger, check package stimulus, tested prices, order, purchase context, response scale, frame, sample, weighting, and stated-versus-observed demand. For conjoint or discrete choice, check alternatives, attributes, levels, tasks, randomization, prohibitions, holdouts, model, uncertainty, and external validity. Route strategy to `monetization`, economics to `monetization`, behavioral validation to authorized experiments, and forecasting to `growth-forecasting`.
+For Van Westendorp, check all four items, currency, package and product stimulus, price range, logical consistency, frame, sample, weighting, sparse regions, and uncertainty. For Gabor-Granger, check package stimulus, tested prices, order, purchase context, response scale, frame, sample, weighting, and stated-versus-observed demand. For conjoint or discrete choice, check alternatives, attributes, levels, tasks, randomization, prohibitions, holdouts, model, uncertainty, and external validity. Route strategy to `monetization`, economics to `monetization`, behavioral validation to authorized experiments, and forecasting to `growth-measurement`.
 
 Preserve instrument result, domain interpretation, observed behavior, economics, forecast, decision, and causal effect as separate records.
 
@@ -66,7 +66,7 @@ Separate repeated cross-sections, cohorts, panels, pre-post studies, interrupted
 
 Preserve panel conditioning, survivorship, attrition, mode, seasonality, mix, product, channel, policy, competitor, and concurrent-change alternatives. Do not compare changing respondent mixes as a panel or backfill a baseline after seeing outcomes.
 
-Survey movement and intention do not prove intervention effect, retention, demand, or revenue. A causal claim requires a declared intervention, eligible unit, assignment or credible counterfactual, access, exposure, contamination, outcome, maturity, guardrails, missingness, and analysis. Route design and effect estimation to `experiment-design`, cohort maturity to `retention`, and forecasts to `growth-forecasting`.
+Survey movement and intention do not prove intervention effect, retention, demand, or revenue. A causal claim requires a declared intervention, eligible unit, assignment or credible counterfactual, access, exposure, contamination, outcome, maturity, guardrails, missingness, and analysis. Route design and effect estimation to `growth-measurement`, cohort maturity to `retention`, and forecasts to `growth-measurement`.
 
 ## Privacy, Fairness, And Market Transfer
 

@@ -1,4 +1,0 @@
-interface:
-  display_name: "Growth Learning & Change"
-  short_description: "Integrated Growth Learning & Change workflows"
-  default_prompt: "Use $growth-learning-system to handle this growth learning & change request as one evidence-backed workflow."

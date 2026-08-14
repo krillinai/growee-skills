@@ -44,7 +44,7 @@ Use bounded phrasing:
 - `the customer attributes part of...` only when that attribution is itself the verified statement;
 - `caused`, `incremental`, or `would not have occurred` only with suitable counterfactual evidence.
 
-Route causal design and readout to `experiment-design`.
+Route causal design and readout to `growth-measurement`.
 
 ## Prevalence And Prediction
 
