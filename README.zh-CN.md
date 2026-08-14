@@ -2,7 +2,7 @@
   <img src="Growee-logo.png" alt="Growee logo" width="220">
 </p>
 
-<h1 align="center">AI Content Marketing Skills</h1>
+<h1 align="center">全生命周期AI增长技能合集</h1>
 
 <p align="center"><strong>覆盖增长诊断、内容生产、获客、激活、留存、变现及其底层增长系统的 AI 可执行能力。</strong></p>
 

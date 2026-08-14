@@ -2,7 +2,7 @@
   <img src="Growee-logo.png" alt="Growee logo" width="220">
 </p>
 
-<h1 align="center">AI Content Marketing Skills</h1>
+<h1 align="center">Full-Lifecycle AI Growth Skills</h1>
 
 <p align="center"><strong>AI-executable capabilities for growth diagnosis, content production, acquisition, activation, retention, monetization, and the systems beneath them.</strong></p>
 
