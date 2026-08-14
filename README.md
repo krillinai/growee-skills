@@ -8,13 +8,13 @@
 
 Growee is the open-source execution companion to Growth Playbook. The Playbook explains the frameworks, models, and evidence; Growee turns them into reusable Agent Skills for bounded growth work.
 
-By [clawee.ai](https://clawee.ai/), an Enterprise Growth Agent platform.
+By [KrillinAI](https://github.com/KrillinAI).
 
 [![GitHub Stars](https://img.shields.io/github/stars/krillinai/Growee?style=flat-square&logo=github&label=Stars)](https://github.com/krillinai/Growee/stargazers)
 [![clawee.ai](https://img.shields.io/badge/clawee.ai-Enterprise_Growth_Agent-6f42c1?style=flat-square)](https://clawee.ai)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 
-> Created and maintained by [KrillinAI](https://github.com/KrillinAI), an AI team focused on content intelligence and global growth. Growth Playbook provides the methods and frameworks; Growee turns them into reusable, AI-executable workflows.
+> Growth Playbook provides the methods and frameworks; Growee turns them into reusable, AI-executable workflows.
 
 **[English](README.md) | [简体中文](README.zh-CN.md)**
 
