@@ -6,7 +6,7 @@
 
 <p align="center"><strong>AI-executable capabilities for growth diagnosis, content production, acquisition, activation, retention, monetization, and the systems beneath them.</strong></p>
 
-Growee is the open-source execution companion to [Growth Playbook](https://github.com/krillinai/growth-playbook). The Playbook explains the frameworks, models, and evidence; Growee turns them into reusable Agent Skills for bounded growth work.
+Growee is the open-source execution companion to Growth Playbook. The Playbook explains the frameworks, models, and evidence; Growee turns them into reusable Agent Skills for bounded growth work.
 
 By [clawee.ai](https://clawee.ai/), an Enterprise Growth Agent platform.
 
@@ -305,7 +305,7 @@ Use Content Growth when content is the active constraint. Add a specialist bundl
 
 ## Contributing
 
-Growee follows the structure and evidence standards of [Growth Playbook](https://github.com/krillinai/growth-playbook). Add a Skill only when the existing collection cannot cover a clear, reusable growth decision. A contribution should define its Playbook layer, evidence inputs, executable workflow, inspectable output, measurement path, and operating boundaries.
+Growee follows the structure and evidence standards of Growth Playbook. Add a Skill only when the existing collection cannot cover a clear, reusable growth decision. A contribution should define its Playbook layer, evidence inputs, executable workflow, inspectable output, measurement path, and operating boundaries.
 
 ## License
 

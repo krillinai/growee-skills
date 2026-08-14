@@ -6,7 +6,7 @@
 
 <p align="center"><strong>覆盖增长诊断、内容生产、获客、激活、留存、变现及其底层增长系统的 AI 可执行能力。</strong></p>
 
-Growee 是 [Growth Playbook（增长手册）](https://github.com/krillinai/growth-playbook)的开源执行层。增长手册解释框架、模型与证据，Growee 则把它们转化为可复用的 Agent Skills，用于边界明确的增长工作。
+Growee 是 Growth Playbook（增长手册）的开源执行层。增长手册解释框架、模型与证据，Growee 则把它们转化为可复用的 Agent Skills，用于边界明确的增长工作。
 
 由企业级增长智能体产品 [clawee.ai](https://clawee.ai/) 出品。
 
@@ -305,7 +305,7 @@ cp -R Growee/skills/growth-diagnosis "${CODEX_HOME:-$HOME/.codex}/skills/"
 
 ## 参与贡献
 
-Growee 遵循 [Growth Playbook（增长手册）](https://github.com/krillinai/growth-playbook)的结构与证据标准。只有在现有能力无法覆盖一项明确、可复用的增长决策时，才新增 Skill。贡献内容应定义其所属手册层级、证据输入、可执行工作流、可检查输出、测量路径和操作边界。
+Growee 遵循 Growth Playbook（增长手册）的结构与证据标准。只有在现有能力无法覆盖一项明确、可复用的增长决策时，才新增 Skill。贡献内容应定义其所属手册层级、证据输入、可执行工作流、可检查输出、测量路径和操作边界。
 
 ## 许可证
 
