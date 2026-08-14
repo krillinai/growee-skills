@@ -4,7 +4,7 @@
 
 <h1 align="center">Full-Lifecycle AI Growth Skills</h1>
 
-<p align="center">AI-executable capabilities for growth diagnosis, acquisition, activation, retention, monetization, referral, content production, and growth foundations.</p>
+<p align="center">AI-executable capabilities for growth diagnosis, acquisition, activation, retention, monetization, referral and expansion, content production, and growth foundations.</p>
 
 Growee Skills, by [KrillinAI](https://github.com/KrillinAI), is the open-source execution companion to Growth Playbook, a complete body of growth theory spanning frameworks, models, methods, and evidence. Growee Skills turns that body of knowledge into reusable Agent Skills for bounded growth work.
 
@@ -18,7 +18,7 @@ Growee Skills, by [KrillinAI](https://github.com/KrillinAI), is the open-source 
 
 ## From diagnosis to compounding growth
 
-Growee Skills follows the same mainline as Growth Playbook. Diagnosis identifies the current constraint. Lifecycle Skills move customers from discovery to first value, repeated value, revenue, and expansion. Content production supplies the messages and assets for that work. Growth foundations clarify the customer, market, value, and growth model while making every stage measurable, testable, and repeatable.
+Growee Skills follows the same mainline as Growth Playbook. Diagnosis identifies the current constraint. Lifecycle Skills move customers from discovery to first value, repeated value, revenue, and expansion. Content production supplies the messages and assets for that work. Growth foundations clarify the customer, market, value, and growth model while providing the measurement, experimentation, planning, infrastructure, and organization that make every stage testable and repeatable.
 
 <pre align="center">
 +--------------------------------------------------------------+
@@ -44,8 +44,8 @@ v
 +--------------------------------------------------------------+
 |                      GROWTH FOUNDATIONS                      |
 | PMF / ICP / Positioning / Journey / Strategy / Growth Model  |
-| Metrics / Experiments / Data / Planning / Infrastructure     |
-|            Organization / Governance / Operations            |
+|   Metrics / Experiments / Data / Attribution / Forecasting   |
+|      Planning / Infrastructure / Organization / RevOps       |
 +--------------------------------------------------------------+
 |
 v
@@ -61,13 +61,13 @@ Insights feed the next Growth Diagnosis
 | Monetization | How does customer value become durable, profitable revenue? | Design pricing and packaging, then reconcile LTV, payback, and unit economics |
 | Referral & Expansion | How do customers and product activity create deeper value and new distribution? | Build referrals, loops, expansion paths, incentives, marketplaces, and network effects |
 | Content Production | What evidence-backed messages and assets should exist? | Plan and produce copy, images, video, creative, customer proof, PR, and localized content |
-| Growth Foundations | Who is the customer, what value matters, and how should growth be measured and operated? | Establish PMF, ICP, positioning, journey, growth model, metrics, experiments, data, planning, infrastructure, organization, and governance |
+| Growth Foundations | Who is the customer, what value matters, and how should growth be measured and operated? | Establish PMF, ICP, positioning, journey, strategy, metrics, experiments, data quality, attribution, forecasting, planning, infrastructure, organization, governance, and RevOps |
 
 Measured customer behavior and business outcomes feed the next diagnosis. That feedback loop, rather than content volume or isolated campaign activity, is the unit of progress. Every Skill preserves evidence and operating boundaries: external publishing and account changes remain under user control, and rights, claims, consent, privacy, and approvals must remain explicit.
 
 ## Install and use
 
-Each directory under `skills/` is a standalone Agent Skill. Adjacent methods are consolidated into 29 lifecycle-level Skills; specialized workflows live under `references/modules/` and load only when needed. Start with Growth Diagnosis, then install only the Skills that match the primary constraint and execution route.
+Each directory under `skills/` is a standalone Agent Skill. The collection exposes 29 top-level Skills across diagnosis, the customer lifecycle, content production, and growth foundations. Another 57 specialist workflows live under `references/modules/` and load only when their parent Skill routes to them. Start with Growth Diagnosis, then install only the top-level Skills that match the primary constraint and execution route.
 
 ```bash
 git clone https://github.com/krillinai/growee-skills.git
@@ -99,9 +99,9 @@ Once the constraint is clear, replace `growth-diagnosis` with the relevant Skill
 
 ## Choose your operating scope
 
-Use Content Growth when content is the active constraint. Add a specialist bundle only when measurement, distribution, or operating capacity becomes the limiting factor.
+Choose the smallest bundle that matches the current constraint. Counts refer to top-level Skills and integrations; specialist workflows stay inside their parent Skill and load only when needed.
 
-| Scope | Description | Capabilities |
+| Scope | Description | Entry points |
 | --- | --- | ---: |
 | `content-growth` · Content Growth | A focused content-marketing path connecting customer questions, content production, localization, distribution, and conversion. | 8 |
 | `measurement-analytics` · Measurement & Analytics | Make growth observable and decision-ready through metrics, tracking, attribution, economics, forecasting, cohorts, and experiments. | 4 |
@@ -112,6 +112,8 @@ Use Content Growth when content is the active constraint. Add a specialist bundl
 
 <details>
 <summary>Browse every Skill and integration by growth function</summary>
+
+**Structure:** This map lists 29 top-level Skills. They route to 57 specialist workflows under `references/modules/` and load those modules only when needed.
 
 **Maturity:** Preview Skills need real-world validation; Validated Skills have passed realistic forward tests; Stable Skills have demonstrated repeatable use.
 
@@ -234,12 +236,11 @@ Use Content Growth when content is the active constraint. Add a specialist bundl
 - Diagnose the current constraint before choosing a channel, tactic, or tool.
 - Manage acquisition, activation, retention, monetization, referral, and expansion as one lifecycle system.
 - Treat content production as an execution layer that must connect to qualified acquisition and customer value.
-- Use foundations to establish the customer, market, fit, positioning, and growth model behind lifecycle decisions.
-- Use metrics, experiments, infrastructure, and organization to support every stage and feed evidence into the next diagnosis.
+- Use foundations to establish the customer, market, fit, positioning, growth model, measurement, experimentation, infrastructure, and organization behind every lifecycle decision, then feed evidence into the next diagnosis.
 
 ## Contributing
 
-Growee Skills follows the structure and evidence standards of Growth Playbook. Add a Skill only when the existing collection cannot cover a clear, reusable growth decision. A contribution should define its Playbook layer, evidence inputs, executable workflow, inspectable output, measurement path, and operating boundaries.
+Growee Skills follows the structure and evidence standards of Growth Playbook. Add a top-level Skill only when no existing parent can own a clear, reusable growth decision; otherwise add or improve an on-demand module within the nearest parent Skill. A contribution should define its Playbook layer, evidence inputs, executable workflow, inspectable output, measurement path, and operating boundaries.
 
 ## License
 

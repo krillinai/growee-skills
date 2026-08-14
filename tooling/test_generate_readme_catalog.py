@@ -68,7 +68,7 @@ class GeneratedCatalogTest(unittest.TestCase):
                 self.assertIn(current_label, rendered)
                 self.assertNotIn(old_label, rendered)
 
-    def test_content_growth_bundle_counts_skills_and_integrations(self):
+    def test_bundles_count_entry_points(self):
         cases = (
             (
                 "en",
@@ -90,6 +90,21 @@ class GeneratedCatalogTest(unittest.TestCase):
                 )
                 self.assertTrue(row.endswith(row_end))
                 self.assertNotIn("`core-growth`", rendered)
+                self.assertIn(
+                    "Entry points" if language == "en" else "入口数量", rendered
+                )
+
+    def test_structure_note_reports_consolidated_surface(self):
+        cases = (
+            ("en", "29 top-level Skills", "57 specialist workflows"),
+            ("zh", "29 个顶层 Skills", "57 个专业工作流"),
+        )
+
+        for language, skill_count, module_count in cases:
+            with self.subTest(language=language):
+                rendered = self.render(language)
+                self.assertIn(skill_count, rendered)
+                self.assertIn(module_count, rendered)
 
     def test_complete_catalog_is_collapsed(self):
         cases = (
