@@ -8,11 +8,13 @@
 
 Growee, by [KrillinAI](https://github.com/KrillinAI), is the open-source execution companion to Growth Playbook. The Playbook explains the frameworks, models, and evidence; Growee turns them into reusable Agent Skills for bounded growth work.
 
-[![GitHub Stars](https://img.shields.io/github/stars/krillinai/Growee?style=flat-square&logo=github&label=Stars)](https://github.com/krillinai/Growee/stargazers)
-[![clawee.ai](https://img.shields.io/badge/clawee.ai-Enterprise_Growth_Agent-6f42c1?style=flat-square)](https://clawee.ai)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
+<p align="center">
+  <a href="https://github.com/krillinai/Growee/stargazers"><img src="https://img.shields.io/github/stars/krillinai/Growee?style=flat-square&amp;logo=github&amp;label=Stars" alt="GitHub Stars"></a>
+  <a href="https://clawee.ai"><img src="https://img.shields.io/badge/clawee.ai-Enterprise_Growth_Agent-6f42c1?style=flat-square" alt="clawee.ai"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="License: MIT"></a>
+</p>
 
-**[English](README.md) | [简体中文](README.zh-CN.md)**
+<p align="center"><strong><a href="README.md">English</a> | <a href="README.zh-CN.md">简体中文</a></strong></p>
 
 ## From diagnosis to compounding growth
 
