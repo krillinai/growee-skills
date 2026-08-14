@@ -8,11 +8,13 @@
 
 Growee 由 [KrillinAI](https://github.com/KrillinAI) 创作并维护，是 Growth Playbook（增长手册）的开源执行层。增长手册解释框架、模型与证据，Growee 则把它们转化为可复用的 Agent Skills，用于边界明确的增长工作。
 
-[![GitHub Stars](https://img.shields.io/github/stars/krillinai/Growee?style=flat-square&logo=github&label=Stars)](https://github.com/krillinai/Growee/stargazers)
-[![clawee.ai](https://img.shields.io/badge/clawee.ai-Enterprise_Growth_Agent-6f42c1?style=flat-square)](https://clawee.ai)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
+<p align="center">
+  <a href="https://github.com/krillinai/Growee/stargazers"><img src="https://img.shields.io/github/stars/krillinai/Growee?style=flat-square&amp;logo=github&amp;label=Stars" alt="GitHub Stars"></a>
+  <a href="https://clawee.ai"><img src="https://img.shields.io/badge/clawee.ai-Enterprise_Growth_Agent-6f42c1?style=flat-square" alt="clawee.ai"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="License: MIT"></a>
+</p>
 
-**[English](README.md) | [简体中文](README.zh-CN.md)**
+<p align="center"><strong><a href="README.md">English</a> | <a href="README.zh-CN.md">简体中文</a></strong></p>
 
 ## 从诊断到增长复利
 
