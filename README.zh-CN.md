@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Growee-logo.png" alt="Growee logo" width="220">
+  <img src="Growee-logo.png" alt="Growee logo" width="180">
 </p>
 
 <h1 align="center">全生命周期AI增长技能合集</h1>
