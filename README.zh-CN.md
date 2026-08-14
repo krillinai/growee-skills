@@ -6,7 +6,7 @@
 
 <p align="center"><strong>覆盖增长诊断、内容生产、获客、激活、留存、变现及其底层增长系统的 AI 可执行能力。</strong></p>
 
-Growee 由 [KrillinAI](https://github.com/KrillinAI) 创作并维护，是 Growth Playbook（增长手册）的开源执行层。增长手册解释框架、模型与证据，Growee 则把它们转化为可复用的 Agent Skills，用于边界明确的增长工作。
+Growee 由 [KrillinAI](https://github.com/KrillinAI) 创作并维护，是 Growth Playbook（增长手册）的开源执行层。Growth Playbook 是一套完整的增长理论体系，涵盖框架、模型、方法与证据；Growee 则把这套知识转化为可复用的 Agent Skills，用于边界明确的增长工作。
 
 <p align="center">
   <a href="https://github.com/krillinai/Growee/stargazers"><img src="https://img.shields.io/github/stars/krillinai/Growee?style=flat-square&amp;logo=github&amp;label=Stars" alt="GitHub Stars"></a>

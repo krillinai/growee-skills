@@ -6,7 +6,7 @@
 
 <p align="center"><strong>AI-executable capabilities for growth diagnosis, content production, acquisition, activation, retention, monetization, and the systems beneath them.</strong></p>
 
-Growee, by [KrillinAI](https://github.com/KrillinAI), is the open-source execution companion to Growth Playbook. The Playbook explains the frameworks, models, and evidence; Growee turns them into reusable Agent Skills for bounded growth work.
+Growee, by [KrillinAI](https://github.com/KrillinAI), is the open-source execution companion to Growth Playbook, a complete body of growth theory spanning frameworks, models, methods, and evidence. Growee turns that body of knowledge into reusable Agent Skills for bounded growth work.
 
 <p align="center">
   <a href="https://github.com/krillinai/Growee/stargazers"><img src="https://img.shields.io/github/stars/krillinai/Growee?style=flat-square&amp;logo=github&amp;label=Stars" alt="GitHub Stars"></a>
