@@ -2,146 +2,85 @@
   "schema_version": "1.0",
   "categories": [
     {
-      "id": "content-creative",
-      "name_en": "Content & Creative",
-      "name_zh": "内容与创意",
-      "job_en": "Create, adapt, and govern messages and media",
-      "job_zh": "创作、适配并治理文案与媒体内容",
+      "id": "growth-diagnosis",
+      "name_en": "Growth Diagnosis",
+      "name_zh": "增长诊断",
+      "job_en": "Identify the primary constraint and choose the smallest evidence-backed execution route",
+      "job_zh": "识别首要增长约束，并选择最小且有证据支撑的执行路径",
       "skills": [
-        "copywriting",
-        "copy-editing",
-        "marketing-image",
-        "marketing-video",
-        "content-strategy",
-        "ad-creative",
-        "public-relations",
-        "customer-proof-development"
+        "growth-diagnosis",
+        "funnel-analysis",
+        "growth-anomaly-investigation",
+        "growth-maturity-assessment"
       ],
       "start_skills": [
-        "copywriting",
-        "content-strategy",
-        "ad-creative"
+        "growth-diagnosis",
+        "funnel-analysis",
+        "growth-anomaly-investigation"
       ]
     },
     {
-      "id": "research-intelligence",
-      "name_en": "Research & Market Intelligence",
-      "name_zh": "研究与市场洞察",
-      "job_en": "Understand customers, markets, alternatives, and buying contexts",
-      "job_zh": "理解客户、市场、替代方案与购买情境",
+      "id": "growth-foundations",
+      "name_en": "Growth Foundations",
+      "name_zh": "增长基础",
+      "job_en": "Define customer, market, fit, positioning, growth model, and strategic choices",
+      "job_zh": "定义客户、市场、匹配、定位、增长模型与战略选择",
       "skills": [
+        "product-market-fit-assessment",
+        "icp-segmentation",
+        "positioning",
+        "growth-model-design",
         "customer-research",
         "survey-design-and-analysis",
         "competitive-intelligence",
-        "positioning",
-        "icp-segmentation",
-        "product-market-fit-assessment",
         "customer-journey-analysis",
-        "market-sizing"
-      ],
-      "start_skills": [
-        "customer-research",
-        "positioning",
-        "competitive-intelligence"
-      ]
-    },
-    {
-      "id": "strategy-planning",
-      "name_en": "Strategy & Planning",
-      "name_zh": "策略与规划",
-      "job_en": "Choose direction, size commitments, and build decision-linked plans",
-      "job_zh": "选择方向、评估投入并制定与决策相连的计划",
-      "skills": [
-        "growth-diagnosis",
-        "growth-maturity-assessment",
+        "market-sizing",
         "growth-strategy",
-        "growth-model-design",
-        "growth-planning-cycle",
-        "growth-capacity-planning",
         "growth-opportunity-sizing",
-        "growth-investment-case",
-        "growth-budget-allocation",
-        "growth-initiative-planning",
         "market-entry-strategy",
         "go-to-market-strategy",
         "product-launch-strategy"
       ],
       "start_skills": [
-        "growth-diagnosis",
-        "growth-strategy",
-        "growth-planning-cycle"
+        "product-market-fit-assessment",
+        "icp-segmentation",
+        "positioning"
       ]
     },
     {
-      "id": "measurement-experimentation",
-      "name_en": "Measurement & Experimentation",
-      "name_zh": "测量与实验",
-      "job_en": "Define, measure, explain, forecast, and causally validate growth",
-      "job_zh": "定义、测量、解释、预测并因果验证增长",
+      "id": "content-production",
+      "name_en": "Content Production",
+      "name_zh": "内容生产",
+      "job_en": "Turn strategy, customer evidence, and proof into governed content and creative assets",
+      "job_zh": "把战略、客户证据与证明转化为受治理的内容和创意资产",
       "skills": [
-        "growth-metrics-design",
-        "growth-target-setting",
-        "growth-benchmark-analysis",
-        "growth-anomaly-investigation",
-        "tracking-plan",
-        "growth-data-quality-audit",
-        "attribution-analysis",
-        "marketing-mix-modeling",
-        "ltv-analysis",
-        "unit-economics-analysis",
-        "growth-forecasting",
-        "growth-accounting",
-        "cohort-analysis",
-        "engagement-analysis",
-        "experiment-design",
-        "funnel-analysis"
+        "content-strategy",
+        "copywriting",
+        "copy-editing",
+        "marketing-image",
+        "marketing-video",
+        "ad-creative",
+        "public-relations",
+        "customer-proof-development"
       ],
       "start_skills": [
-        "growth-metrics-design",
-        "funnel-analysis",
-        "experiment-design"
+        "content-strategy",
+        "copywriting",
+        "marketing-video"
       ]
     },
     {
-      "id": "lifecycle-monetization",
-      "name_en": "Lifecycle & Monetization",
-      "name_zh": "生命周期与变现",
-      "job_en": "Improve first value, recurring value, revenue, expansion, and compounding mechanisms",
-      "job_zh": "改善首次价值、持续价值、收入、扩张与复利机制",
-      "skills": [
-        "activation",
-        "lifecycle-marketing",
-        "retention",
-        "customer-health-modeling",
-        "customer-expansion-strategy",
-        "monetization",
-        "pricing-and-packaging-strategy",
-        "referral-program-design",
-        "incentive-system-design",
-        "growth-loop-design",
-        "marketplace-growth-strategy",
-        "network-effects-strategy"
-      ],
-      "start_skills": [
-        "activation",
-        "retention",
-        "monetization"
-      ]
-    },
-    {
-      "id": "acquisition-distribution",
-      "name_en": "Acquisition & Distribution",
-      "name_zh": "获客与分发",
-      "job_en": "Plan, audit, and improve channels, campaigns, conversion surfaces, and distribution",
-      "job_zh": "规划、诊断并改善渠道、活动、转化界面与分发",
+      "id": "acquisition",
+      "name_en": "Acquisition",
+      "name_zh": "获客",
+      "job_en": "Connect qualified demand to the product through channels, campaigns, search, paid media, partnerships, and outbound",
+      "job_zh": "通过渠道、营销活动、搜索、广告、合作与外联，把有效需求连接到产品",
       "skills": [
         "acquisition-strategy",
         "campaign-planning",
         "partnership-marketing",
         "community-growth-strategy",
         "sales-enablement",
-        "landing-page-audit",
-        "popup-optimization",
         "meta-ads-audit",
         "google-ads-audit",
         "tiktok-ads-audit",
@@ -158,16 +97,119 @@
       "start_skills": [
         "acquisition-strategy",
         "campaign-planning",
-        "landing-page-audit"
+        "seo-audit"
       ]
     },
     {
-      "id": "operations-governance",
-      "name_en": "Operations & Governance",
-      "name_zh": "运营与治理",
-      "job_en": "Operate decisions, systems, risks, learning, change, and organizational capacity",
-      "job_zh": "运营决策、系统、风险、学习、变更与组织能力",
+      "id": "activation",
+      "name_en": "Activation",
+      "name_zh": "激活",
+      "job_en": "Move qualified visitors and new users to first value and the next meaningful action",
+      "job_zh": "推动有效访客和新用户到达首次价值与下一项关键行动",
       "skills": [
+        "activation",
+        "landing-page-audit",
+        "popup-optimization"
+      ],
+      "start_skills": [
+        "activation",
+        "landing-page-audit",
+        "popup-optimization"
+      ]
+    },
+    {
+      "id": "retention",
+      "name_en": "Retention",
+      "name_zh": "留存",
+      "job_en": "Sustain recurring value, understand cohorts and churn, and recover valuable customer relationships",
+      "job_zh": "维持持续价值，理解同期群与流失，并修复有价值的客户关系",
+      "skills": [
+        "retention",
+        "cohort-analysis",
+        "growth-accounting",
+        "engagement-analysis",
+        "lifecycle-marketing",
+        "customer-health-modeling"
+      ],
+      "start_skills": [
+        "retention",
+        "lifecycle-marketing",
+        "cohort-analysis"
+      ]
+    },
+    {
+      "id": "monetization",
+      "name_en": "Monetization",
+      "name_zh": "变现",
+      "job_en": "Convert customer value into durable revenue through pricing, packaging, LTV, and unit economics",
+      "job_zh": "通过定价、套餐、LTV 与单位经济，把客户价值转化为可持续收入",
+      "skills": [
+        "monetization",
+        "pricing-and-packaging-strategy",
+        "unit-economics-analysis",
+        "ltv-analysis"
+      ],
+      "start_skills": [
+        "monetization",
+        "pricing-and-packaging-strategy",
+        "unit-economics-analysis"
+      ]
+    },
+    {
+      "id": "referral-expansion",
+      "name_en": "Referral & Expansion",
+      "name_zh": "推荐与扩张",
+      "job_en": "Create deeper value and new distribution through referrals, loops, expansion, marketplaces, and network effects",
+      "job_zh": "通过推荐、增长循环、客户扩张、多边市场与网络效应创造更深价值和新分发",
+      "skills": [
+        "referral-program-design",
+        "growth-loop-design",
+        "network-effects-strategy",
+        "customer-expansion-strategy",
+        "marketplace-growth-strategy",
+        "incentive-system-design"
+      ],
+      "start_skills": [
+        "growth-loop-design",
+        "referral-program-design",
+        "customer-expansion-strategy"
+      ]
+    },
+    {
+      "id": "metrics-experimentation",
+      "name_en": "Metrics & Experimentation",
+      "name_zh": "测量与实验",
+      "job_en": "Make growth observable, explainable, forecastable, and causally testable",
+      "job_zh": "让增长可观察、可解释、可预测并可进行因果验证",
+      "skills": [
+        "growth-metrics-design",
+        "growth-target-setting",
+        "growth-benchmark-analysis",
+        "tracking-plan",
+        "growth-data-quality-audit",
+        "attribution-analysis",
+        "marketing-mix-modeling",
+        "growth-forecasting",
+        "experiment-design"
+      ],
+      "start_skills": [
+        "growth-metrics-design",
+        "tracking-plan",
+        "experiment-design"
+      ]
+    },
+    {
+      "id": "growth-infrastructure-organization",
+      "name_en": "Growth Infrastructure & Organization",
+      "name_zh": "增长基础设施与组织",
+      "job_en": "Build the planning, decision, data, operating, governance, and organizational systems that make growth repeatable",
+      "job_zh": "构建规划、决策、数据、运营、治理与组织系统，让增长可以重复运行",
+      "skills": [
+        "growth-planning-cycle",
+        "growth-capacity-planning",
+        "growth-investment-case",
+        "growth-budget-allocation",
+        "growth-initiative-planning",
         "growth-operating-review",
         "growth-decision-record",
         "growth-risk-management",
@@ -180,9 +222,9 @@
         "experiment-program-management"
       ],
       "start_skills": [
-        "growth-operating-review",
-        "growth-decision-record",
-        "growth-risk-management"
+        "growth-infrastructure-assessment",
+        "growth-organization-design",
+        "growth-operating-review"
       ]
     }
   ]

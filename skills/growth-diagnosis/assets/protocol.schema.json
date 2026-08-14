@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "urn:krillinai:growth-skills:growth-diagnosis:protocol",
+  "$id": "urn:krillinai:growee:growth-diagnosis:protocol",
   "title": "Growth Diagnosis Protocol",
   "description": "A machine-readable contract for evidence-backed growth diagnosis and execution routing.",
   "type": "object",

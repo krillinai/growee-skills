@@ -5,8 +5,8 @@
       "id": "content-growth",
       "name_en": "Content Growth",
       "name_zh": "内容增长",
-      "description_en": "The core path for planning, creating, localizing, distributing, and converting content.",
-      "description_zh": "用于策划、创作、本地化、分发内容并承接转化的核心路径。",
+      "description_en": "A focused content-marketing path connecting customer questions, content production, localization, distribution, and conversion.",
+      "description_zh": "把客户问题、内容生产、本地化、分发与转化连接起来的内容营销路径。",
       "skills": [
         "content-strategy",
         "copywriting",
@@ -24,8 +24,8 @@
       "id": "measurement-analytics",
       "name_en": "Measurement & Analytics",
       "name_zh": "测量与分析",
-      "description_en": "Metrics, tracking, data quality, attribution, economics, forecasting, cohorts, and experiments.",
-      "description_zh": "覆盖指标、追踪、数据质量、归因、经济性、预测、同期群与实验。",
+      "description_en": "Make growth observable and decision-ready through metrics, tracking, attribution, economics, forecasting, cohorts, and experiments.",
+      "description_zh": "通过指标、追踪、归因、经济性、预测、同期群与实验，让增长可观察、可用于决策。",
       "skills": [
         "growth-metrics-design",
         "growth-target-setting",
@@ -49,8 +49,8 @@
       "id": "acquisition-distribution",
       "name_en": "Acquisition & Distribution",
       "name_zh": "获客与分发",
-      "description_en": "Channel strategy, campaigns, paid-media audits, search, conversion surfaces, partnerships, community, and outbound.",
-      "description_zh": "覆盖渠道策略、营销活动、广告诊断、搜索、转化界面、合作、社区与外联。",
+      "description_en": "Connect qualified demand to product value through channels, campaigns, search, conversion surfaces, partnerships, community, and outbound.",
+      "description_zh": "通过渠道、营销活动、搜索、转化界面、合作、社区与外联，把有效需求连接到产品价值。",
       "skills": [
         "acquisition-strategy",
         "campaign-planning",
@@ -77,8 +77,8 @@
       "id": "growth-operating-system",
       "name_en": "Growth Operating System",
       "name_zh": "增长运营体系",
-      "description_en": "Capability assessment, planning, capacity, investment, governance, reviews, learning, change, infrastructure, organization, and RevOps.",
-      "description_zh": "覆盖能力评估、规划、容量、投入、治理、复盘、学习、变更、基础设施、组织与收入运营。",
+      "description_en": "Turn growth decisions into a repeatable operating cadence across planning, capacity, investment, governance, reviews, learning, infrastructure, organization, and RevOps.",
+      "description_zh": "通过规划、承载能力、投入、治理、复盘、学习、基础设施、组织与收入运营，把增长决策变成可重复的运行节奏。",
       "skills": [
         "growth-maturity-assessment",
         "growth-planning-cycle",

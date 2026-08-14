@@ -26,18 +26,32 @@ class GeneratedCatalogTest(unittest.TestCase):
         section = text.split(heading, 1)[1].split("</table>", 1)[0]
         return [line for line in section.splitlines() if line.startswith("    <tr><td>")]
 
-    def test_content_and_creative_places_integrations_at_the_edges(self):
+    def test_integrations_follow_the_playbook_categories(self):
         cases = (
-            ("en", "### Content & Creative", "Video&nbsp;Translation&nbsp;&amp;&nbsp;Dubbing", "Social&nbsp;Media&nbsp;Publishing"),
-            ("zh", "### 内容与创意", "视频翻译与配音", "社交媒体自动发布"),
+            (
+                "en",
+                "### Content Production",
+                "### Acquisition",
+                "Video&nbsp;Translation&nbsp;&amp;&nbsp;Dubbing",
+                "Social&nbsp;Media&nbsp;Publishing",
+            ),
+            (
+                "zh",
+                "### 内容生产",
+                "### 获客",
+                "视频翻译与配音",
+                "社交媒体自动发布",
+            ),
         )
 
-        for language, heading, first_name, last_name in cases:
+        for language, content_heading, acquisition_heading, video, publishing in cases:
             with self.subTest(language=language):
                 rendered = self.render(language)
-                rows = self.content_rows(rendered, heading)
-                self.assertIn(first_name, rows[0])
-                self.assertIn(last_name, rows[-1])
+                content_rows = self.content_rows(rendered, content_heading)
+                acquisition_rows = self.content_rows(rendered, acquisition_heading)
+                self.assertIn(video, content_rows[-1])
+                self.assertIn(publishing, acquisition_rows[-1])
+                self.assertNotIn(publishing, "\n".join(content_rows))
                 self.assertNotIn("Companion integrations", rendered)
                 self.assertNotIn("配套集成", rendered)
 
@@ -76,12 +90,19 @@ class GeneratedCatalogTest(unittest.TestCase):
                 )
                 self.assertTrue(row.endswith(row_end))
                 self.assertNotIn("`core-growth`", rendered)
-                self.assertNotIn("`content-creative`", rendered)
 
     def test_complete_catalog_is_collapsed(self):
         cases = (
-            ("en", "## Complete Skill Catalog", "Browse every Skill and integration"),
-            ("zh", "## 完整技能目录", "展开查看全部 Skill 与集成"),
+            (
+                "en",
+                "## Complete growth capability map",
+                "Browse every Skill and integration by growth function",
+            ),
+            (
+                "zh",
+                "## 完整增长能力图谱",
+                "按增长职能展开查看全部 Skill 与集成",
+            ),
         )
 
         for language, heading, summary in cases:
@@ -91,6 +112,51 @@ class GeneratedCatalogTest(unittest.TestCase):
                 self.assertIn("<details>", catalog)
                 self.assertIn(f"<summary>{summary}</summary>", catalog)
                 self.assertIn("</details>\n<!-- END GENERATED: catalog -->", catalog)
+
+    def test_sections_follow_the_growth_sequence(self):
+        cases = (
+            (
+                "en",
+                "## Follow the Growth Playbook",
+                "## Choose your operating scope",
+                (
+                    "### Growth Diagnosis",
+                    "### Growth Foundations",
+                    "### Content Production",
+                    "### Acquisition",
+                    "### Activation",
+                    "### Retention",
+                    "### Monetization",
+                    "### Referral & Expansion",
+                    "### Metrics & Experimentation",
+                    "### Growth Infrastructure & Organization",
+                ),
+            ),
+            (
+                "zh",
+                "## 按增长手册主线选择能力",
+                "## 选择运营范围",
+                (
+                    "### 增长诊断",
+                    "### 增长基础",
+                    "### 内容生产",
+                    "### 获客",
+                    "### 激活",
+                    "### 留存",
+                    "### 变现",
+                    "### 推荐与扩张",
+                    "### 测量与实验",
+                    "### 增长基础设施与组织",
+                ),
+            ),
+        )
+
+        for language, chooser, scopes, headings in cases:
+            with self.subTest(language=language):
+                rendered = self.render(language)
+                self.assertLess(rendered.index(chooser), rendered.index(scopes))
+                positions = [rendered.index(heading) for heading in headings]
+                self.assertEqual(positions, sorted(positions))
 
 
 if __name__ == "__main__":

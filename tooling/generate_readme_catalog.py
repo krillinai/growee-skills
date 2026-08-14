@@ -11,6 +11,18 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG_DIR = ROOT / "catalog"
+GROWTH_SEQUENCE = (
+    "growth-diagnosis",
+    "growth-foundations",
+    "content-production",
+    "acquisition",
+    "activation",
+    "retention",
+    "monetization",
+    "referral-expansion",
+    "metrics-experimentation",
+    "growth-infrastructure-organization",
+)
 
 
 def load_json(name: str) -> dict:
@@ -27,27 +39,33 @@ def table_name(value: str) -> str:
     return html.escape(value).replace(" ", "&nbsp;")
 
 
+def growth_ordered_categories(taxonomy: dict) -> list[dict]:
+    categories = {category["id"]: category for category in taxonomy["categories"]}
+    return [categories[category_id] for category_id in GROWTH_SEQUENCE]
+
+
 def chooser_section(
     taxonomy: dict, skills_by_id: dict[str, dict], language: str
 ) -> str:
     if language == "en":
         lines = [
-            "## Explore professional extensions",
+            "## Follow the Growth Playbook",
             "",
-            "| When you need to... | Start with |",
+            "| Growth decision | Start with |",
             "| --- | --- |",
         ]
     else:
         lines = [
-            "## 按专业任务查找扩展",
+            "## 按增长手册主线选择能力",
             "",
-            "| 当你需要…… | 建议从这里开始 |",
+            "| 增长决策 | 建议从这里开始 |",
             "| --- | --- |",
         ]
 
-    for category in taxonomy["categories"]:
+    for category in growth_ordered_categories(taxonomy):
         job = category[f"job_{language}"]
-        links = ", ".join(
+        separator = ", " if language == "en" else "、"
+        links = separator.join(
             skill_link(skills_by_id[skill_id], language)
             for skill_id in category["start_skills"]
         )
@@ -58,20 +76,20 @@ def chooser_section(
 def bundle_section(bundles: dict, language: str) -> str:
     if language == "en":
         lines = [
-            "## Recommended bundles",
+            "## Choose your operating scope",
             "",
-            "Start with Content Growth. Select a specialist bundle only when the job requires it.",
+            "Use Content Growth when content is the active constraint. Add a specialist bundle only when measurement, distribution, or operating capacity becomes the limiting factor.",
             "",
-            "| Bundle | Description | Capabilities |",
+            "| Scope | Description | Capabilities |",
             "| --- | --- | ---: |",
         ]
     else:
         lines = [
-            "## 推荐组合",
+            "## 选择运营范围",
             "",
-            "建议从内容增长开始，仅在任务需要时安装专业组合。",
+            "当内容是当前约束时，使用“内容增长”组合；只有在测量、分发或运营承载能力成为限制时，才增加专业组合。",
             "",
-            "| 组合 | 说明 | 能力数量 |",
+            "| 范围 | 说明 | 能力数量 |",
             "| --- | --- | ---: |",
         ]
 
@@ -90,7 +108,11 @@ def catalog_section(
     integrations: dict,
     language: str,
 ) -> str:
-    title = "## Complete Skill Catalog" if language == "en" else "## 完整技能目录"
+    title = (
+        "## Complete growth capability map"
+        if language == "en"
+        else "## 完整增长能力图谱"
+    )
     status_heading = "Status" if language == "en" else "状态"
     skill_heading = "Skill" if language == "en" else "技能"
     description_heading = "Description" if language == "en" else "说明"
@@ -113,13 +135,13 @@ def catalog_section(
             "稳定版已经过重复使用验证。"
         )
     summary = (
-        "Browse every Skill and integration"
+        "Browse every Skill and integration by growth function"
         if language == "en"
-        else "展开查看全部 Skill 与集成"
+        else "按增长职能展开查看全部 Skill 与集成"
     )
     lines = [title, "", "<details>", f"<summary>{summary}</summary>", "", maturity_note, ""]
 
-    for category in taxonomy["categories"]:
+    for category in growth_ordered_categories(taxonomy):
         category_integrations = [
             integration
             for integration in integrations["integrations"]
@@ -177,8 +199,8 @@ def generated_block(
 ) -> str:
     skills_by_id = {skill["id"]: skill for skill in catalog["skills"]}
     sections = [
-        bundle_section(bundles, language),
         chooser_section(taxonomy, skills_by_id, language),
+        bundle_section(bundles, language),
         catalog_section(taxonomy, skills_by_id, integrations, language),
     ]
     return (

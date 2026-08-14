@@ -7,8 +7,8 @@
       "name_zh": "视频翻译与配音",
       "description_en": "Localize videos with transcription, subtitle translation, AI dubbing, voice cloning, and landscape or portrait rendering.",
       "description_zh": "完成视频转写、字幕翻译、AI 配音、声音克隆及横竖屏渲染，支持多语言内容本地化。",
-      "category": "content-creative",
-      "position": "first",
+      "category": "content-production",
+      "position": "last",
       "url": "https://github.com/krillinai/KrillinAI"
     },
     {
@@ -17,7 +17,7 @@
       "name_zh": "社交媒体自动发布",
       "description_en": "Automate video publishing to Xiaohongshu, Douyin, Kuaishou, and WeChat Channels with reusable titles, descriptions, tags, and metadata.",
       "description_zh": "使用可复用的标题、描述、标签和元数据，将视频自动发布到小红书、抖音、快手和微信视频号。",
-      "category": "content-creative",
+      "category": "acquisition",
       "position": "last",
       "url": "https://github.com/krillinai/autosocial-skills"
     }
