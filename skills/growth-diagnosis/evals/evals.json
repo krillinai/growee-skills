@@ -490,11 +490,11 @@
       "expected_output": "Keeps diagnosis responsible for the primary constraint and 30-day decision plan while routing each specialist follow-up to the smallest owning Skill. It does not recreate data-quality, experiment-program, canonical-decision, learning-system, or change-management artifacts inside the diagnosis.",
       "assertions": [
         "Keeps growth-diagnosis responsible for the primary constraint and 30-day decision plan. [eval 314]",
-        "Routes decision-critical cross-source data defects to tracking-plan. [eval 314]",
-        "Routes a cross-team experiment portfolio to experiment-program-management. [eval 314]",
-        "Routes one canonical material decision to growth-operating-review. [eval 314]",
-        "Routes reusable cross-source learning to growth-learning-system. [eval 314]",
-        "Routes adoption, migration, stabilization, and legacy retirement to growth-learning-system. [eval 314]",
+        "Routes decision-critical cross-source data defects to growth-measurement. [eval 314]",
+        "Routes a cross-team experiment portfolio to growth-operations. [eval 314]",
+        "Routes one canonical material decision to growth-operations. [eval 314]",
+        "Routes reusable cross-source learning to growth-operations. [eval 314]",
+        "Routes adoption, migration, stabilization, and legacy retirement to growth-operations. [eval 314]",
         "Does not recreate specialist artifacts inside the diagnosis. [eval 314]",
         "Preserves owners, inputs, decision use, dependencies, guardrails, and authorization boundaries in each handoff. [eval 314]"
       ],
@@ -663,7 +663,7 @@
     {
       "id": 1711,
       "prompt": "Users who complete profile setup retain better. The funnel proves incomplete profiles cause churn, so make profile completion mandatory and call the effect guaranteed.",
-      "expected_output": "Selects diagnosis mode and separates the observed association from causal mechanism. It considers selection, intent, customer mix, reverse causality, and measurement alternatives, and routes causal validation to experiment-design without guaranteeing an effect.",
+      "expected_output": "Selects diagnosis mode and separates the observed association from causal mechanism. It considers selection, intent, customer mix, reverse causality, and measurement alternatives, and routes causal validation to growth-measurement without guaranteeing an effect.",
       "assertions": [
         "Selects diagnosis mode for the profile-retention association. [eval 1711] [integrated from funnel-analysis]",
         "Records higher retention among profile completers as an observation. [eval 1711] [integrated from funnel-analysis]",
@@ -672,7 +672,7 @@
         "Considers customer mix and measurement alternatives. [eval 1711] [integrated from funnel-analysis]",
         "Does not recommend mandatory completion without guardrails. [eval 1711] [integrated from funnel-analysis]",
         "Does not guarantee the intervention effect. [eval 1711] [integrated from funnel-analysis]",
-        "Routes causal validation to experiment-design. [eval 1711] [integrated from funnel-analysis]"
+        "Routes causal validation to growth-measurement. [eval 1711] [integrated from funnel-analysis]"
       ],
       "files": []
     },
@@ -877,7 +877,7 @@
         "Separates order completion from payment success. [eval 7204] [integrated from growth-anomaly-investigation]",
         "Quantifies compatible coverage, gaps, duplicates, and residuals. [eval 7204] [integrated from growth-anomaly-investigation]",
         "Uses measurement issue or mixed only as evidence supports. [eval 7204] [integrated from growth-anomaly-investigation]",
-        "Routes schema repair to tracking-plan without changing production. [eval 7204] [integrated from growth-anomaly-investigation]"
+        "Routes schema repair to growth-measurement without changing production. [eval 7204] [integrated from growth-anomaly-investigation]"
       ]
     },
     {
@@ -952,7 +952,7 @@
         "Builds a timeline for campaigns, pricing, mix, seasonality, bugs, and other releases. [eval 7209] [integrated from growth-anomaly-investigation]",
         "Compares exposed, unexposed, preexisting, and newly eligible units where valid. [eval 7209] [integrated from growth-anomaly-investigation]",
         "Preserves association, attribution, and causal estimate states. [eval 7209] [integrated from growth-anomaly-investigation]",
-        "Routes causal design and readout to experiment-design. [eval 7209] [integrated from growth-anomaly-investigation]"
+        "Routes causal design and readout to growth-measurement. [eval 7209] [integrated from growth-anomaly-investigation]"
       ]
     },
     {
@@ -967,7 +967,7 @@
         "Defines randomization unit, identity, cohort, metric, window, and maturity. [eval 7210] [integrated from growth-anomaly-investigation]",
         "Separates descriptive contribution from causal experiment effects. [eval 7210] [integrated from growth-anomaly-investigation]",
         "Preserves concurrent product and market changes. [eval 7210] [integrated from growth-anomaly-investigation]",
-        "Routes experiment integrity and causal readout to experiment-design. [eval 7210] [integrated from growth-anomaly-investigation]"
+        "Routes experiment integrity and causal readout to growth-measurement. [eval 7210] [integrated from growth-anomaly-investigation]"
       ]
     },
     {
@@ -982,7 +982,7 @@
         "Builds compatible old and new views where possible. [eval 7211] [integrated from growth-anomaly-investigation]",
         "Quantifies unattributed and unknown states rather than assigning them to zero. [eval 7211] [integrated from growth-anomaly-investigation]",
         "Checks retained value, marginal economics, channel overlap, and saturation. [eval 7211] [integrated from growth-anomaly-investigation]",
-        "Routes detailed reconciliation to attribution-analysis and acquisition-strategy. [eval 7211] [integrated from growth-anomaly-investigation]"
+        "Routes detailed reconciliation to growth-measurement and acquisition-strategy. [eval 7211] [integrated from growth-anomaly-investigation]"
       ]
     },
     {

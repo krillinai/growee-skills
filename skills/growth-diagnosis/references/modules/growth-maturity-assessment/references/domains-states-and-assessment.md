@@ -8,13 +8,13 @@ Assess domains independently and only when they support the scoped decisions.
 | --- | --- | --- |
 | Strategy | Is customer value, constraint, choice, horizon, economic logic, and stop rule explicit? | `growth-diagnosis`, `growth-model-design` |
 | Lifecycle | Can acquisition, activation, retention, monetization, referral, and expansion decisions follow retained value? | lifecycle analysis and strategy Skills |
-| Measurement | Are entities, identities, sources, metric contracts, cohorts, quality, lineage, and guardrails trustworthy? | `growth-metrics-design`, `tracking-plan` |
+| Measurement | Are entities, identities, sources, metric contracts, cohorts, quality, lineage, and guardrails trustworthy? | `growth-measurement` |
 | Experimentation | Are eligibility, assignment, exposure, inference, guardrails, maturity, decisions, and learning valid? | experiment Skills |
-| Infrastructure | Do shared data, decision, delivery, creative, and governance services meet real consumer needs? | `growth-infrastructure-assessment` |
-| Organization | Are outcome ownership, decision rights, interfaces, capacity, and maintenance accountable? | `growth-organization-design` |
+| Infrastructure | Do shared data, decision, delivery, creative, and governance services meet real consumer needs? | `growth-operations` |
+| Organization | Are outcome ownership, decision rights, interfaces, capacity, and maintenance accountable? | `growth-operations` |
 | Operations | Are planning, prioritization, review, incidents, change, cost, and follow-through reliable? | planning, review, risk, and change Skills |
 | Risk | Are privacy, security, consent, accessibility, reliability, customer protection, and specialist boundaries operating? | accountable specialist review |
-| Learning | Are decisions, evidence, failures, corrections, transfer limits, and expiry reusable? | `growth-learning-system` |
+| Learning | Are decisions, evidence, failures, corrections, transfer limits, and expiry reusable? | `growth-operations` |
 
 Do not average domain findings. A strong acquisition capability cannot repair broken identity, consent, reliability, or retained value.
 

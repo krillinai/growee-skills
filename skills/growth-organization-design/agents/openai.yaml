@@ -1,4 +1,0 @@
-interface:
-  display_name: "Growth Organization Design"
-  short_description: "Design accountable growth teams and decision systems"
-  default_prompt: "Use $growth-organization-design to audit this growth organization and design a constraint-aligned operating model."

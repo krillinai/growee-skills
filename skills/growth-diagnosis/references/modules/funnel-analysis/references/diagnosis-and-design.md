@@ -68,7 +68,7 @@ Do not claim launch readiness when instrumentation, operational capacity, legal 
 - Route first-value definitions, onboarding paths, and retained activation to `activation`.
 - Route recurring value, churn, resurrection, and cohort retention to `retention`.
 - Route offers, plans, pricing, payment, retained revenue, contribution, and unit economics to `monetization`.
-- Route causal tests and alternative evaluation designs to `experiment-design`.
+- Route causal tests and alternative evaluation designs to `growth-measurement`.
 - Route system-wide primary constraint selection to `growth-diagnosis`.
 - Route interviews, observation, and mechanism research to `customer-research`.
 

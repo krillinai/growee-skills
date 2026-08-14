@@ -94,11 +94,11 @@ When an action uses `growth_skills`, route it to the smallest owning artifact:
 
 | Diagnosed action | Route |
 | --- | --- |
-| Metric contract, instrumentation, or decision-critical cross-source data defects | `growth-metrics-design`, `tracking-plan` |
-| One causal test or a cross-team experiment portfolio | `experiment-design`, `experiment-program-management` |
-| Medium-term choices, integrated planning, shared allocation, or one selected initiative | `growth-strategy`, `growth-planning-cycle` |
-| One canonical decision or cross-initiative risk portfolio | `growth-operating-review` |
-| Reusable cross-source learning, authorized change adoption, legacy retirement, or a completed-work retrospective | `growth-learning-system` |
+| Metric contract, instrumentation, or decision-critical cross-source data defects | `growth-measurement` |
+| One causal test or a cross-team experiment portfolio | `growth-measurement`, `growth-operations` |
+| Medium-term choices, integrated planning, shared allocation, or one selected initiative | `growth-strategy`, `growth-operations` |
+| One canonical decision or cross-initiative risk portfolio | `growth-operations` |
+| Reusable cross-source learning, authorized change adoption, legacy retirement, or a completed-work retrospective | `growth-operations` |
 
 Pass the evidence boundary, owner, decision use, dependencies, guardrails, and authorization state. Do not reproduce the specialist artifact inside the diagnosis.
 

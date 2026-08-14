@@ -1,4 +1,0 @@
-interface:
-  display_name: "Growth Planning & Allocation"
-  short_description: "Integrated Growth Planning & Allocation workflows"
-  default_prompt: "Use $growth-planning-cycle to handle this growth planning & allocation request as one evidence-backed workflow."

@@ -89,7 +89,7 @@ Marketplace health asks whether relevant sides complete valuable interactions. I
 - switching costs or defensibility;
 - Product-Market Fit in every market or side.
 
-Route marginal participant value and defense to `growth-loop-design`; loop closure to `growth-loop-design`; referral mechanics to `growth-loop-design`; side acquisition to `acquisition-strategy`; activation and recurring value to `activation` and `retention`; commercial architecture to `monetization`; metrics and instrumentation to `growth-metrics-design` and `tracking-plan`; unit economics to `monetization`; causal design to `experiment-design`; trust and risk to accountable specialists; and broader constraint triage to `growth-diagnosis`.
+Route marginal participant value and defense to `growth-loop-design`; loop closure to `growth-loop-design`; referral mechanics to `growth-loop-design`; side acquisition to `acquisition-strategy`; activation and recurring value to `activation` and `retention`; commercial architecture to `monetization`; metrics and instrumentation to `growth-measurement`; unit economics to `monetization`; causal design to `growth-measurement`; trust and risk to accountable specialists; and broader constraint triage to `growth-diagnosis`.
 
 ## Govern Matching, Expansion, And Learning
 

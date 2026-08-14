@@ -465,7 +465,7 @@
     {
       "id": 1811,
       "prompt": "Users exposed to onboarding variant B retain at 60%, while users exposed to A retain at 45%. Exposure was self-selected, assignment logs are missing, and cohort mix differs. Conclude B caused a 15-point lift and ship it.",
-      "expected_output": "Selects analysis mode and reports a descriptive exposure-cohort association only. It preserves self-selection, missing assignment, and mix as threats, does not claim causal lift, and routes a valid experiment or alternative causal design to experiment-design before shipping.",
+      "expected_output": "Selects analysis mode and reports a descriptive exposure-cohort association only. It preserves self-selection, missing assignment, and mix as threats, does not claim causal lift, and routes a valid experiment or alternative causal design to growth-measurement before shipping.",
       "assertions": [
         "Selects analysis mode for exposure cohorts. [eval 1811] [integrated from cohort-analysis]",
         "Reports 60 and 45 percent as descriptive observations. [eval 1811] [integrated from cohort-analysis]",
@@ -473,7 +473,7 @@
         "Identifies cohort-mix differences as an alternative. [eval 1811] [integrated from cohort-analysis]",
         "Does not claim a causal 15-point lift. [eval 1811] [integrated from cohort-analysis]",
         "Does not recommend shipping from the observational comparison alone. [eval 1811] [integrated from cohort-analysis]",
-        "Routes causal validation to experiment-design. [eval 1811] [integrated from cohort-analysis]"
+        "Routes causal validation to growth-measurement. [eval 1811] [integrated from cohort-analysis]"
       ],
       "files": []
     },
@@ -576,7 +576,7 @@
         "Keeps cohort definition, maturity, comparison, and mix decomposition in scope. [eval 1818] [integrated from cohort-analysis]",
         "Routes funnel-step constraint analysis to growth-diagnosis. [eval 1818] [integrated from cohort-analysis]",
         "Routes churn and recurring-value diagnosis to retention. [eval 1818] [integrated from cohort-analysis]",
-        "Routes causal validation to experiment-design. [eval 1818] [integrated from cohort-analysis]",
+        "Routes causal validation to growth-measurement. [eval 1818] [integrated from cohort-analysis]",
         "Routes win-back copy to lifecycle-marketing. [eval 1818] [integrated from cohort-analysis]",
         "Does not deploy or perform external actions. [eval 1818] [integrated from cohort-analysis]"
       ],
@@ -714,7 +714,7 @@
         "Defines billing, cash, recognition, and service periods. [eval 6409] [integrated from growth-accounting]",
         "Defines refunds, credits, and reversals by value basis. [eval 6409] [integrated from growth-accounting]",
         "Builds separate bridges for incompatible values. [eval 6409] [integrated from growth-accounting]",
-        "Routes formal finance reconciliation to growth-infrastructure-assessment. [eval 6409] [integrated from growth-accounting]"
+        "Routes formal finance reconciliation to growth-operations. [eval 6409] [integrated from growth-accounting]"
       ]
     },
     {
@@ -773,7 +773,7 @@
         "Preserves unknown and multi-touch source states. [eval 6413] [integrated from growth-accounting]",
         "Separates new from resurrected source logic. [eval 6413] [integrated from growth-accounting]",
         "Requires downstream retained value and compatible cohorts. [eval 6413] [integrated from growth-accounting]",
-        "Routes attribution to attribution-analysis and allocation to acquisition-strategy. [eval 6413] [integrated from growth-accounting]",
+        "Routes attribution to growth-measurement and allocation to acquisition-strategy. [eval 6413] [integrated from growth-accounting]",
         "Returns a bounded source-by-movement view without operating action. [eval 6413] [integrated from growth-accounting]"
       ]
     },
@@ -788,8 +788,8 @@
         "Separates release and campaign exposure from outcome classes. [eval 6414] [integrated from growth-accounting]",
         "Preserves selection, seasonality, mix, pricing, and concurrent-change alternatives. [eval 6414] [integrated from growth-accounting]",
         "Defines evidence required to change causal status. [eval 6414] [integrated from growth-accounting]",
-        "Routes causal validation to experiment-design. [eval 6414] [integrated from growth-accounting]",
-        "Routes future movement forecasting to growth-forecasting. [eval 6414] [integrated from growth-accounting]"
+        "Routes causal validation to growth-measurement. [eval 6414] [integrated from growth-accounting]",
+        "Routes future movement forecasting to growth-measurement. [eval 6414] [integrated from growth-accounting]"
       ]
     },
     {

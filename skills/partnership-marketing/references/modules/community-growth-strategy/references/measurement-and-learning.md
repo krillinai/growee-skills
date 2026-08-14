@@ -45,7 +45,7 @@ Show distribution and concentration. Averages can hide unanswered long-tail topi
 
 Participants often differ from nonparticipants before exposure. Check prior product use, tenure, segment, motivation, role, source, support need, account health, geography, and survivorship. A retention, spend, or activation difference can nominate a mechanism but does not establish causal impact.
 
-Define assignment or eligibility, exposure, spillovers, interference, contamination, maturity, outcome, guardrails, and decision rules. Route randomized, quasi-experimental, or alternative causal design to `experiment-design`. Never multiply observational differences into incremental revenue or allocate budget from them alone.
+Define assignment or eligibility, exposure, spillovers, interference, contamination, maturity, outcome, guardrails, and decision rules. Route randomized, quasi-experimental, or alternative causal design to `growth-measurement`. Never multiply observational differences into incremental revenue or allocate budget from them alone.
 
 ## Portfolio Decisions
 

@@ -57,7 +57,7 @@ Choose an existing category, qualified subcategory, reframe, or new category acc
 
 Produce one scoped positioning thesis, then translate it into problem and category frame, value pillars, capabilities, proof, objections, qualification, audience and stage messages, and channel requirements. Messaging may vary while the underlying position remains coherent.
 
-Route final page or campaign copy and revisions to `copywriting`, customer evidence acquisition to `customer-research`, segment design to `positioning` when available, offers to `monetization`, campaigns to `acquisition-strategy`, sales assets to `sales-enablement` when available, and causal tests to `experiment-design`.
+Route final page or campaign copy and revisions to `copywriting`, customer evidence acquisition to `customer-research`, segment design to `positioning` when available, offers to `monetization`, campaigns to `acquisition-strategy`, sales assets to `sales-enablement` when available, and causal tests to `growth-measurement`.
 
 ## Validate The Whole Chain
 

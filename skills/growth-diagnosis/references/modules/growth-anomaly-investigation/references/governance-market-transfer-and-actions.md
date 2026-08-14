@@ -43,15 +43,15 @@ For every proposed external action record owner, system, exact mutation or commu
 
 | Need | Route |
 | --- | --- |
-| Metric contract and hierarchy | `growth-metrics-design` |
-| Event, identity, and source implementation | `tracking-plan` |
+| Metric contract and hierarchy | `growth-measurement` |
+| Event, identity, and source implementation | `growth-measurement` |
 | Funnel transitions and losses | `growth-diagnosis` |
 | Cohort and maturity behavior | `retention` |
 | Customer and recurring-value state reconciliation | `retention` |
-| Touchpoint and channel credit | `attribution-analysis` |
-| Experiment integrity and causality | `experiment-design` |
+| Touchpoint and channel credit | `growth-measurement` |
+| Experiment integrity and causality | `growth-measurement` |
 | Primary current growth constraint | `growth-diagnosis` |
-| Time-series forecast and calibration | `growth-forecasting` |
-| Data and decision capability remediation | `growth-infrastructure-assessment` |
+| Time-series forecast and calibration | `growth-measurement` |
+| Data and decision capability remediation | `growth-operations` |
 
 For each handoff preserve the frozen metric and incident contract, source and evidence cutoff, required fields, decision, owner, maturity date, expected artifact, and permission boundary. A handoff does not imply access, execution, or result.

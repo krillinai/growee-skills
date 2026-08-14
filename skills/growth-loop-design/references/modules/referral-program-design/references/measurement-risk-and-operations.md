@@ -40,7 +40,7 @@ Attribution supports operations and fulfillment. It does not establish causality
 
 ## Incrementality And Interference
 
-Prefer a design compatible with the social mechanism: sender-level prompt holdout, sender-level reward holdout, recipient-level treatment where ethical and isolated, account or cluster assignment, market rollout, switchback, threshold, or a bounded observational alternative. Route detailed design to `experiment-design`.
+Prefer a design compatible with the social mechanism: sender-level prompt holdout, sender-level reward holdout, recipient-level treatment where ethical and isolated, account or cluster assignment, market rollout, switchback, threshold, or a bounded observational alternative. Route detailed design to `growth-measurement`.
 
 Preserve assignment through recipient value, retention, contribution, complaints, and fraud readout. Check spillovers, multiple senders, recipient overlap, social exposure, network interference, noncompliance, novelty, and cross-channel displacement. Do not compare referred users only with unrelated paid or organic cohorts and call the difference causal.
 

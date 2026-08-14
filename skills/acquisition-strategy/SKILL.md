@@ -82,7 +82,7 @@ When evidence is weak, select one or two hypotheses that can be tested deeply th
 
 Use platform, first-touch, last-touch, multi-touch, partner-code, and journey models as operational views within their declared rules. Reconcile identities, eligible population, new and returning state, duplicated contacts, view-throughs, organic demand, source changes, and company totals before comparing them.
 
-Incrementality governs causal allocation. Prefer a mechanism-compatible randomized, geographic, switchback, phased, shutdown, threshold, matched, or time-series design with explicit assumptions, contamination, interference, power, maturity, guardrails, and decision rules. Do not sum channel-reported conversions or label attributed revenue incremental. Route statistical design and readout to `experiment-design`.
+Incrementality governs causal allocation. Prefer a mechanism-compatible randomized, geographic, switchback, phased, shutdown, threshold, matched, or time-series design with explicit assumptions, contamination, interference, power, maturity, guardrails, and decision rules. Do not sum channel-reported conversions or label attributed revenue incremental. Route statistical design and readout to `growth-measurement`.
 
 ## Use Full, Marginal, Retained Economics
 
@@ -117,7 +117,7 @@ For every scale, market, or channel expansion, define eligible audience, exposur
 
 ## Route Specialist Work
 
-Route primary constraint selection to `growth-diagnosis`; customer evidence to `customer-research`; segment and positioning work to `positioning`; campaign briefs and asset plans to `acquisition-strategy`; creative systems to `ad-creative`; pages and first-value work to `activation`; paid account diagnosis to the relevant ad-audit Skill; search, GEO, app-store, programmatic page, structured-data, site, and content execution to their specialist Skills; source instrumentation to `tracking-plan`; cohort and recurring-value work to `retention`; referral and product-loop mechanics to `growth-loop-design`; metrics to `growth-metrics-design`; experiments to `experiment-design`; economics, pricing, and packaging to `monetization`; and shared acquisition infrastructure to `growth-infrastructure-assessment`.
+Route primary constraint selection to `growth-diagnosis`; customer evidence to `customer-research`; segment and positioning work to `positioning`; campaign briefs and asset plans to `acquisition-strategy`; creative systems to `ad-creative`; pages and first-value work to `activation`; paid account diagnosis to the relevant ad-audit Skill; search, GEO, app-store, programmatic page, structured-data, site, and content execution to their specialist Skills; source instrumentation to `growth-measurement`; cohort and recurring-value work to `retention`; referral and product-loop mechanics to `growth-loop-design`; metrics to `growth-measurement`; experiments to `growth-measurement`; economics, pricing, and packaging to `monetization`; and shared acquisition infrastructure to `growth-operations`.
 
 This Skill owns the acquisition contract, source-to-value diagnosis, channel hypothesis and model fit, portfolio and concentration analysis, attribution-versus-incrementality boundary, full and marginal economics, saturation and dependency decisions, market-entry sequence, and evidence-gated scale or stop plan. It does not create specialist deliverables or operate channels.
 

@@ -25,7 +25,7 @@ Use a design compatible with the mechanism:
 - switchback for time-varying market or supply conditions;
 - phased rollout, threshold, matched comparison, shutdown, or time series when randomization is infeasible.
 
-Freeze decision, eligibility, assignment, exposure, identity, interference, primary outcome, guardrails, minimum effect, power or precision, maturity, exclusions, amendments, diagnostics, and decision rule. Route statistical implementation and causal readout to `experiment-design`.
+Freeze decision, eligibility, assignment, exposure, identity, interference, primary outcome, guardrails, minimum effect, power or precision, maturity, exclusions, amendments, diagnostics, and decision rule. Route statistical implementation and causal readout to `growth-measurement`.
 
 ## Cost And Contribution Contracts
 

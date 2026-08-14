@@ -53,7 +53,7 @@ Tie every design to a named mechanism, eligible segment, participant roles, cust
 
 Do not optimize pricing-page or checkout conversion in isolation. Read activation, paid conversion, realized price, retained use, refunds, churn, contraction, expansion, support, trust, margin, payback, and renewal together. Preserve original exposure, eligibility, commercial terms, and cohort through downstream validation.
 
-This Skill may specify offer claims, pricing-page content requirements, sales proof, or lifecycle-message eligibility, but it does not draft or send copy. Route page and offer copy to `copywriting`, lifecycle messages to `lifecycle-marketing`, one-to-one sales outreach to `sales-enablement`, broader constraint selection to `growth-diagnosis`, first-value analysis to `activation`, recurring-value and revenue-retention analysis to `retention`, and causal validation to an experiment-design capability when needed.
+This Skill may specify offer claims, pricing-page content requirements, sales proof, or lifecycle-message eligibility, but it does not draft or send copy. Route page and offer copy to `copywriting`, lifecycle messages to `lifecycle-marketing`, one-to-one sales outreach to `sales-enablement`, broader constraint selection to `growth-diagnosis`, first-value analysis to `activation`, recurring-value and revenue-retention analysis to `retention`, and causal validation to an growth-measurement capability when needed.
 
 ## Deliver In Order
 

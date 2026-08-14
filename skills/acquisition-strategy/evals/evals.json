@@ -69,7 +69,7 @@
         "Requires identity, eligibility, new-versus-returning, view-through, organic, overlap, and source reconciliation. [eval 4405]",
         "Separates attribution for operation from incrementality for allocation. [eval 4405]",
         "Does not increase live budgets without a credible counterfactual. [eval 4405]",
-        "Routes experiment design details to experiment-design. [eval 4405]"
+        "Routes experiment design details to growth-measurement. [eval 4405]"
       ],
       "files": []
     },

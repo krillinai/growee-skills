@@ -89,4 +89,4 @@ Do not search many cuts until one appears favorable. Predeclare decision-relevan
 
 Cohort analysis is descriptive unless assignment or another credible causal design supports a treatment effect. Exposure, activation behavior, product adoption, and channel cohorts may differ because of selection, intent, customer mix, concurrent change, or measurement.
 
-Route causal validation to `experiment-design`. Route funnel constraints to `growth-diagnosis`, recurring-value and churn mechanisms to `retention`, first-value mechanisms to `activation`, and commercial policy to `monetization`.
+Route causal validation to `growth-measurement`. Route funnel constraints to `growth-diagnosis`, recurring-value and churn mechanisms to `retention`, first-value mechanisms to `activation`, and commercial policy to `monetization`.

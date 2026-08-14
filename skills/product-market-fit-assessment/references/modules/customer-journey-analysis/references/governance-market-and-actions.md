@@ -34,11 +34,11 @@ For a target journey, record alternative, customer value, burden, operating effe
 | First and repeated product value | `activation`, `retention` | Value-state and cohort mechanisms with guardrails |
 | Price, purchase, revenue and expansion | `monetization`, `customer-expansion-strategy` | Commercial and expansion contracts with customer protections |
 | Referral, lifecycle and content interactions | `growth-loop-design`, `lifecycle-marketing`, `content-strategy`, `copywriting` | Permissioned mechanism, message or asset specification |
-| Commercial states and handoffs | `growth-infrastructure-assessment`, `sales-enablement` | Versioned lifecycle, ownership, routing, reconciliation and buyer support |
-| Metrics, identity and events | `growth-metrics-design`, `tracking-plan` | Metric contract, event schema, identity, lineage and quality evidence |
-| Attribution and causal validation | `attribution-analysis`, `experiment-design` | Bounded source credit or causal design and mature result |
-| Product release and cross-functional adoption | `go-to-market-strategy`, `growth-learning-system` | Release or change contract, readiness, rollout and adoption evidence |
-| Infrastructure, organization and operating changes | `growth-infrastructure-assessment`, `growth-organization-design` | Service, dependency, ownership, capacity and governance decision |
+| Commercial states and handoffs | `growth-operations`, `sales-enablement` | Versioned lifecycle, ownership, routing, reconciliation and buyer support |
+| Metrics, identity and events | `growth-measurement` | Metric contract, event schema, identity, lineage and quality evidence |
+| Attribution and causal validation | `growth-measurement` | Bounded source credit or causal design and mature result |
+| Product release and cross-functional adoption | `go-to-market-strategy`, `growth-operations` | Release or change contract, readiness, rollout and adoption evidence |
+| Infrastructure, organization and operating changes | `growth-operations` | Service, dependency, ownership, capacity and governance decision |
 
 For each handoff record the exact question, affected journey fields, supplied sources and versions, expected artifact, accountable owner, requested date, evidence and acceptance criteria, state, returned version, limitation, contradiction, acknowledgement, expiry and residual gap.
 

@@ -86,7 +86,7 @@ Return:
 8. role-specific measurement, attribution, experiment, guardrail, and learning plan;
 9. handoffs and pinned Playbook sources.
 
-Route research to `customer-research`, positioning to `positioning`, final prose and revisions to `copywriting`, images or video to the relevant creation capability, campaign-specific coordination to `acquisition-strategy`, search page systems to `seo-audit`, sales assets to `sales-enablement` when available, and causal tests to `experiment-design`.
+Route research to `customer-research`, positioning to `positioning`, final prose and revisions to `copywriting`, images or video to the relevant creation capability, campaign-specific coordination to `acquisition-strategy`, search page systems to `seo-audit`, sales assets to `sales-enablement` when available, and causal tests to `growth-measurement`.
 
 For China work, keep market, language, locale, audience, content role, channel, platform, account, product surface, app distribution, payment, identity, consent, publishing rights, content review, data access, and applicable rules separate. Do not infer WeChat, Xiaohongshu, Douyin, Kuaishou, Bilibili, Baidu, Zhihu, channel access, publishing permission, or audience behavior from market or language.
 

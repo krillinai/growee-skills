@@ -73,11 +73,11 @@ For each metric define ID and version, entity, eligibility, numerator, denominat
 
 Keep supply, reach, viewability, exposure, interaction, task completion, first value, repeated value, purchase, support resolution, retention, customer outcome, business outcome, and causal effect separate. Preserve missing, unavailable, late, immature, censored, suppressed, revised, disputed, valid zero, and not applicable states. Never average incompatible entities and signals into one journey score.
 
-Route metric contracts to `growth-metrics-design`, event and identity implementation to `tracking-plan`, quantitative transition and loss analysis to `growth-diagnosis`, cohort maturity to `retention`, attributed source credit to `attribution-analysis`, and causal validation to `experiment-design`. A journey redesign followed by improvement does not prove causality.
+Route metric contracts to `growth-measurement`, event and identity implementation to `growth-measurement`, quantitative transition and loss analysis to `growth-diagnosis`, cohort maturity to `retention`, attributed source credit to `growth-measurement`, and causal validation to `growth-measurement`. A journey redesign followed by improvement does not prove causality.
 
 ## Coordinate Specialist Work
 
-Route strategy and motion to `growth-strategy` and `go-to-market-strategy`; segment evidence to `positioning`; activation, retention, monetization, expansion, referrals, and lifecycle interventions to their owning Skills; commercial lifecycle and system handoffs to `growth-infrastructure-assessment`; product launch to `go-to-market-strategy`; infrastructure and organization changes to `growth-infrastructure-assessment` and `growth-organization-design`; messages to `lifecycle-marketing`, `copywriting`, or `sales-enablement`; and implementation to separately authorized owners.
+Route strategy and motion to `growth-strategy` and `go-to-market-strategy`; segment evidence to `positioning`; activation, retention, monetization, expansion, referrals, and lifecycle interventions to their owning Skills; commercial lifecycle and system handoffs to `growth-operations`; product launch to `go-to-market-strategy`; infrastructure and organization changes to `growth-operations`; messages to `lifecycle-marketing`, `copywriting`, or `sales-enablement`; and implementation to separately authorized owners.
 
 This Skill owns the journey contract, role paths, state graph, touchpoint inventory, service blueprint, continuity, friction evidence, failure and recovery map, accessibility and exit paths, transition measurement specification, journey variants, and target-state handoffs. Routing does not mean research, design, approval, execution, or verification occurred.
 

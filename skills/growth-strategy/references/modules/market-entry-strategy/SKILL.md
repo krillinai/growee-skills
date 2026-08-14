@@ -75,7 +75,7 @@ Set exposure, spend, customer, partner, geography, support, and time caps. Defin
 
 Preserve the underlying position only where local evidence supports it. Adapt terminology, claims, proof, offer, price display, payment, product path, content, service, support, channel, partner, and measurement as needed. Distinguish translation, transcreation, product localization, market adaptation, and operating localization.
 
-Route positioning to `positioning`, segments to `positioning`, customer evidence to `customer-research`, channels to `acquisition-strategy`, campaigns to `acquisition-strategy`, pricing and economics to `monetization`, product value to `activation` and `retention`, experiments to `experiment-design`, and infrastructure or vendor decisions to `growth-infrastructure-assessment`.
+Route positioning to `positioning`, segments to `positioning`, customer evidence to `customer-research`, channels to `acquisition-strategy`, campaigns to `acquisition-strategy`, pricing and economics to `monetization`, product value to `activation` and `retention`, experiments to `growth-measurement`, and infrastructure or vendor decisions to `growth-operations`.
 
 ## Deliver In Order
 

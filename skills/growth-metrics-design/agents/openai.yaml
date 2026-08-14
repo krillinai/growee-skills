@@ -1,4 +1,0 @@
-interface:
-  display_name: "Growth Metrics, Targets & Benchmarks"
-  short_description: "Integrated Growth Metrics, Targets & Benchmarks workflows"
-  default_prompt: "Use $growth-metrics-design to handle this growth metrics, targets & benchmarks request as one evidence-backed workflow."

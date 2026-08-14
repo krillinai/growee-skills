@@ -1,4 +1,0 @@
-interface:
-  display_name: "Attribution & Marketing Mix"
-  short_description: "Integrated Attribution & Marketing Mix workflows"
-  default_prompt: "Use $attribution-analysis to handle this attribution & marketing mix request as one evidence-backed workflow."

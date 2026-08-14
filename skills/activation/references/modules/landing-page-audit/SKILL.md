@@ -60,7 +60,7 @@ Unavailable checks gain or lose no points but remain in the coverage denominator
 
 For each adverse result state the observation, affected scope, evidence, expected consequence as inference where not measured, alternative explanations, action, owner-ready completion condition, effort, and validation. Separate verified defects from plausible hypotheses and evidence requests.
 
-Do not rewrite the entire page inside the audit. Provide a message architecture, wire-level content requirements, or bounded copy examples only when useful; route final copy to `copywriting`, revisions to `copywriting`, positioning to `positioning`, and experiment design to `experiment-design`.
+Do not rewrite the entire page inside the audit. Provide a message architecture, wire-level content requirements, or bounded copy examples only when useful; route final copy to `copywriting`, revisions to `copywriting`, positioning to `positioning`, and experiment design to `growth-measurement`.
 
 ## Deliver In Order
 

@@ -82,12 +82,12 @@ This Skill owns the cross-domain assessment contract, evidence reconciliation, c
 
 - current constraint and 30-day triage: `growth-diagnosis`;
 - lifecycle: `acquisition-strategy`, `activation`, `retention`, `monetization`, and `growth-loop-design`;
-- metrics, data, cohorts, and models: `growth-metrics-design`, `tracking-plan`, `retention`, and `growth-model-design`;
-- experiments and causal claims: `experiment-design` and `experiment-program-management`;
-- systems, sourcing, and services: `growth-infrastructure-assessment`;
-- ownership, centralization, staffing, and decision rights: `growth-organization-design`;
-- portfolio, capacity, investment, and initiatives: `growth-planning-cycle`;
-- risk, change, learning, research, and surveys: `growth-operating-review`, `growth-learning-system`, `customer-research`.
+- metrics, data, cohorts, and models: `growth-measurement`, `retention`, and `growth-model-design`;
+- experiments and causal claims: `growth-measurement` and `growth-operations`;
+- systems, sourcing, and services: `growth-operations`;
+- ownership, centralization, staffing, and decision rights: `growth-operations`;
+- portfolio, capacity, investment, and initiatives: `growth-operations`;
+- risk, change, learning, research, and surveys: `growth-operations`, `customer-research`.
 
 Do not substitute this assessment for privacy, security, accessibility, legal, employment, finance, procurement, tax, regulatory, or AI-model review.
 

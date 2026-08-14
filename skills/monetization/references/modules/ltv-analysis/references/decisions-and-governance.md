@@ -18,7 +18,7 @@ Keep these claims distinct:
 
 Match customer entity, cohort, product, market, currency, horizon, value basis, maturity, attribution or incrementality basis, and cost scope. Separate average from marginal LTV and CAC. Show payback and cash timing. Prevent acquisition cost from appearing inside LTV and again in CAC.
 
-Do not enforce a universal ratio. A decision threshold depends on forecast error, capital, payback, margin, retention risk, saturation, capacity, concentration, customer harm, and strategic constraints. Route channel scaling and stopping to `acquisition-strategy` and causal evidence to `experiment-design`.
+Do not enforce a universal ratio. A decision threshold depends on forecast error, capital, payback, margin, retention risk, saturation, capacity, concentration, customer harm, and strategic constraints. Route channel scaling and stopping to `acquisition-strategy` and causal evidence to `growth-measurement`.
 
 ## Portfolio Decisions
 

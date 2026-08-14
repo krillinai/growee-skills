@@ -1,4 +1,0 @@
-interface:
-  display_name: "Growth Reviews, Decisions & Risk"
-  short_description: "Integrated Growth Reviews, Decisions & Risk workflows"
-  default_prompt: "Use $growth-operating-review to handle this growth reviews, decisions & risk request as one evidence-backed workflow."

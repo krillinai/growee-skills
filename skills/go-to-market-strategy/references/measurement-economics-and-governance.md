@@ -26,13 +26,13 @@ Report counts beside rates and absolute losses. Missing and immature are not zer
 
 Attribution assigns operational credit. Incrementality estimates outcomes caused relative to a counterfactual. Forecasts predict future outcomes under an information set. Targets state desired outcomes. Plans state intended actions. Preserve each class and its version.
 
-Do not call a message, price, route, partner, seller, product, or launch causal from before-after movement. Define assignment or alternative evidence, exposure, interference, overrides, sample, maturity, uncertainty, guardrails, and decision rules. Route causal design and interpretation to `experiment-design`.
+Do not call a message, price, route, partner, seller, product, or launch causal from before-after movement. Define assignment or alternative evidence, exposure, interference, overrides, sample, maturity, uncertainty, guardrails, and decision rules. Route causal design and interpretation to `growth-measurement`.
 
 ## Retained Economics
 
 Connect compatible acquisition cohorts to activation, retained value, conversion, realized price, renewal, expansion, contraction, churn, refunds, delivery cost, gross profit, contribution, cash, CAC, LTV, and payback. Keep attributed, incremental, average, and marginal economics separate.
 
-Do not backsolve a model to hit revenue, growth, LTV:CAC, payback, or margin targets. Route detailed economics to `monetization`, LTV to `monetization`, forecasts to `growth-forecasting`, pricing to `monetization`, and recurring-value movement to `retention`.
+Do not backsolve a model to hit revenue, growth, LTV:CAC, payback, or margin targets. Route detailed economics to `monetization`, LTV to `monetization`, forecasts to `growth-measurement`, pricing to `monetization`, and recurring-value movement to `retention`.
 
 ## Decision And Operating Cadence
 

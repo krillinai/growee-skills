@@ -82,7 +82,7 @@ For migrations, version current and target offers, packages, entitlements, metri
 
 For validation, define decision, hypothesis, eligible unit, assignment or alternative evidence, exposure, identity, interference, sales overrides, sample, power or feasibility, metric contracts, maturity, retained-value and economic outcomes, guardrails, fairness, customer harm, decision rule, owner, and expiry. Do not secretly discriminate, target vulnerability, use sensitive traits, call observational changes causal, or auto-roll out a winning price.
 
-Route causal design and readout to `experiment-design`, pricing-page copy to `copywriting`, seller and buyer assets to `sales-enablement`, lifecycle communication to `lifecycle-marketing`, and product launch sequencing to `go-to-market-strategy`.
+Route causal design and readout to `growth-measurement`, pricing-page copy to `copywriting`, seller and buyer assets to `sales-enablement`, lifecycle communication to `lifecycle-marketing`, and product launch sequencing to `go-to-market-strategy`.
 
 ## Deliver In Order
 

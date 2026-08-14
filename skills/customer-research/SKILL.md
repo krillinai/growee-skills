@@ -59,7 +59,7 @@ Do not report a qualitative theme as a population percentage. Report counts only
 
 ## Route Execution
 
-Customer Research owns research design and synthesis, not implementation. Route positioning decisions to an appropriate positioning capability or `growth-diagnosis`, first-value work to `activation`, recurring value to `retention`, commercial research to `monetization`, experiments to `experiment-design`, copy to `copywriting`, lifecycle messages to `lifecycle-marketing`, and campaign execution to `acquisition-strategy` when available.
+Customer Research owns research design and synthesis, not implementation. Route positioning decisions to an appropriate positioning capability or `growth-diagnosis`, first-value work to `activation`, recurring value to `retention`, commercial research to `monetization`, experiments to `growth-measurement`, copy to `copywriting`, lifecycle messages to `lifecycle-marketing`, and campaign execution to `acquisition-strategy` when available.
 
 ## Deliver In Order
 

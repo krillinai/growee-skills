@@ -75,7 +75,7 @@ Return:
 8. measurement from candidate through retained value, with attribution and incrementality separated;
 9. economics, capacity, ownership, handoffs, and pinned Playbook sources.
 
-Route site hierarchy and migration maps to `seo-audit`, technical and live-page diagnosis to `seo-audit`, structured data to `seo-audit`, landing conversion to `activation`, content governance to `content-strategy` when available, causal validation to `experiment-design`, and product or CMS implementation to separately authorized engineering work.
+Route site hierarchy and migration maps to `seo-audit`, technical and live-page diagnosis to `seo-audit`, structured data to `seo-audit`, landing conversion to `activation`, content governance to `content-strategy` when available, causal validation to `growth-measurement`, and product or CMS implementation to separately authorized engineering work.
 
 For China work, keep market, language, locale, search provider, product surface, domain, app distribution, mapping or location source, content license, payment, identity, consent, data access, and applicable review separate. Do not infer Baidu behavior, indexing, demand, platform availability, local presence, license, or policy equivalence from China or Simplified Chinese.
 

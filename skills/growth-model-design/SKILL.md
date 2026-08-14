@@ -65,7 +65,7 @@ Identify a primary model constraint only when compatible evidence shows it limit
 
 ## Route Specialist Work
 
-Route customer evidence to `customer-research`; fit assessment to `product-market-fit-assessment`; segmentation and market framing to `positioning`; transition analysis and broad company constraint triage to `growth-diagnosis`; first value to `activation`; cohort construction and recurring-value work to `retention`; pricing and economics to `monetization`; metric systems to `growth-metrics-design`; individual loops to `growth-loop-design`; causal tests to `experiment-design`; and channel plans to `acquisition-strategy`.
+Route customer evidence to `customer-research`; fit assessment to `product-market-fit-assessment`; segmentation and market framing to `positioning`; transition analysis and broad company constraint triage to `growth-diagnosis`; first value to `activation`; cohort construction and recurring-value work to `retention`; pricing and economics to `monetization`; metric systems to `growth-measurement`; individual loops to `growth-loop-design`; causal tests to `growth-measurement`; and channel plans to `acquisition-strategy`.
 
 The model may specify what evidence these capabilities must return, but it does not duplicate their full workflows or execute their actions.
 

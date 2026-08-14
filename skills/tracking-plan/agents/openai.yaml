@@ -1,4 +1,0 @@
-interface:
-  display_name: "Tracking & Data Quality"
-  short_description: "Integrated Tracking & Data Quality workflows"
-  default_prompt: "Use $tracking-plan to handle this tracking & data quality request as one evidence-backed workflow."

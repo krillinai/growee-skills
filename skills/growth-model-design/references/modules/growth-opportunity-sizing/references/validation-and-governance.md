@@ -15,7 +15,7 @@ For each material uncertainty record:
 | Owner and date | Accountable person and decision cutoff |
 | Rule | Advance, revise, cap, preserve, defer, or stop condition |
 
-Use `experiment-design` for randomized or alternative causal designs, `tracking-plan` for event and identity implementation, and `retention` for maturity-aware group comparisons. An opportunity estimate does not make a causal claim valid.
+Use `growth-measurement` for randomized or alternative causal designs, `growth-measurement` for event and identity implementation, and `retention` for maturity-aware group comparisons. An opportunity estimate does not make a causal claim valid.
 
 ## Audit And Refresh
 

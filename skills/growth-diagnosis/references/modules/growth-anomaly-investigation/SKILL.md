@@ -17,7 +17,7 @@ Read [anomaly-contract.md](references/anomaly-contract.md) before accepting a ch
 | `investigate` | Reconcile sources, quantify and decompose the change, build a timeline, and compare candidate mechanisms |
 | `review` | Audit an existing analysis for contract, denominator, maturity, baseline, decomposition, multiplicity, evidence, and causal errors |
 
-Name one primary mode, incident, decision, owner, and deadline. A request to redefine the metric belongs to `growth-metrics-design`; implement event or identity changes through `tracking-plan`; analyze a frozen funnel through `growth-diagnosis`; analyze cohorts through `retention`; reconcile customer or recurring-value states through `retention`; reconcile channel credit through `attribution-analysis`; test causality through `experiment-design`; and select the primary growth constraint through `growth-diagnosis`.
+Name one primary mode, incident, decision, owner, and deadline. A request to redefine the metric belongs to `growth-measurement`; implement event or identity changes through `growth-measurement`; analyze a frozen funnel through `growth-diagnosis`; analyze cohorts through `retention`; reconcile customer or recurring-value states through `retention`; reconcile channel credit through `growth-measurement`; test causality through `growth-measurement`; and select the primary growth constraint through `growth-diagnosis`.
 
 ## Freeze The Anomaly Contract
 
@@ -75,16 +75,16 @@ State material evidence, measurement and behavioral contributions, expected vari
 
 | Need | Route |
 | --- | --- |
-| Metric contract | `growth-metrics-design` |
-| Event, identity, source, or schema implementation | `tracking-plan` |
+| Metric contract | `growth-measurement` |
+| Event, identity, source, or schema implementation | `growth-measurement` |
 | Transition and drop-off analysis | `growth-diagnosis` |
 | Cohort, retention, or maturity analysis | `retention` |
 | Customer or recurring-value movement | `retention` |
-| Touchpoint and source credit | `attribution-analysis` |
-| Experiment integrity and causal effect | `experiment-design` |
-| Forecast baseline and calibration | `growth-forecasting` |
+| Touchpoint and source credit | `growth-measurement` |
+| Experiment integrity and causal effect | `growth-measurement` |
+| Forecast baseline and calibration | `growth-measurement` |
 | Primary growth constraint | `growth-diagnosis` |
-| Data and decision capability remediation | `growth-infrastructure-assessment` |
+| Data and decision capability remediation | `growth-operations` |
 
 Preserve the frozen contract, required inputs, decision, owner, maturity, expected artifact, and permission boundary. A handoff does not imply the analysis or action ran.
 

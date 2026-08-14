@@ -85,7 +85,7 @@ qualified problem or demand signal
 
 Attention is not reachability. A lead, demo, signup, feature enablement, purchase, or contract is not customer value. First value is not retention. Bookings are not cash. Attributed revenue is not incrementality. One channel, partner, sales rep, or large account is not repeatability.
 
-Map buying roles and milestones, qualification and disqualification, proof, security and procurement, commercial negotiation, implementation, promise handoff, adoption, success, renewal, and expansion. Route seller and buyer assets to `sales-enablement`, pipeline and commercial controls to `growth-infrastructure-assessment`, first value to `activation`, and recurring value to `retention`.
+Map buying roles and milestones, qualification and disqualification, proof, security and procurement, commercial negotiation, implementation, promise handoff, adoption, success, renewal, and expansion. Route seller and buyer assets to `sales-enablement`, pipeline and commercial controls to `growth-operations`, first value to `activation`, and recurring value to `retention`.
 
 ## Sequence A Bounded GTM Pilot
 
@@ -109,15 +109,15 @@ Do not launch all channels, markets, or motions at once. Every expansion spends 
 
 Freeze entity, eligibility, identity, source, product and offer version, market, route, assignment or access, exposure, cohort, window, maturity, cutoff, currency, value basis, and exclusions. Report counts beside rates. Keep attention, qualified demand, access, exposure, response, buying milestone, first value, repeated value, retention, purchase, revenue, contribution, cash, support, trust, and harm separate.
 
-Use actuals, forecasts, targets, plans, and benchmarks separately. Never backsolve leads, conversion, price, retention, spend, or capacity to reach a target. Route metric design to `growth-metrics-design`, instrumentation to `tracking-plan`, funnel analysis to `growth-diagnosis`, cohorts to `retention`, attribution to `attribution-analysis`, economics to `monetization`, and outlooks to `growth-forecasting`.
+Use actuals, forecasts, targets, plans, and benchmarks separately. Never backsolve leads, conversion, price, retention, spend, or capacity to reach a target. Route metric design to `growth-measurement`, instrumentation to `growth-measurement`, funnel analysis to `growth-diagnosis`, cohorts to `retention`, attribution to `growth-measurement`, economics to `monetization`, and outlooks to `growth-measurement`.
 
-Observed before-after movement can nominate a mechanism, not prove it. Preserve product, offer, price, message, channel, partner, sales, market, seasonality, mix, selection, attribution, and concurrent changes. Route causal validation to `experiment-design`.
+Observed before-after movement can nominate a mechanism, not prove it. Preserve product, offer, price, message, channel, partner, sales, market, seasonality, mix, selection, attribution, and concurrent changes. Route causal validation to `growth-measurement`.
 
 ## Coordinate, Do Not Absorb, Specialist Work
 
 This Skill owns the GTM unit, readiness gates, motion choice, route and buying-path orchestration, dependency sequence, pilot, cross-functional handoffs, portfolio comparison, and expansion or stop decision. It consumes specialist outputs only when their customer, segment, product, market, version, period, evidence state, uncertainty, and owner remain compatible.
 
-Route launch units and audience ladders to `go-to-market-strategy`; channel portfolio, budget decisions, and campaigns to `acquisition-strategy`; partners and communities to `partnership-marketing`; customer proof to `content-strategy`; seller workflows to `sales-enablement`; sales systems and infrastructure to `growth-infrastructure-assessment`; and decision rights and capacity portfolios to `growth-organization-design`.
+Route launch units and audience ladders to `go-to-market-strategy`; channel portfolio, budget decisions, and campaigns to `acquisition-strategy`; partners and communities to `partnership-marketing`; customer proof to `content-strategy`; seller workflows to `sales-enablement`; sales systems and infrastructure to `growth-operations`; and decision rights and capacity portfolios to `growth-operations`.
 
 ## Deliver In Order
 

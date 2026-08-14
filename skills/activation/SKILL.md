@@ -52,7 +52,7 @@ Tie every intervention to a named mechanism, eligible entry state, customer job,
 
 Do not optimize step completion in isolation. Read immediate path movement, first-value quantity and quality, retained activation, errors, support burden, trust, and economics together. Preserve original assignment and denominator through downstream validation.
 
-This Skill may specify onboarding content requirements or lifecycle-message eligibility, but it does not draft copy or send messages. Route product or onboarding copy to `copywriting`, lifecycle-message copy to `lifecycle-marketing`, broader constraint selection to `growth-diagnosis`, downstream recurring-value analysis to `retention`, and causal validation to an experiment-design capability when needed.
+This Skill may specify onboarding content requirements or lifecycle-message eligibility, but it does not draft copy or send messages. Route product or onboarding copy to `copywriting`, lifecycle-message copy to `lifecycle-marketing`, broader constraint selection to `growth-diagnosis`, downstream recurring-value analysis to `retention`, and causal validation to an growth-measurement capability when needed.
 
 ## Deliver In Order
 

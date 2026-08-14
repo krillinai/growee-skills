@@ -33,7 +33,7 @@ An incentive is most defensible when it removes a temporary barrier to valuable 
 
 ## Measure Incrementality, Durability, And Economics
 
-Do not treat redemptions, codes, clicks, trips, purchases, invitations, lessons, supply hours, revenue, or K-factor as incremental. Prefer a credible randomized, geographic, switchback, phased, threshold, matched, or time-series counterfactual whose assumptions fit the mechanism. Route assignment, power, interference, and readout details to `experiment-design`.
+Do not treat redemptions, codes, clicks, trips, purchases, invitations, lessons, supply hours, revenue, or K-factor as incremental. Prefer a credible randomized, geographic, switchback, phased, threshold, matched, or time-series counterfactual whose assumptions fit the mechanism. Route assignment, power, interference, and readout details to `growth-measurement`.
 
 Measure immediate action lift, value attainment, post-incentive behavior at the natural frequency, retained incremental participants or value, full incremental program cost, net incremental contribution, payback, pull-forward, organic displacement, cross-product or cross-channel movement, fraud, support, complaints, fairness, and trust.
 
@@ -49,7 +49,7 @@ Choose one next decision: `measure`, `pilot`, `continue`, `scale bounded segment
 
 ## Route Specialist Work
 
-Route pricing, packaging, discounts as commercial architecture, and outcome-based revenue models to `monetization`; referral, content, marketplace, data, or reinvestment loop closure to `growth-loop-design`; activation and recurring-value mechanisms to `activation` and `retention`; cohort construction to `retention`; metric contracts to `growth-metrics-design`; tracking implementation to `tracking-plan`; experiment design and readout to `experiment-design`; customer mechanism research to `customer-research`; and broad constraint triage to `growth-diagnosis`.
+Route pricing, packaging, discounts as commercial architecture, and outcome-based revenue models to `monetization`; referral, content, marketplace, data, or reinvestment loop closure to `growth-loop-design`; activation and recurring-value mechanisms to `activation` and `retention`; cohort construction to `retention`; metric contracts to `growth-measurement`; tracking implementation to `growth-measurement`; experiment design and readout to `growth-measurement`; customer mechanism research to `customer-research`; and broad constraint triage to `growth-diagnosis`.
 
 This Skill owns the incentive mechanism, incremental economics, post-incentive durability, risk, fairness, taper, and portfolio decision. It does not duplicate adjacent workflows or operate live rewards.
 

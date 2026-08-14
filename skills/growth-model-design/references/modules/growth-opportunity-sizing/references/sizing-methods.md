@@ -46,7 +46,7 @@ Benchmarks establish comparison context, not causal or attainable uplift. Custom
 
 Record time to evidence, implementation or readiness lead time, customer adoption ramp, time to first and repeated value, cohort maturity, benefit duration, decay, saturation, renewal or churn, and cash timing where material. Do not combine a short-window conversion with a long-window retention rate without a compatible cohort bridge.
 
-An opportunity range is not a forecast. When calendar timing, seasonality, drivers, revisions, or probability calibration drive the decision, hand the frozen opportunity contract to `growth-forecasting`.
+An opportunity range is not a forecast. When calendar timing, seasonality, drivers, revisions, or probability calibration drive the decision, hand the frozen opportunity contract to `growth-measurement`.
 
 ## Reconcile Economics
 

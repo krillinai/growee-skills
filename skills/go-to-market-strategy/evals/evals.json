@@ -148,7 +148,7 @@
         "Defines customer milestones, qualification, disqualification, alternatives, and evidence. [eval 6810]",
         "Includes sales capacity, implementation, success, and promise handoff. [eval 6810]",
         "Routes seller and buyer assets to sales-enablement. [eval 6810]",
-        "Routes pipeline and forecast controls to growth-infrastructure-assessment and growth-forecasting. [eval 6810]"
+        "Routes pipeline and forecast controls to growth-operations and growth-measurement. [eval 6810]"
       ]
     },
     {
@@ -192,7 +192,7 @@
         "Does not select a constraint from percentage drop alone. [eval 6813]",
         "Defines entity, eligibility, identity, events, source, period, cohort, maturity, and value. [eval 6813]",
         "Shows counts, rates, absolute loss, and retained downstream outcome. [eval 6813]",
-        "Routes metric and tracking work to growth-metrics-design and tracking-plan. [eval 6813]",
+        "Routes metric and tracking work to growth-measurement and growth-measurement. [eval 6813]",
         "Routes funnel and cohort analysis to their specialist Skills. [eval 6813]"
       ]
     },
@@ -208,7 +208,7 @@
         "Separates actual, estimate, forecast, scenario, target, plan, and benchmark. [eval 6814]",
         "Requires compatible entity, cohort, market, cost, value, horizon, and uncertainty. [eval 6814]",
         "Routes economics to monetization. [eval 6814]",
-        "Routes outlook and target-gap scenarios to growth-forecasting and growth-model-design. [eval 6814]"
+        "Routes outlook and target-gap scenarios to growth-measurement and growth-model-design. [eval 6814]"
       ]
     },
     {
@@ -223,7 +223,7 @@
         "Preserves selection, seasonality, attribution, mix, and concurrent-change alternatives. [eval 6815]",
         "Defines evidence required to change causal status. [eval 6815]",
         "Defines maturity and retained-value guardrails. [eval 6815]",
-        "Routes causal design and readout to experiment-design. [eval 6815]"
+        "Routes causal design and readout to growth-measurement. [eval 6815]"
       ]
     },
     {
@@ -424,7 +424,7 @@
     {
       "id": 5711,
       "prompt": "Use $go-to-market-strategy. Randomize individual users inside the same account for a collaborative feature launch. Treated users change shared workflows, invite control users, consume pooled quotas, and affect the account contract. Analyze users independently, peek daily, and ship when p<0.05.",
-      "expected_output": "Rejects contaminated independent-user analysis and peeking, defines the launch estimand and compatible assignment or rollout unit, and routes statistical design to experiment-design.",
+      "expected_output": "Rejects contaminated independent-user analysis and peeking, defines the launch estimand and compatible assignment or rollout unit, and routes statistical design to growth-measurement.",
       "assertions": [
         "Does not accept independent-user randomization without interference controls. [eval 5711] [integrated from product-launch-strategy]",
         "Identifies shared workflow, invitation, quota, and contract spillovers. [eval 5711] [integrated from product-launch-strategy]",
@@ -432,7 +432,7 @@
         "Considers account, workspace, team, cluster, staged, or other compatible units. [eval 5711] [integrated from product-launch-strategy]",
         "Preserves assignment, exposure, maturity, and original account outcomes. [eval 5711] [integrated from product-launch-strategy]",
         "Does not allow unplanned daily peeking or p-value-only shipping. [eval 5711] [integrated from product-launch-strategy]",
-        "Routes power, SRM, interference, analysis, and readout to experiment-design. [eval 5711] [integrated from product-launch-strategy]",
+        "Routes power, SRM, interference, analysis, and readout to growth-measurement. [eval 5711] [integrated from product-launch-strategy]",
         "Does not claim causal lift before a valid test. [eval 5711] [integrated from product-launch-strategy]"
       ]
     },

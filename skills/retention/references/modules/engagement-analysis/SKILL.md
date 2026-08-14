@@ -57,12 +57,12 @@ This Skill owns the engagement contract, zero-inclusive distribution, supported 
 
 | Need | Route |
 | --- | --- |
-| Metric system, event implementation, or decision-critical source defects | `growth-metrics-design`, `tracking-plan` |
+| Metric system, event implementation, or decision-critical source defects | `growth-measurement` |
 | Time-, exposure-, behavior-, or state-based cohort construction | `retention` |
 | First value, recurring value, churn, resurrection, or customer expansion | `activation`, `retention`, `customer-expansion-strategy` |
-| B2B access, lifecycle, account, commercial, or renewal reconciliation | `growth-infrastructure-assessment` |
+| B2B access, lifecycle, account, commercial, or renewal reconciliation | `growth-operations` |
 | Journey transitions, funnel constraints, or company-wide primary constraint | `product-market-fit-assessment`, `growth-diagnosis` |
-| Causal effect, forecast, Product-Market Fit, plan, unit economics, network liquidity, or lifecycle message | `experiment-design`, `growth-forecasting`, `product-market-fit-assessment`, `growth-planning-cycle`, `monetization`, `growth-loop-design`, `lifecycle-marketing` |
+| Causal effect, forecast, Product-Market Fit, plan, unit economics, network liquidity, or lifecycle message | `growth-measurement`, `product-market-fit-assessment`, `growth-operations`, `monetization`, `growth-loop-design`, `lifecycle-marketing` |
 
 ## Deliver In Order
 
