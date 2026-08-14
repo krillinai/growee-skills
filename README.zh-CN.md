@@ -2,9 +2,9 @@
   <img src="Growee-logo.png" alt="Growee Skills logo" width="180">
 </p>
 
-<h1 align="center">Growee Skills</h1>
+<h1 align="center">全生命周期AI增长技能合集</h1>
 
-<p align="center"><strong>全生命周期AI增长技能合集</strong><br>覆盖增长诊断、内容生产、获客、激活、留存、变现及其底层增长系统的 AI 可执行能力。</p>
+<p align="center">覆盖增长诊断、内容生产、获客、激活、留存、变现及其底层增长系统的 AI 可执行能力。</p>
 
 Growee Skills 由 [KrillinAI](https://github.com/KrillinAI) 创作并维护，是 Growth Playbook（增长手册）的开源执行层。Growth Playbook 是一套完整的增长理论体系，涵盖框架、模型、方法与证据；Growee Skills 则把这套知识转化为可复用的 Agent Skills，用于边界明确的增长工作。
 
