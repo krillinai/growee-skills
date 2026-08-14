@@ -1,6 +1,6 @@
 # Contributing
 
-Growee accepts focused Agent Skills that solve a clear growth or marketing job with an executable workflow, explicit evidence boundaries, inspectable outputs, and realistic evaluation cases.
+Growee Skills accepts focused Agent Skills that solve a clear growth or marketing job with an executable workflow, explicit evidence boundaries, inspectable outputs, and realistic evaluation cases.
 
 ## Repository Structure
 
