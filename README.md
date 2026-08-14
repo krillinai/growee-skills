@@ -2,9 +2,9 @@
   <img src="Growee-logo.png" alt="Growee Skills logo" width="180">
 </p>
 
-<h1 align="center">Growee Skills</h1>
+<h1 align="center">Full-Lifecycle AI Growth Skills</h1>
 
-<p align="center"><strong>Full-Lifecycle AI Growth Skills</strong><br>AI-executable capabilities for growth diagnosis, content production, acquisition, activation, retention, monetization, and the systems beneath them.</p>
+<p align="center">AI-executable capabilities for growth diagnosis, content production, acquisition, activation, retention, monetization, and the systems beneath them.</p>
 
 Growee Skills, by [KrillinAI](https://github.com/KrillinAI), is the open-source execution companion to Growth Playbook, a complete body of growth theory spanning frameworks, models, methods, and evidence. Growee Skills turns that body of knowledge into reusable Agent Skills for bounded growth work.
 
