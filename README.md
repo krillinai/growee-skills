@@ -1,15 +1,15 @@
 <p align="center">
-  <img src="Growee-logo.png" alt="Growee logo" width="180">
+  <img src="Growee-logo.png" alt="Growee Skills logo" width="180">
 </p>
 
-<h1 align="center">Full-Lifecycle AI Growth Skills</h1>
+<h1 align="center">Growee Skills</h1>
 
-<p align="center"><strong>AI-executable capabilities for growth diagnosis, content production, acquisition, activation, retention, monetization, and the systems beneath them.</strong></p>
+<p align="center"><strong>Full-Lifecycle AI Growth Skills</strong><br>AI-executable capabilities for growth diagnosis, content production, acquisition, activation, retention, monetization, and the systems beneath them.</p>
 
-Growee, by [KrillinAI](https://github.com/KrillinAI), is the open-source execution companion to Growth Playbook, a complete body of growth theory spanning frameworks, models, methods, and evidence. Growee turns that body of knowledge into reusable Agent Skills for bounded growth work.
+Growee Skills, by [KrillinAI](https://github.com/KrillinAI), is the open-source execution companion to Growth Playbook, a complete body of growth theory spanning frameworks, models, methods, and evidence. Growee Skills turns that body of knowledge into reusable Agent Skills for bounded growth work.
 
 <p align="center">
-  <a href="https://github.com/krillinai/Growee/stargazers"><img src="https://img.shields.io/github/stars/krillinai/Growee?style=flat-square&amp;logo=github&amp;label=Stars" alt="GitHub Stars"></a>
+  <a href="https://github.com/krillinai/growee-skills/stargazers"><img src="https://img.shields.io/github/stars/krillinai/growee-skills?style=flat-square&amp;logo=github&amp;label=Stars" alt="GitHub Stars"></a>
   <a href="https://clawee.ai"><img src="https://img.shields.io/badge/clawee.ai-Enterprise_Growth_Agent-6f42c1?style=flat-square" alt="clawee.ai"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="License: MIT"></a>
 </p>
@@ -18,7 +18,7 @@ Growee, by [KrillinAI](https://github.com/KrillinAI), is the open-source executi
 
 ## From diagnosis to compounding growth
 
-Growee follows the same mainline as Growth Playbook. Diagnosis identifies the current constraint. Foundations define the customer, market, value, and growth model. Content production turns that strategy into usable assets. The lifecycle stages move customers from discovery to first value, repeated value, revenue, and expansion. Growth systems make every stage measurable and repeatable.
+Growee Skills follows the same mainline as Growth Playbook. Diagnosis identifies the current constraint. Foundations define the customer, market, value, and growth model. Content production turns that strategy into usable assets. The lifecycle stages move customers from discovery to first value, repeated value, revenue, and expansion. Growth systems make every stage measurable and repeatable.
 
 <pre align="center">
 +--------------------------------------------------------------+
@@ -57,7 +57,7 @@ v
 Insights feed the next Growth Diagnosis
 </pre>
 
-| Layer | Core question | Role in Growee |
+| Layer | Core question | Role in Growee Skills |
 | --- | --- | --- |
 | Growth Diagnosis | What is the primary constraint now? | Turn symptoms into a bounded outcome, evidence ledger, 30-day action, and execution route |
 | Growth Foundations | Who is the customer, what value matters, and how should growth work? | Establish PMF, ICP, positioning, journey, growth model, market, and strategic choices |
@@ -77,9 +77,9 @@ Measured customer behavior and business outcomes feed the next diagnosis. That f
 Each directory under `skills/` is a standalone Agent Skill. Start with Growth Diagnosis, then install only the Skills that match the primary constraint and execution route.
 
 ```bash
-git clone https://github.com/krillinai/Growee.git
+git clone https://github.com/krillinai/growee-skills.git
 mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
-cp -R Growee/skills/growth-diagnosis "${CODEX_HOME:-$HOME/.codex}/skills/"
+cp -R growee-skills/skills/growth-diagnosis "${CODEX_HOME:-$HOME/.codex}/skills/"
 ```
 
 Invoke an installed Skill explicitly when the task could match several capabilities:
@@ -325,7 +325,7 @@ Use Content Growth when content is the active constraint. Add a specialist bundl
 
 ## Contributing
 
-Growee follows the structure and evidence standards of Growth Playbook. Add a Skill only when the existing collection cannot cover a clear, reusable growth decision. A contribution should define its Playbook layer, evidence inputs, executable workflow, inspectable output, measurement path, and operating boundaries.
+Growee Skills follows the structure and evidence standards of Growth Playbook. Add a Skill only when the existing collection cannot cover a clear, reusable growth decision. A contribution should define its Playbook layer, evidence inputs, executable workflow, inspectable output, measurement path, and operating boundaries.
 
 ## License
 

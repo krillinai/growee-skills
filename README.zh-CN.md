@@ -1,15 +1,15 @@
 <p align="center">
-  <img src="Growee-logo.png" alt="Growee logo" width="180">
+  <img src="Growee-logo.png" alt="Growee Skills logo" width="180">
 </p>
 
-<h1 align="center">全生命周期AI增长技能合集</h1>
+<h1 align="center">Growee Skills</h1>
 
-<p align="center"><strong>覆盖增长诊断、内容生产、获客、激活、留存、变现及其底层增长系统的 AI 可执行能力。</strong></p>
+<p align="center"><strong>全生命周期AI增长技能合集</strong><br>覆盖增长诊断、内容生产、获客、激活、留存、变现及其底层增长系统的 AI 可执行能力。</p>
 
-Growee 由 [KrillinAI](https://github.com/KrillinAI) 创作并维护，是 Growth Playbook（增长手册）的开源执行层。Growth Playbook 是一套完整的增长理论体系，涵盖框架、模型、方法与证据；Growee 则把这套知识转化为可复用的 Agent Skills，用于边界明确的增长工作。
+Growee Skills 由 [KrillinAI](https://github.com/KrillinAI) 创作并维护，是 Growth Playbook（增长手册）的开源执行层。Growth Playbook 是一套完整的增长理论体系，涵盖框架、模型、方法与证据；Growee Skills 则把这套知识转化为可复用的 Agent Skills，用于边界明确的增长工作。
 
 <p align="center">
-  <a href="https://github.com/krillinai/Growee/stargazers"><img src="https://img.shields.io/github/stars/krillinai/Growee?style=flat-square&amp;logo=github&amp;label=Stars" alt="GitHub Stars"></a>
+  <a href="https://github.com/krillinai/growee-skills/stargazers"><img src="https://img.shields.io/github/stars/krillinai/growee-skills?style=flat-square&amp;logo=github&amp;label=Stars" alt="GitHub Stars"></a>
   <a href="https://clawee.ai"><img src="https://img.shields.io/badge/clawee.ai-Enterprise_Growth_Agent-6f42c1?style=flat-square" alt="clawee.ai"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="License: MIT"></a>
 </p>
@@ -18,7 +18,7 @@ Growee 由 [KrillinAI](https://github.com/KrillinAI) 创作并维护，是 Growt
 
 ## 从诊断到增长复利
 
-Growee 与 Growth Playbook 使用同一条主线。增长诊断先识别当前约束；增长基础定义客户、市场、价值与增长模型；内容生产把战略转化为可用资产；生命周期阶段推动客户从发现产品走向首次价值、持续价值、收入和扩张；增长系统让每一阶段可测量、可重复。
+Growee Skills 与 Growth Playbook 使用同一条主线。增长诊断先识别当前约束；增长基础定义客户、市场、价值与增长模型；内容生产把战略转化为可用资产；生命周期阶段推动客户从发现产品走向首次价值、持续价值、收入和扩张；增长系统让每一阶段可测量、可重复。
 
 <pre align="center">
 +--------------------------------------------------------------+
@@ -57,7 +57,7 @@ v
 洞察回流到下一轮增长诊断
 </pre>
 
-| 层级 | 核心问题 | Growee 中的作用 |
+| 层级 | 核心问题 | Growee Skills 中的作用 |
 | --- | --- | --- |
 | 增长诊断 | 当前最主要的增长约束是什么？ | 把表面症状转化为边界明确的结果、证据台账、30 天行动与执行路径 |
 | 增长基础 | 客户是谁、什么价值重要、增长应如何发生？ | 建立 PMF、ICP、定位、客户旅程、增长模型、市场与战略选择 |
@@ -77,9 +77,9 @@ v
 `skills/` 下的每个目录都是一个可独立安装的 Agent Skill。先从增长诊断开始，再只安装与首要约束和执行路径匹配的 Skill。
 
 ```bash
-git clone https://github.com/krillinai/Growee.git
+git clone https://github.com/krillinai/growee-skills.git
 mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
-cp -R Growee/skills/growth-diagnosis "${CODEX_HOME:-$HOME/.codex}/skills/"
+cp -R growee-skills/skills/growth-diagnosis "${CODEX_HOME:-$HOME/.codex}/skills/"
 ```
 
 当一个任务可能匹配多个能力时，建议显式调用：
@@ -325,7 +325,7 @@ cp -R Growee/skills/growth-diagnosis "${CODEX_HOME:-$HOME/.codex}/skills/"
 
 ## 参与贡献
 
-Growee 遵循 Growth Playbook（增长手册）的结构与证据标准。只有在现有能力无法覆盖一项明确、可复用的增长决策时，才新增 Skill。贡献内容应定义其所属手册层级、证据输入、可执行工作流、可检查输出、测量路径和操作边界。
+Growee Skills 遵循 Growth Playbook（增长手册）的结构与证据标准。只有在现有能力无法覆盖一项明确、可复用的增长决策时，才新增 Skill。贡献内容应定义其所属手册层级、证据输入、可执行工作流、可检查输出、测量路径和操作边界。
 
 ## 许可证
 

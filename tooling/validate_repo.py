@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate the complete Growee collection with standard-library tools."""
+"""Validate the complete Growee Skills collection with standard-library tools."""
 
 from __future__ import annotations
 
