@@ -20,20 +20,64 @@ Growee, by [KrillinAI](https://github.com/KrillinAI), is the open-source executi
 
 Growee follows the same mainline as Growth Playbook. Diagnosis identifies the current constraint. Foundations define the customer, market, value, and growth model. Content production turns that strategy into usable assets. The lifecycle stages move customers from discovery to first value, repeated value, revenue, and expansion. Growth systems make every stage measurable and repeatable.
 
-```text
-Growth Diagnosis
-       |
-       v
-Growth Foundations
-       |
-       v
-Content Production -> Acquisition -> Activation -> Retention -> Monetization -> Referral & Expansion
-       |
-       v
-Metrics & Experimentation + Growth Infrastructure & Organization
-       |
-       +---- support every stage; evidence feeds the next Growth Diagnosis
-```
+<pre align="center">
++--------------------------------------------------------------+
+|                       GROWTH DIAGNOSIS                       |
+|            Constraint / Evidence / 30-Day Action             |
++--------------------------------------------------------------+
+|
+v
++--------------------------------------------------------------+
+|                      GROWTH FOUNDATIONS                      |
+|       PMF / ICP / Positioning / Journey / Growth Model       |
++--------------------------------------------------------------+
+|
+v
++--------------------------------------------------------------+
+|                      CONTENT PRODUCTION                      |
+|      Strategy / Copy / Creative / Proof / Localization       |
++--------------------------------------------------------------+
+|
+v
++--------------------------------------------------------------+
+|                         ACQUISITION                          |
+|       Channels / Search / Paid / Partners / Community        |
++--------------------------------------------------------------+
+|
+v
++--------------------------------------------------------------+
+|                          ACTIVATION                          |
+|        Landing / Onboarding / Friction / First Value         |
++--------------------------------------------------------------+
+|
+v
++--------------------------------------------------------------+
+|                          RETENTION                           |
+|           Cohorts / Engagement / Lifecycle / Churn           |
++--------------------------------------------------------------+
+|
+v
++--------------------------------------------------------------+
+|                         MONETIZATION                         |
+|             Pricing / Packaging / LTV / Payback              |
++--------------------------------------------------------------+
+|
+v
++--------------------------------------------------------------+
+|                     REFERRAL / EXPANSION                     |
+|       Referrals / Loops / Expansion / Network Effects        |
++--------------------------------------------------------------+
+|
+v
++--------------------------------------------------------------+
+|                        GROWTH SYSTEMS                        |
+| Metrics / Experiments / Data / Infrastructure / Organization |
+|       Evidence / Governance / Agent Skills / Tools           |
++--------------------------------------------------------------+
+|
+v
+Insights feed the next Growth Diagnosis
+</pre>
 
 | Layer | Core question | Role in Growee |
 | --- | --- | --- |
