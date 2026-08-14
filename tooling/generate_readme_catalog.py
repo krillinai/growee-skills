@@ -42,6 +42,12 @@ def growth_ordered_categories(taxonomy: dict) -> list[dict]:
     return [categories[category_id] for category_id in GROWTH_SEQUENCE]
 
 
+def specialist_module_count() -> int:
+    return sum(
+        1 for _ in ROOT.glob("skills/*/references/modules/*/SKILL.md")
+    )
+
+
 def chooser_section(
     taxonomy: dict, skills_by_id: dict[str, dict], language: str
 ) -> str:
@@ -76,18 +82,18 @@ def bundle_section(bundles: dict, language: str) -> str:
         lines = [
             "## Choose your operating scope",
             "",
-            "Use Content Growth when content is the active constraint. Add a specialist bundle only when measurement, distribution, or operating capacity becomes the limiting factor.",
+            "Choose the smallest bundle that matches the current constraint. Counts refer to top-level Skills and integrations; specialist workflows stay inside their parent Skill and load only when needed.",
             "",
-            "| Scope | Description | Capabilities |",
+            "| Scope | Description | Entry points |",
             "| --- | --- | ---: |",
         ]
     else:
         lines = [
             "## 选择运营范围",
             "",
-            "当内容是当前约束时，使用“内容增长”组合；只有在测量、分发或运营承载能力成为限制时，才增加专业组合。",
+            "选择与当前约束匹配的最小组合。数量仅代表顶层 Skills 与集成入口；专业工作流保留在所属 Skill 内，仅在需要时加载。",
             "",
-            "| 范围 | 说明 | 能力数量 |",
+            "| 范围 | 说明 | 入口数量 |",
             "| --- | --- | ---: |",
         ]
 
@@ -127,17 +133,37 @@ def catalog_section(
             "have passed realistic forward tests; Stable Skills have demonstrated "
             "repeatable use."
         )
+        structure_note = (
+            f"**Structure:** This map lists {len(skills_by_id)} top-level Skills. "
+            f"They route to {specialist_module_count()} specialist workflows under "
+            "`references/modules/` and load those modules only when needed."
+        )
     else:
         maturity_note = (
             "**成熟度：** 预览版仍需真实任务验证；已验证版本已通过具有代表性的前向测试；"
             "稳定版已经过重复使用验证。"
+        )
+        structure_note = (
+            f"**结构：** 本图谱展示 {len(skills_by_id)} 个顶层 Skills；"
+            f"{specialist_module_count()} 个专业工作流保留在 `references/modules/` 中，"
+            "由所属 Skill 按需加载。"
         )
     summary = (
         "Browse every Skill and integration by growth function"
         if language == "en"
         else "按增长职能展开查看全部 Skill 与集成"
     )
-    lines = [title, "", "<details>", f"<summary>{summary}</summary>", "", maturity_note, ""]
+    lines = [
+        title,
+        "",
+        "<details>",
+        f"<summary>{summary}</summary>",
+        "",
+        structure_note,
+        "",
+        maturity_note,
+        "",
+    ]
 
     for category in growth_ordered_categories(taxonomy):
         category_integrations = [

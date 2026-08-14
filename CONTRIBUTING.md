@@ -20,7 +20,7 @@ Add `scripts/` only for deterministic or repeatedly implemented operations. Add 
 ## Skill Requirements
 
 - Use a short lowercase hyphenated name that describes the recognizable job.
-- Prefer extending an existing lifecycle-level Skill. Create a new top-level Skill only when the job has a distinct trigger, completion gate, output contract, or execution dependency that would make an existing Skill ambiguous.
+- Prefer extending an existing top-level Skill. Create a new top-level Skill only when the job has a distinct trigger, completion gate, output contract, or execution dependency that would make an existing Skill ambiguous.
 - Put specialized methods under `references/modules/` and route to them from the top-level `SKILL.md`; do not make every analysis method, channel, surface, or operating artifact independently installable.
 - Keep YAML frontmatter to `name` and `description` only.
 - Make the trigger description specific enough to distinguish adjacent Skills.
