@@ -109,7 +109,7 @@ Use AI to create the parts that benefit from synthesis. Use deterministic compos
 - keep the focal point and essential content within the actual responsive crop and text-overlay region;
 - provide explicit intrinsic dimensions, responsive variants, meaningful alt text, and a compressed web format;
 - verify the Open Graph and social preview crop when that is part of the task;
-- coordinate message and destination continuity with `landing-page-audit` when conversion depends on the page.
+- coordinate message and destination continuity with `activation` when conversion depends on the page.
 
 ### Social, Community, And Organic Distribution
 
@@ -131,7 +131,7 @@ Use AI to create the parts that benefit from synthesis. Use deterministic compos
 - verify current dimensions and obstruction zones for the exact destination;
 - favor real product evidence and concise copy at small display sizes;
 - preserve critical content across desktop, mobile, thumbnail, and cropped previews;
-- route app-store screenshot strategy to `aso-audit` and directory submission packages to `directory-submissions` where appropriate.
+- route app-store screenshot strategy to `aso-audit` and directory submission packages to `seo-audit` where appropriate.
 
 ### Ads And Campaign Systems
 

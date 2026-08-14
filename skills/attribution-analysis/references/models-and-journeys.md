@@ -51,4 +51,4 @@ State device and app instance, user and account identity, consent, new versus ex
 
 ## Marketplace, Network, And Portfolio Journeys
 
-Preserve participant side, local network or market, transaction, supply or demand role, product, portfolio, and cannibalization. One source can acquire one participant while another mechanism creates the successful interaction. Route network and marketplace causal mechanisms to `network-effects-strategy` and product-to-product expansion to `customer-expansion-strategy`.
+Preserve participant side, local network or market, transaction, supply or demand role, product, portfolio, and cannibalization. One source can acquire one participant while another mechanism creates the successful interaction. Route network and marketplace causal mechanisms to `growth-loop-design` and product-to-product expansion to `customer-expansion-strategy`.

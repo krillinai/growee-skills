@@ -1,4 +1,0 @@
-interface:
-  display_name: "Growth Survey Design and Analysis"
-  short_description: "Design and analyze decision-linked surveys safely"
-  default_prompt: "Use $survey-design-and-analysis to design or audit a decision-linked survey with explicit sampling, quality, and interpretation boundaries."

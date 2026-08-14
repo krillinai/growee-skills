@@ -1,4 +1,4 @@
 interface:
-  display_name: "Growth Learning System"
-  short_description: "Build a traceable system for reusable growth learning"
-  default_prompt: "Use $growth-learning-system to build, audit, or refresh a governed library of reusable growth learning with full evidence lineage."
+  display_name: "Growth Learning & Change"
+  short_description: "Integrated Growth Learning & Change workflows"
+  default_prompt: "Use $growth-learning-system to handle this growth learning & change request as one evidence-backed workflow."

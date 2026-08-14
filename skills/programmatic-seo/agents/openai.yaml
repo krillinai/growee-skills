@@ -1,4 +1,0 @@
-interface:
-  display_name: "Programmatic SEO"
-  short_description: "Design useful and governable scalable page systems"
-  default_prompt: "Use $programmatic-seo to validate and design this scalable search page system."

@@ -1,9 +1,17 @@
 ---
 name: growth-diagnosis
-description: Use when a growth symptom, stalled outcome, weak funnel stage, loop, monetization result, or growth operating system needs evidence-backed diagnosis; when a request needs triage across acquisition, activation, retention, monetization, growth loops, or growth systems; or when market-aware execution routing is needed.
+description: Use when work needs to diagnose primary constraints through funnel, anomaly, and maturity analysis, then route an evidence-backed 30-day plan.
 ---
 
 # Growth Diagnosis
+
+## Integrated Capabilities
+
+This Skill consolidates adjacent workflows behind one trigger. Use the main workflow for core requests. When a request matches a module below, read that module before executing it:
+
+- [Funnel Analysis](references/modules/funnel-analysis/SKILL.md)
+- [Growth Anomaly Investigation](references/modules/growth-anomaly-investigation/SKILL.md)
+- [Growth Maturity Assessment](references/modules/growth-maturity-assessment/SKILL.md)
 
 Turn a growth symptom into one evidence-backed primary constraint, a 30-day decision plan, and an explicit execution route. Diagnose before prescribing tactics.
 
@@ -86,11 +94,11 @@ When an action uses `growth_skills`, route it to the smallest owning artifact:
 
 | Diagnosed action | Route |
 | --- | --- |
-| Metric contract, instrumentation, or decision-critical cross-source data defects | `growth-metrics-design`, `tracking-plan`, `growth-data-quality-audit` |
+| Metric contract, instrumentation, or decision-critical cross-source data defects | `growth-metrics-design`, `tracking-plan` |
 | One causal test or a cross-team experiment portfolio | `experiment-design`, `experiment-program-management` |
-| Medium-term choices, integrated planning, shared allocation, or one selected initiative | `growth-strategy`, `growth-planning-cycle`, `growth-budget-allocation`, `growth-initiative-planning` |
-| One canonical decision, a cross-initiative risk portfolio, or reusable cross-source learning | `growth-decision-record`, `growth-risk-management`, `growth-learning-system` |
-| Adoption and legacy retirement for an authorized change, or one completed-work retrospective | `growth-change-management`, `growth-postmortem` |
+| Medium-term choices, integrated planning, shared allocation, or one selected initiative | `growth-strategy`, `growth-planning-cycle` |
+| One canonical decision or cross-initiative risk portfolio | `growth-operating-review` |
+| Reusable cross-source learning, authorized change adoption, legacy retirement, or a completed-work retrospective | `growth-learning-system` |
 
 Pass the evidence boundary, owner, decision use, dependencies, guardrails, and authorization state. Do not reproduce the specialist artifact inside the diagnosis.
 

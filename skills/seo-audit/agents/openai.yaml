@@ -1,4 +1,4 @@
 interface:
-  display_name: "SEO Audit"
-  short_description: "Diagnose organic search issues from evidence"
-  default_prompt: "Use $seo-audit to diagnose a bounded organic search issue with inspectable evidence and dependency-ordered actions."
+  display_name: "SEO & Search Systems"
+  short_description: "Integrated SEO & Search Systems workflows"
+  default_prompt: "Use $seo-audit to handle this seo & search systems request as one evidence-backed workflow."

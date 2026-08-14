@@ -1,4 +1,4 @@
 interface:
-  display_name: "Growth Loop Design"
-  short_description: "Audit and design evidence-bounded growth loops"
-  default_prompt: "Use $growth-loop-design to audit this mechanism and design a bounded validation plan."
+  display_name: "Growth Loops & Network Effects"
+  short_description: "Integrated Growth Loops & Network Effects workflows"
+  default_prompt: "Use $growth-loop-design to handle this growth loops & network effects request as one evidence-backed workflow."

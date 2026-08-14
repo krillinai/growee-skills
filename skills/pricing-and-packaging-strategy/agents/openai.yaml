@@ -1,4 +1,0 @@
-interface:
-  display_name: "Pricing and Packaging Strategy"
-  short_description: "Design evidence-led packages, metrics, and prices"
-  default_prompt: "Use $pricing-and-packaging-strategy to audit this pricing system and design a governed package and migration plan."

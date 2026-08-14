@@ -52,7 +52,7 @@ Do not use expansion to hide weak activation, retention, reliability, implementa
 | Product or module | an eligible customer adopts and retains value from another product | attach without activation, overlap, cannibalization, package coercion |
 | Account or team | another team or business unit realizes governed value | authority, procurement, security, change-management, and support friction |
 
-Define eligibility, denominator, start, opportunity, value event, maturity, original-scope guardrail, total-customer outcome, and economics separately. Do not add seats, usage, products, teams, revenue, and markets into one expansion rate. Route geographic market entry to `market-entry-strategy` and atomic-network replication to `network-effects-strategy`.
+Define eligibility, denominator, start, opportunity, value event, maturity, original-scope guardrail, total-customer outcome, and economics separately. Do not add seats, usage, products, teams, revenue, and markets into one expansion rate. Route geographic market entry to `growth-strategy` and atomic-network replication to `growth-loop-design`.
 
 ## Qualify Need, Readiness, Authority, And Capacity
 
@@ -97,7 +97,7 @@ For each signal, define source, entity, value state, adjacent need, rule or mode
 
 Prediction of expansion does not show who benefits from an offer or who is authorized to buy. Exclude future contract changes, post-offer behavior, post-close notes, renewal, and later outcomes from pre-treatment features. Require calibration, precision, recall, segment error, fairness, drift, abstention, override, and causal validation before automated use.
 
-Route CRM routing and lifecycle-state integrity to `revops-audit`, seller and buyer assets to `sales-enablement`, customer research to `customer-research`, and messages to `lifecycle-marketing` or `b2b-outbound-messaging` only under their permission boundaries.
+Route CRM routing and lifecycle-state integrity to `growth-infrastructure-assessment`, seller and buyer assets plus permitted one-to-one messages to `sales-enablement`, customer research to `customer-research`, and lifecycle messages to `lifecycle-marketing` only under its permission boundary.
 
 ## Build A Value-Led Portfolio
 
@@ -107,7 +107,7 @@ Return allocation scenarios, owners, evidence horizons, guardrails, decision gat
 
 ## Route Specialist Work
 
-Route core recurring-value diagnosis to `retention`; new-scope onboarding to `activation`; pricing, packaging, entitlements, discounts, contracts, GRR, NRR, and revenue economics to `monetization`; commercial lifecycle, ownership, CRM, routing, forecasting, and reconciliation to `revops-audit`; seller and buyer assets to `sales-enablement`; customer and segment evidence to `customer-research` and `icp-segmentation`; market expansion to `market-entry-strategy`; network-unit replication to `network-effects-strategy`; signal instrumentation to `tracking-plan`; metrics to `growth-metrics-design`; causal tests to `experiment-design`; and organization or shared capability needs to `growth-organization-design` and `growth-infrastructure-assessment`.
+Route core recurring-value diagnosis to `retention`; new-scope onboarding to `activation`; pricing, packaging, entitlements, discounts, contracts, GRR, NRR, and revenue economics to `monetization`; commercial lifecycle, ownership, CRM, routing, forecasting, reconciliation, and shared capability needs to `growth-infrastructure-assessment`; seller and buyer assets to `sales-enablement`; customer and segment evidence to `customer-research` and `positioning`; market expansion to `growth-strategy`; network-unit replication to `growth-loop-design`; signal instrumentation to `tracking-plan`; metrics to `growth-metrics-design`; causal tests to `experiment-design`; and organization design to `growth-organization-design`.
 
 This Skill owns the expansion contract, retained-core-value gate, expansion-type and entity separation, opportunity qualification, new-scope value path, original and total-customer guardrails, expansion cohorts, signal specification, adoption-commercial reconciliation, and value-led portfolio. It does not operate product or commercial systems.
 

@@ -1,4 +1,0 @@
-interface:
-  display_name: "Growth Benchmark Analysis"
-  short_description: "Audit growth benchmarks and reference classes"
-  default_prompt: "Use $growth-benchmark-analysis to audit this benchmark, its reference class, comparability, uncertainty, and decision limits."

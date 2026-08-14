@@ -45,7 +45,7 @@ Do not exaggerate routine features into industry transformation, fabricate urgen
 
 A press release records a publishable verified event, context, approved quotes, facts, resources, and contact handoff. A media pitch proposes why one bounded story may matter to a specific media audience; it is not a bulk template or proof of interest. A briefing document prepares facts, difficult questions, limitations, bridges, and escalation. A contributed article teaches a defensible point of view and discloses relevant interests; it is not disguised advertising.
 
-Draft only from supplied or attributable sources. Mark unresolved facts and approvals visibly. Do not release private names, contact details, customer data, confidential terms, security details, personal or sensitive information, or quotes without scoped permission. Route final marketing prose to `copywriting`, edits to `copy-editing`, launch coordination to `campaign-planning`, positioning to `positioning`, customer evidence to `customer-research`, and visual production to the relevant image or video capability.
+Draft only from supplied or attributable sources. Mark unresolved facts and approvals visibly. Do not release private names, contact details, customer data, confidential terms, security details, personal or sensitive information, or quotes without scoped permission. Route final marketing prose and edits to `copywriting`, launch coordination to `acquisition-strategy`, positioning to `positioning`, customer evidence to `customer-research`, and visual production to the relevant image or video capability.
 
 ## Handle Issues With A Separate Gate
 

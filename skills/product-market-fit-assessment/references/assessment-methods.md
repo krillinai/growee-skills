@@ -39,7 +39,7 @@ The 40 percent heuristic is not a universal threshold. A result above it does no
 
 Require a stable entity, eligibility rule, cohort start, value-bearing event, natural interval, denominator, maturity rule, cutoff, timezone, source version, and decision-relevant segments. Compare mature cohorts at equal age. Keep original retention, resurrection, expansion, revenue, contribution, supply, and demand views separate.
 
-Route matrix construction, right censoring, mix decomposition, or cohort LTV calculation to `cohort-analysis`. Route recurring-value mechanism diagnosis to `retention`.
+Route matrix construction, right censoring, mix decomposition, or cohort LTV calculation to `retention`. Route recurring-value mechanism diagnosis to `retention`.
 
 ## Four Fits
 

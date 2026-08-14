@@ -1,4 +1,0 @@
-interface:
-  display_name: "Unit Economics Analysis"
-  short_description: "Audit CAC, contribution, LTV, and payback"
-  default_prompt: "Use $unit-economics-analysis to audit these customer economics and build a compatible contribution and payback model."

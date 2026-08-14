@@ -1,4 +1,0 @@
-interface:
-  display_name: "Landing Page Audit"
-  short_description: "Audit landing pages for qualified conversion"
-  default_prompt: "Use $landing-page-audit to audit this page and produce an evidence-backed conversion roadmap."

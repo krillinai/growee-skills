@@ -1,9 +1,18 @@
 ---
 name: growth-planning-cycle
-description: Use when leadership needs to build, audit, or refresh an annual, quarterly, or rolling growth planning cycle; reconcile strategy, metrics, baselines, targets, forecasts, opportunities, investments, organization, portfolios, initiatives, capacity, budget boundaries, scenarios, decision calendars, approvals, and operating reviews; or replace ceremonial roadmaps and KPI lists with a compatible, feasible, versioned plan of record.
+description: Use when work needs to build integrated growth plans across strategy, capacity, investments, budgets, initiatives, dependencies, scenarios, approvals, and review cadence.
 ---
 
-# Growth Planning Cycle
+# Growth Planning & Allocation
+
+## Integrated Capabilities
+
+This Skill consolidates adjacent workflows behind one trigger. Use the main workflow for core requests. When a request matches a module below, read that module before executing it:
+
+- [Growth Capacity Planning](references/modules/growth-capacity-planning/SKILL.md)
+- [Growth Investment Case](references/modules/growth-investment-case/SKILL.md)
+- [Growth Budget Allocation](references/modules/growth-budget-allocation/SKILL.md)
+- [Growth Initiative Planning](references/modules/growth-initiative-planning/SKILL.md)
 
 Turn annual, quarterly, or rolling planning into an ordered decision system. Reconcile supplied specialist artifacts, compatible evidence, constrained resources, approval states, calendars, and review rules into one plan of record. A planning cycle coordinates decisions; it does not recreate every analysis, force ambition into a forecast, approve resources, or execute work.
 
@@ -19,7 +28,7 @@ Read [planning-cycle-contract.md](references/planning-cycle-contract.md) before 
 
 Name one cadence and primary mode. Use one cycle state: `draft`, `reconciling`, `decision-ready`, `blocked`, `approved`, `active`, `superseded`, `cancelled`, or `expired`. State is not evidence of approval, authorization, execution, completion, or business impact.
 
-Route arena, value, mechanism, portfolio, and exclusion choices to `growth-strategy`; metric contracts to `growth-metrics-design`; target contracts to `growth-target-setting`; time-indexed projections to `growth-forecasting`; opportunity ranges to `growth-opportunity-sizing`; one resource-commitment case to `growth-investment-case`; organization and staffing design to `growth-organization-design`; one selected initiative plan to `growth-initiative-planning`; and recurring reconciliation to `growth-operating-review`. This Skill owns orchestration and cross-artifact consistency, not those specialist outputs.
+Route arena, value, mechanism, portfolio, and exclusion choices to `growth-strategy`; metric and target contracts to `growth-metrics-design`; time-indexed projections to `growth-forecasting`; opportunity ranges to `growth-model-design`; resource-commitment cases and selected initiative plans to `growth-planning-cycle`; organization and staffing design to `growth-organization-design`; and recurring reconciliation to `growth-operating-review`. This Skill owns orchestration and cross-artifact consistency, not those specialist outputs.
 
 ## Freeze The Cycle Contract
 

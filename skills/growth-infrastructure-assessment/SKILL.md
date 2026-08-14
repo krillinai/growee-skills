@@ -1,9 +1,15 @@
 ---
 name: growth-infrastructure-assessment
-description: Use when a team needs to assess or prioritize a growth stack, data foundation, semantic or metric layer, experiment platform, decision service, lifecycle or advertising delivery system, creative system, automation, governance, or shared growth platform; decide what to centralize or keep local; compare build, buy, or compose options; evaluate infrastructure maturity, reliability, adoption, decision quality, cost, incidents, controls, or internal consumers; or create a dependency-ordered capability roadmap.
+description: Use when work needs to assess growth infrastructure and RevOps across data, metrics, experiments, revenue entities, systems, handoffs, governance, and remediation.
 ---
 
-# Growth Infrastructure Assessment
+# Growth Infrastructure & RevOps
+
+## Integrated Capabilities
+
+This Skill consolidates adjacent workflows behind one trigger. Use the main workflow for core requests. When a request matches a module below, read that module before executing it:
+
+- [RevOps Audit](references/modules/revops-audit/SKILL.md)
 
 Assess whether repeated measurement, decision, delivery, creative, and governance work should become a reusable capability, and what foundation must come first. Infrastructure exists to improve trustworthy decisions and retained customer value, not to maximize tools, events, dashboards, tests, sends, assets, automation, or maturity-stage labels.
 
@@ -55,7 +61,7 @@ Measure four health groups together: reliability; adoption and efficiency; decis
 
 ## Route Specialist Work
 
-Route event schemas and implementation QA to `tracking-plan`; metric semantics and North Star work to `growth-metrics-design`; experiment design and readout to `experiment-design`; customer and segment evidence to `customer-research` and `icp-segmentation`; causal model structure to `growth-model-design`; lifecycle messaging to `lifecycle-marketing`; ad-platform audits to the relevant ad Skill; creative or page content to the relevant content Skill; and primary growth-constraint triage and enterprise execution routing to `growth-diagnosis`.
+Route event schemas and implementation QA to `tracking-plan`; metric semantics and North Star work to `growth-metrics-design`; experiment design and readout to `experiment-design`; customer and segment evidence to `customer-research` and `positioning`; causal model structure to `growth-model-design`; lifecycle messaging to `lifecycle-marketing`; ad-platform audits to the relevant ad Skill; creative or page content to the relevant content Skill; and primary growth-constraint triage and enterprise execution routing to `growth-diagnosis`.
 
 This Skill owns capability assessment, service boundaries, sourcing, governance requirements, and roadmap sequencing. It does not implement the specialist artifacts or operate production infrastructure.
 

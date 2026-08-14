@@ -1,4 +1,0 @@
-interface:
-  display_name: "Growth Change Management"
-  short_description: "Orchestrate readiness, migration, rollout, and adoption"
-  default_prompt: "Use $growth-change-management to build an evidence-bounded change plan from readiness through durable adoption."

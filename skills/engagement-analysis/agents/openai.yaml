@@ -1,4 +1,0 @@
-interface:
-  display_name: "Engagement Analysis"
-  short_description: "Analyze value-bearing usage distributions"
-  default_prompt: "Use $engagement-analysis to build a bounded engagement distribution from these supplied data."

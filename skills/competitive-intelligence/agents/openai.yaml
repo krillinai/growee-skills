@@ -1,4 +1,0 @@
-interface:
-  display_name: "Competitive Intelligence"
-  short_description: "Map and compare alternatives with traceable evidence"
-  default_prompt: "Use $competitive-intelligence to build an evidence-traced alternative landscape for this decision."

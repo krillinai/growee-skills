@@ -1,4 +1,4 @@
 interface:
-  display_name: "Growth Metrics Design"
-  short_description: "Design decision-ready growth metric systems"
-  default_prompt: "Use $growth-metrics-design to audit these metrics and produce an evidence-bounded metric system."
+  display_name: "Growth Metrics, Targets & Benchmarks"
+  short_description: "Integrated Growth Metrics, Targets & Benchmarks workflows"
+  default_prompt: "Use $growth-metrics-design to handle this growth metrics, targets & benchmarks request as one evidence-backed workflow."

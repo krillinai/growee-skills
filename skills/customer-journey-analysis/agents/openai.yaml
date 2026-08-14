@@ -1,4 +1,0 @@
-interface:
-  display_name: "Growth Customer Journey Analysis"
-  short_description: "Map journeys, service blueprints, friction, and recovery"
-  default_prompt: "Use $customer-journey-analysis to map an evidence-bounded customer journey and identify the next decision-changing gap."

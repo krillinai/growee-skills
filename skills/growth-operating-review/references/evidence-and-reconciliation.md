@@ -11,7 +11,7 @@ Before explaining movement, check:
 - time zone, calendar, seasonality, market holidays, and cohort maturity;
 - reconciliation with independent or downstream records where authorized evidence exists.
 
-Separate a measurement change, mix shift, temporary variance, execution miss, structural change, and unresolved signal. Route detailed unexpected-movement work to `growth-anomaly-investigation`.
+Separate a measurement change, mix shift, temporary variance, execution miss, structural change, and unresolved signal. Route detailed unexpected-movement work to `growth-diagnosis`.
 
 ## Decompose Before Explaining
 

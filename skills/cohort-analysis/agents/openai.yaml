@@ -1,4 +1,0 @@
-interface:
-  display_name: "Cohort Analysis"
-  short_description: "Analyze comparable cohorts with explicit maturity"
-  default_prompt: "Use $cohort-analysis to build a comparable cohort analysis from these supplied data."

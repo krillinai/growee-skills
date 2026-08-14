@@ -73,14 +73,14 @@ This Skill owns the forecast contract, as-of snapshot, actual and forecast perio
 | Need | Route |
 | --- | --- |
 | Full business topology and stock-flow mechanism design | `growth-model-design` |
-| Commercial pipeline, stages, bookings, contracts, finance, and cash reconciliation | `revops-audit` |
-| Customer lifetime value, metric contracts, cohort construction, or decision-critical input defects | `ltv-analysis`, `growth-metrics-design`, `cohort-analysis`, `growth-data-quality-audit` |
+| Commercial pipeline, stages, bookings, contracts, finance, and cash reconciliation | `growth-infrastructure-assessment` |
+| Customer lifetime value, metric contracts, cohort construction, or decision-critical input defects | `monetization`, `growth-metrics-design`, `retention`, `tracking-plan` |
 | Activation, retention, monetization, expansion, or causal mechanisms | `activation`, `retention`, `monetization`, `customer-expansion-strategy`, `experiment-design` |
 | Acquisition spend bands and channel allocation | `acquisition-strategy` |
-| Organization targets or annual, quarterly, and rolling integrated plans | `growth-target-setting`, `growth-planning-cycle` |
-| One investment case or shared cross-functional budget and resource allocation | `growth-investment-case`, `growth-budget-allocation` |
+| Organization targets or annual, quarterly, and rolling integrated plans | `growth-metrics-design`, `growth-planning-cycle` |
+| One investment case or shared cross-functional budget and resource allocation | `growth-planning-cycle` |
 | Recurring weekly, monthly, or quarterly decision review | `growth-operating-review` |
-| Organization structure, decision rights, staffing, or one selected initiative plan | `growth-organization-design`, `growth-initiative-planning` |
+| Organization structure, decision rights, staffing, or one selected initiative plan | `growth-organization-design`, `growth-planning-cycle` |
 
 A specialist output may become a forecast input only with compatible entity, market, version, as-of date, horizon, uncertainty, and owner. The forecast does not approve budgets, hiring, targets, prices, campaigns, product changes, or customer treatment.
 

@@ -99,8 +99,8 @@ Use a shorter or longer natural window when customer value matures differently. 
 | Need | Route |
 | --- | --- |
 | Select the primary growth constraint | `growth-diagnosis` |
-| Analyze value-state transitions | `funnel-analysis` |
-| Compare equal-maturity groups | `cohort-analysis` |
+| Analyze value-state transitions | `growth-diagnosis` |
+| Compare equal-maturity groups | `retention` |
 | Design or interpret causal evidence | `experiment-design` |
 | Define first value | `activation` |
 | Define recurring value, churn, or resurrection | `retention` |

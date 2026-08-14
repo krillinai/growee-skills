@@ -1,4 +1,0 @@
-interface:
-  display_name: "Directory Submissions"
-  short_description: "Plan accurate, high-value directory listings"
-  default_prompt: "Use $directory-submissions to select, prepare, or audit directory listings for this business."

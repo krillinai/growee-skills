@@ -114,7 +114,7 @@
         "Accounts for seasonality and source-mix differences. [eval 4408]",
         "Reports rates and absolute retained contribution for mature cohorts. [eval 4408]",
         "Does not call paid traffic higher quality from the supplied rates. [eval 4408]",
-        "Routes detailed cohort construction to cohort-analysis. [eval 4408]"
+        "Routes detailed cohort construction to retention. [eval 4408]"
       ],
       "files": []
     },
@@ -129,7 +129,7 @@
         "Requires recipient value, permission, role, destination continuity, qualified arrival, activation, and retention. [eval 4409]",
         "Defines audience, data, attribution, support, economics, rights, exclusivity, and dependency ownership. [eval 4409]",
         "Requires termination, data-return, migration, and recovery rules. [eval 4409]",
-        "Routes referral mechanics to referral-program-design or growth-loop-design. [eval 4409]"
+        "Routes referral mechanics to growth-loop-design or growth-loop-design. [eval 4409]"
       ],
       "files": []
     },
@@ -203,7 +203,7 @@
         "Uses 4 percent first value, doubled support, and 3 percent day-30 retention as acquisition-quality evidence. [eval 4414]",
         "Diagnoses audience, intent, promise, proof, entry-state, landing, product, and source-mix alternatives. [eval 4414]",
         "Defines cap, repair, experiment, and stop conditions. [eval 4414]",
-        "Routes page and activation implementation to landing-page-audit and activation. [eval 4414]"
+        "Routes page and activation implementation to activation and activation. [eval 4414]"
       ],
       "files": []
     },
@@ -295,6 +295,331 @@
         "Explains a necessary source term once rather than repeatedly switching languages. [eval 4420]",
         "Keeps China market, requested language, locale, platform, and source language as separate fields. [eval 4420]",
         "Does not infer output language from the target market alone. [eval 4420]"
+      ],
+      "files": []
+    },
+    {
+      "id": 1601,
+      "prompt": "Plan a campaign for https://cloudnote.example using public information only. I cannot provide audience data, analytics, CRM, ad accounts, channel performance, budget, brand rules, approvals, or customer research. Forecast leads and revenue and give me the final media allocation.",
+      "expected_output": "Selects strategy or plan mode with a public-only boundary. It may verify dated public product, offer, claim, and landing information, but does not forecast leads, revenue, or allocation. It returns a campaign contract, hypotheses, blocked inputs, scenarios requiring user assumptions, and an evidence-acquisition plan.",
+      "assertions": [
+        "Selects a bounded public-only campaign mode. [eval 1601] [integrated from campaign-planning]",
+        "Uses dated public product and landing artifacts only. [eval 1601] [integrated from campaign-planning]",
+        "Marks audience and private performance data unavailable. [eval 1601] [integrated from campaign-planning]",
+        "Marks budget, brand rules, and approvals unavailable. [eval 1601] [integrated from campaign-planning]",
+        "Does not forecast leads. [eval 1601] [integrated from campaign-planning]",
+        "Does not forecast revenue. [eval 1601] [integrated from campaign-planning]",
+        "Does not invent a media allocation. [eval 1601] [integrated from campaign-planning]",
+        "Produces a campaign contract and evidence plan. [eval 1601] [integrated from campaign-planning]",
+        "Uses scenarios only with explicit assumptions. [eval 1601] [integrated from campaign-planning]"
+      ],
+      "files": []
+    },
+    {
+      "id": 1602,
+      "prompt": "Our campaign objective is to create buzz and post a lot of content for 30 days. Build the plan without asking what customer or business decision should change.",
+      "expected_output": "Selects strategy mode and rejects activity volume and vague buzz as sufficient objectives. It requests the intended customer, qualified outcome, baseline, target, decision, owner, time window, and downstream value before producing an execution-ready plan.",
+      "assertions": [
+        "Selects strategy mode for the vague campaign objective. [eval 1602] [integrated from campaign-planning]",
+        "Rejects posting volume as the campaign objective. [eval 1602] [integrated from campaign-planning]",
+        "Rejects undefined buzz as a measurable qualified outcome. [eval 1602] [integrated from campaign-planning]",
+        "Requests the intended customer and decision. [eval 1602] [integrated from campaign-planning]",
+        "Requests a qualified metric, baseline, and target. [eval 1602] [integrated from campaign-planning]",
+        "Requests the owner and bounded time window. [eval 1602] [integrated from campaign-planning]",
+        "Requests the downstream customer or business value. [eval 1602] [integrated from campaign-planning]",
+        "Does not produce an execution-ready plan from activity goals alone. [eval 1602] [integrated from campaign-planning]"
+      ],
+      "files": []
+    },
+    {
+      "id": 1603,
+      "prompt": "Target everyone who works online across all countries, company sizes, roles, and use cases with one campaign. The product has different value paths for individual creators, team administrators, and enterprise buyers.",
+      "expected_output": "Selects strategy mode and refuses the universal audience. It separates creator, administrator, and enterprise-buyer roles and requires decision-relevant segment, job, market, buying situation, value path, proof, eligibility, and exclusion rules before channel planning.",
+      "assertions": [
+        "Selects strategy mode for the universal audience request. [eval 1603] [integrated from campaign-planning]",
+        "Rejects everyone who works online as an operating audience. [eval 1603] [integrated from campaign-planning]",
+        "Separates individual creators from team administrators. [eval 1603] [integrated from campaign-planning]",
+        "Separates enterprise buyers from product users. [eval 1603] [integrated from campaign-planning]",
+        "Requires segment-specific jobs and value paths. [eval 1603] [integrated from campaign-planning]",
+        "Requires market and buying-situation boundaries. [eval 1603] [integrated from campaign-planning]",
+        "Requires proof, eligibility, and exclusion rules. [eval 1603] [integrated from campaign-planning]",
+        "Does not force one campaign across incompatible paths. [eval 1603] [integrated from campaign-planning]"
+      ],
+      "files": []
+    },
+    {
+      "id": 1604,
+      "prompt": "Use these campaign claims: 'guaranteed to double revenue,' 'the world's safest platform,' and 'used by every Fortune 500 company.' No supporting sources or approvals are available.",
+      "expected_output": "Selects strategy or review mode and blocks the unsupported absolute, comparative, safety, and customer-usage claims. It records exact claim requirements, sources, scope, market, owner, approval, and review date, and routes copy only after evidence is available.",
+      "assertions": [
+        "Selects strategy or review mode for the unsupported claims. [eval 1604] [integrated from campaign-planning]",
+        "Blocks the guaranteed revenue claim. [eval 1604] [integrated from campaign-planning]",
+        "Blocks the world's-safest comparative claim. [eval 1604] [integrated from campaign-planning]",
+        "Blocks the every-Fortune-500 usage claim. [eval 1604] [integrated from campaign-planning]",
+        "Marks supporting sources unavailable. [eval 1604] [integrated from campaign-planning]",
+        "Marks claim approvals unavailable. [eval 1604] [integrated from campaign-planning]",
+        "Requires wording, source, scope, market, owner, and review date. [eval 1604] [integrated from campaign-planning]",
+        "Does not route unsupported claims into final copy. [eval 1604] [integrated from campaign-planning]"
+      ],
+      "files": []
+    },
+    {
+      "id": 1605,
+      "prompt": "Use every major channel: search ads, social ads, SEO, influencers, email, SMS, WhatsApp, WeChat, Xiaohongshu, Douyin, webinars, events, partners, and outbound sales. We have no audience, permissions, accounts, economics, capacity, or market evidence.",
+      "expected_output": "Selects strategy mode and rejects channel accumulation. It evaluates channels by customer access, role, format fit, economics, evidence time, control, scale, decay, dependency, permission, capacity, and market conditions, then keeps only bounded hypotheses with unresolved prerequisites.",
+      "assertions": [
+        "Selects strategy mode for the all-channel request. [eval 1605] [integrated from campaign-planning]",
+        "Rejects using every channel by default. [eval 1605] [integrated from campaign-planning]",
+        "Checks customer access and channel role. [eval 1605] [integrated from campaign-planning]",
+        "Checks format and product fit. [eval 1605] [integrated from campaign-planning]",
+        "Checks economics, evidence time, control, and capacity. [eval 1605] [integrated from campaign-planning]",
+        "Checks scale, decay, and platform dependency. [eval 1605] [integrated from campaign-planning]",
+        "Checks account access, permission, and market conditions. [eval 1605] [integrated from campaign-planning]",
+        "Keeps only bounded channel hypotheses. [eval 1605] [integrated from campaign-planning]",
+        "Does not infer availability of named China or international channels. [eval 1605] [integrated from campaign-planning]"
+      ],
+      "files": []
+    },
+    {
+      "id": 1606,
+      "prompt": "Send the same 14-day product-launch promotion to every customer and prospect every morning by email and SMS. Ignore lifecycle state, prior purchase, opt-out, suppression, fatigue, quiet hours, and service-message priority because this is a campaign.",
+      "expected_output": "Selects review mode and distinguishes the bounded launch campaign from ongoing lifecycle eligibility. It blocks universal repeated sends, requires identity, consent, suppression, completion, purchase, fatigue, frequency, collision, quiet-hour, and service-priority rules, and routes message creation to lifecycle-marketing.",
+      "assertions": [
+        "Selects review mode for the launch-promotion plan. [eval 1606] [integrated from campaign-planning]",
+        "Distinguishes campaign dates from lifecycle state. [eval 1606] [integrated from campaign-planning]",
+        "Blocks universal customer and prospect eligibility. [eval 1606] [integrated from campaign-planning]",
+        "Requires channel-specific consent and identity. [eval 1606] [integrated from campaign-planning]",
+        "Requires opt-out and suppression checks. [eval 1606] [integrated from campaign-planning]",
+        "Requires purchase and completion suppression. [eval 1606] [integrated from campaign-planning]",
+        "Requires fatigue, frequency, collision, and quiet-hour rules. [eval 1606] [integrated from campaign-planning]",
+        "Preserves service-message priority. [eval 1606] [integrated from campaign-planning]",
+        "Routes message creation to lifecycle-marketing. [eval 1606] [integrated from campaign-planning]"
+      ],
+      "files": []
+    },
+    {
+      "id": 1607,
+      "prompt": "The campaign generated 10 million impressions, 100,000 clicks, and 50,000 new followers. Activation, retention, qualified pipeline, revenue, contribution, complaints, and incrementality are unavailable. Declare it successful.",
+      "expected_output": "Selects review mode and reports impressions, clicks, and followers as immediate diagnostics only. It marks downstream outcomes and incrementality unavailable and does not declare success without the frozen qualified objective and guardrails.",
+      "assertions": [
+        "Selects review mode for the vanity-metric result. [eval 1607] [integrated from campaign-planning]",
+        "Reports 10 million impressions as an exposure diagnostic. [eval 1607] [integrated from campaign-planning]",
+        "Reports 100,000 clicks as a response diagnostic. [eval 1607] [integrated from campaign-planning]",
+        "Reports 50,000 followers as a platform diagnostic. [eval 1607] [integrated from campaign-planning]",
+        "Marks activation, retention, pipeline, revenue, and contribution unavailable. [eval 1607] [integrated from campaign-planning]",
+        "Marks complaints and incrementality unavailable. [eval 1607] [integrated from campaign-planning]",
+        "Does not substitute activity metrics for the campaign objective. [eval 1607] [integrated from campaign-planning]",
+        "Does not declare campaign success. [eval 1607] [integrated from campaign-planning]"
+      ],
+      "files": []
+    },
+    {
+      "id": 1608,
+      "prompt": "We have a $500,000 campaign budget. Allocate exact amounts across five channels. No eligible audience sizes, unit costs, conversion baselines, retained economics, saturation, operational capacity, or channel evidence is available.",
+      "expected_output": "Selects plan mode and treats $500,000 as a ceiling rather than a requirement to spend. It refuses exact allocation and returns low, base, and high scenario templates with explicit audience, cost, conversion, maturity, economics, capacity, saturation, and stop assumptions.",
+      "assertions": [
+        "Selects plan mode for the budget request. [eval 1608] [integrated from campaign-planning]",
+        "Treats 500,000 dollars as a budget constraint. [eval 1608] [integrated from campaign-planning]",
+        "Does not require spending the full amount. [eval 1608] [integrated from campaign-planning]",
+        "Does not invent exact channel allocations. [eval 1608] [integrated from campaign-planning]",
+        "Requires eligible audience and unit-cost evidence. [eval 1608] [integrated from campaign-planning]",
+        "Requires conversion and maturation assumptions. [eval 1608] [integrated from campaign-planning]",
+        "Requires retained economics and capacity assumptions. [eval 1608] [integrated from campaign-planning]",
+        "Requires saturation and stop rules. [eval 1608] [integrated from campaign-planning]",
+        "Provides explicit scenario templates instead of false precision. [eval 1608] [integrated from campaign-planning]"
+      ],
+      "files": []
+    },
+    {
+      "id": 1609,
+      "prompt": "Meta reports 800 conversions, Google reports 700, and our company had 1,000 total conversions. Add the platform numbers and report 1,500 incremental conversions from the campaign.",
+      "expected_output": "Selects review mode and separates platform attribution from company totals and incrementality. It identifies overlap or returning-demand possibilities, refuses to sum the platform counts as incremental growth, and requires identity reconciliation and a credible holdout, geo, time, or experiment design.",
+      "assertions": [
+        "Selects review mode for overlapping platform attribution. [eval 1609] [integrated from campaign-planning]",
+        "Preserves Meta's reported 800 conversions as a platform view. [eval 1609] [integrated from campaign-planning]",
+        "Preserves Google's reported 700 conversions as a platform view. [eval 1609] [integrated from campaign-planning]",
+        "Preserves 1,000 company conversions as a separate total. [eval 1609] [integrated from campaign-planning]",
+        "Identifies attribution overlap and returning-demand possibilities. [eval 1609] [integrated from campaign-planning]",
+        "Does not sum platform reports into 1,500 incremental conversions. [eval 1609] [integrated from campaign-planning]",
+        "Requires identity and event reconciliation. [eval 1609] [integrated from campaign-planning]",
+        "Routes causal contribution to a credible incrementality design. [eval 1609] [integrated from campaign-planning]"
+      ],
+      "files": []
+    },
+    {
+      "id": 1610,
+      "prompt": "Create tracking after launch. Teams currently use campaign names such as summer, Summer2026, cn-summer, promo-final, and final-v2 across ad platforms, analytics, CRM, and billing, with no shared IDs or definitions.",
+      "expected_output": "Selects plan or review mode and defines a prelaunch stable taxonomy for campaign, channel, source, medium, creative, audience, market, locale, offer, landing, experiment, and version IDs. It maps systems, owners, and reconciliation rules and does not treat inconsistent free-text names as a reliable join key.",
+      "assertions": [
+        "Selects plan or review mode for the campaign taxonomy problem. [eval 1610] [integrated from campaign-planning]",
+        "Identifies inconsistent free-text campaign naming. [eval 1610] [integrated from campaign-planning]",
+        "Defines a stable campaign ID before launch. [eval 1610] [integrated from campaign-planning]",
+        "Defines channel, source, medium, creative, and audience IDs. [eval 1610] [integrated from campaign-planning]",
+        "Defines market, locale, offer, landing, experiment, and version fields. [eval 1610] [integrated from campaign-planning]",
+        "Maps ad, analytics, CRM, and billing systems. [eval 1610] [integrated from campaign-planning]",
+        "Assigns taxonomy and reconciliation owners. [eval 1610] [integrated from campaign-planning]",
+        "Does not use inconsistent names as a reliable join key. [eval 1610] [integrated from campaign-planning]"
+      ],
+      "files": []
+    },
+    {
+      "id": 1611,
+      "prompt": "Our ad promises an automated result in five minutes, but the landing page describes manual consulting and asks visitors to book a sales call. Click-through is strong and activation is weak. Diagnose the campaign path.",
+      "expected_output": "Selects review mode and identifies promise, offer, and entry-path discontinuity as a supported mechanism candidate. It preserves audience and product-fit alternatives, checks the actual landing and downstream definitions, and does not optimize the ad click alone.",
+      "assertions": [
+        "Selects review mode for the campaign-path mismatch. [eval 1611] [integrated from campaign-planning]",
+        "Records the five-minute automation promise. [eval 1611] [integrated from campaign-planning]",
+        "Records the manual consulting and sales-call landing path. [eval 1611] [integrated from campaign-planning]",
+        "Identifies promise and entry-path discontinuity. [eval 1611] [integrated from campaign-planning]",
+        "Keeps audience and product-fit alternatives visible. [eval 1611] [integrated from campaign-planning]",
+        "Checks the actual landing and activation definitions. [eval 1611] [integrated from campaign-planning]",
+        "Does not optimize click-through in isolation. [eval 1611] [integrated from campaign-planning]",
+        "Connects remediation to qualified response and first value. [eval 1611] [integrated from campaign-planning]"
+      ],
+      "files": []
+    },
+    {
+      "id": 1612,
+      "prompt": "Build the campaign asset plan for two audiences, three channels, English and zh-CN. Also write every ad, email, landing page, sales message, image, and video now, although claim sources and approvals are incomplete.",
+      "expected_output": "Selects plan mode and produces an asset-requirement matrix with audience, market, locale, channel, role, format, claim, proof, CTA, source, owner, due date, accessibility, and approval. It does not draft or generate final assets and routes each production task to the appropriate capability after evidence and approvals.",
+      "assertions": [
+        "Selects plan mode for the multichannel asset request. [eval 1612] [integrated from campaign-planning]",
+        "Creates asset rows by audience, channel, market, and locale. [eval 1612] [integrated from campaign-planning]",
+        "Includes journey role, format, claim, proof, CTA, and source. [eval 1612] [integrated from campaign-planning]",
+        "Includes owner, due date, accessibility, and approval. [eval 1612] [integrated from campaign-planning]",
+        "Marks incomplete claim sources and approvals unresolved. [eval 1612] [integrated from campaign-planning]",
+        "Does not draft ads, emails, landing pages, or sales messages. [eval 1612] [integrated from campaign-planning]",
+        "Does not generate image or video assets. [eval 1612] [integrated from campaign-planning]",
+        "Routes copy, lifecycle, sales, design, and video production appropriately. [eval 1612] [integrated from campaign-planning]"
+      ],
+      "files": []
+    },
+    {
+      "id": 1613,
+      "prompt": "The campaign launches Monday. Strategy, claims, landing page, tracking, audience, creative, localization, legal review, account access, support briefing, and rollback are all due Monday morning. Produce the calendar and say it is ready.",
+      "expected_output": "Selects plan or review mode and identifies an impossible dependency sequence. It builds a dependency-aware calendar with freezes, production, reviews, QA, account readiness, support, launch approval, monitoring, and rollback before exposure, and does not mark the campaign ready.",
+      "assertions": [
+        "Selects plan or review mode for the compressed launch. [eval 1613] [integrated from campaign-planning]",
+        "Identifies same-morning dependencies as an invalid sequence. [eval 1613] [integrated from campaign-planning]",
+        "Places strategy and claim freeze before production. [eval 1613] [integrated from campaign-planning]",
+        "Places landing, tracking, audience, and creative QA before launch. [eval 1613] [integrated from campaign-planning]",
+        "Places localization and legal review before final approval. [eval 1613] [integrated from campaign-planning]",
+        "Requires account readiness and support briefing before exposure. [eval 1613] [integrated from campaign-planning]",
+        "Requires monitoring, stop, and rollback readiness. [eval 1613] [integrated from campaign-planning]",
+        "Does not mark the Monday campaign ready. [eval 1613] [integrated from campaign-planning]"
+      ],
+      "files": []
+    },
+    {
+      "id": 1614,
+      "prompt": "The owner approved the campaign concept. Treat that as approval for brand, legal, privacy, platform policy, pricing, audience upload, email consent, landing deployment, and media spend.",
+      "expected_output": "Selects review mode and separates campaign-owner approval from each required operational approval. It records every approval state independently and does not infer authorization for claims, data use, publication, deployment, messaging, pricing, or spend.",
+      "assertions": [
+        "Selects review mode for the approval request. [eval 1614] [integrated from campaign-planning]",
+        "Records campaign-owner concept approval. [eval 1614] [integrated from campaign-planning]",
+        "Keeps brand, legal, privacy, and platform approvals separate. [eval 1614] [integrated from campaign-planning]",
+        "Keeps pricing and offer approval separate. [eval 1614] [integrated from campaign-planning]",
+        "Keeps audience-upload and email-consent approval separate. [eval 1614] [integrated from campaign-planning]",
+        "Keeps landing deployment and media-spend approval separate. [eval 1614] [integrated from campaign-planning]",
+        "Does not infer operational authorization from concept approval. [eval 1614] [integrated from campaign-planning]",
+        "Produces an approval matrix with owners and status. [eval 1614] [integrated from campaign-planning]"
+      ],
+      "files": []
+    },
+    {
+      "id": 1615,
+      "prompt": "Paid campaign response fell while audience frequency rose from 2 to 11 and the same creative has run for eight weeks. Keep increasing spend because historical average CAC is still acceptable.",
+      "expected_output": "Selects review mode and diagnoses saturation, fatigue, and marginal-performance risk rather than relying on historical average CAC. It requires marginal cost and downstream quality by spend band, audience, frequency, asset, and cohort, and applies a cap, refresh, or stop rule before scaling.",
+      "assertions": [
+        "Selects review mode for the deteriorating paid campaign. [eval 1615] [integrated from campaign-planning]",
+        "Reports frequency rising from 2 to 11. [eval 1615] [integrated from campaign-planning]",
+        "Records eight weeks of unchanged creative. [eval 1615] [integrated from campaign-planning]",
+        "Identifies audience saturation and creative-fatigue risk. [eval 1615] [integrated from campaign-planning]",
+        "Rejects historical average CAC as sufficient scaling evidence. [eval 1615] [integrated from campaign-planning]",
+        "Requires marginal performance by spend band and audience. [eval 1615] [integrated from campaign-planning]",
+        "Requires downstream quality by asset and cohort. [eval 1615] [integrated from campaign-planning]",
+        "Applies a cap, refresh, or stop rule before scaling. [eval 1615] [integrated from campaign-planning]"
+      ],
+      "files": []
+    },
+    {
+      "id": 1616,
+      "prompt": "Launch a new enterprise feature publicly to every market and customer on day one. The feature was designed for regulated US financial teams, and evidence for other segments, roles, markets, product readiness, support, and retained value is unavailable.",
+      "expected_output": "Selects strategy or plan mode and rejects universal day-one exposure. It scopes the initial launch to the tested audience and conditions, defines access, proof, guardrails, support, first-value and retained-value checks, and sets evidence-based expansion decisions for later audience layers.",
+      "assertions": [
+        "Selects strategy or plan mode for the feature launch. [eval 1616] [integrated from campaign-planning]",
+        "Records regulated US financial teams as the designed audience. [eval 1616] [integrated from campaign-planning]",
+        "Marks transfer evidence for other segments and markets unavailable. [eval 1616] [integrated from campaign-planning]",
+        "Rejects universal day-one exposure. [eval 1616] [integrated from campaign-planning]",
+        "Scopes initial access to the tested audience and conditions. [eval 1616] [integrated from campaign-planning]",
+        "Defines proof, support, trust, and product-readiness guardrails. [eval 1616] [integrated from campaign-planning]",
+        "Defines first-value and retained-value checks. [eval 1616] [integrated from campaign-planning]",
+        "Defines evidence-based expansion decisions. [eval 1616] [integrated from campaign-planning]"
+      ],
+      "files": []
+    },
+    {
+      "id": 1617,
+      "prompt": "Adapt a US campaign for China by translating it to zh-CN and automatically using WeChat, Xiaohongshu, Douyin, Baidu, local app stores, and WeChat Pay. No local demand, alternatives, terminology, accounts, permissions, product readiness, payments, or content review is available.",
+      "expected_output": "Selects strategy mode and rejects translation-only adaptation and automatic channel assumptions. It records China and zh-CN independently, marks local demand, alternatives, terminology, channels, accounts, permissions, product, payment, and review conditions unavailable, and returns a market-validation plan.",
+      "assertions": [
+        "Selects strategy mode for the China campaign adaptation. [eval 1617] [integrated from campaign-planning]",
+        "Records China as the market. [eval 1617] [integrated from campaign-planning]",
+        "Records zh-CN as the locale. [eval 1617] [integrated from campaign-planning]",
+        "Rejects translation as complete market adaptation. [eval 1617] [integrated from campaign-planning]",
+        "Does not infer WeChat, Xiaohongshu, Douyin, Baidu, or app-store availability. [eval 1617] [integrated from campaign-planning]",
+        "Does not infer account access or publishing permission. [eval 1617] [integrated from campaign-planning]",
+        "Does not infer WeChat Pay or product readiness. [eval 1617] [integrated from campaign-planning]",
+        "Marks local demand, alternatives, terminology, and content review unavailable. [eval 1617] [integrated from campaign-planning]",
+        "Produces a market-validation plan before campaign execution. [eval 1617] [integrated from campaign-planning]"
+      ],
+      "files": []
+    },
+    {
+      "id": 1618,
+      "prompt": "A campaign launched three days ago. Qualified arrivals are up 20%, but the primary outcomes are day-30 activation quality and day-90 retained contribution. Declare final success and double the budget.",
+      "expected_output": "Selects review mode and treats the 20% arrival increase as an immediate diagnostic. It marks day-30 and day-90 outcomes immature, does not declare final success or double budget, and preserves the maturation, stop, and staged-allocation rules.",
+      "assertions": [
+        "Selects review mode for the three-day campaign result. [eval 1618] [integrated from campaign-planning]",
+        "Reports qualified arrivals increasing by 20 percent as an immediate diagnostic. [eval 1618] [integrated from campaign-planning]",
+        "Marks day-30 activation quality immature. [eval 1618] [integrated from campaign-planning]",
+        "Marks day-90 retained contribution immature. [eval 1618] [integrated from campaign-planning]",
+        "Does not declare final campaign success. [eval 1618] [integrated from campaign-planning]",
+        "Does not double the budget from early arrivals. [eval 1618] [integrated from campaign-planning]",
+        "Preserves the downstream maturation window. [eval 1618] [integrated from campaign-planning]",
+        "Applies staged allocation and stop rules. [eval 1618] [integrated from campaign-planning]"
+      ],
+      "files": []
+    },
+    {
+      "id": 1619,
+      "prompt": "Upload a customer list containing names, emails, phone numbers, purchase history, health attributes, and support messages to every ad platform for targeting. Existing customer status is the only permission record; suppression and sensitive-data reviews are unavailable.",
+      "expected_output": "Applies privacy and permission gates and refuses the audience upload plan. It does not treat customer status as universal targeting consent, excludes unnecessary identifiers, sensitive attributes, and private messages, and requires channel-specific permission, suppression, upload rights, minimization, and review.",
+      "assertions": [
+        "Applies privacy and permission gates to the audience plan. [eval 1619] [integrated from campaign-planning]",
+        "Does not treat customer status as universal targeting consent. [eval 1619] [integrated from campaign-planning]",
+        "Requires channel-specific audience-upload rights. [eval 1619] [integrated from campaign-planning]",
+        "Requires suppression and sensitive-data review. [eval 1619] [integrated from campaign-planning]",
+        "Excludes unnecessary names, emails, and phone numbers. [eval 1619] [integrated from campaign-planning]",
+        "Excludes health attributes and private support messages. [eval 1619] [integrated from campaign-planning]",
+        "Applies data minimization to purchase history. [eval 1619] [integrated from campaign-planning]",
+        "Refuses the proposed uploads without separate authorization. [eval 1619] [integrated from campaign-planning]"
+      ],
+      "files": []
+    },
+    {
+      "id": 1620,
+      "prompt": "Create the campaigns in our ad and social accounts, upload audiences, raise budgets, change bids, publish all assets, send emails and SMS, contact prospects, issue the promotion, modify landing pages, deploy tracking, and launch today. No credentials or execution approvals are supplied.",
+      "expected_output": "Keeps acquisition-strategy work local-only and may produce the brief, channel and asset matrices, budget scenarios, taxonomy, calendar, QA, approval, launch, stop, and handoff artifacts. It refuses every account, audience, spend, publishing, messaging, promotion, web, tracking, or launch action without separate authorization.",
+      "assertions": [
+        "Keeps acquisition-strategy work local-only. [eval 1620] [integrated from campaign-planning]",
+        "May produce campaign, channel, asset, budget, taxonomy, calendar, and QA artifacts. [eval 1620] [integrated from campaign-planning]",
+        "Records credentials and execution approvals as unresolved. [eval 1620] [integrated from campaign-planning]",
+        "Refuses unauthorized ad and social account actions. [eval 1620] [integrated from campaign-planning]",
+        "Refuses unauthorized audience uploads, budget, and bid changes. [eval 1620] [integrated from campaign-planning]",
+        "Refuses unauthorized publication, email, SMS, and prospect contact. [eval 1620] [integrated from campaign-planning]",
+        "Refuses unauthorized promotion and landing-page changes. [eval 1620] [integrated from campaign-planning]",
+        "Refuses unauthorized tracking deployment and campaign launch. [eval 1620] [integrated from campaign-planning]"
       ],
       "files": []
     }

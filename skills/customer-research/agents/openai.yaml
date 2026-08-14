@@ -1,4 +1,4 @@
 interface:
-  display_name: "Customer Research"
-  short_description: "Plan and synthesize decision-ready customer research"
-  default_prompt: "Use $customer-research to plan or synthesize responsible customer research for a named decision."
+  display_name: "Customer Research & Surveys"
+  short_description: "Integrated Customer Research & Surveys workflows"
+  default_prompt: "Use $customer-research to handle this customer research & surveys request as one evidence-backed workflow."

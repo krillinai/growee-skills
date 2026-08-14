@@ -1,4 +1,0 @@
-interface:
-  display_name: "Growth Anomaly Investigation"
-  short_description: "Investigate unexpected growth metric changes"
-  default_prompt: "Use $growth-anomaly-investigation to determine whether this metric change is real, decompose it, and identify the next decision-changing evidence."

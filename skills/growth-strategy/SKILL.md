@@ -1,9 +1,15 @@
 ---
 name: growth-strategy
-description: Use when leadership needs to audit, design, or refresh 6-18 month company, product, business-unit, market, segment, or portfolio growth choices; decide where and for whom to grow; align value, growth mechanisms, economics, capabilities, sequencing, investment, exclusions, scenarios, and review triggers; or distinguish strategy from goals, diagnosis, models, roadmaps, tactics, and organization design.
+description: Use when work needs to make evidence-bounded growth and market-entry choices across customers, markets, mechanisms, capabilities, sequencing, pilots, and stop rules.
 ---
 
-# Growth Strategy
+# Growth & Market Strategy
+
+## Integrated Capabilities
+
+This Skill consolidates adjacent workflows behind one trigger. Use the main workflow for core requests. When a request matches a module below, read that module before executing it:
+
+- [Market Entry Strategy](references/modules/market-entry-strategy/SKILL.md)
 
 Turn a bounded growth ambition into a coherent set of evidence-bounded choices, sacrifices, portfolio commitments, and review rules. Strategy decides where and for whom to grow, through which value and mechanisms, with what economics and capabilities, in what sequence, and what not to pursue. It does not manufacture certainty, authorize execution, or replace diagnosis, modeling, forecasting, or specialist design.
 
@@ -93,16 +99,17 @@ Use `refresh` when a durable assumption or choice may have changed. Preserve unc
 | Current constraint and 30-day plan | `growth-diagnosis` |
 | Stocks, flows, mechanism equations, and scenario math | `growth-model-design` |
 | Repeatable product-market unit, motion, routes, pilot, and scale gates | `go-to-market-strategy` |
-| Market estimates and new-market readiness | `market-sizing`, `market-entry-strategy` |
-| Customer evidence, segments, and value framing | `customer-research`, `icp-segmentation`, `positioning` |
+| Market estimates and new-market readiness | `market-sizing`, `growth-strategy` |
+| Customer evidence, segments, and value framing | `customer-research`, `positioning` |
 | Product-Market Fit | `product-market-fit-assessment` |
-| Acquisition, lifecycle, loops, and networks | `acquisition-strategy`, `activation`, `retention`, `customer-expansion-strategy`, `growth-loop-design`, `network-effects-strategy` |
-| Monetization, pricing, and economics | `monetization`, `pricing-and-packaging-strategy`, `unit-economics-analysis`, `ltv-analysis` |
-| Metrics, data quality, experiments, and forecasts | `growth-metrics-design`, `tracking-plan`, `growth-data-quality-audit`, `experiment-design`, `experiment-program-management`, `growth-forecasting` |
+| Acquisition, lifecycle, loops, and networks | `acquisition-strategy`, `activation`, `retention`, `customer-expansion-strategy`, `growth-loop-design` |
+| Monetization, pricing, and economics | `monetization` |
+| Metrics, data quality, experiments, and forecasts | `growth-metrics-design`, `tracking-plan`, `experiment-design`, `experiment-program-management`, `growth-forecasting` |
 | Annual, quarterly, or rolling integrated planning | `growth-planning-cycle` |
-| One opportunity, investment case, shared allocation, or selected 30-90 day initiative | `growth-opportunity-sizing`, `growth-investment-case`, `growth-budget-allocation`, `growth-initiative-planning` |
-| Recurring review, one canonical decision, cross-initiative risks, reusable learning, or one completed-work retrospective | `growth-operating-review`, `growth-decision-record`, `growth-risk-management`, `growth-learning-system`, `growth-postmortem` |
-| Adoption and legacy retirement for an authorized strategic change | `growth-change-management` |
+| One opportunity, investment case, shared allocation, or selected 30-90 day initiative | `growth-model-design`, `growth-planning-cycle` |
+| Recurring review, one canonical decision, or cross-initiative risks | `growth-operating-review` |
+| Reusable learning or one completed-work retrospective | `growth-learning-system` |
+| Adoption and legacy retirement for an authorized strategic change | `growth-learning-system` |
 | Infrastructure and organization | `growth-infrastructure-assessment`, `growth-organization-design` |
 
 A handoff defines the input, owner, decision, expected artifact, dependency, and permission boundary. It does not imply execution.

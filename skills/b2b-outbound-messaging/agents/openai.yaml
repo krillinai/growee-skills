@@ -1,4 +1,0 @@
-interface:
-  display_name: "B2B Outbound Messaging"
-  short_description: "Draft permission-aware one-to-one B2B outreach"
-  default_prompt: "Use $b2b-outbound-messaging to draft evidence-based one-to-one outreach within a resolved permission and stop-state boundary."

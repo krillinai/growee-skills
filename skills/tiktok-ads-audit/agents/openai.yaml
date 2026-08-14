@@ -1,4 +1,0 @@
-interface:
-  display_name: "TikTok Ads Audit"
-  short_description: "Audit TikTok Ads evidence without live account access"
-  default_prompt: "Use $tiktok-ads-audit to audit these international TikTok Ads exports and identify evidence-bounded next steps."

@@ -1,4 +1,4 @@
 interface:
-  display_name: "Content Strategy"
-  short_description: "Build evidence-led content and distribution systems"
-  default_prompt: "Use $content-strategy to design a decision-ready content system for this audience and objective."
+  display_name: "Content Strategy & Customer Proof"
+  short_description: "Integrated Content Strategy & Customer Proof workflows"
+  default_prompt: "Use $content-strategy to handle this content strategy & customer proof request as one evidence-backed workflow."

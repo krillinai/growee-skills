@@ -57,4 +57,4 @@ Do not rank from contract value, attach, opportunity count, product usage, selle
 
 ## Scope Boundaries
 
-Customer expansion stays inside an existing relationship. Route new-country or new-market entry to `market-entry-strategy`; local marketplace or network replication to `network-effects-strategy`; product-market fit in a new segment to `product-market-fit-assessment`; and company-wide product portfolio positioning to `positioning`.
+Customer expansion stays inside an existing relationship. Route new-country or new-market entry to `growth-strategy`; local marketplace or network replication to `growth-loop-design`; product-market fit in a new segment to `product-market-fit-assessment`; and company-wide product portfolio positioning to `positioning`.

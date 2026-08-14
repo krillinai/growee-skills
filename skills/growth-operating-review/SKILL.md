@@ -1,9 +1,16 @@
 ---
 name: growth-operating-review
-description: Use when a team needs to build, run, audit, or refresh a weekly, monthly, or quarterly growth operating review; reconcile customer value, lifecycle, acquisition, growth accounting, revenue, economics, forecasts, anomalies, experiments, initiatives, capacity, risks, commitments, and prior decisions; or replace status reporting and dashboard recitals with a versioned, evidence-bounded decision forum.
+description: Use when work needs to run growth reviews and govern decisions and risks through reconciled evidence, alternatives, authority, commitments, monitoring, and escalation.
 ---
 
-# Growth Operating Review
+# Growth Reviews, Decisions & Risk
+
+## Integrated Capabilities
+
+This Skill consolidates adjacent workflows behind one trigger. Use the main workflow for core requests. When a request matches a module below, read that module before executing it:
+
+- [Growth Decision Record](references/modules/growth-decision-record/SKILL.md)
+- [Growth Risk Management](references/modules/growth-risk-management/SKILL.md)
 
 Turn a recurring growth meeting into a versioned decision system. Focus on material changes, constraints, customer and business outcomes, assumptions, risks, and commitments rather than exhaustive metrics or activity. A review compares evidence with prior expectations and decisions; it does not manufacture causality, rewrite history, or authorize execution.
 
@@ -24,13 +31,13 @@ Route each follow-up to the smallest specialist artifact that can resolve it:
 | Follow-up need | Route |
 | --- | --- |
 | Current primary constraint and 30-day plan | `growth-diagnosis` |
-| Unexpected metric movement or decision-critical cross-source data defects | `growth-anomaly-investigation`, `growth-data-quality-audit` |
+| Unexpected metric movement or decision-critical cross-source data defects | `growth-diagnosis`, `tracking-plan` |
 | Metric contract, instrumentation, projection, or one causal test | `growth-metrics-design`, `tracking-plan`, `growth-forecasting`, `experiment-design` |
 | Cross-team experiment portfolio, capacity, quality, and learning governance | `experiment-program-management` |
 | Material strategic choice or annual, quarterly, or rolling integrated plan | `growth-strategy`, `growth-planning-cycle` |
-| One investment case, shared budget allocation, or one selected initiative plan | `growth-investment-case`, `growth-budget-allocation`, `growth-initiative-planning` |
-| One canonical decision, a cross-initiative risk portfolio, or reusable cross-source learning | `growth-decision-record`, `growth-risk-management`, `growth-learning-system` |
-| Adoption and legacy retirement for an authorized change, or one completed-work retrospective | `growth-change-management`, `growth-postmortem` |
+| One investment case, shared budget allocation, or one selected initiative plan | `growth-planning-cycle` |
+| One canonical decision or a cross-initiative risk portfolio | `growth-operating-review` |
+| Reusable cross-source learning, authorized change adoption, legacy retirement, or a completed-work retrospective | `growth-learning-system` |
 
 The review records decisions and reconciles returned evidence; it does not recreate specialist analysis or imply execution.
 
@@ -71,7 +78,7 @@ Do not count the same customer or value at multiple lifecycle stages. Do not add
 
 ## Investigate Material Change Without Causal Leaps
 
-For a material change, state observation, expected range or comparator, affected scope, customer and business effect, data-quality state, candidate mechanisms, supporting and contradictory evidence, decision urgency, owner, and next evidence. Route a detailed incident or unexpected movement to `growth-anomaly-investigation`.
+For a material change, state observation, expected range or comparator, affected scope, customer and business effect, data-quality state, candidate mechanisms, supporting and contradictory evidence, decision urgency, owner, and next evidence. Route a detailed incident or unexpected movement to `growth-diagnosis`.
 
 Do not declare a crisis, root cause, or remedy from one aggregate chart. Correlation, sequence, attribution, and stakeholder belief do not establish causality. Proposed rollback, budget, price, product, or operational changes require separate authorization and controls.
 

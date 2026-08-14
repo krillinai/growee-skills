@@ -1,4 +1,0 @@
-interface:
-  display_name: "Incentive System Design"
-  short_description: "Design incentives around retained incremental value"
-  default_prompt: "Use $incentive-system-design to audit this incentive and create a bounded economics, risk, and taper plan."

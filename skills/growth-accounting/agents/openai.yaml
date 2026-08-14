@@ -1,4 +1,0 @@
-interface:
-  display_name: "Growth Accounting"
-  short_description: "Reconcile customer and recurring-value movements"
-  default_prompt: "Use $growth-accounting to reconcile this period-to-period growth bridge and diagnose its movement quality."

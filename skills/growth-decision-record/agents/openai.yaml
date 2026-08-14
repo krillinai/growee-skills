@@ -1,4 +1,0 @@
-interface:
-  display_name: "Growth Decision Record"
-  short_description: "Build a durable, versioned growth decision record"
-  default_prompt: "Use $growth-decision-record to build, audit, or refresh one traceable growth decision without implying execution."

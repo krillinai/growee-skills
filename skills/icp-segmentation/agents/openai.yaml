@@ -1,4 +1,0 @@
-interface:
-  display_name: "ICP Segmentation"
-  short_description: "Design evidence-bounded customer segments and ICPs"
-  default_prompt: "Use $icp-segmentation to define and validate decision-changing customer segments and an ICP."

@@ -1,4 +1,4 @@
 interface:
-  display_name: "Activation"
-  short_description: "Define and diagnose meaningful first value"
-  default_prompt: "Use $activation to define, analyze, or improve first value with explicit evidence, eligibility, maturity, and downstream validation."
+  display_name: "Activation & Conversion"
+  short_description: "Integrated Activation & Conversion workflows"
+  default_prompt: "Use $activation to handle this activation & conversion request as one evidence-backed workflow."

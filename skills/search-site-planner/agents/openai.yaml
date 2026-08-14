@@ -1,4 +1,0 @@
-interface:
-  display_name: "Search Site Planner"
-  short_description: "Plan site structure, URLs, links, and migrations"
-  default_prompt: "Use $search-site-planner to plan or review a bounded site hierarchy, URL map, internal links, or migration mapping."

@@ -1,0 +1,214 @@
+{
+  "schema_version": "1.0",
+  "groups": [
+    {
+      "target": "growth-diagnosis",
+      "name_en": "Growth Diagnosis",
+      "name_zh": "增长诊断",
+      "description_en": "Diagnose primary constraints through funnel, anomaly, and maturity analysis, then route an evidence-backed 30-day plan",
+      "description_zh": "通过漏斗、异常与成熟度分析诊断首要约束，并制定有证据支撑的 30 天执行路径",
+      "absorbed": ["funnel-analysis", "growth-anomaly-investigation", "growth-maturity-assessment"]
+    },
+    {
+      "target": "customer-research",
+      "name_en": "Customer Research & Surveys",
+      "name_zh": "客户研究与调查",
+      "description_en": "Plan and synthesize customer research and decision-linked surveys with explicit sampling, evidence, consent, uncertainty, and interpretation boundaries",
+      "description_zh": "规划并综合客户研究和决策型调查，明确抽样、证据、同意、不确定性与解释边界",
+      "absorbed": ["survey-design-and-analysis"]
+    },
+    {
+      "target": "market-sizing",
+      "name_en": "Market Intelligence & Sizing",
+      "name_zh": "市场情报与规模测算",
+      "description_en": "Research alternatives and size markets with attributable competitive evidence, compatible market units, scenarios, and uncertainty",
+      "description_zh": "使用可归因的竞争证据、兼容的市场单元、情景与不确定性研究替代方案并测算市场规模",
+      "absorbed": ["competitive-intelligence"]
+    },
+    {
+      "target": "positioning",
+      "name_en": "ICP & Positioning",
+      "name_zh": "ICP 与市场定位",
+      "description_en": "Define evidence-backed ICPs, segments, positioning, exclusions, category choices, messages, and validation plans",
+      "description_zh": "定义有证据支撑的 ICP、客户分群、定位、排除条件、品类选择、信息与验证计划",
+      "absorbed": ["icp-segmentation"]
+    },
+    {
+      "target": "product-market-fit-assessment",
+      "name_en": "Product-Market Fit & Journey",
+      "name_zh": "产品市场匹配与客户旅程",
+      "description_en": "Assess product-market fit and customer journeys across problem, first and repeated value, path friction, service dependencies, and evidence boundaries",
+      "description_zh": "围绕问题、首次与重复价值、路径摩擦、服务依赖和证据边界评估产品市场匹配与客户旅程",
+      "absorbed": ["customer-journey-analysis"]
+    },
+    {
+      "target": "growth-model-design",
+      "name_en": "Growth Model & Opportunity",
+      "name_zh": "增长模型与机会测算",
+      "description_en": "Design growth models and size opportunities across lifecycle behavior, economics, reach, capacity, overlap, scenarios, and risk",
+      "description_zh": "围绕生命周期行为、经济性、触达、承载能力、重叠、情景与风险设计增长模型并测算机会",
+      "absorbed": ["growth-opportunity-sizing"]
+    },
+    {
+      "target": "growth-strategy",
+      "name_en": "Growth & Market Strategy",
+      "name_zh": "增长与市场策略",
+      "description_en": "Make evidence-bounded growth and market-entry choices across customers, markets, mechanisms, capabilities, sequencing, pilots, and stop rules",
+      "description_zh": "围绕客户、市场、机制、能力、排序、试点与停止规则制定证据边界清晰的增长和市场进入策略",
+      "absorbed": ["market-entry-strategy"]
+    },
+    {
+      "target": "go-to-market-strategy",
+      "name_en": "Go-to-Market & Launch",
+      "name_zh": "市场进入与产品发布",
+      "description_en": "Design and govern go-to-market systems and product launches across audience, offer, motion, readiness, exposure, value, measurement, and scale gates",
+      "description_zh": "围绕受众、产品方案、路径、准备度、曝光、价值、测量与扩量门槛设计并治理市场进入和产品发布",
+      "absorbed": ["product-launch-strategy"]
+    },
+    {
+      "target": "content-strategy",
+      "name_en": "Content Strategy & Customer Proof",
+      "name_zh": "内容策略与客户证据",
+      "description_en": "Build content portfolios and permissioned customer proof across questions, claims, formats, channels, workflows, reuse, measurement, and governance",
+      "description_zh": "围绕问题、声明、格式、渠道、工作流、复用、测量与治理构建内容组合和已获授权的客户证据",
+      "absorbed": ["customer-proof-development"]
+    },
+    {
+      "target": "copywriting",
+      "name_en": "Copywriting & Editing",
+      "name_zh": "文案创作与编辑",
+      "description_en": "Write and edit evidence-led copy for pages, campaigns, products, offers, and localization while preserving factual meaning and recording material edits",
+      "description_zh": "为页面、营销活动、产品、优惠与本地化创作和编辑证据驱动的文案，同时保留事实含义并记录重要修改",
+      "absorbed": ["copy-editing"]
+    },
+    {
+      "target": "acquisition-strategy",
+      "name_en": "Acquisition Strategy & Campaigns",
+      "name_zh": "获客策略与营销活动",
+      "description_en": "Design acquisition portfolios and bounded campaigns across audience, offer, channels, journeys, assets, economics, measurement, and operating constraints",
+      "description_zh": "围绕受众、产品方案、渠道、旅程、资产、经济性、测量与运营约束设计获客组合和边界明确的营销活动",
+      "absorbed": ["campaign-planning"]
+    },
+    {
+      "target": "partnership-marketing",
+      "name_en": "Partnerships & Community",
+      "name_zh": "合作伙伴与社区增长",
+      "description_en": "Design accountable partnerships and communities around shared customer value, roles, contribution, trust, operations, economics, and product paths",
+      "description_zh": "围绕共同客户价值、角色、贡献、信任、运营、经济性与产品路径设计可问责的合作伙伴和社区体系",
+      "absorbed": ["community-growth-strategy"]
+    },
+    {
+      "target": "sales-enablement",
+      "name_en": "Sales Enablement & Outbound",
+      "name_zh": "销售赋能与外联",
+      "description_en": "Build evidence-led sales enablement and permitted B2B outbound messaging across buying situations, claims, proof, sequences, localization, and stop states",
+      "description_zh": "围绕购买情境、声明、证据、沟通序列、本地化与停止状态构建证据驱动的销售赋能和许可型 B2B 外联",
+      "absorbed": ["b2b-outbound-messaging"]
+    },
+    {
+      "target": "paid-media-audit",
+      "renamed_from": "google-ads-audit",
+      "name_en": "Paid Media Audit",
+      "name_zh": "付费媒体诊断",
+      "description_en": "Audit supplied Google, Meta, TikTok, and Douyin advertising evidence without live account access or external changes",
+      "description_zh": "在不访问实时账户或执行外部更改的前提下，诊断用户提供的 Google、Meta、TikTok 与抖音广告证据",
+      "absorbed": ["meta-ads-audit", "tiktok-ads-audit", "douyin-ads-audit"]
+    },
+    {
+      "target": "seo-audit",
+      "name_en": "SEO & Search Systems",
+      "name_zh": "SEO 与搜索系统",
+      "description_en": "Audit and design SEO, programmatic pages, site architecture, structured data, and directory presence with evidence-backed quality and rollout controls",
+      "description_zh": "以有证据支撑的质量与发布控制诊断和设计 SEO、程序化页面、站点架构、结构化数据与目录展示",
+      "absorbed": ["programmatic-seo", "structured-data-builder", "search-site-planner", "directory-submissions"]
+    },
+    {
+      "target": "activation",
+      "name_en": "Activation & Conversion",
+      "name_zh": "激活与转化",
+      "description_en": "Define first value and improve activation across onboarding, landing pages, popups, friction, accessibility, measurement, and experiments",
+      "description_zh": "定义首次价值，并围绕新手引导、落地页、弹窗、摩擦、无障碍、测量与实验改进激活",
+      "absorbed": ["landing-page-audit", "popup-optimization"]
+    },
+    {
+      "target": "retention",
+      "name_en": "Retention & Customer Health",
+      "name_zh": "留存与客户健康",
+      "description_en": "Analyze and improve retention through cohorts, growth accounting, engagement, recurring value, churn, resurrection, and customer health",
+      "description_zh": "通过同期群、增长核算、参与度、重复价值、流失、复活与客户健康分析并改进留存",
+      "absorbed": ["cohort-analysis", "growth-accounting", "engagement-analysis", "customer-health-modeling"]
+    },
+    {
+      "target": "monetization",
+      "name_en": "Monetization & Economics",
+      "name_zh": "变现与单位经济",
+      "description_en": "Design and audit monetization across offers, pricing, packaging, LTV, CAC, unit economics, payback, migration, and customer protection",
+      "description_zh": "围绕产品方案、定价、套餐、LTV、CAC、单位经济、回收期、迁移与客户保护设计并诊断变现",
+      "absorbed": ["pricing-and-packaging-strategy", "ltv-analysis", "unit-economics-analysis"]
+    },
+    {
+      "target": "growth-loop-design",
+      "name_en": "Growth Loops & Network Effects",
+      "name_zh": "增长循环与网络效应",
+      "description_en": "Design and audit referrals, incentives, growth loops, marketplaces, and network effects through participant value, closure, economics, trust, and governance",
+      "description_zh": "围绕参与者价值、闭环、经济性、信任与治理设计并诊断推荐、激励、增长循环、多边市场与网络效应",
+      "absorbed": ["referral-program-design", "incentive-system-design", "marketplace-growth-strategy", "network-effects-strategy"]
+    },
+    {
+      "target": "growth-metrics-design",
+      "name_en": "Growth Metrics, Targets & Benchmarks",
+      "name_zh": "增长指标、目标与基准",
+      "description_en": "Design growth metrics, targets, and benchmarks with reproducible contracts, compatible baselines, uncertainty, ownership, and review rules",
+      "description_zh": "以可复现契约、兼容基线、不确定性、归属与复盘规则设计增长指标、目标和基准",
+      "absorbed": ["growth-target-setting", "growth-benchmark-analysis"]
+    },
+    {
+      "target": "tracking-plan",
+      "name_en": "Tracking & Data Quality",
+      "name_zh": "数据追踪与质量",
+      "description_en": "Design tracking plans and audit data quality across events, identity, consent, lineage, reconciliation, monitoring, releases, and deprecation",
+      "description_zh": "围绕事件、身份、同意、血缘、对账、监控、发布与退场设计追踪方案并诊断数据质量",
+      "absorbed": ["growth-data-quality-audit"]
+    },
+    {
+      "target": "attribution-analysis",
+      "name_en": "Attribution & Marketing Mix",
+      "name_zh": "归因与营销组合",
+      "description_en": "Audit attribution and marketing mix models across journeys, media, identity, outcomes, reconciliation, incrementality, calibration, and uncertainty",
+      "description_zh": "围绕旅程、媒体、身份、结果、对账、增量性、校准与不确定性诊断归因和营销组合模型",
+      "absorbed": ["marketing-mix-modeling"]
+    },
+    {
+      "target": "growth-planning-cycle",
+      "name_en": "Growth Planning & Allocation",
+      "name_zh": "增长规划与资源配置",
+      "description_en": "Build integrated growth plans across strategy, capacity, investments, budgets, initiatives, dependencies, scenarios, approvals, and review cadence",
+      "description_zh": "围绕策略、承载能力、投资、预算、项目、依赖、情景、审批与复盘节奏构建一体化增长计划",
+      "absorbed": ["growth-capacity-planning", "growth-investment-case", "growth-budget-allocation", "growth-initiative-planning"]
+    },
+    {
+      "target": "growth-operating-review",
+      "name_en": "Growth Reviews, Decisions & Risk",
+      "name_zh": "增长复盘、决策与风险",
+      "description_en": "Run growth reviews and govern decisions and risks through reconciled evidence, alternatives, authority, commitments, monitoring, and escalation",
+      "description_zh": "通过已对账证据、备选方案、权限、承诺、监控与升级机制运营增长复盘并治理决策和风险",
+      "absorbed": ["growth-decision-record", "growth-risk-management"]
+    },
+    {
+      "target": "growth-learning-system",
+      "name_en": "Growth Learning & Change",
+      "name_zh": "增长学习与变更",
+      "description_en": "Build growth learning, postmortems, and change systems with source lineage, causal boundaries, adoption, correction, follow-through, and retirement",
+      "description_zh": "以来源谱系、因果边界、采用、纠正、后续行动与退场机制构建增长学习、复盘和变更体系",
+      "absorbed": ["growth-postmortem", "growth-change-management"]
+    },
+    {
+      "target": "growth-infrastructure-assessment",
+      "name_en": "Growth Infrastructure & RevOps",
+      "name_zh": "增长基础设施与收入运营",
+      "description_en": "Assess growth infrastructure and RevOps across data, metrics, experiments, revenue entities, systems, handoffs, governance, and remediation",
+      "description_zh": "围绕数据、指标、实验、收入实体、系统、交接、治理与修复诊断增长基础设施和收入运营",
+      "absorbed": ["revops-audit"]
+    }
+  ]
+}

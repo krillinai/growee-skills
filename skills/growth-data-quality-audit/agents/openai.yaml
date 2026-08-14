@@ -1,4 +1,0 @@
-interface:
-  display_name: "Growth Data Quality Audit"
-  short_description: "Audit decision-critical growth data"
-  default_prompt: "Use $growth-data-quality-audit to audit a bounded growth data product and design evidence-linked quality controls."

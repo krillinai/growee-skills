@@ -1,9 +1,17 @@
 ---
 name: monetization
-description: Use when a product needs payer and value mapping, willingness-to-pay analysis, offer or packaging diagnosis, pricing or revenue-model design, paid-conversion analysis, payment or procurement diagnosis, discount or migration planning, or evidence-bounded analysis of margin, CAC, payback, LTV, retained revenue, contraction, and expansion.
+description: Use when work needs to design and audit monetization across offers, pricing, packaging, LTV, CAC, unit economics, payback, migration, and customer protection.
 ---
 
-# Monetization
+# Monetization & Economics
+
+## Integrated Capabilities
+
+This Skill consolidates adjacent workflows behind one trigger. Use the main workflow for core requests. When a request matches a module below, read that module before executing it:
+
+- [Pricing & Packaging Strategy](references/modules/pricing-and-packaging-strategy/SKILL.md)
+- [LTV Analysis](references/modules/ltv-analysis/SKILL.md)
+- [Unit Economics Analysis](references/modules/unit-economics-analysis/SKILL.md)
 
 Connect delivered customer value to a buyer, payer, offer, package, price metric, revenue model, and sustainable economics. Work from supplied data or attributable public context. Private billing, product, CRM, finance, support, sales, research, or cost data is optional; mark missing or declined inputs `unavailable`, never as failure.
 
@@ -45,7 +53,7 @@ Tie every design to a named mechanism, eligible segment, participant roles, cust
 
 Do not optimize pricing-page or checkout conversion in isolation. Read activation, paid conversion, realized price, retained use, refunds, churn, contraction, expansion, support, trust, margin, payback, and renewal together. Preserve original exposure, eligibility, commercial terms, and cohort through downstream validation.
 
-This Skill may specify offer claims, pricing-page content requirements, sales proof, or lifecycle-message eligibility, but it does not draft or send copy. Route page and offer copy to `copywriting`, lifecycle messages to `lifecycle-marketing`, one-to-one sales outreach to `b2b-outbound-messaging`, broader constraint selection to `growth-diagnosis`, first-value analysis to `activation`, recurring-value and revenue-retention analysis to `retention`, and causal validation to an experiment-design capability when needed.
+This Skill may specify offer claims, pricing-page content requirements, sales proof, or lifecycle-message eligibility, but it does not draft or send copy. Route page and offer copy to `copywriting`, lifecycle messages to `lifecycle-marketing`, one-to-one sales outreach to `sales-enablement`, broader constraint selection to `growth-diagnosis`, first-value analysis to `activation`, recurring-value and revenue-retention analysis to `retention`, and causal validation to an experiment-design capability when needed.
 
 ## Deliver In Order
 

@@ -12,8 +12,8 @@
         "copywriting",
         "marketing-image",
         "marketing-video",
-        "campaign-planning",
-        "landing-page-audit"
+        "acquisition-strategy",
+        "activation"
       ],
       "integrations": [
         "krillinai-video-localization",
@@ -28,21 +28,13 @@
       "description_zh": "通过指标、追踪、归因、经济性、预测、同期群与实验，让增长可观察、可用于决策。",
       "skills": [
         "growth-metrics-design",
-        "growth-target-setting",
-        "growth-benchmark-analysis",
-        "growth-anomaly-investigation",
+        "growth-diagnosis",
         "tracking-plan",
-        "growth-data-quality-audit",
         "attribution-analysis",
-        "marketing-mix-modeling",
-        "ltv-analysis",
-        "unit-economics-analysis",
+        "monetization",
         "growth-forecasting",
-        "growth-accounting",
-        "cohort-analysis",
-        "engagement-analysis",
-        "experiment-design",
-        "funnel-analysis"
+        "retention",
+        "experiment-design"
       ]
     },
     {
@@ -53,24 +45,13 @@
       "description_zh": "通过渠道、营销活动、搜索、转化界面、合作、社区与外联，把有效需求连接到产品价值。",
       "skills": [
         "acquisition-strategy",
-        "campaign-planning",
         "partnership-marketing",
-        "community-growth-strategy",
         "sales-enablement",
-        "landing-page-audit",
-        "popup-optimization",
-        "meta-ads-audit",
-        "google-ads-audit",
-        "tiktok-ads-audit",
-        "douyin-ads-audit",
+        "activation",
+        "paid-media-audit",
         "seo-audit",
-        "programmatic-seo",
         "aso-audit",
-        "geo",
-        "structured-data-builder",
-        "search-site-planner",
-        "directory-submissions",
-        "b2b-outbound-messaging"
+        "geo"
       ]
     },
     {
@@ -80,22 +61,13 @@
       "description_en": "Turn growth decisions into a repeatable operating cadence across planning, capacity, investment, governance, reviews, learning, infrastructure, organization, and RevOps.",
       "description_zh": "通过规划、承载能力、投入、治理、复盘、学习、基础设施、组织与收入运营，把增长决策变成可重复的运行节奏。",
       "skills": [
-        "growth-maturity-assessment",
+        "growth-diagnosis",
         "growth-planning-cycle",
-        "growth-capacity-planning",
-        "growth-opportunity-sizing",
-        "growth-investment-case",
-        "growth-budget-allocation",
-        "growth-initiative-planning",
+        "growth-model-design",
         "growth-operating-review",
-        "growth-decision-record",
-        "growth-risk-management",
         "growth-learning-system",
-        "growth-change-management",
-        "growth-postmortem",
         "growth-infrastructure-assessment",
         "growth-organization-design",
-        "revops-audit",
         "experiment-program-management"
       ]
     }

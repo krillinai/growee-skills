@@ -1,4 +1,4 @@
 interface:
-  display_name: "Sales Enablement"
-  short_description: "Build evidence-led sales assets and workflows"
-  default_prompt: "Use $sales-enablement to build or audit sales assets and enablement for this buying motion."
+  display_name: "Sales Enablement & Outbound"
+  short_description: "Integrated Sales Enablement & Outbound workflows"
+  default_prompt: "Use $sales-enablement to handle this sales enablement & outbound request as one evidence-backed workflow."

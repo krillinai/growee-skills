@@ -1,4 +1,4 @@
 interface:
-  display_name: "Positioning"
-  short_description: "Build and audit evidence-bounded positioning"
-  default_prompt: "Use $positioning to build or audit positioning from attributable evidence."
+  display_name: "ICP & Positioning"
+  short_description: "Integrated ICP & Positioning workflows"
+  default_prompt: "Use $positioning to handle this icp & positioning request as one evidence-backed workflow."

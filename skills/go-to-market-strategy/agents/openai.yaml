@@ -1,4 +1,4 @@
 interface:
-  display_name: "Go-to-Market Strategy"
-  short_description: "Design a repeatable product-market growth system"
-  default_prompt: "Use $go-to-market-strategy to audit this GTM motion and design a readiness-gated pilot and scale plan."
+  display_name: "Go-to-Market & Launch"
+  short_description: "Integrated Go-to-Market & Launch workflows"
+  default_prompt: "Use $go-to-market-strategy to handle this go-to-market & launch request as one evidence-backed workflow."

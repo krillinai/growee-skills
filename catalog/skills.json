@@ -7,26 +7,10 @@
       "path": "skills/copywriting/",
       "category": "content-production",
       "status": "experimental",
-      "name_en": "Copywriting",
-      "name_zh": "文案创作",
-      "description_en": "Write evidence-led page, campaign, product, offer, and localization copy with explicit audience, market, language, locale, channel, and claim-source controls",
-      "description_zh": "在明确受众、市场、语言、区域设置、渠道与声明来源的前提下，撰写页面、营销活动、产品、优惠与本地化文案",
-      "playbook_revisions": [],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "copy-editing",
-      "path": "skills/copy-editing/",
-      "category": "content-production",
-      "status": "experimental",
-      "name_en": "Copy Editing",
-      "name_zh": "文案编辑",
-      "description_en": "Review and edit existing copy for clarity, hierarchy, voice, claims, accessibility, CTA, and market, locale, and channel fit while preserving factual meaning and recording exact edits",
-      "description_zh": "在不改变事实含义的前提下，审校并编辑现有文案的清晰度、信息层级、语气、声明、无障碍、行动号召及市场、区域设置与渠道适配，并记录逐项精确修改",
+      "name_en": "Copywriting & Editing",
+      "name_zh": "文案创作与编辑",
+      "description_en": "Write and edit evidence-led copy for pages, campaigns, products, offers, and localization while preserving factual meaning and recording material edits",
+      "description_zh": "为页面、营销活动、产品、优惠与本地化创作和编辑证据驱动的文案，同时保留事实含义并记录重要修改",
       "playbook_revisions": [],
       "validation": {
         "structure": true,
@@ -75,10 +59,10 @@
       "path": "skills/content-strategy/",
       "category": "content-production",
       "status": "experimental",
-      "name_en": "Content Strategy",
-      "name_zh": "内容策略",
-      "description_en": "Build, audit, and operate evidence-led content portfolios through customer questions, content roles, pillars, claims and proof, native formats and channels, product paths, editorial workflows, reuse, measurement, refresh, and retirement",
-      "description_zh": "通过客户问题、内容角色、主题支柱、声明与证据、原生格式与渠道、产品路径、编辑流程、复用、测量、更新与退场，构建、诊断并运营证据驱动的内容组合",
+      "name_en": "Content Strategy & Customer Proof",
+      "name_zh": "内容策略与客户证据",
+      "description_en": "Build content portfolios and permissioned customer proof across questions, claims, formats, channels, workflows, reuse, measurement, and governance",
+      "description_zh": "围绕问题、声明、格式、渠道、工作流、复用、测量与治理构建内容组合和已获授权的客户证据",
       "playbook_revisions": [
         "b2ae91400ec280479ca31903bf90534ca95a9b18"
       ],
@@ -125,70 +109,16 @@
       }
     },
     {
-      "id": "customer-proof-development",
-      "path": "skills/customer-proof-development/",
-      "category": "content-production",
-      "status": "experimental",
-      "name_en": "Customer Proof Development",
-      "name_zh": "客户证据开发",
-      "description_en": "Turn attributable, permissioned customer evidence into credible case studies, testimonials, reference briefs, outcome stories, and reusable proof units with exact quote, metric, causality, privacy, approval, lineage, freshness, and withdrawal controls",
-      "description_zh": "将可归因且获得授权的客户证据转化为可信的案例、证言、客户推荐简报、结果故事和可复用证据单元，并严格管理原话、指标、因果边界、隐私、审批、血缘、新鲜度与撤回",
-      "playbook_revisions": [
-        "d906be388a79953be86e8fe7ae72490aa741cf9d"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
       "id": "customer-research",
       "path": "skills/customer-research/",
       "category": "growth-foundations",
       "status": "experimental",
-      "name_en": "Customer Research",
-      "name_zh": "客户研究",
-      "description_en": "Plan responsible customer research, synthesize attributable interviews, reviews, surveys, support, win/loss, and behavioral evidence, and translate bounded findings and counterevidence into decision-ready customer insight",
-      "description_zh": "规划负责任的客户研究，综合可归因的访谈、评论、问卷、支持、赢单、输单和行为证据，并将边界清晰的发现、反证与不确定性转化为可决策的客户洞察",
+      "name_en": "Customer Research & Surveys",
+      "name_zh": "客户研究与调查",
+      "description_en": "Plan and synthesize customer research and decision-linked surveys with explicit sampling, evidence, consent, uncertainty, and interpretation boundaries",
+      "description_zh": "规划并综合客户研究和决策型调查，明确抽样、证据、同意、不确定性与解释边界",
       "playbook_revisions": [
         "dade6460925c4bb87cbe38381aebf2c84fd556d2"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "survey-design-and-analysis",
-      "path": "skills/survey-design-and-analysis/",
-      "category": "growth-foundations",
-      "status": "experimental",
-      "name_en": "Survey Design & Analysis",
-      "name_zh": "调查设计与分析",
-      "description_en": "Design, audit, localize, field, analyze, compare, and govern decision-linked surveys through explicit constructs, populations, sampling frames, instruments, response states, quality rules, missingness, weighting, uncertainty, and interpretation boundaries",
-      "description_zh": "围绕明确决策，通过清晰的构念、目标人群、抽样框、问卷、响应状态、质量规则、缺失值、加权、不确定性和解释边界，设计、审查、本地化、投放、分析、比较并治理调查",
-      "playbook_revisions": [
-        "d906be388a79953be86e8fe7ae72490aa741cf9d"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "competitive-intelligence",
-      "path": "skills/competitive-intelligence/",
-      "category": "growth-foundations",
-      "status": "experimental",
-      "name_en": "Competitive Intelligence",
-      "name_zh": "竞争情报",
-      "description_en": "Map, research, compare, and monitor decision-relevant alternatives through attributable sources, explicit freshness, product and price versions, capability and availability states, customer evidence, change controls, uncertainty, and ethical access boundaries",
-      "description_zh": "通过可归因来源、明确的新鲜度、产品与价格版本、能力与可用状态、客户证据、变化控制、不确定性和合乎伦理的访问边界，映射、研究、比较并监测与决策相关的替代方案",
-      "playbook_revisions": [
-        "d906be388a79953be86e8fe7ae72490aa741cf9d"
       ],
       "validation": {
         "structure": true,
@@ -201,28 +131,10 @@
       "path": "skills/positioning/",
       "category": "growth-foundations",
       "status": "experimental",
-      "name_en": "Positioning",
-      "name_zh": "市场定位",
-      "description_en": "Build, audit, or revise evidence-bounded positioning through scoped buying situations, real alternatives, capability-to-value proof chains, best-fit and exclusion conditions, category decisions, message architecture, and validation plans",
-      "description_zh": "围绕明确的购买情境、真实替代方案、能力到价值的证据链、最佳适配与排除条件、品类决策、信息架构及验证计划，构建、诊断或修订证据边界清晰的市场定位",
-      "playbook_revisions": [
-        "b2ae91400ec280479ca31903bf90534ca95a9b18"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "icp-segmentation",
-      "path": "skills/icp-segmentation/",
-      "category": "growth-foundations",
-      "status": "experimental",
-      "name_en": "ICP Segmentation",
-      "name_zh": "ICP（理想客户画像）与客户分群",
-      "description_en": "Discover, define, validate, and govern decision-changing customer segments and ICPs with observable rules, explicit exclusions, compatible value and economic evidence, differentiated paths, and privacy and fairness controls",
-      "description_zh": "通过可观察规则、明确排除条件、可比的价值与经济证据、差异化路径，以及隐私和公平性控制，发现、定义、验证并治理真正改变决策的客户分群与 ICP（理想客户画像）",
+      "name_en": "ICP & Positioning",
+      "name_zh": "ICP 与市场定位",
+      "description_en": "Define evidence-backed ICPs, segments, positioning, exclusions, category choices, messages, and validation plans",
+      "description_zh": "定义有证据支撑的 ICP、客户分群、定位、排除条件、品类选择、信息与验证计划",
       "playbook_revisions": [
         "b2ae91400ec280479ca31903bf90534ca95a9b18"
       ],
@@ -237,30 +149,12 @@
       "path": "skills/product-market-fit-assessment/",
       "category": "growth-foundations",
       "status": "experimental",
-      "name_en": "Product-Market Fit Assessment",
-      "name_zh": "产品市场匹配评估",
-      "description_en": "Assess, measure, or revalidate bounded product-market fit claims by reconciling problem, first-value, repeated-value, must-have survey, segment, economic, distribution, Four Fits, and guardrail evidence without inventing a universal score or certification",
-      "description_zh": "综合问题、首次价值、重复价值、Must-Have 调查、分群、经济性、分发、Four Fits 与护栏证据，对边界明确的产品市场匹配主张进行评估、测量或重新验证，不虚构通用评分或认证",
+      "name_en": "Product-Market Fit & Journey",
+      "name_zh": "产品市场匹配与客户旅程",
+      "description_en": "Assess product-market fit and customer journeys across problem, first and repeated value, path friction, service dependencies, and evidence boundaries",
+      "description_zh": "围绕问题、首次与重复价值、路径摩擦、服务依赖和证据边界评估产品市场匹配与客户旅程",
       "playbook_revisions": [
         "b2ae91400ec280479ca31903bf90534ca95a9b18"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "customer-journey-analysis",
-      "path": "skills/customer-journey-analysis/",
-      "category": "growth-foundations",
-      "status": "experimental",
-      "name_en": "Customer Journey Analysis",
-      "name_zh": "客户旅程分析",
-      "description_en": "Map, audit, and redesign evidence-bounded customer journeys and service blueprints across participant roles, state paths, touchpoints, continuity, backstage dependencies, friction, failure, recovery, accessibility, exit, measurement, and causal boundaries",
-      "description_zh": "围绕参与者角色、状态路径、触点连续性、后台依赖、摩擦、失败、恢复、无障碍、退出、测量与因果边界，映射、审查并重新设计证据边界清晰的客户旅程和服务蓝图",
-      "playbook_revisions": [
-        "d906be388a79953be86e8fe7ae72490aa741cf9d"
       ],
       "validation": {
         "structure": true,
@@ -273,10 +167,10 @@
       "path": "skills/market-sizing/",
       "category": "growth-foundations",
       "status": "experimental",
-      "name_en": "Market Sizing",
-      "name_zh": "市场规模估算",
-      "description_en": "Build, audit, and reconcile evidence-bounded market estimates through explicit customer and economic units, total-to-attainable demand layers, compatible top-down and bottom-up methods, source lineage, overlap, serviceability, reachability, scenarios, sensitivity, and uncertainty",
-      "description_zh": "通过明确的客户与经济单元、从总需求到可实现需求的分层、兼容的自上而下与自下而上方法、来源谱系、重叠关系、可服务性、可触达性、情景、敏感性和不确定性，构建、审查并校准有证据边界的市场估算",
+      "name_en": "Market Intelligence & Sizing",
+      "name_zh": "市场情报与规模测算",
+      "description_en": "Research alternatives and size markets with attributable competitive evidence, compatible market units, scenarios, and uncertainty",
+      "description_zh": "使用可归因的竞争证据、兼容的市场单元、情景与不确定性研究替代方案并测算市场规模",
       "playbook_revisions": [
         "d906be388a79953be86e8fe7ae72490aa741cf9d"
       ],
@@ -293,28 +187,10 @@
       "status": "experimental",
       "name_en": "Growth Diagnosis",
       "name_zh": "增长诊断",
-      "description_en": "Identify the primary growth constraint from attributable evidence and route a market-aware 30-day decision plan across acquisition, activation, retention, monetization, growth loops, and growth systems",
-      "description_zh": "基于可归因证据识别首要增长约束，并为获客、激活、留存、变现、增长循环和增长系统制定兼顾市场情境的 30 天决策计划与执行路径",
+      "description_en": "Diagnose primary constraints through funnel, anomaly, and maturity analysis, then route an evidence-backed 30-day plan",
+      "description_zh": "通过漏斗、异常与成熟度分析诊断首要约束，并制定有证据支撑的 30 天执行路径",
       "playbook_revisions": [
         "04593154ff76fa41ecfd74b522cccb75ac016cb8"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "growth-maturity-assessment",
-      "path": "skills/growth-maturity-assessment/",
-      "category": "growth-diagnosis",
-      "status": "experimental",
-      "name_en": "Growth Maturity Assessment",
-      "name_zh": "增长成熟度评估",
-      "description_en": "Assess decision-specific growth capabilities across strategy, lifecycle, measurement, experimentation, infrastructure, organization, operations, risk, and learning through separate evidence for definition, implementation, operation, adoption, reliability, decision use, and outcomes without a universal stage or composite score",
-      "description_zh": "分别核验定义、实施、运行、采用、可靠性、决策使用与结果证据，评估战略、生命周期、测量、实验、基础设施、组织、运营、风险和学习中的决策特定增长能力，避免使用通用阶段或综合评分",
-      "playbook_revisions": [
-        "d906be388a79953be86e8fe7ae72490aa741cf9d"
       ],
       "validation": {
         "structure": true,
@@ -327,10 +203,10 @@
       "path": "skills/growth-strategy/",
       "category": "growth-foundations",
       "status": "experimental",
-      "name_en": "Growth Strategy",
-      "name_zh": "增长战略",
-      "description_en": "Audit, design, and refresh evidence-bounded 6-18 month growth choices across customers, markets, value, mechanisms, economics, capabilities, portfolio, sequencing, exclusions, scenarios, and review triggers",
-      "description_zh": "审查、设计与更新以证据为边界的 6–18 个月增长选择，覆盖客户、市场、价值、机制、经济性、能力、组合、顺序、取舍、情景与复盘触发条件",
+      "name_en": "Growth & Market Strategy",
+      "name_zh": "增长与市场策略",
+      "description_en": "Make evidence-bounded growth and market-entry choices across customers, markets, mechanisms, capabilities, sequencing, pilots, and stop rules",
+      "description_zh": "围绕客户、市场、机制、能力、排序、试点与停止规则制定证据边界清晰的增长和市场进入策略",
       "playbook_revisions": [
         "d906be388a79953be86e8fe7ae72490aa741cf9d"
       ],
@@ -345,10 +221,10 @@
       "path": "skills/growth-model-design/",
       "category": "growth-foundations",
       "status": "experimental",
-      "name_en": "Growth Model Design",
-      "name_zh": "增长模型设计",
-      "description_en": "Map, audit, calculate, version, and scenario-test business-specific growth models connecting customer value, lifecycle behavior, channels, Four Fits, economics, propagation, reinvestment, capacity, guardrails, and decision-relevant constraints",
-      "description_zh": "围绕客户价值、生命周期行为、渠道、Four Fits（四种匹配）、经济性、传播、再投资、容量、护栏与决策相关约束，映射、审查、计算、版本化并进行业务特定增长模型的情景测试",
+      "name_en": "Growth Model & Opportunity",
+      "name_zh": "增长模型与机会测算",
+      "description_en": "Design growth models and size opportunities across lifecycle behavior, economics, reach, capacity, overlap, scenarios, and risk",
+      "description_zh": "围绕生命周期行为、经济性、触达、承载能力、重叠、情景与风险设计增长模型并测算机会",
       "playbook_revisions": [
         "d906be388a79953be86e8fe7ae72490aa741cf9d"
       ],
@@ -363,120 +239,12 @@
       "path": "skills/growth-planning-cycle/",
       "category": "growth-infrastructure-organization",
       "status": "experimental",
-      "name_en": "Growth Planning Cycle",
-      "name_zh": "增长规划周期",
-      "description_en": "Build, audit, and refresh coherent annual, quarterly, or rolling growth planning cycles by reconciling strategy, metrics, targets, forecasts, opportunities, investments, portfolios, initiatives, capacity, budget boundaries, decision calendars, approvals, and operating reviews",
-      "description_zh": "通过对齐战略、指标、目标、预测、机会、投资、组合、项目、承载能力、预算边界、决策日历、审批与经营复盘，构建、审查并更新一致的年度、季度或滚动增长规划周期",
+      "name_en": "Growth Planning & Allocation",
+      "name_zh": "增长规划与资源配置",
+      "description_en": "Build integrated growth plans across strategy, capacity, investments, budgets, initiatives, dependencies, scenarios, approvals, and review cadence",
+      "description_zh": "围绕策略、承载能力、投资、预算、项目、依赖、情景、审批与复盘节奏构建一体化增长计划",
       "playbook_revisions": [
         "d906be388a79953be86e8fe7ae72490aa741cf9d"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "growth-capacity-planning",
-      "path": "skills/growth-capacity-planning/",
-      "category": "growth-infrastructure-organization",
-      "status": "experimental",
-      "name_en": "Growth Capacity Planning",
-      "name_zh": "增长承载能力规划",
-      "description_en": "Build, audit, and refresh evidence-bounded capacity plans across demand, workload, people, skills, systems, vendors, inventories, customer and experiment exposure, queues, throughput, service, shared constraints, utilization, reserves, scenarios, triggers, and approval-ready gap options",
-      "description_zh": "围绕需求、工作量、人员、技能、系统、供应商、库存、客户与实验曝光、队列、吞吐量、服务、共享约束、利用率、储备、情景、触发条件及待审批缺口方案，构建、审查并更新证据边界清晰的承载能力计划",
-      "playbook_revisions": [
-        "d906be388a79953be86e8fe7ae72490aa741cf9d"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "growth-opportunity-sizing",
-      "path": "skills/growth-opportunity-sizing/",
-      "category": "growth-foundations",
-      "status": "experimental",
-      "name_en": "Growth Opportunity Sizing",
-      "name_zh": "增长机会测算",
-      "description_en": "Size, audit, and compare growth opportunities through compatible baselines, eligible populations, bounded change, reach, retained value, net economics, timing, sensitivity, overlap, capacity, risk, and decision-changing evidence without invented uplift or double counting",
-      "description_zh": "通过口径一致的基线、合格对象、变化范围、可触达性、留存价值、净经济性、时间、敏感性、重叠、承载能力、风险与决策证据，测算、审查和比较增长机会，避免虚构提升幅度或重复计算",
-      "playbook_revisions": [
-        "d906be388a79953be86e8fe7ae72490aa741cf9d"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "growth-investment-case",
-      "path": "skills/growth-investment-case/",
-      "category": "growth-infrastructure-organization",
-      "status": "experimental",
-      "name_en": "Growth Investment Case",
-      "name_zh": "增长投资决策案",
-      "description_en": "Audit, build, and refresh decision-ready cases for bounded growth investments through explicit baselines, alternatives, customer value, evidence, incremental benefits and costs, cash, capacity, risks, scenarios, gates, and approval boundaries",
-      "description_zh": "通过明确的基线、备选方案、客户价值、证据、增量收益与成本、现金、承载能力、风险、情景、决策门槛和审批边界，审查、构建并更新可用于决策的单项增长投资论证",
-      "playbook_revisions": [
-        "d906be388a79953be86e8fe7ae72490aa741cf9d"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "growth-budget-allocation",
-      "path": "skills/growth-budget-allocation/",
-      "category": "growth-infrastructure-organization",
-      "status": "experimental",
-      "name_en": "Growth Budget Allocation",
-      "name_zh": "增长预算与资源配置",
-      "description_en": "Audit, design, and reallocate cross-functional growth budgets and resources through reconciled availability, protected obligations, comparable customer value, incremental and marginal economics, cash, capacity, overlap, scenarios, evidence gates, and approval boundaries",
-      "description_zh": "通过核对可用资源、保护必要投入，并比较客户价值、增量与边际经济性、现金、承载能力、重叠、情景、证据门槛和审批边界，审查、设计和重新配置跨职能增长预算与资源",
-      "playbook_revisions": [
-        "d906be388a79953be86e8fe7ae72490aa741cf9d"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "growth-initiative-planning",
-      "path": "skills/growth-initiative-planning/",
-      "category": "growth-infrastructure-organization",
-      "status": "experimental",
-      "name_en": "Growth Initiative Planning",
-      "name_zh": "增长项目规划",
-      "description_en": "Build, audit, and replan feasible 30-90 day execution plans for one selected growth initiative through decision lineage, bounded outcomes, workstreams, dependencies, capacity, evidence gates, commitments, risks, change rules, and authorization boundaries",
-      "description_zh": "围绕一个已选定的增长项目，通过决策谱系、明确结果、工作流、依赖关系、承载能力、证据门槛、承诺、风险、变更规则与授权边界，构建、审查并重新规划可执行的 30–90 天计划",
-      "playbook_revisions": [
-        "d906be388a79953be86e8fe7ae72490aa741cf9d"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "market-entry-strategy",
-      "path": "skills/market-entry-strategy/",
-      "category": "growth-foundations",
-      "status": "experimental",
-      "name_en": "Market Entry Strategy",
-      "name_zh": "市场进入策略",
-      "description_en": "Assess, compare, sequence, and pilot new markets through explicit market units, seven readiness gates, beachhead selection, local product and commercial adaptation, distribution, operations, data governance, retained economics, stop rules, and exit protections",
-      "description_zh": "通过明确的市场单元、七类准备度、滩头市场选择、本地产品与商业适配、分发、运营、数据治理、留存经济性、停止规则和退出保护，评估、比较、排序并试点新市场",
-      "playbook_revisions": [
-        "b2ae91400ec280479ca31903bf90534ca95a9b18"
       ],
       "validation": {
         "structure": true,
@@ -489,28 +257,10 @@
       "path": "skills/go-to-market-strategy/",
       "category": "growth-foundations",
       "status": "experimental",
-      "name_en": "Go-to-Market Strategy",
-      "name_zh": "产品市场推进策略",
-      "description_en": "Audit, design, compare, sequence, and govern repeatable product-market systems across customers, positioning, offers, motions, routes, buying paths, first and repeated value, delivery, measurement, retained economics, readiness, pilots, and scale gates",
-      "description_zh": "围绕客户、定位、产品方案、GTM（产品市场推进）模式与渠道路径、购买流程、首次与重复价值、交付、测量、留存经济性、准备度、试点与扩张门槛，诊断、设计、比较、排序并治理可重复的产品市场系统",
-      "playbook_revisions": [
-        "d906be388a79953be86e8fe7ae72490aa741cf9d"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "product-launch-strategy",
-      "path": "skills/product-launch-strategy/",
-      "category": "growth-foundations",
-      "status": "experimental",
-      "name_en": "Product Launch Strategy",
-      "name_zh": "产品发布策略",
-      "description_en": "Audit, design, stage, compare, measure, and govern product or feature launches through explicit release units, readiness gates, audience ladders, access and exposure states, first and repeated value, operating controls, and evidence-led expansion decisions",
-      "description_zh": "通过明确的发布单元、准备度门槛、受众阶梯、访问与曝光状态、首次及重复价值、运营控制和基于证据的扩量决策，诊断、设计、分阶段、比较、测量并治理产品或功能发布",
+      "name_en": "Go-to-Market & Launch",
+      "name_zh": "市场进入与产品发布",
+      "description_en": "Design and govern go-to-market systems and product launches across audience, offer, motion, readiness, exposure, value, measurement, and scale gates",
+      "description_zh": "围绕受众、产品方案、路径、准备度、曝光、价值、测量与扩量门槛设计并治理市场进入和产品发布",
       "playbook_revisions": [
         "d906be388a79953be86e8fe7ae72490aa741cf9d"
       ],
@@ -525,66 +275,12 @@
       "path": "skills/growth-metrics-design/",
       "category": "metrics-experimentation",
       "status": "experimental",
-      "name_en": "Growth Metrics Design",
-      "name_zh": "增长指标设计",
-      "description_en": "Audit KPIs and North Star candidates, design value-linked metric constellations and evidence-labeled trees, and specify reproducible contracts, guardrails, targets, lineage, quality, and governance without inventing benchmarks or causality",
-      "description_zh": "审查 KPI（关键绩效指标）与北极星指标候选，设计连接客户价值的指标组合和标注证据关系的指标树，并在不虚构基准或因果关系的前提下，定义可复现的指标契约、护栏、目标、血缘、质量与治理机制",
+      "name_en": "Growth Metrics, Targets & Benchmarks",
+      "name_zh": "增长指标、目标与基准",
+      "description_en": "Design growth metrics, targets, and benchmarks with reproducible contracts, compatible baselines, uncertainty, ownership, and review rules",
+      "description_zh": "以可复现契约、兼容基线、不确定性、归属与复盘规则设计增长指标、目标和基准",
       "playbook_revisions": [
         "b2ae914"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "growth-target-setting",
-      "path": "skills/growth-target-setting/",
-      "category": "metrics-experimentation",
-      "status": "experimental",
-      "name_en": "Growth Target Setting",
-      "name_zh": "增长目标设定",
-      "description_en": "Audit, design, reconcile, and refresh growth outcome targets, input commitments, thresholds, aspirations, and guardrails through versioned metrics, baselines, forecasts, opportunities, hierarchy, capacity, tradeoffs, incentives, ownership, and review rules",
-      "description_zh": "基于版本化指标、基线、预测、机会、层级、承载能力、取舍、激励、归属和复盘规则，审查、设计、对账并更新增长结果目标、输入承诺、阈值、愿景目标与护栏",
-      "playbook_revisions": [
-        "d906be388a79953be86e8fe7ae72490aa741cf9d"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "growth-benchmark-analysis",
-      "path": "skills/growth-benchmark-analysis/",
-      "category": "metrics-experimentation",
-      "status": "experimental",
-      "name_en": "Growth Benchmark Analysis",
-      "name_zh": "增长基准分析",
-      "description_en": "Source, audit, normalize, compare, and monitor internal, peer, industry, vendor, survey, modeled, and case benchmarks through explicit reference classes, metric compatibility, lineage, bias, maturity, uncertainty, and transfer limits",
-      "description_zh": "通过明确的参考群体、指标可比性、来源谱系、偏差、成熟度、不确定性和迁移边界，搜集、审查、归一化、比较并监测内部、同行、行业、供应商、调查、模型与案例基准",
-      "playbook_revisions": [
-        "d906be388a79953be86e8fe7ae72490aa741cf9d"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "growth-anomaly-investigation",
-      "path": "skills/growth-anomaly-investigation/",
-      "category": "growth-diagnosis",
-      "status": "experimental",
-      "name_en": "Growth Anomaly Investigation",
-      "name_zh": "增长异常调查",
-      "description_en": "Triage, investigate, and review unexpected metric changes through frozen contracts, source reconciliation, maturity, expected variation, contribution-preserving decomposition, timelines, candidate mechanisms, causal boundaries, and controlled resolution",
-      "description_zh": "通过冻结指标契约、对账数据源、检查成熟度与预期波动、保留总量的贡献拆解、变化时间线、候选机制、因果边界与受控结论，对意外指标变化进行分流、调查和复核",
-      "playbook_revisions": [
-        "d906be388a79953be86e8fe7ae72490aa741cf9d"
       ],
       "validation": {
         "structure": true,
@@ -597,30 +293,12 @@
       "path": "skills/tracking-plan/",
       "category": "metrics-experimentation",
       "status": "experimental",
-      "name_en": "Tracking Plan",
-      "name_zh": "数据追踪方案",
-      "description_en": "Design, audit, or migrate implementation-ready event and property schemas with explicit value states, source truth, identity, consent, lineage, reconciliation, QA, release, rollback, and deprecation controls",
-      "description_zh": "通过明确的价值状态、事实来源、身份、同意、血缘、对账、QA（质量保证）、发布、回滚与废弃控制，设计、诊断或迁移可直接实施的事件与属性规范",
+      "name_en": "Tracking & Data Quality",
+      "name_zh": "数据追踪与质量",
+      "description_en": "Design tracking plans and audit data quality across events, identity, consent, lineage, reconciliation, monitoring, releases, and deprecation",
+      "description_zh": "围绕事件、身份、同意、血缘、对账、监控、发布与退场设计追踪方案并诊断数据质量",
       "playbook_revisions": [
         "b2ae91400ec280479ca31903bf90534ca95a9b18"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "growth-data-quality-audit",
-      "path": "skills/growth-data-quality-audit/",
-      "category": "metrics-experimentation",
-      "status": "experimental",
-      "name_en": "Growth Data Quality Audit",
-      "name_zh": "增长数据质量审计",
-      "description_en": "Audit decision-critical growth data and design quality controls across population coverage, completeness, identity, uniqueness, semantic validity, timeliness, maturity, lineage, source reconciliation, revisions, incidents, monitoring, privacy, and governance",
-      "description_zh": "围绕总体覆盖、完整性、身份、唯一性、语义有效性、时效、成熟度、血缘、跨源对账、历史修订、质量事故、监控、隐私与治理，审查决策关键型增长数据并设计质量控制",
-      "playbook_revisions": [
-        "d906be388a79953be86e8fe7ae72490aa741cf9d"
       ],
       "validation": {
         "structure": true,
@@ -633,64 +311,10 @@
       "path": "skills/attribution-analysis/",
       "category": "metrics-experimentation",
       "status": "experimental",
-      "name_en": "Attribution Analysis",
-      "name_zh": "归因分析",
-      "description_en": "Audit, design, compare, and reconcile attribution through explicit outcome, identity, source, journey, touchpoint, lookback, model, unknown-state, downstream-value, revenue, quality, privacy, and incrementality boundaries",
-      "description_zh": "通过明确的结果、身份、来源、旅程、触点、回溯窗口、模型、未知状态、下游价值、收入、质量、隐私与增量边界，诊断、设计、比较并对账归因体系",
-      "playbook_revisions": [
-        "d906be388a79953be86e8fe7ae72490aa741cf9d"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "marketing-mix-modeling",
-      "path": "skills/marketing-mix-modeling/",
-      "category": "metrics-experimentation",
-      "status": "experimental",
-      "name_en": "Marketing Mix Modeling",
-      "name_zh": "营销组合建模",
-      "description_en": "Specify, build, audit, calibrate, compare, and refresh aggregate Marketing Mix Models through reconciled outcomes, media and context panels, adstock, saturation, identification, experiments, validation, contribution, response support, uncertainty, and decision-bounded budget scenarios",
-      "description_zh": "围绕已对账结果、媒体与环境面板、Adstock（广告滞后效应）、饱和度、可识别性、实验、验证、贡献、响应支持范围、不确定性及决策边界明确的预算情景，对 MMM（营销组合模型）进行规范、构建、审查、校准、比较与更新",
-      "playbook_revisions": [
-        "d906be388a79953be86e8fe7ae72490aa741cf9d"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "ltv-analysis",
-      "path": "skills/ltv-analysis/",
-      "category": "monetization",
-      "status": "experimental",
-      "name_en": "LTV Analysis",
-      "name_zh": "LTV（客户终身价值）分析",
-      "description_en": "Audit, calculate, forecast, compare, validate, and govern customer lifetime value through explicit entities, cohorts, original denominators, value and cost bases, maturity, censoring, horizons, model assumptions, uncertainty, calibration, and decision boundaries",
-      "description_zh": "通过明确的客户实体、Cohort（同期群）、原始分母、价值与成本口径、成熟度、删失、时间范围、模型假设、不确定性、校准与决策边界，诊断、计算、预测、比较、验证并治理客户终身价值",
-      "playbook_revisions": [
-        "d906be388a79953be86e8fe7ae72490aa741cf9d"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "unit-economics-analysis",
-      "path": "skills/unit-economics-analysis/",
-      "category": "monetization",
-      "status": "experimental",
-      "name_en": "Unit Economics Analysis",
-      "name_zh": "单位经济分析",
-      "description_en": "Audit, model, compare, and govern CAC variants, matched-cohort contribution and LTV, accounting and cash payback, marginal returns, freemium and marketplace economics, portfolio mix, scenarios, uncertainty, and decision boundaries",
-      "description_zh": "围绕 CAC（客户获取成本）的不同口径、匹配 Cohort（同期群）的贡献与 LTV（客户终身价值）、会计与现金回收期、边际回报、免费增值与双边市场经济、组合结构、情景、不确定性和决策边界，进行诊断、建模、比较与治理",
+      "name_en": "Attribution & Marketing Mix",
+      "name_zh": "归因与营销组合",
+      "description_en": "Audit attribution and marketing mix models across journeys, media, identity, outcomes, reconciliation, incrementality, calibration, and uncertainty",
+      "description_zh": "围绕旅程、媒体、身份、结果、对账、增量性、校准与不确定性诊断归因和营销组合模型",
       "playbook_revisions": [
         "d906be388a79953be86e8fe7ae72490aa741cf9d"
       ],
@@ -719,60 +343,6 @@
       }
     },
     {
-      "id": "growth-accounting",
-      "path": "skills/growth-accounting/",
-      "category": "retention",
-      "status": "experimental",
-      "name_en": "Growth Accounting",
-      "name_zh": "增长核算",
-      "description_en": "Reconcile period-to-period customer and recurring-value growth into retained, new, resurrected, churned, expanded, and contracted movements with explicit entity, identity, maturity, value, adjustment, mix, and causal boundaries",
-      "description_zh": "通过明确的实体、身份、成熟度、价值口径、调整项、组合与因果边界，将周期之间的客户和经常性价值变化对账为留存、新增、复活、流失、扩张与收缩",
-      "playbook_revisions": [
-        "d906be388a79953be86e8fe7ae72490aa741cf9d"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "cohort-analysis",
-      "path": "skills/cohort-analysis/",
-      "category": "retention",
-      "status": "experimental",
-      "name_en": "Cohort Analysis",
-      "name_zh": "Cohort（同期群）分析",
-      "description_en": "Define time-, exposure-, behavior-, or state-based cohorts; build maturity-aware matrices from supplied event or aggregate data; compare compatible groups; and separate mix shifts from within-cohort change without inventing causal conclusions",
-      "description_zh": "定义基于时间、曝光、行为或状态的 Cohort（同期群），使用用户提供的事件或汇总数据构建考虑成熟度的矩阵，比较兼容群体，并在不虚构因果结论的前提下区分 Mix 变化与 Cohort（同期群）内部变化",
-      "playbook_revisions": [
-        "d906be388a79953be86e8fe7ae72490aa741cf9d"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "engagement-analysis",
-      "path": "skills/engagement-analysis/",
-      "category": "retention",
-      "status": "experimental",
-      "name_en": "Engagement Analysis",
-      "name_zh": "参与度分析",
-      "description_en": "Analyze zero-inclusive, value-bearing frequency, depth, breadth, quality, and concentration distributions across natural opportunities and product topologies without turning activity into retention, Product-Market Fit, causality, or impact",
-      "description_zh": "围绕自然使用机会和产品结构，分析包含零值人群的价值行为频率、深度、广度、质量与集中度分布，避免把活动量当作留存、产品市场匹配、因果关系或业务影响",
-      "playbook_revisions": [
-        "d906be388a79953be86e8fe7ae72490aa741cf9d"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
       "id": "experiment-design",
       "path": "skills/experiment-design/",
       "category": "metrics-experimentation",
@@ -791,32 +361,14 @@
       }
     },
     {
-      "id": "funnel-analysis",
-      "path": "skills/funnel-analysis/",
-      "category": "growth-diagnosis",
-      "status": "experimental",
-      "name_en": "Funnel Analysis",
-      "name_zh": "漏斗分析",
-      "description_en": "Analyze conversion and absolute loss across value states with frozen entities, eligibility, events, denominators, windows, maturity, and cohorts; distinguish observed drop-off from cause, diagnose constraints, and design evidence-bounded improvements",
-      "description_zh": "冻结实体、资格、事件、分母、窗口、成熟度与 Cohort（同期群）定义，分析价值状态间的转化和绝对流失，区分观察到的掉点与原因，诊断约束并设计证据边界清晰的改进方案",
-      "playbook_revisions": [
-        "dade6460925c4bb87cbe38381aebf2c84fd556d2"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
       "id": "activation",
       "path": "skills/activation/",
       "category": "activation",
       "status": "experimental",
-      "name_en": "Activation",
-      "name_zh": "激活",
-      "description_en": "Define and analyze first value, diagnose onboarding and activation-path constraints, and design evidence-bounded interventions across entry states, product levels, and consumer, B2B, marketplace, AI, low-frequency, or assisted products",
-      "description_zh": "基于证据定义并分析第一价值，诊断新手引导与激活路径约束，设计适用于不同入口状态、产品层级及消费级、B2B（企业对企业）、平台型、AI（人工智能）、低频或人工辅助产品的激活干预",
+      "name_en": "Activation & Conversion",
+      "name_zh": "激活与转化",
+      "description_en": "Define first value and improve activation across onboarding, landing pages, popups, friction, accessibility, measurement, and experiments",
+      "description_zh": "定义首次价值，并围绕新手引导、落地页、弹窗、摩擦、无障碍、测量与实验改进激活",
       "playbook_revisions": [
         "dade6460925c4bb87cbe38381aebf2c84fd556d2"
       ],
@@ -847,30 +399,12 @@
       "path": "skills/retention/",
       "category": "retention",
       "status": "experimental",
-      "name_en": "Retention",
-      "name_zh": "留存",
-      "description_en": "Define and analyze cohorts, diagnose recurring-value, churn, and resurrection mechanisms, and design evidence-bounded retention systems across user, account, product, and revenue levels",
-      "description_zh": "基于证据定义并分析同期群留存，诊断持续价值、流失与复活机制，设计覆盖用户、账户、产品和收入层级的留存体系",
+      "name_en": "Retention & Customer Health",
+      "name_zh": "留存与客户健康",
+      "description_en": "Analyze and improve retention through cohorts, growth accounting, engagement, recurring value, churn, resurrection, and customer health",
+      "description_zh": "通过同期群、增长核算、参与度、重复价值、流失、复活与客户健康分析并改进留存",
       "playbook_revisions": [
         "dade6460925c4bb87cbe38381aebf2c84fd556d2"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "customer-health-modeling",
-      "path": "skills/customer-health-modeling/",
-      "category": "retention",
-      "status": "experimental",
-      "name_en": "Customer Health Modeling",
-      "name_zh": "客户健康建模",
-      "description_en": "Specify, build, audit, validate, calibrate, monitor, and refresh decision-specific customer and account health models through explicit hierarchies, outcomes, prediction times, features, labels, censoring, leakage, calibration, capacity thresholds, reason codes, drift, privacy, and safe action boundaries",
-      "description_zh": "围绕明确的客户层级、结果、预测时点、特征、标签、删失、信息泄漏、校准、服务容量阈值、原因代码、漂移、隐私与安全行动边界，对面向具体决策的客户及账户健康模型进行规范、构建、审查、验证、校准、监测与更新",
-      "playbook_revisions": [
-        "d906be388a79953be86e8fe7ae72490aa741cf9d"
       ],
       "validation": {
         "structure": true,
@@ -901,66 +435,12 @@
       "path": "skills/monetization/",
       "category": "monetization",
       "status": "experimental",
-      "name_en": "Monetization",
-      "name_zh": "变现",
-      "description_en": "Map user, buyer, and payer value; analyze offers, packaging, pricing, paid conversion, retained revenue, and unit economics; and design evidence-bounded commercial systems with migration, fairness, and market controls",
-      "description_zh": "梳理用户、购买者与付款人的价值关系，分析产品方案、包装、定价、付费转化、留存收入和单位经济性，并设计兼顾迁移、公平性与市场条件的商业体系",
+      "name_en": "Monetization & Economics",
+      "name_zh": "变现与单位经济",
+      "description_en": "Design and audit monetization across offers, pricing, packaging, LTV, CAC, unit economics, payback, migration, and customer protection",
+      "description_zh": "围绕产品方案、定价、套餐、LTV、CAC、单位经济、回收期、迁移与客户保护设计并诊断变现",
       "playbook_revisions": [
         "dade6460925c4bb87cbe38381aebf2c84fd556d2"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "pricing-and-packaging-strategy",
-      "path": "skills/pricing-and-packaging-strategy/",
-      "category": "monetization",
-      "status": "experimental",
-      "name_en": "Pricing & Packaging Strategy",
-      "name_zh": "定价与套餐策略",
-      "description_en": "Audit, research, design, validate, migrate, and govern offers, package architecture, price metrics, prices, terms, discounts, free and trial paths, retained economics, experiments, and customer protections",
-      "description_zh": "围绕客户价值与购买角色，诊断、研究、设计、验证、迁移并治理产品方案、套餐架构、计价指标、价格与条款、折扣、免费与试用路径、留存经济性、实验和客户保护",
-      "playbook_revisions": [
-        "d906be388a79953be86e8fe7ae72490aa741cf9d"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "referral-program-design",
-      "path": "skills/referral-program-design/",
-      "category": "referral-expansion",
-      "status": "experimental",
-      "name_en": "Referral Program Design",
-      "name_zh": "推荐计划设计",
-      "description_en": "Design, audit, measure, and govern value-led referral programs through sender and recipient value, triggers, permissions, destination continuity, rewards, identity, retained quality, incrementality, economics, fraud, trust, and operations",
-      "description_zh": "围绕推荐人和接收人价值、触发时机、权限、落地连续性、奖励、身份、留存质量、增量性、经济性、反作弊、信任与运营，设计、诊断、测量并治理推荐计划",
-      "playbook_revisions": [
-        "b2ae91400ec280479ca31903bf90534ca95a9b18"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "incentive-system-design",
-      "path": "skills/incentive-system-design/",
-      "category": "referral-expansion",
-      "status": "experimental",
-      "name_en": "Incentive System Design",
-      "name_zh": "激励系统设计",
-      "description_en": "Audit, design, taper, or stop rewards, discounts, credits, subsidies, referrals, loyalty, progress, status, and structural incentives using retained incremental contribution, full cost, post-incentive behavior, fraud, cannibalization, fairness, and trust",
-      "description_zh": "基于留存增量贡献、完整成本、激励后行为、欺诈、蚕食、公平与信任，诊断、设计、递减或停止奖励、折扣、额度、补贴、推荐、忠诚度、进度、身份与结构性激励",
-      "playbook_revisions": [
-        "d906be388a79953be86e8fe7ae72490aa741cf9d"
       ],
       "validation": {
         "structure": true,
@@ -973,48 +453,12 @@
       "path": "skills/growth-loop-design/",
       "category": "referral-expansion",
       "status": "experimental",
-      "name_en": "Growth Loop Design",
-      "name_zh": "增长循环设计",
-      "description_en": "Audit whether a mechanism closes, measure value-producing transitions, and design evidence-bounded collaboration, referral, content, marketplace, data, or reinvestment loops without executing external actions",
-      "description_zh": "诊断增长机制是否真正闭合，衡量创造价值的关键转化，并在不执行外部操作的前提下，设计证据边界清晰的协作、推荐、内容、市场、数据或再投资循环",
+      "name_en": "Growth Loops & Network Effects",
+      "name_zh": "增长循环与网络效应",
+      "description_en": "Design and audit referrals, incentives, growth loops, marketplaces, and network effects through participant value, closure, economics, trust, and governance",
+      "description_zh": "围绕参与者价值、闭环、经济性、信任与治理设计并诊断推荐、激励、增长循环、多边市场与网络效应",
       "playbook_revisions": [
         "b2ae914"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "marketplace-growth-strategy",
-      "path": "skills/marketplace-growth-strategy/",
-      "category": "referral-expansion",
-      "status": "experimental",
-      "name_en": "Marketplace Growth Strategy",
-      "name_zh": "Marketplace（多边市场）增长策略",
-      "description_en": "Diagnose, cold-start, optimize, replicate, govern, or stop two-sided and multi-sided marketplaces through atomic market units, side-specific state paths, local liquidity, matching, fulfillment, quality, retention, incentives, participant and platform economics, trust, and evidence-gated expansion",
-      "description_zh": "围绕原子市场单元、各参与方状态路径、本地流动性、匹配、履约、质量、留存、激励、参与者与平台经济性、信任及证据门槛，诊断、冷启动、优化、复制、治理或停止双边与多边市场增长",
-      "playbook_revisions": [
-        "d906be388a79953be86e8fe7ae72490aa741cf9d"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "network-effects-strategy",
-      "path": "skills/network-effects-strategy/",
-      "category": "referral-expansion",
-      "status": "experimental",
-      "name_en": "Network Effects Strategy",
-      "name_zh": "网络效应策略",
-      "description_en": "Audit, cold-start, strengthen, replicate, govern, or stop network effects using bounded network units, participant value, core interactions, hard sides, local liquidity, quality, retention, multi-homing, congestion, defensibility, causal evidence, and market-specific graduation gates",
-      "description_zh": "基于边界明确的网络单元、参与者价值、核心交互、难侧、本地流动性、质量、留存、多归属、拥堵、防御性、因果证据与市场特定的毕业门槛，诊断、冷启动、强化、复制、治理或停止网络效应策略",
-      "playbook_revisions": [
-        "d906be388a79953be86e8fe7ae72490aa741cf9d"
       ],
       "validation": {
         "structure": true,
@@ -1027,30 +471,12 @@
       "path": "skills/acquisition-strategy/",
       "category": "acquisition",
       "status": "experimental",
-      "name_en": "Acquisition Strategy",
-      "name_zh": "获客策略",
-      "description_en": "Audit, design, compare, sequence, scale, cap, or stop acquisition channels and portfolios using customer intent, source-to-retained-value quality, channel-model fit, attribution and incrementality, full and marginal economics, saturation, dependency, capacity, and market-entry evidence",
-      "description_zh": "基于客户意图、来源到留存价值的质量、渠道与商业模式匹配、归因与增量、完整及边际经济性、饱和度、依赖关系、承载能力和市场进入证据，诊断、设计、比较、排序、扩展、限制或停止获客渠道与渠道组合",
+      "name_en": "Acquisition Strategy & Campaigns",
+      "name_zh": "获客策略与营销活动",
+      "description_en": "Design acquisition portfolios and bounded campaigns across audience, offer, channels, journeys, assets, economics, measurement, and operating constraints",
+      "description_zh": "围绕受众、产品方案、渠道、旅程、资产、经济性、测量与运营约束设计获客组合和边界明确的营销活动",
       "playbook_revisions": [
         "d906be388a79953be86e8fe7ae72490aa741cf9d"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "campaign-planning",
-      "path": "skills/campaign-planning/",
-      "category": "acquisition",
-      "status": "experimental",
-      "name_en": "Campaign Planning",
-      "name_zh": "营销活动规划",
-      "description_en": "Turn a bounded objective into an evidence-based audience, positioning, offer, channel, journey, asset, budget, measurement, launch, and postmortem plan without assuming account access or executing the campaign",
-      "description_zh": "将边界明确的目标转化为基于证据的受众、定位、产品方案、渠道、旅程、资产、预算、测量、发布与复盘计划，不假设账户权限，也不直接执行活动",
-      "playbook_revisions": [
-        "dade6460925c4bb87cbe38381aebf2c84fd556d2"
       ],
       "validation": {
         "structure": true,
@@ -1063,30 +489,12 @@
       "path": "skills/partnership-marketing/",
       "category": "acquisition",
       "status": "experimental",
-      "name_en": "Partnership Marketing",
-      "name_zh": "合作伙伴营销",
-      "description_en": "Assess, design, pilot, govern, and exit accountable co-marketing, co-selling, channel, affiliate, integration, marketplace, and ecosystem partnerships through shared-customer value, contributions, rights, data, attribution, economics, operations, and customer protection",
-      "description_zh": "围绕共同客户价值、双方贡献、权利、数据、归因、经济性、运营与客户保护，评估、设计、试点、治理并退出联合营销、联合销售、渠道、联盟、集成、市场和生态合作",
+      "name_en": "Partnerships & Community",
+      "name_zh": "合作伙伴与社区增长",
+      "description_en": "Design accountable partnerships and communities around shared customer value, roles, contribution, trust, operations, economics, and product paths",
+      "description_zh": "围绕共同客户价值、角色、贡献、信任、运营、经济性与产品路径设计可问责的合作伙伴和社区体系",
       "playbook_revisions": [
         "b2ae91400ec280479ca31903bf90534ca95a9b18"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "community-growth-strategy",
-      "path": "skills/community-growth-strategy/",
-      "category": "acquisition",
-      "status": "experimental",
-      "name_en": "Community Growth Strategy",
-      "name_zh": "社区增长策略",
-      "description_en": "Audit and design value-led communities through explicit participant roles, membership and lifecycle states, onboarding, useful interactions, programming, contribution, moderation, operating capacity, platform resilience, product paths, measurement, and trust",
-      "description_zh": "通过明确的参与者角色、成员与生命周期状态、加入引导、有用互动、项目组合、贡献、治理、运营承载能力、平台韧性、产品路径、测量与信任，诊断并设计以价值为中心的社区",
-      "playbook_revisions": [
-        "d906be388a79953be86e8fe7ae72490aa741cf9d"
       ],
       "validation": {
         "structure": true,
@@ -1099,10 +507,10 @@
       "path": "skills/sales-enablement/",
       "category": "acquisition",
       "status": "experimental",
-      "name_en": "Sales Enablement",
-      "name_zh": "销售赋能",
-      "description_en": "Build, audit, localize, govern, and measure evidence-led seller and buyer assets mapped to buying situations, qualification, milestones, claims, proof, alternatives, implementation, realized value, and versioned field learning",
-      "description_zh": "围绕购买情境、资格判断、购买里程碑、声明、证据、替代方案、实施、价值实现与版本化一线学习，构建、诊断、本地化、治理并测量面向销售与买方的赋能资产",
+      "name_en": "Sales Enablement & Outbound",
+      "name_zh": "销售赋能与外联",
+      "description_en": "Build evidence-led sales enablement and permitted B2B outbound messaging across buying situations, claims, proof, sequences, localization, and stop states",
+      "description_zh": "围绕购买情境、声明、证据、沟通序列、本地化与停止状态构建证据驱动的销售赋能和许可型 B2B 外联",
       "playbook_revisions": [
         "b2ae91400ec280479ca31903bf90534ca95a9b18"
       ],
@@ -1113,104 +521,14 @@
       }
     },
     {
-      "id": "landing-page-audit",
-      "path": "skills/landing-page-audit/",
-      "category": "activation",
-      "status": "experimental",
-      "name_en": "Landing Page Audit",
-      "name_zh": "落地页诊断",
-      "description_en": "Audit source-to-page continuity, value, proof, hierarchy, CTA, forms, friction, mobile experience, accessibility, downstream quality, and measurement readiness with a fixed six-dimension score and separate evidence coverage",
-      "description_zh": "通过固定六维评分与独立证据覆盖率，诊断来源到页面的信息连续性、价值、证据、层级、CTA（行动号召）、表单、摩擦、移动体验、无障碍、下游质量与测量准备度",
-      "playbook_revisions": [
-        "b2ae91400ec280479ca31903bf90534ca95a9b18"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "popup-optimization",
-      "path": "skills/popup-optimization/",
-      "category": "activation",
-      "status": "experimental",
-      "name_en": "Popup Optimization",
-      "name_zh": "弹窗优化",
-      "description_en": "Design, audit, localize, and experiment on respectful popup, modal, banner, slide-in, and interstitial experiences through explicit relevance, eligibility, triggers, frequency, suppression, consent, dismissal, accessibility, mobile, performance, downstream value, and guardrails",
-      "description_zh": "通过明确的相关性、资格、触发、频率、抑制、同意、关闭、无障碍、移动端、性能、下游价值与护栏，设计、诊断、本地化并实验尊重用户的弹窗、模态框、横幅、滑入层和插屏体验",
-      "playbook_revisions": [
-        "b2ae91400ec280479ca31903bf90534ca95a9b18"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "meta-ads-audit",
-      "path": "skills/meta-ads-audit/",
+      "id": "paid-media-audit",
+      "path": "skills/paid-media-audit/",
       "category": "acquisition",
       "status": "experimental",
-      "name_en": "Meta Ads Audit",
-      "name_zh": "Meta Ads 诊断",
-      "description_en": "Audit supplied Ads Manager CSVs, creative inventories, landing pages, measurement evidence, and aggregated business outcomes without accessing or changing a live Meta account",
-      "description_zh": "在不访问或更改 Meta 实时账户的前提下，诊断用户提供的 Ads Manager CSV（逗号分隔值）、创意清单、落地页、测量证据及聚合业务结果",
-      "playbook_revisions": [
-        "b2ae914"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "google-ads-audit",
-      "path": "skills/google-ads-audit/",
-      "category": "acquisition",
-      "status": "experimental",
-      "name_en": "Google Ads Audit",
-      "name_zh": "Google Ads 诊断",
-      "description_en": "Audit supplied Google Ads campaign, conversion, Search, Shopping, Performance Max, creative, destination, measurement, and aggregated business evidence without accessing or changing a live account",
-      "description_zh": "在不访问或更改实时账户的前提下，诊断用户提供的 Google Ads 广告活动、转化、搜索、购物、Performance Max、创意、落地页、测量与聚合业务证据",
-      "playbook_revisions": [
-        "b2ae914"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "tiktok-ads-audit",
-      "path": "skills/tiktok-ads-audit/",
-      "category": "acquisition",
-      "status": "experimental",
-      "name_en": "TikTok Ads Audit",
-      "name_zh": "TikTok Ads 诊断",
-      "description_en": "Audit supplied international TikTok Ads structure, short-video creative, Spark Ads rights, destination, event, attribution, and aggregated business evidence without accessing or changing a live account",
-      "description_zh": "在不访问或更改实时账户的前提下，诊断用户提供的 TikTok 国际广告结构、短视频创意、Spark Ads 权限、落地页、事件、归因与聚合业务证据",
-      "playbook_revisions": [
-        "b2ae914"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "douyin-ads-audit",
-      "path": "skills/douyin-ads-audit/",
-      "category": "acquisition",
-      "status": "experimental",
-      "name_en": "Douyin Ads Audit",
-      "name_zh": "抖音广告诊断",
-      "description_en": "Audit supplied Douyin advertising evidence across Ocean Engine, Qianchuan, DOU+, creative and creator rights, product or livestream commerce, conversion, attribution, and aggregated business outcomes without live account access",
-      "description_zh": "在不访问实时账户的前提下，诊断用户提供的巨量引擎、巨量千川、DOU+、创意与达人权限、商品或直播电商、转化、归因及聚合业务证据",
+      "name_en": "Paid Media Audit",
+      "name_zh": "付费媒体诊断",
+      "description_en": "Audit supplied Google, Meta, TikTok, and Douyin advertising evidence without live account access or external changes",
+      "description_zh": "在不访问实时账户或执行外部更改的前提下，诊断用户提供的 Google、Meta、TikTok 与抖音广告证据",
       "playbook_revisions": [
         "b2ae914"
       ],
@@ -1225,29 +543,11 @@
       "path": "skills/seo-audit/",
       "category": "acquisition",
       "status": "experimental",
-      "name_en": "SEO Audit",
-      "name_zh": "SEO（搜索引擎优化）诊断",
-      "description_en": "Diagnose technical, content, and search visibility issues with evidence-backed recommendations",
-      "description_zh": "基于可验证证据诊断技术、内容与搜索可见性问题，并提供优化建议",
+      "name_en": "SEO & Search Systems",
+      "name_zh": "SEO 与搜索系统",
+      "description_en": "Audit and design SEO, programmatic pages, site architecture, structured data, and directory presence with evidence-backed quality and rollout controls",
+      "description_zh": "以有证据支撑的质量与发布控制诊断和设计 SEO、程序化页面、站点架构、结构化数据与目录展示",
       "playbook_revisions": [],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "programmatic-seo",
-      "path": "skills/programmatic-seo/",
-      "category": "acquisition",
-      "status": "experimental",
-      "name_en": "Programmatic SEO",
-      "name_zh": "程序化 SEO（搜索引擎优化）",
-      "description_en": "Validate, design, audit, launch-plan, and govern scalable search page systems through explicit intent, reliable supply, useful templates, page states, quality gates, bounded rollout, downstream value, maintenance, and retirement",
-      "description_zh": "围绕明确意图、可靠数据源、有用模板、页面状态、质量门槛、分批发布、下游价值、维护与退场机制，验证、设计、诊断并治理可规模化的搜索页面系统",
-      "playbook_revisions": [
-        "b2ae91400ec280479ca31903bf90534ca95a9b18"
-      ],
       "validation": {
         "structure": true,
         "eval_spec": true,
@@ -1287,116 +587,14 @@
       }
     },
     {
-      "id": "structured-data-builder",
-      "path": "skills/structured-data-builder/",
-      "category": "acquisition",
-      "status": "experimental",
-      "name_en": "Structured Data Builder",
-      "name_zh": "结构化数据构建",
-      "description_en": "Generate, audit, repair, or template evidence-traced JSON-LD from visible page content or attributable authoritative data, with provider-specific validation and market-aware limitations",
-      "description_zh": "基于页面可见内容或可归因的权威数据，生成、诊断、修复或模板化可追溯的 JSON-LD（JSON 链接数据），并提供区分产品平台和市场情境的验证与限制说明",
-      "playbook_revisions": [],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "search-site-planner",
-      "path": "skills/search-site-planner/",
-      "category": "acquisition",
-      "status": "experimental",
-      "name_en": "Search Site Planner",
-      "name_zh": "搜索站点规划",
-      "description_en": "Plan or review bounded site hierarchies, navigation, URLs, breadcrumbs, internal links, and migration mappings with complete inventory reconciliation and market-aware validation",
-      "description_zh": "基于边界明确的页面或 URL（统一资源定位符）清单，规划或审查站点层级、导航、网址、面包屑、内部链接与迁移映射，并提供完整对账和市场适配验证",
-      "playbook_revisions": [],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "directory-submissions",
-      "path": "skills/directory-submissions/",
-      "category": "acquisition",
-      "status": "experimental",
-      "name_en": "Directory Submissions",
-      "name_zh": "目录提交",
-      "description_en": "Select, prepare, audit, update, and govern accurate high-value directory listings through entity identity, eligibility, categories, claims, assets, rights, verification, duplicates, paid disclosure, tracking, freshness, and qualified downstream value",
-      "description_zh": "围绕实体身份、资格、分类、声明、素材、权利、验证、重复条目、付费披露、追踪、时效性与合格下游价值，筛选、准备、诊断、更新并治理准确且高价值的目录条目",
-      "playbook_revisions": [
-        "b2ae91400ec280479ca31903bf90534ca95a9b18"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "b2b-outbound-messaging",
-      "path": "skills/b2b-outbound-messaging/",
-      "category": "acquisition",
-      "status": "experimental",
-      "name_en": "B2B Outbound Messaging",
-      "name_zh": "B2B（企业对企业）外联沟通",
-      "description_en": "Draft evidence-based one-to-one B2B messages, bounded sequences, follow-ups, and native localization for market-appropriate permitted channels with explicit permission, stop-state, privacy, and action boundaries",
-      "description_zh": "基于可归因证据，为适配市场且已获许可的渠道起草一对一 B2B（企业对企业）消息、边界明确的序列、跟进与原生本地化内容，并明确权限、停止状态、隐私和外部操作边界",
-      "playbook_revisions": [],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
       "id": "growth-operating-review",
       "path": "skills/growth-operating-review/",
       "category": "growth-infrastructure-organization",
       "status": "experimental",
-      "name_en": "Growth Operating Review",
-      "name_zh": "增长经营复盘",
-      "description_en": "Build, audit, and refresh decision-focused weekly, monthly, or quarterly growth reviews that reconcile customer value, lifecycle, accounting, economics, forecasts, anomalies, experiments, portfolios, risks, decisions, and commitments without turning status into impact",
-      "description_zh": "构建、审查和更新以决策为中心的周度、月度或季度增长复盘，核对客户价值、生命周期、增长核算、经济性、预测、异常、实验、项目组合、风险、决策与承诺，避免把状态当成业务影响",
-      "playbook_revisions": [
-        "d906be388a79953be86e8fe7ae72490aa741cf9d"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "growth-decision-record",
-      "path": "skills/growth-decision-record/",
-      "category": "growth-infrastructure-organization",
-      "status": "experimental",
-      "name_en": "Growth Decision Record",
-      "name_zh": "增长决策记录",
-      "description_en": "Build, audit, and refresh one canonical, versioned growth decision record that preserves alternatives, evidence, assumptions, uncertainty, dissent, authority, conditions, dependencies, downstream consumers, follow-through, outcomes, corrections, expiry, and supersession without rewriting history or implying execution",
-      "description_zh": "围绕一项增长决策构建、审查和更新唯一、可版本化的规范记录，保留备选方案、证据、假设、不确定性、异议、权限、条件、依赖、下游使用方、后续行动、结果、纠正、到期与替代关系，避免改写历史或暗示已经执行",
-      "playbook_revisions": [
-        "d906be388a79953be86e8fe7ae72490aa741cf9d"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "growth-risk-management",
-      "path": "skills/growth-risk-management/",
-      "category": "growth-infrastructure-organization",
-      "status": "experimental",
-      "name_en": "Growth Risk Management",
-      "name_zh": "增长风险管理",
-      "description_en": "Build, audit, and refresh cross-initiative growth risk portfolios through explicit risk states, evidence, appetite, tolerances, limits, interactions, concentration, controls, treatments, acceptance, monitoring, escalation, closure, and residual obligations without inventing scores or replacing specialist judgment",
-      "description_zh": "围绕跨项目增长风险组合进行构建、审查与更新，明确风险状态、证据、风险偏好、容忍度、限额、相互作用、集中度、控制、处置、接受、监测、升级、关闭与剩余义务，避免虚构评分或替代专业判断",
+      "name_en": "Growth Reviews, Decisions & Risk",
+      "name_zh": "增长复盘、决策与风险",
+      "description_en": "Run growth reviews and govern decisions and risks through reconciled evidence, alternatives, authority, commitments, monitoring, and escalation",
+      "description_zh": "通过已对账证据、备选方案、权限、承诺、监控与升级机制运营增长复盘并治理决策和风险",
       "playbook_revisions": [
         "d906be388a79953be86e8fe7ae72490aa741cf9d"
       ],
@@ -1411,46 +609,10 @@
       "path": "skills/growth-learning-system/",
       "category": "growth-infrastructure-organization",
       "status": "experimental",
-      "name_en": "Growth Learning System",
-      "name_zh": "增长学习系统",
-      "description_en": "Build, audit, and refresh governed libraries of reusable growth learning through source lineage, bounded learning units, context, contradictions, deduplication, retrieval, freshness, rights, reuse, decision linkage, correction, and retirement without turning summaries, citations, or usage into truth or impact",
-      "description_zh": "通过来源谱系、有边界的学习单元、上下文、矛盾、去重、检索、新鲜度、使用权、复用、决策关联、纠正与退场，构建、审查和更新可复用的增长学习库，避免把摘要、引用或使用量当成事实与影响",
-      "playbook_revisions": [
-        "d906be388a79953be86e8fe7ae72490aa741cf9d"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "growth-change-management",
-      "path": "skills/growth-change-management/",
-      "category": "growth-infrastructure-organization",
-      "status": "experimental",
-      "name_en": "Growth Change Management",
-      "name_zh": "增长变更管理",
-      "description_en": "Build, audit, and refresh bounded transitions for authorized growth changes through affected populations, readiness, capacity, communications, enablement, support, migration, rollout, adoption, stabilization, legacy retirement, and outcome evidence without treating announcements, training, access, or launch as impact",
-      "description_zh": "围绕已授权增长变更的受影响人群、准备度、承载能力、沟通、赋能、支持、迁移、发布、采用、稳定运行、旧流程退场与结果证据，构建、审查和更新边界明确的过渡体系，避免把公告、培训、权限开通或上线当成影响",
-      "playbook_revisions": [
-        "d906be388a79953be86e8fe7ae72490aa741cf9d"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "growth-postmortem",
-      "path": "skills/growth-postmortem/",
-      "category": "growth-infrastructure-organization",
-      "status": "experimental",
-      "name_en": "Growth Postmortem",
-      "name_zh": "增长专项复盘",
-      "description_en": "Build, audit, and refresh evidence-bounded postmortems for completed, stopped, harmful, or inconclusive growth work by preserving original decisions, reconciling outcomes and economics, bounding causal claims, separating decision from result quality, and turning findings into governed learning and follow-up",
-      "description_zh": "为已完成、停止、造成伤害或无结论的增长工作构建、审查和更新证据边界清晰的专项复盘，保留原始决策，核对结果与经济性，约束因果主张，区分决策质量和结果质量，并把发现转化为受治理的学习与后续行动",
+      "name_en": "Growth Learning & Change",
+      "name_zh": "增长学习与变更",
+      "description_en": "Build growth learning, postmortems, and change systems with source lineage, causal boundaries, adoption, correction, follow-through, and retirement",
+      "description_zh": "以来源谱系、因果边界、采用、纠正、后续行动与退场机制构建增长学习、复盘和变更体系",
       "playbook_revisions": [
         "d906be388a79953be86e8fe7ae72490aa741cf9d"
       ],
@@ -1465,10 +627,10 @@
       "path": "skills/growth-infrastructure-assessment/",
       "category": "growth-infrastructure-organization",
       "status": "experimental",
-      "name_en": "Growth Infrastructure Assessment",
-      "name_zh": "增长基础设施评估",
-      "description_en": "Assess data, metric, experiment, decision, execution, creative, and governance capabilities; decide what to centralize or keep local; compare build, buy, compose, consolidate, or retire options; and prioritize a dependency-ordered infrastructure roadmap",
-      "description_zh": "评估数据、指标、实验、决策、执行、创意与治理能力，判断哪些能力适合中心化或应保留本地决策，对比自建、采购、组合、整合或退役方案，并制定按依赖关系排序的基础设施路线图",
+      "name_en": "Growth Infrastructure & RevOps",
+      "name_zh": "增长基础设施与收入运营",
+      "description_en": "Assess growth infrastructure and RevOps across data, metrics, experiments, revenue entities, systems, handoffs, governance, and remediation",
+      "description_zh": "围绕数据、指标、实验、收入实体、系统、交接、治理与修复诊断增长基础设施和收入运营",
       "playbook_revisions": [
         "d906be388a79953be86e8fe7ae72490aa741cf9d"
       ],
@@ -1489,24 +651,6 @@
       "description_zh": "围绕当前约束诊断并设计结果归属、决策权、中心与嵌入边界、人员配置情景、项目组合、运行节奏、长期维护、组织健康与基于证据的重组触发条件",
       "playbook_revisions": [
         "d906be388a79953be86e8fe7ae72490aa741cf9d"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "revops-audit",
-      "path": "skills/revops-audit/",
-      "category": "growth-infrastructure-organization",
-      "status": "experimental",
-      "name_en": "RevOps Audit",
-      "name_zh": "RevOps（收入运营）诊断",
-      "description_en": "Audit revenue entities, lifecycle definitions, buyer progress, routing, ownership, handoffs, systems, pipeline, forecasting, commercial and finance reconciliation, customer value, renewals, expansion, controls, and dependency-ordered remediation",
-      "description_zh": "诊断收入实体、生命周期定义、买方进展、路由、归属、交接、系统、销售管道、预测、商业与财务对账、客户价值、续约、扩张及控制，并制定按依赖关系排序的修复路线图",
-      "playbook_revisions": [
-        "b2ae91400ec280479ca31903bf90534ca95a9b18"
       ],
       "validation": {
         "structure": true,

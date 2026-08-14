@@ -1,9 +1,16 @@
 ---
 name: growth-learning-system
-description: Use when a team needs to build, audit, or refresh a governed growth knowledge base, evidence library, experiment repository, learning registry, case library, insight archive, or reusable playbook across research, analysis, campaigns, launches, decisions, incidents, and postmortems; preserve provenance, context, contradictions, freshness, retrieval, reuse, rights, and retirement without turning summaries or citations into truth or impact.
+description: Use when work needs to build growth learning, postmortems, and change systems with source lineage, causal boundaries, adoption, correction, follow-through, and retirement.
 ---
 
-# Growth Learning System
+# Growth Learning & Change
+
+## Integrated Capabilities
+
+This Skill consolidates adjacent workflows behind one trigger. Use the main workflow for core requests. When a request matches a module below, read that module before executing it:
+
+- [Growth Postmortem](references/modules/growth-postmortem/SKILL.md)
+- [Growth Change Management](references/modules/growth-change-management/SKILL.md)
 
 Turn source artifacts into traceable, context-bounded learning units that can be found, challenged, refreshed, reused, corrected, and retired. Preserve original evidence and uncertainty; a summary, repeated claim, popular document, retrieved answer, or favorable result is not a verified lesson, decision, execution, or impact.
 
@@ -19,7 +26,7 @@ Read [learning-system-contract.md](references/learning-system-contract.md) befor
 
 Name one mode and state `draft`, `evidence-pending`, `review-ready`, `published-record`, `review-required`, `stale`, `invalidated`, `superseded`, `retired`, or `expired`. State does not prove source rights, publication, comprehension, adoption, decision change, execution, causal impact, or success.
 
-Route customer research, experiments, attribution, cohorts, metrics, data quality, competitive intelligence, campaigns, launches, incidents, legal review, and other source production to accountable specialists and owning Skills. Route one decision to `growth-decision-record`, recurring business review to `growth-operating-review`, portfolio risk to `growth-risk-management`, and retrospective causal learning to `growth-postmortem`. This Skill owns the cross-source registry, synthesis contract, retrieval, freshness, reuse, and retirement, not specialist work or execution.
+Route customer research, experiments, attribution, cohorts, metrics, data quality, competitive intelligence, campaigns, launches, incidents, legal review, and other source production to accountable specialists and owning Skills. Route individual decisions, recurring business reviews, and portfolio risks to `growth-operating-review`; route retrospective causal learning to `growth-learning-system`. This Skill owns the cross-source registry, synthesis contract, retrieval, freshness, reuse, and retirement, not specialist work or execution.
 
 ## Freeze The System Contract
 

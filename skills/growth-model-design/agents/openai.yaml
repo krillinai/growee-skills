@@ -1,4 +1,4 @@
 interface:
-  display_name: "Growth Model Design"
-  short_description: "Map and test a business-specific growth model"
-  default_prompt: "Use $growth-model-design to map this growth system, test its assumptions, and identify the decision-relevant constraint."
+  display_name: "Growth Model & Opportunity"
+  short_description: "Integrated Growth Model & Opportunity workflows"
+  default_prompt: "Use $growth-model-design to handle this growth model & opportunity request as one evidence-backed workflow."

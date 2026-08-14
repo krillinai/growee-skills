@@ -1,9 +1,15 @@
 ---
 name: customer-research
-description: Use when a product, growth, marketing, positioning, activation, retention, monetization, sales, or market decision needs a customer-research brief, participant and sampling plan, screener, non-leading interview guide, survey boundary, public review or transcript synthesis, voice-of-customer evidence, win/loss or churn research, Jobs-to-be-Done analysis, or evidence-bounded customer insight and decision recommendations.
+description: Use when work needs to plan and synthesize customer research and decision-linked surveys with explicit sampling, evidence, consent, uncertainty, and interpretation boundaries.
 ---
 
-# Customer Research
+# Customer Research & Surveys
+
+## Integrated Capabilities
+
+This Skill consolidates adjacent workflows behind one trigger. Use the main workflow for core requests. When a request matches a module below, read that module before executing it:
+
+- [Survey Design & Analysis](references/modules/survey-design-and-analysis/SKILL.md)
 
 Turn a decision-relevant customer question into a responsible research plan, attributable evidence, bounded synthesis, and actionable learning. Work from public artifacts, supplied research, or approved private inputs. Missing interviews, transcripts, analytics, or customer access are `unavailable`, never a reason to fabricate quotes, motives, prevalence, or certainty.
 
@@ -53,7 +59,7 @@ Do not report a qualitative theme as a population percentage. Report counts only
 
 ## Route Execution
 
-Customer Research owns research design and synthesis, not implementation. Route positioning decisions to an appropriate positioning capability or `growth-diagnosis`, first-value work to `activation`, recurring value to `retention`, commercial research to `monetization`, experiments to `experiment-design`, copy to `copywriting`, lifecycle messages to `lifecycle-marketing`, and campaign execution to `campaign-planning` when available.
+Customer Research owns research design and synthesis, not implementation. Route positioning decisions to an appropriate positioning capability or `growth-diagnosis`, first-value work to `activation`, recurring value to `retention`, commercial research to `monetization`, experiments to `experiment-design`, copy to `copywriting`, lifecycle messages to `lifecycle-marketing`, and campaign execution to `acquisition-strategy` when available.
 
 ## Deliver In Order
 

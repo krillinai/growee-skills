@@ -1,4 +1,0 @@
-interface:
-  display_name: "Growth Budget Allocation"
-  short_description: "Allocate growth resources with evidence"
-  default_prompt: "Use $growth-budget-allocation to design an evidence-gated allocation across growth commitments and protected obligations."
