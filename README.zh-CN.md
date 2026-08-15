@@ -96,21 +96,7 @@ cp -R growee-skills/skills/growth-diagnosis "${CODEX_HOME:-$HOME/.codex}/skills/
 | 把战略、客户证据与证明转化为受治理的内容和创意资产 | [`内容策略与创意`](skills/content-strategy/)、[`文案创作与编辑`](skills/copywriting/)、[`营销视频`](skills/marketing-video/) |
 | 定义客户、市场、匹配、定位、增长模型、测量、实验与运营基础 | [`产品市场匹配与客户旅程`](skills/product-market-fit-assessment/)、[`ICP 与市场定位`](skills/positioning/)、[`增长测量与实验`](skills/growth-measurement/)、[`增长运营与基础设施`](skills/growth-operations/) |
 
-## 选择运营范围
-
-选择与当前约束匹配的最小组合。数量仅代表顶层 Skills 与集成入口；专业工作流保留在所属 Skill 内，仅在需要时加载。
-
-| 范围 | 说明 | 入口数量 |
-| --- | --- | ---: |
-| `content-growth` · 内容增长 | 把客户问题、内容生产、本地化、分发与转化连接起来的内容营销路径。 | 8 |
-| `measurement-analytics` · 测量与分析 | 通过指标、追踪、归因、经济性、预测、同期群与实验，让增长可观察、可用于决策。 | 4 |
-| `acquisition-distribution` · 获客与分发 | 通过渠道、营销活动、搜索、转化界面、合作、社区与外联，把有效需求连接到产品价值。 | 8 |
-| `growth-operating-system` · 增长运营体系 | 通过规划、承载能力、投入、治理、复盘、学习、基础设施、组织与收入运营，把增长决策变成可重复的运行节奏。 | 3 |
-
 ## 完整增长能力图谱
-
-<details>
-<summary>按增长职能展开查看全部 Skill 与集成</summary>
 
 **结构：** 本图谱展示 27 个顶层 Skills；59 个专业工作流保留在 `references/modules/` 中，由所属 Skill 按需加载。
 
@@ -224,8 +210,6 @@ cp -R growee-skills/skills/growth-diagnosis "${CODEX_HOME:-$HOME/.codex}/skills/
     <tr><td><a href="skills/growth-operations/">增长运营与基础设施</a></td><td>预览版</td><td>围绕资源配置、复盘、决策、学习、基础设施、组织、收入运营与实验项目规划并运营增长</td></tr>
   </tbody>
 </table>
-
-</details>
 <!-- END GENERATED: catalog -->
 
 ## 增长原则

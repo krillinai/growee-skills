@@ -77,35 +77,6 @@ def chooser_section(
     return "\n".join(lines)
 
 
-def bundle_section(bundles: dict, language: str) -> str:
-    if language == "en":
-        lines = [
-            "## Choose your operating scope",
-            "",
-            "Choose the smallest bundle that matches the current constraint. Counts refer to top-level Skills and integrations; specialist workflows stay inside their parent Skill and load only when needed.",
-            "",
-            "| Scope | Description | Entry points |",
-            "| --- | --- | ---: |",
-        ]
-    else:
-        lines = [
-            "## 选择运营范围",
-            "",
-            "选择与当前约束匹配的最小组合。数量仅代表顶层 Skills 与集成入口；专业工作流保留在所属 Skill 内，仅在需要时加载。",
-            "",
-            "| 范围 | 说明 | 入口数量 |",
-            "| --- | --- | ---: |",
-        ]
-
-    for bundle in bundles["bundles"]:
-        capability_count = len(bundle["skills"]) + len(bundle.get("integrations", []))
-        lines.append(
-            f"| `{bundle['id']}` · {bundle[f'name_{language}']} | "
-            f"{bundle[f'description_{language}']} | {capability_count} |"
-        )
-    return "\n".join(lines)
-
-
 def catalog_section(
     taxonomy: dict,
     skills_by_id: dict[str, dict],
@@ -148,16 +119,8 @@ def catalog_section(
             f"{specialist_module_count()} 个专业工作流保留在 `references/modules/` 中，"
             "由所属 Skill 按需加载。"
         )
-    summary = (
-        "Browse every Skill and integration by growth function"
-        if language == "en"
-        else "按增长职能展开查看全部 Skill 与集成"
-    )
     lines = [
         title,
-        "",
-        "<details>",
-        f"<summary>{summary}</summary>",
         "",
         structure_note,
         "",
@@ -210,21 +173,18 @@ def catalog_section(
                 f"<td>{integration_status}</td><td>{description}</td></tr>"
             )
         lines.extend(["  </tbody>", "</table>", ""])
-    lines.append("</details>")
     return "\n".join(lines).rstrip()
 
 
 def generated_block(
     taxonomy: dict,
     catalog: dict,
-    bundles: dict,
     integrations: dict,
     language: str,
 ) -> str:
     skills_by_id = {skill["id"]: skill for skill in catalog["skills"]}
     sections = [
         chooser_section(taxonomy, skills_by_id, language),
-        bundle_section(bundles, language),
         catalog_section(taxonomy, skills_by_id, integrations, language),
     ]
     return (
@@ -252,9 +212,8 @@ def replace_block(text: str, block: str, language: str) -> str:
 def render(path: Path, language: str) -> str:
     taxonomy = load_json("taxonomy.json")
     catalog = load_json("skills.json")
-    bundles = load_json("bundles.json")
     integrations = load_json("integrations.json")
-    block = generated_block(taxonomy, catalog, bundles, integrations, language)
+    block = generated_block(taxonomy, catalog, integrations, language)
     return replace_block(path.read_text(encoding="utf-8"), block, language)
 
 
