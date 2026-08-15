@@ -18,8 +18,8 @@ The launch contract may define required assets and sequencing, but specialist Sk
 
 - `positioning`: audience context, alternatives, value, category, proof, and message architecture;
 - `acquisition-strategy`: coordinated channel, journey, asset, budget, and operating plan;
-- `public-relations`: public relevance, media materials, issue response, and earned-versus-paid boundaries;
-- `copywriting`, `marketing-image`, and `ad-creative`: production and review of messages and assets;
+- the Public Relations module in `content-strategy`: public relevance, media materials, issue response, and earned-versus-paid boundaries;
+- `copywriting`, `marketing-image`, and the Ad Creative module in `content-strategy`: production and review of messages and assets;
 - `sales-enablement` and `partnership-marketing`: seller, buyer, partner, and ecosystem paths;
 - `lifecycle-marketing`: permission-aware customer communications.
 
@@ -29,7 +29,7 @@ A handoff does not authorize publishing, sending, buying, or account access.
 
 Define detection, severity, owner, affected release and audience, customer impact, access containment, product fallback, data and evidence preservation, support response, communication owner, specialist escalation, rollback, recovery test, restart criteria, postmortem, and retirement.
 
-Do not announce containment, cause, scope, resolution, or safety without approved attributable evidence. Route public response to `public-relations` and system remediation to accountable operators.
+Do not announce containment, cause, scope, resolution, or safety without approved attributable evidence. Route public response to the Public Relations module in `content-strategy` and system remediation to accountable operators.
 
 ## Market And Localization Boundary
 

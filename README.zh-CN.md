@@ -67,7 +67,7 @@ v
 
 ## 安装与使用
 
-`skills/` 下的每个目录都是一个可独立安装的 Agent Skill。合集提供 29 个顶层 Skills，覆盖增长诊断、客户生命周期、内容生产与增长基础；另有 57 个专业工作流存放在 `references/modules/` 中，仅在所属 Skill 路由到它们时加载。先从增长诊断开始，再只安装与首要约束和执行路径匹配的顶层 Skill。
+`skills/` 下的每个目录都是一个可独立安装的 Agent Skill。合集提供 27 个顶层 Skills，覆盖增长诊断、客户生命周期、内容生产与增长基础；另有 59 个专业工作流存放在 `references/modules/` 中，仅在所属 Skill 路由到它们时加载。先从增长诊断开始，再只安装与首要约束和执行路径匹配的顶层 Skill。
 
 ```bash
 git clone https://github.com/krillinai/growee-skills.git
@@ -94,7 +94,7 @@ cp -R growee-skills/skills/growth-diagnosis "${CODEX_HOME:-$HOME/.codex}/skills/
 | 维持持续价值，理解同期群与流失，并修复有价值的客户关系 | [`留存与客户健康`](skills/retention/)、[`生命周期营销`](skills/lifecycle-marketing/) |
 | 通过定价、套餐、LTV 与单位经济，把客户价值转化为可持续收入 | [`变现与单位经济`](skills/monetization/) |
 | 通过推荐、增长循环、客户扩张、多边市场与网络效应创造更深价值和新分发 | [`增长循环与网络效应`](skills/growth-loop-design/)、[`客户扩张策略`](skills/customer-expansion-strategy/) |
-| 把战略、客户证据与证明转化为受治理的内容和创意资产 | [`内容策略与客户证据`](skills/content-strategy/)、[`文案创作与编辑`](skills/copywriting/)、[`营销视频`](skills/marketing-video/) |
+| 把战略、客户证据与证明转化为受治理的内容和创意资产 | [`内容策略与创意`](skills/content-strategy/)、[`文案创作与编辑`](skills/copywriting/)、[`营销视频`](skills/marketing-video/) |
 | 定义客户、市场、匹配、定位、增长模型、测量、实验与运营基础 | [`产品市场匹配与客户旅程`](skills/product-market-fit-assessment/)、[`ICP 与市场定位`](skills/positioning/)、[`增长测量与实验`](skills/growth-measurement/)、[`增长运营与基础设施`](skills/growth-operations/) |
 
 ## 选择运营范围
@@ -113,7 +113,7 @@ cp -R growee-skills/skills/growth-diagnosis "${CODEX_HOME:-$HOME/.codex}/skills/
 <details>
 <summary>按增长职能展开查看全部 Skill 与集成</summary>
 
-**结构：** 本图谱展示 29 个顶层 Skills；57 个专业工作流保留在 `references/modules/` 中，由所属 Skill 按需加载。
+**结构：** 本图谱展示 27 个顶层 Skills；59 个专业工作流保留在 `references/modules/` 中，由所属 Skill 按需加载。
 
 **成熟度：** 预览版仍需真实任务验证；已验证版本已通过具有代表性的前向测试；稳定版已经过重复使用验证。
 
@@ -199,12 +199,10 @@ cp -R growee-skills/skills/growth-diagnosis "${CODEX_HOME:-$HOME/.codex}/skills/
     <tr><th width="32%">技能</th><th width="12%">状态</th><th>说明</th></tr>
   </thead>
   <tbody>
-    <tr><td><a href="skills/content-strategy/">内容策略与客户证据</a></td><td>预览版</td><td>围绕问题、声明、格式、渠道、工作流、复用、测量与治理构建内容组合和已获授权的客户证据</td></tr>
+    <tr><td><a href="skills/content-strategy/">内容策略与创意</a></td><td>预览版</td><td>围绕问题、声明、格式、渠道、工作流、测量与治理，构建内容组合、已获授权的客户证据、广告创意与公共传播</td></tr>
     <tr><td><a href="skills/copywriting/">文案创作与编辑</a></td><td>预览版</td><td>为页面、营销活动、产品、优惠与本地化创作和编辑证据驱动的文案，同时保留事实含义并记录重要修改</td></tr>
     <tr><td><a href="skills/marketing-image/">营销图片</a></td><td>预览版</td><td>围绕概念谱系、产品准确性、文案、品牌、声明、素材权利、人物、平台格式、本地化、无障碍、文件 QA（质量保证）与下游学习，对真实可信的营销图片进行简报、创作、编辑、适配、诊断与治理</td></tr>
     <tr><td><a href="skills/marketing-video/">营销视频</a></td><td>预览版</td><td>围绕产品与声明准确性、源素材、人物、声音、音乐、权利、本地化、无障碍、渲染 QA（质量保证）与下游学习，对真实可信的营销视频进行简报、脚本、分镜、创作、适配、诊断与治理</td></tr>
-    <tr><td><a href="skills/ad-creative/">广告创意</a></td><td>预览版</td><td>围绕可追溯的广告概念与有目的的执行变体开展调研、设计、Brief（创意简报）、诊断、比较、本地化与复盘，并明确客户证据、声明、证明、权利、版位、落地路径、无障碍、下游结果和疲劳控制</td></tr>
-    <tr><td><a href="skills/public-relations/">公共关系</a></td><td>预览版</td><td>基于证据规划、撰写、诊断、本地化并治理 PR（公共关系）叙事、新闻稿、媒体材料、发言人简报与事件响应，明确管理事实、声明、引语、权利、审批、披露、纠正、报道测量和危机交接</td></tr>
     <tr><td><a href="https://github.com/krillinai/KrillinAI">视频翻译与配音</a></td><td>集成</td><td>完成视频转写、字幕翻译、AI 配音、声音克隆及横竖屏渲染，支持多语言内容本地化。</td></tr>
   </tbody>
 </table>

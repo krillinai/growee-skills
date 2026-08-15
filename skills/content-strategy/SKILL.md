@@ -1,15 +1,17 @@
 ---
 name: content-strategy
-description: Use when work needs to build content portfolios and permissioned customer proof across questions, claims, formats, channels, workflows, reuse, measurement, and governance.
+description: Use when work needs to build content portfolios, customer proof, advertising creative, or public communications across questions, claims, formats, channels, workflows, reuse, measurement, and governance.
 ---
 
-# Content Strategy & Customer Proof
+# Content Strategy & Creative
 
 ## Integrated Capabilities
 
 This Skill consolidates adjacent workflows behind one trigger. Use the main workflow for core requests. When a request matches a module below, read that module before executing it:
 
 - [Customer Proof Development](references/modules/customer-proof-development/SKILL.md)
+- [Ad Creative](references/modules/ad-creative/SKILL.md)
+- [Public Relations](references/modules/public-relations/SKILL.md)
 
 Turn customer questions, positioning, product truth, and distribution evidence into a coherent content portfolio and operating system. Content must perform a declared role and lead to a useful customer or product outcome; publishing volume, followers, impressions, mentions, rankings, and asset count are not success by themselves.
 
@@ -86,7 +88,7 @@ Return:
 8. role-specific measurement, attribution, experiment, guardrail, and learning plan;
 9. handoffs and pinned Playbook sources.
 
-Route research to `customer-research`, positioning to `positioning`, final prose and revisions to `copywriting`, images or video to the relevant creation capability, campaign-specific coordination to `acquisition-strategy`, search page systems to `seo-audit`, sales assets to `sales-enablement` when available, and causal tests to `growth-measurement`.
+Route requests for advertising concepts, briefs, variants, and creative learning to the Ad Creative module. Route announcements, media materials, public statements, and issue responses to the Public Relations module. Route research to `customer-research`, positioning to `positioning`, final prose and revisions to `copywriting`, images or video to the relevant creation capability, campaign-specific coordination to `acquisition-strategy`, search page systems to `seo-audit`, sales assets to `sales-enablement` when available, and causal tests to `growth-measurement`.
 
 For China work, keep market, language, locale, audience, content role, channel, platform, account, product surface, app distribution, payment, identity, consent, publishing rights, content review, data access, and applicable rules separate. Do not infer WeChat, Xiaohongshu, Douyin, Kuaishou, Bilibili, Baidu, Zhihu, channel access, publishing permission, or audience behavior from market or language.
 

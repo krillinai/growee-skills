@@ -85,12 +85,14 @@
     },
     {
       "target": "content-strategy",
-      "name_en": "Content Strategy & Customer Proof",
-      "name_zh": "内容策略与客户证据",
-      "description_en": "Build content portfolios and permissioned customer proof across questions, claims, formats, channels, workflows, reuse, measurement, and governance",
-      "description_zh": "围绕问题、声明、格式、渠道、工作流、复用、测量与治理构建内容组合和已获授权的客户证据",
+      "name_en": "Content Strategy & Creative",
+      "name_zh": "内容策略与创意",
+      "description_en": "Build content portfolios, permissioned customer proof, advertising creative, and public communications across questions, claims, formats, channels, workflows, measurement, and governance",
+      "description_zh": "围绕问题、声明、格式、渠道、工作流、测量与治理，构建内容组合、已获授权的客户证据、广告创意与公共传播",
       "absorbed": [
-        "customer-proof-development"
+        "customer-proof-development",
+        "ad-creative",
+        "public-relations"
       ]
     },
     {

@@ -40,7 +40,7 @@ Before adaptation, freeze approved source units and prohibited expansions. For e
 
 Shortening cannot make a claim broader. A homepage hero, six-second ad, press quote, sales slide, analyst response, app listing, and localized campaign have different context and risk. Produce a channel-ready draft only inside approved source and usage boundaries.
 
-Route prose to `copywriting`, editing to `copywriting`, content portfolio decisions to `content-strategy`, seller assets to `sales-enablement`, public-relations uses to `public-relations`, and images or video to the appropriate creation Skill.
+Route prose and editing to `copywriting`, content portfolio decisions to `content-strategy`, seller assets to `sales-enablement`, public communications uses to the sibling [Public Relations](../../public-relations/SKILL.md) module, and images or video to the appropriate creation Skill.
 
 ## Proof Library
 

@@ -60,14 +60,14 @@ Insights feed the next Growth Diagnosis
 | Retention | How do customers continue receiving value? | Analyze cohorts, engagement, lifecycle communication, customer health, churn, and resurrection |
 | Monetization | How does customer value become durable, profitable revenue? | Design pricing and packaging, then reconcile LTV, payback, and unit economics |
 | Referral & Expansion | How do customers and product activity create deeper value and new distribution? | Build referrals, loops, expansion paths, incentives, marketplaces, and network effects |
-| Content Production | What evidence-backed messages and assets should exist? | Plan and produce copy, images, video, creative, customer proof, PR, and localized content |
+| Content Production | What evidence-backed messages and assets should exist? | Plan and produce strategy, copy, images, video, campaign creative, customer proof, public communications, and localized content |
 | Growth Foundations | Who is the customer, what value matters, and how should growth be measured and operated? | Establish PMF, ICP, positioning, journey, strategy, metrics, experiments, data quality, attribution, forecasting, planning, infrastructure, organization, governance, and RevOps |
 
 Measured customer behavior and business outcomes feed the next diagnosis. That feedback loop, rather than content volume or isolated campaign activity, is the unit of progress. Every Skill preserves evidence and operating boundaries: external publishing and account changes remain under user control, and rights, claims, consent, privacy, and approvals must remain explicit.
 
 ## Install and use
 
-Each directory under `skills/` is a standalone Agent Skill. The collection exposes 29 top-level Skills across diagnosis, the customer lifecycle, content production, and growth foundations. Another 57 specialist workflows live under `references/modules/` and load only when their parent Skill routes to them. Start with Growth Diagnosis, then install only the top-level Skills that match the primary constraint and execution route.
+Each directory under `skills/` is a standalone Agent Skill. The collection exposes 27 top-level Skills across diagnosis, the customer lifecycle, content production, and growth foundations. Another 59 specialist workflows live under `references/modules/` and load only when their parent Skill routes to them. Start with Growth Diagnosis, then install only the top-level Skills that match the primary constraint and execution route.
 
 ```bash
 git clone https://github.com/krillinai/growee-skills.git
@@ -94,7 +94,7 @@ Once the constraint is clear, replace `growth-diagnosis` with the relevant Skill
 | Sustain recurring value, understand cohorts and churn, and recover valuable customer relationships | [`Retention & Customer Health`](skills/retention/), [`Lifecycle Marketing`](skills/lifecycle-marketing/) |
 | Convert customer value into durable revenue through pricing, packaging, LTV, and unit economics | [`Monetization & Economics`](skills/monetization/) |
 | Create deeper value and new distribution through referrals, loops, expansion, marketplaces, and network effects | [`Growth Loops & Network Effects`](skills/growth-loop-design/), [`Customer Expansion Strategy`](skills/customer-expansion-strategy/) |
-| Turn strategy, customer evidence, and proof into governed content and creative assets | [`Content Strategy & Customer Proof`](skills/content-strategy/), [`Copywriting & Editing`](skills/copywriting/), [`Marketing Video`](skills/marketing-video/) |
+| Turn strategy, customer evidence, and proof into governed content and creative assets | [`Content Strategy & Creative`](skills/content-strategy/), [`Copywriting & Editing`](skills/copywriting/), [`Marketing Video`](skills/marketing-video/) |
 | Define customer, market, fit, positioning, growth model, measurement, experimentation, and operating foundations | [`Product-Market Fit & Journey`](skills/product-market-fit-assessment/), [`ICP & Positioning`](skills/positioning/), [`Growth Measurement & Experimentation`](skills/growth-measurement/), [`Growth Operations & Infrastructure`](skills/growth-operations/) |
 
 ## Choose your operating scope
@@ -113,7 +113,7 @@ Choose the smallest bundle that matches the current constraint. Counts refer to 
 <details>
 <summary>Browse every Skill and integration by growth function</summary>
 
-**Structure:** This map lists 29 top-level Skills. They route to 57 specialist workflows under `references/modules/` and load those modules only when needed.
+**Structure:** This map lists 27 top-level Skills. They route to 59 specialist workflows under `references/modules/` and load those modules only when needed.
 
 **Maturity:** Preview Skills need real-world validation; Validated Skills have passed realistic forward tests; Stable Skills have demonstrated repeatable use.
 
@@ -199,12 +199,10 @@ Choose the smallest bundle that matches the current constraint. Counts refer to 
     <tr><th width="32%">Skill</th><th width="12%">Status</th><th>Description</th></tr>
   </thead>
   <tbody>
-    <tr><td><a href="skills/content-strategy/">Content&nbsp;Strategy&nbsp;&amp;&nbsp;Customer&nbsp;Proof</a></td><td>Preview</td><td>Build content portfolios and permissioned customer proof across questions, claims, formats, channels, workflows, reuse, measurement, and governance</td></tr>
+    <tr><td><a href="skills/content-strategy/">Content&nbsp;Strategy&nbsp;&amp;&nbsp;Creative</a></td><td>Preview</td><td>Build content portfolios, permissioned customer proof, advertising creative, and public communications across questions, claims, formats, channels, workflows, measurement, and governance</td></tr>
     <tr><td><a href="skills/copywriting/">Copywriting&nbsp;&amp;&nbsp;Editing</a></td><td>Preview</td><td>Write and edit evidence-led copy for pages, campaigns, products, offers, and localization while preserving factual meaning and recording material edits</td></tr>
     <tr><td><a href="skills/marketing-image/">Marketing&nbsp;Image</a></td><td>Preview</td><td>Brief, create, edit, adapt, audit, and govern truthful marketing images through concept lineage, product accuracy, copy, brand, claims, source rights, people, platform formats, localization, accessibility, file QA, and downstream learning</td></tr>
     <tr><td><a href="skills/marketing-video/">Marketing&nbsp;Video</a></td><td>Preview</td><td>Brief, script, storyboard, create, adapt, audit, and govern truthful marketing videos through product and claim accuracy, source footage, people, voice, music, rights, localization, accessibility, rendering QA, and downstream learning</td></tr>
-    <tr><td><a href="skills/ad-creative/">Ad&nbsp;Creative</a></td><td>Preview</td><td>Research, design, brief, audit, compare, localize, and learn from traceable advertising concepts and purposeful variants with explicit customer evidence, claims, proof, rights, placements, landing paths, accessibility, downstream outcomes, and fatigue controls</td></tr>
-    <tr><td><a href="skills/public-relations/">Public&nbsp;Relations</a></td><td>Preview</td><td>Plan, draft, audit, localize, and govern evidence-led PR narratives, press releases, media materials, spokesperson briefs, issue responses, facts, claims, quotes, rights, approvals, disclosures, corrections, coverage measurement, and crisis handoffs</td></tr>
     <tr><td><a href="https://github.com/krillinai/KrillinAI">Video&nbsp;Translation&nbsp;&amp;&nbsp;Dubbing</a></td><td>Integration</td><td>Localize videos with transcription, subtitle translation, AI dubbing, voice cloning, and landscape or portrait rendering.</td></tr>
   </tbody>
 </table>

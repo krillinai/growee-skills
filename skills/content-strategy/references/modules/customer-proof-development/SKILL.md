@@ -65,7 +65,7 @@ Possession of CRM, calls, tickets, logs, contracts, invoices, emails, or product
 
 Create atomic approved proof units before deriving a case page, short testimonial, sales slide, reference brief, ad, press quote, app listing, analyst response, social post, or localized asset. Every derivative records source units, exact edits, format, channel, audience, market, language, owner, version, approval, publication state, usage locations, expiry, withdrawal, and retirement.
 
-Do not use one long interview unchanged across formats. Adapt length and structure without expanding the claim. Route final prose to `copywriting`, edits to `copywriting`, content portfolio decisions to `content-strategy`, seller and buyer use to `sales-enablement`, and press use to `public-relations`.
+Do not use one long interview unchanged across formats. Adapt length and structure without expanding the claim. Route final prose and edits to `copywriting`, content portfolio decisions to `content-strategy`, seller and buyer use to `sales-enablement`, and press use to the sibling [Public Relations](../public-relations/SKILL.md) module.
 
 ## Govern The Proof Library
 

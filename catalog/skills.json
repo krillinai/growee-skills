@@ -59,46 +59,10 @@
       "path": "skills/content-strategy/",
       "category": "content-production",
       "status": "experimental",
-      "name_en": "Content Strategy & Customer Proof",
-      "name_zh": "内容策略与客户证据",
-      "description_en": "Build content portfolios and permissioned customer proof across questions, claims, formats, channels, workflows, reuse, measurement, and governance",
-      "description_zh": "围绕问题、声明、格式、渠道、工作流、复用、测量与治理构建内容组合和已获授权的客户证据",
-      "playbook_revisions": [
-        "b2ae91400ec280479ca31903bf90534ca95a9b18"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "ad-creative",
-      "path": "skills/ad-creative/",
-      "category": "content-production",
-      "status": "experimental",
-      "name_en": "Ad Creative",
-      "name_zh": "广告创意",
-      "description_en": "Research, design, brief, audit, compare, localize, and learn from traceable advertising concepts and purposeful variants with explicit customer evidence, claims, proof, rights, placements, landing paths, accessibility, downstream outcomes, and fatigue controls",
-      "description_zh": "围绕可追溯的广告概念与有目的的执行变体开展调研、设计、Brief（创意简报）、诊断、比较、本地化与复盘，并明确客户证据、声明、证明、权利、版位、落地路径、无障碍、下游结果和疲劳控制",
-      "playbook_revisions": [
-        "b2ae91400ec280479ca31903bf90534ca95a9b18"
-      ],
-      "validation": {
-        "structure": true,
-        "eval_spec": true,
-        "forward_tested": null
-      }
-    },
-    {
-      "id": "public-relations",
-      "path": "skills/public-relations/",
-      "category": "content-production",
-      "status": "experimental",
-      "name_en": "Public Relations",
-      "name_zh": "公共关系",
-      "description_en": "Plan, draft, audit, localize, and govern evidence-led PR narratives, press releases, media materials, spokesperson briefs, issue responses, facts, claims, quotes, rights, approvals, disclosures, corrections, coverage measurement, and crisis handoffs",
-      "description_zh": "基于证据规划、撰写、诊断、本地化并治理 PR（公共关系）叙事、新闻稿、媒体材料、发言人简报与事件响应，明确管理事实、声明、引语、权利、审批、披露、纠正、报道测量和危机交接",
+      "name_en": "Content Strategy & Creative",
+      "name_zh": "内容策略与创意",
+      "description_en": "Build content portfolios, permissioned customer proof, advertising creative, and public communications across questions, claims, formats, channels, workflows, measurement, and governance",
+      "description_zh": "围绕问题、声明、格式、渠道、工作流、测量与治理，构建内容组合、已获授权的客户证据、广告创意与公共传播",
       "playbook_revisions": [
         "b2ae91400ec280479ca31903bf90534ca95a9b18"
       ],

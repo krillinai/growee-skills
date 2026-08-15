@@ -96,8 +96,8 @@ class GeneratedCatalogTest(unittest.TestCase):
 
     def test_structure_note_reports_consolidated_surface(self):
         cases = (
-            ("en", "29 top-level Skills", "57 specialist workflows"),
-            ("zh", "29 个顶层 Skills", "57 个专业工作流"),
+            ("en", "27 top-level Skills", "59 specialist workflows"),
+            ("zh", "27 个顶层 Skills", "59 个专业工作流"),
         )
 
         for language, skill_count, module_count in cases:
