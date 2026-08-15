@@ -5,6 +5,12 @@ description: Use when work needs to diagnose primary constraints through funnel,
 
 # Growth Diagnosis
 
+## Maintain Growee Context
+
+At the start, read `.agents/growee-context.md` when it exists and apply [context-contract.md](references/context-contract.md). Reuse compatible product, customer, market, outcome, evidence, and routing facts instead of asking for them again, but surface stale definitions, dates, conflicts, and missing evidence. The file never grants system access or execution authority.
+
+After completing a final diagnosis, create or replace `.agents/growee-context.md` using [growee-context-template.md](assets/growee-context-template.md). Keep it semantically aligned with the canonical diagnosis, exclude credentials and unnecessary personal or row-level data, and do not produce a final-looking context file during triage.
+
 ## Integrated Capabilities
 
 This Skill consolidates adjacent workflows behind one trigger. Use the main workflow for core requests. When a request matches a module below, read that module before executing it:
@@ -17,9 +23,9 @@ Turn a growth symptom into one evidence-backed primary constraint, a 30-day deci
 
 ## Read The Contract
 
-Read [evidence-and-routing.md](references/evidence-and-routing.md) before classifying evidence, setting confidence, working with private inputs, diagnosing China, or choosing an execution route.
+Read [evidence-and-routing.md](references/evidence-and-routing.md) before classifying evidence, setting confidence, working with private inputs, diagnosing China, or choosing an execution route. Read [core-read-only-tools.md](references/core-read-only-tools.md) before using GA4, PostHog, Search Console, HubSpot, Google Ads, or Meta Ads.
 
-Read [output-contract.md](references/output-contract.md) before producing final JSON or Markdown. Use [protocol.schema.json](assets/protocol.schema.json) unchanged as the canonical machine-readable contract. Use [playbook-sources.md](references/playbook-sources.md) to cite the relevant Growth Playbook chapter by title and source text.
+Read [output-contract.md](references/output-contract.md) before producing final JSON or Markdown. Read [context-contract.md](references/context-contract.md) before reading or writing `.agents/growee-context.md`. Use [protocol.schema.json](assets/protocol.schema.json) unchanged as the canonical machine-readable contract. Use [playbook-sources.md](references/playbook-sources.md) to cite the relevant Growth Playbook chapter by title and source text.
 
 ## Gate The Intake
 
@@ -61,6 +67,8 @@ Serialize the last two modes as the schema enum values `growth_loops` and `growt
 4. Label every working-ledger item exactly `verified`, `inferred`, `unavailable`, `not applicable`, or `reported signal`.
 5. Preserve source identifiers, definitions, sample or population, segment, period, values, and quality limitations.
 6. Surface disagreements. Do not average incompatible definitions or discard contradictory evidence.
+
+When the user explicitly authorizes a named core source and a capable read-only path exists, collect only the bounded aggregate evidence allowed by [core-read-only-tools.md](references/core-read-only-tools.md). If access, authorization, or minimum scope is missing, request a bounded export or keep the evidence unavailable. Never treat a connected source as permission for writes, persistent sync, broader collection, or cross-system identity joins.
 
 Do not invent data, benchmarks, causal claims, source access, metric definitions, or results. A public observation can verify what is visible; it cannot verify a private funnel, motive, or business effect.
 
@@ -117,6 +125,8 @@ When intake is complete, include all of the following in both canonical JSON and
 7. relevant Growth Playbook references by title and source text;
 8. execution route, owners, dependencies, and guardrails.
 
+Also write `.agents/growee-context.md` after a final diagnosis unless the user requests chat-only output or the environment cannot write files. This reusable handoff is not part of the protocol JSON schema and must not introduce facts absent from the canonical diagnosis.
+
 Validate JSON against `assets/protocol.schema.json`. Keep Markdown semantically identical to JSON: same facts, values, source IDs, evidence meaning, constraint selection, actions, experiments, routes, and references. Presentation labels may explain schema buckets but may not add conclusions.
 
 ## Keep One Output Language
@@ -129,4 +139,4 @@ For English, use idiomatic English and do not add Chinese glosses except for pro
 
 ## Completion Gate
 
-Before delivery, confirm that required input is complete; the mode is bounded; market and locale are explicit; direct observations are attributable; reported signals and inferences are not promoted to verified; contradictions and missing evidence are visible; exactly one primary constraint exists; confidence follows evidence; actions fit 30 days and have owners, dependencies, and guardrails; experiments change named decisions; schema validation passes; Markdown has semantic parity; Playbook links are relevant; and no external action was taken without separate authorization.
+Before delivery, confirm that required input is complete; the mode is bounded; market and locale are explicit; direct observations are attributable; reported signals and inferences are not promoted to verified; contradictions and missing evidence are visible; exactly one primary constraint exists; confidence follows evidence; actions fit 30 days and have owners, dependencies, and guardrails; experiments change named decisions; schema validation passes; Markdown has semantic parity; Playbook links are relevant; `.agents/growee-context.md` was written only for a final diagnosis and contains no secrets or unnecessary personal data; and no external action was taken without separate authorization.

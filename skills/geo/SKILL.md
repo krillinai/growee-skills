@@ -5,6 +5,10 @@ description: Use when diagnosing public-content readiness or observed visibility
 
 # GEO Audit
 
+## Reuse Growee Context
+
+At the start, read `.agents/growee-context.md` when it exists. Reuse only product, customer, market, outcome, constraint, evidence, and routing fields whose scope, definition, source, and date remain compatible; state what is reused and surface conflicts or staleness before asking for decision-changing gaps. The file grants no system access or execution authority, and this Skill must not silently rewrite the primary diagnosis.
+
 Diagnose what the supplied evidence supports. Keep website readiness, observed AI answers, reported signals, and proposed actions separate; never promise a citation, rank, traffic result, or uplift.
 
 ## Route The Request

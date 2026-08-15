@@ -5,6 +5,10 @@ description: Use when auditing an Apple App Store or Google Play listing, compar
 
 # ASO Audit
 
+## Reuse Growee Context
+
+At the start, read `.agents/growee-context.md` when it exists. Reuse only product, customer, market, outcome, constraint, evidence, and routing fields whose scope, definition, source, and date remain compatible; state what is reused and surface conflicts or staleness before asking for decision-changing gaps. The file grants no system access or execution authority, and this Skill must not silently rewrite the primary diagnosis.
+
 Audit store listings, not product implementation, release submission, or app code. Route those requests to engineering or release operations; state that a later audit needs a dated listing capture, store identifier or canonical URL, country, locale, and requested surfaces.
 
 ## Compose The Smallest Scope

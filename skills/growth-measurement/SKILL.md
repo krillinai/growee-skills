@@ -5,6 +5,10 @@ description: Use when work needs to design or audit growth metrics, tracking, da
 
 # Growth Measurement & Experimentation
 
+## Reuse Growee Context
+
+At the start, read `.agents/growee-context.md` when it exists. Reuse only product, customer, market, outcome, constraint, evidence, and routing fields whose scope, definition, source, and date remain compatible; state what is reused and surface conflicts or staleness before asking for decision-changing gaps. The file grants no system access or execution authority, and this Skill must not silently rewrite the primary diagnosis.
+
 ## Integrated Capabilities
 
 This Skill consolidates adjacent workflows behind one trigger. Use the main workflow for core requests. When a request matches a module below, read that module before executing it:
@@ -20,7 +24,7 @@ This Skill consolidates adjacent workflows behind one trigger. Use the main work
 
 Audit, design, or specify a growth metric system that connects delivered customer value to sustainable business outcomes. Keep activity, attribution, prediction, association, and causality distinct. Missing evidence produces a bounded specification, never invented values.
 
-Read [metric-contract.md](references/metric-contract.md) before accepting, comparing, or calculating a metric. Read [metric-system-design.md](references/metric-system-design.md) before selecting roles, a North Star candidate, or tree relationships. Read [measurement-and-governance.md](references/measurement-and-governance.md) before proposing instrumentation, reconciliation, targets, or operating cadence. Use [playbook-sources.md](references/playbook-sources.md) for the pinned Growth Playbook basis.
+Read [metric-contract.md](references/metric-contract.md) before accepting, comparing, or calculating a metric. Read [metric-system-design.md](references/metric-system-design.md) before selecting roles, a North Star candidate, or tree relationships. Read [measurement-and-governance.md](references/measurement-and-governance.md) before proposing instrumentation, reconciliation, targets, or operating cadence. Read [core-read-only-tools.md](references/core-read-only-tools.md) before using GA4, PostHog, Search Console, HubSpot, Google Ads, or Meta Ads. Use [playbook-sources.md](references/playbook-sources.md) for the pinned Growth Playbook basis.
 
 ## Select One Mode
 
@@ -116,7 +120,9 @@ Return:
 
 ## External-Action Boundary
 
-This Skill produces local analysis and specifications. Do not access analytics, warehouses, CRM, billing, advertising, or product systems; query production data; export customer data; alter events, identity, definitions, targets, dashboards, alerts, reports, experiments, or customer state; publish results; or claim those actions occurred without separate task-level authorization and a capable execution path.
+This Skill produces local analysis and specifications by default. It may perform bounded aggregate reads from the core sources in [core-read-only-tools.md](references/core-read-only-tools.md) only when explicit task-level authorization and a capable minimum-permission path already exist. Otherwise do not access authenticated systems or query production data.
+
+Never export unrestricted customer data; join identities across systems without separate privacy-reviewed authorization; or alter events, identity, records, definitions, targets, dashboards, alerts, reports, flags, experiments, campaigns, budgets, bids, audiences, sitemaps, permissions, or customer state. Do not publish results or claim an action occurred when the capable path did not return verifiable evidence.
 
 ## Keep One Output Language
 

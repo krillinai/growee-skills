@@ -96,9 +96,9 @@ For a mixed plan, label the route in each action's text or rationale and set the
 
 ## Authorization Boundary
 
-Diagnosis is read-only by default. External writes and consequential actions require a separate, explicit authorization that identifies the system, scope, owner, and guardrails. This includes:
+Diagnosis is read-only by default. A bounded authenticated read still requires explicit task-level authorization that identifies the system, property/project/portal/account, scope, owner, decision, and guardrails unless the user already supplied the resulting artifact. Follow [core-read-only-tools.md](core-read-only-tools.md) for supported sources. External writes and consequential actions always require separate explicit authorization. This includes:
 
-- authenticated access not already supplied;
+- authenticated access outside the explicitly approved read boundary;
 - CRM, analytics, advertising, product, content, or sales-system changes;
 - persistent connectors, scheduled agents, monitoring, or data synchronization;
 - campaign, pricing, budget, publication, or deployment changes;

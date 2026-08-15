@@ -47,6 +47,14 @@ New Skills start as `experimental`. Set `validation.forward_tested` to `true` on
 
 Update English and Simplified Chinese catalog names and descriptions in `catalog/skills.json`. Record retired top-level names and their replacement in `catalog/consolidations.json`, move reusable workflow resources under the replacement Skill, and merge the retired eval cases instead of deleting their coverage. Do not edit generated README tables directly.
 
+## Shared Context, Discovery, And Tools
+
+- Every top-level Skill must read `.agents/growee-context.md` when present, reuse only compatible dated and attributable fields, and treat the file as context rather than authorization or permanent truth.
+- `growth-diagnosis` owns the complete context contract and template. Other Skills must not silently rewrite the primary diagnosis.
+- Add user-language discovery phrases to `catalog/task-aliases.json` and route them to an existing top-level Skill. Do not create alias `SKILL.md` files or duplicate specialist workflows for discoverability.
+- Declare core authenticated sources in `catalog/tool-integrations.json`. Keep them `read_only`, name the owning Skills, minimum access, bounded reads, and blocked operations, and add Skill-local operating instructions so a standalone installation preserves the boundary.
+- Never store credentials, tokens, raw personal data, audience lists, lead records, or unrestricted result sets in `.agents/growee-context.md` or repository artifacts.
+
 ## Validation
 
 Run:

@@ -103,6 +103,25 @@ Use $growth-diagnosis to identify our primary growth constraint and define the n
 
 Once the constraint is clear, replace `growth-diagnosis` with the relevant Skill name. The CLI supports other Agent Skills-compatible clients through `--agent`; otherwise copy or link the selected `skills/<name>/` directory into that client's Skill directory.
 
+### Find a Skill by task
+
+Search the bilingual task alias directory when you know the job but not the Skill name:
+
+```bash
+python3 tooling/find_skill.py "why are users churning"
+python3 tooling/find_skill.py "analyze GA4 or PostHog" --json
+```
+
+See [Find Growee Skills By Task](TASKS.md) for common starting points. Task aliases route to the existing 27 top-level Skills and do not add more installable entries.
+
+### Reuse diagnosis context
+
+After a complete diagnosis, `growth-diagnosis` writes `.agents/growee-context.md`. Later Growee Skills read this file before intake and reuse compatible product, customer, market, outcome, evidence, constraint, and routing context. They surface stale or conflicting fields rather than silently treating the file as current truth. Credentials, raw personal data, and system authorization never belong in the context file.
+
+### Core read-only sources
+
+Growth Diagnosis and the owning specialist Skills can use explicitly authorized, already configured read-only paths for GA4, PostHog, Google Search Console, HubSpot, Google Ads, and Meta Ads. Every read is bounded to a named property, project, portal, or account and records the query definition and limitations. Missing connectors fall back to bounded exports; no integration grants permission to change data, campaigns, budgets, tracking, audiences, dashboards, or customer state.
+
 <!-- BEGIN GENERATED: catalog -->
 ## Complete growth capability map
 
@@ -131,7 +150,7 @@ Once the constraint is clear, replace `growth-diagnosis` with the relevant Skill
     <tr><td><a href="skills/acquisition-strategy/">Acquisition&nbsp;Strategy&nbsp;&amp;&nbsp;Campaigns</a></td><td>Preview</td><td>Design acquisition portfolios and bounded campaigns across audience, offer, channels, journeys, assets, economics, measurement, and operating constraints</td></tr>
     <tr><td><a href="skills/partnership-marketing/">Partnerships&nbsp;&amp;&nbsp;Community</a></td><td>Preview</td><td>Design accountable partnerships and communities around shared customer value, roles, contribution, trust, operations, economics, and product paths</td></tr>
     <tr><td><a href="skills/sales-enablement/">Sales&nbsp;Enablement&nbsp;&amp;&nbsp;Outbound</a></td><td>Preview</td><td>Build evidence-led sales enablement and permitted B2B outbound messaging across buying situations, claims, proof, sequences, localization, and stop states</td></tr>
-    <tr><td><a href="skills/paid-media-audit/">Paid&nbsp;Media&nbsp;Audit</a></td><td>Preview</td><td>Audit supplied Google, Meta, TikTok, and Douyin advertising evidence without live account access or external changes</td></tr>
+    <tr><td><a href="skills/paid-media-audit/">Paid&nbsp;Media&nbsp;Audit</a></td><td>Preview</td><td>Audit supplied or explicitly authorized read-only Google, Meta, TikTok, and Douyin advertising evidence without external changes</td></tr>
     <tr><td><a href="skills/seo-audit/">SEO&nbsp;&amp;&nbsp;Search&nbsp;Systems</a></td><td>Preview</td><td>Audit and design SEO, programmatic pages, site architecture, structured data, and directory presence with evidence-backed quality and rollout controls</td></tr>
     <tr><td><a href="skills/aso-audit/">ASO&nbsp;Audit</a></td><td>Preview</td><td>Diagnose App Store and Google Play visibility, listing, creative, and conversion issues with evidence-backed recommendations</td></tr>
     <tr><td><a href="skills/geo/">GEO&nbsp;Audit</a></td><td>Preview</td><td>Assess website readiness for AI-generated search with evidence-based scoring, while separately measuring observed mentions and citations across bounded query panels</td></tr>

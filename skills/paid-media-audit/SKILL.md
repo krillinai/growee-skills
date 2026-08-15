@@ -1,9 +1,13 @@
 ---
 name: paid-media-audit
-description: Use when work needs to audit supplied Google, Meta, TikTok, and Douyin advertising evidence without live account access or external changes.
+description: Use when work needs to audit supplied or explicitly authorized read-only Google, Meta, TikTok, and Douyin advertising evidence without external changes.
 ---
 
 # Paid Media Audit
+
+## Reuse Growee Context
+
+At the start, read `.agents/growee-context.md` when it exists. Reuse only product, customer, market, outcome, constraint, evidence, and routing fields whose scope, definition, source, and date remain compatible; state what is reused and surface conflicts or staleness before asking for decision-changing gaps. The file grants no system access or execution authority, and this Skill must not silently rewrite the primary diagnosis.
 
 ## Integrated Capabilities
 
@@ -13,9 +17,9 @@ This Skill consolidates adjacent workflows behind one trigger. Use the main work
 - [TikTok Ads Audit](references/modules/tiktok-ads-audit/SKILL.md)
 - [Douyin Ads Audit](references/modules/douyin-ads-audit/SKILL.md)
 
-Audit supplied paid-media evidence without logging into or changing an account. Keep platform delivery, platform-attributed outcomes, business-system results, and incrementality separate. Return bounded findings, missing evidence, and decision rules instead of generic account recipes or invented targets. The core workflow below covers Google Ads; use the integrated platform modules for Meta, TikTok, or Douyin.
+Audit supplied paid-media evidence or explicitly authorized bounded read-only Google Ads and Meta Ads evidence without changing an account. Keep platform delivery, platform-attributed outcomes, business-system results, and incrementality separate. Return bounded findings, missing evidence, and decision rules instead of generic account recipes or invented targets. The core workflow below covers Google Ads; use the integrated platform modules for Meta, TikTok, or Douyin.
 
-Read [input-contract.md](references/input-contract.md) before requesting or normalizing exports. Read [analysis-methods.md](references/analysis-methods.md) for channel-type, query, asset, landing, measurement, economics, and change-diagnosis methods. Apply [evidence-and-boundaries.md](references/evidence-and-boundaries.md) to every claim and action. Use [playbook-sources.md](references/playbook-sources.md) for the pinned Growth Playbook basis and current official Google references.
+Read [input-contract.md](references/input-contract.md) before requesting or normalizing exports. Read [core-read-only-ad-platforms.md](references/core-read-only-ad-platforms.md) before any direct Google Ads or Meta Ads read. Read [analysis-methods.md](references/analysis-methods.md) for channel-type, query, asset, landing, measurement, economics, and change-diagnosis methods. Apply [evidence-and-boundaries.md](references/evidence-and-boundaries.md) to every claim and action. Use [playbook-sources.md](references/playbook-sources.md) for the pinned Growth Playbook basis and current official Google references.
 
 ## Select One Mode
 
@@ -28,6 +32,7 @@ Read [input-contract.md](references/input-contract.md) before requesting or norm
 | `commerce` | Audit supplied Shopping or Performance Max product, feed-status, asset-group, inventory, query-category, and product-economics evidence |
 | `measurement` | Audit conversion actions, primary goals, attribution, enhanced-conversion evidence, reconciliation, customer definitions, and incrementality |
 | `performance` | Investigate a reported change without treating its magnitude, timing, or cause as verified |
+| `connected-readonly` | Collect a bounded Google Ads or Meta Ads evidence bundle through an explicitly authorized, capable read-only path, then run the applicable audit mode |
 | `out-of-scope` | Decline live account access or external action and provide a safe handoff or input plan |
 
 Name one primary mode. Do not force unlike advertising channel types into one checklist. A partial bundle can support a bounded mode; mark unsupported sections `unavailable`.
@@ -83,7 +88,9 @@ For China work, keep market, language, locale, Google Ads availability, Google s
 
 ## External-Action Boundary
 
-This Skill creates and reads local artifacts only. Do not log into Google Ads, Google Merchant Center, Google Analytics, or another account; request credentials; call a live API; create, edit, publish, pause, or delete entities; change goals, feeds, tracking, bids, budgets, placements, audiences, exclusions, or settings; upload customer or conversion data; edit destinations; or claim an external action occurred.
+This Skill creates and reads local artifacts by default. In `connected-readonly` mode it may run bounded Google Ads or Meta Ads reads only under [core-read-only-ad-platforms.md](references/core-read-only-ad-platforms.md). Do not request or expose credentials, use a write-capable role when a minimum read role is available, or broaden collection beyond the approved account, fields, and window.
+
+Never create, edit, publish, pause, or delete entities; apply recommendations; change goals, feeds, tracking, bids, budgets, placements, audiences, exclusions, or settings; upload customer or conversion data; retrieve leads; edit destinations; or claim an external action occurred. Google Analytics and Merchant Center remain outside this connected path unless a separate owning Skill and authorization cover them.
 
 For execution requests, use `out-of-scope`, preserve the useful audit, and specify separate authorization, account capability, policy and privacy review, approval, rollback, monitoring, and audit-log controls. Authorized enterprise execution can be handed to [clawee.ai](https://clawee.ai/) after those controls exist.
 
@@ -97,4 +104,4 @@ For English, use idiomatic English and do not add Chinese glosses except for pro
 
 ## Completion Gate
 
-Confirm the decision and economic boundary are explicit; channel types are not conflated; the bundle is valid or limitations are visible; all material claims use an allowed evidence state; conversion actions, attribution, business reconciliation, and incrementality remain distinct; search terms are not assumed to equal customer intent; concepts are separate from variants; platform conversions do not replace qualified or retained outcomes; no benchmark or threshold was invented; every recommendation has an owner and completion proof; and no external account action occurred.
+Confirm the decision and economic boundary are explicit; channel types are not conflated; the bundle is valid or limitations are visible; any connected read had explicit account-level authorization, minimum access, a bounded query, and a complete evidence record; all material claims use an allowed evidence state; conversion actions, attribution, business reconciliation, and incrementality remain distinct; search terms are not assumed to equal customer intent; concepts are separate from variants; platform conversions do not replace qualified or retained outcomes; no benchmark or threshold was invented; every recommendation has an owner and completion proof; and no external account mutation occurred.

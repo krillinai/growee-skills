@@ -33,9 +33,9 @@ When economics are incomplete, return the blocked decision, scenario formula, mi
 
 ## Read-Only And Privacy Boundary
 
-This Skill may read supplied local files, validate a local bundle, calculate descriptive measures from compatible rows, compare dated ad, query, asset, product, destination, measurement, and business evidence, and write local findings or experiment plans.
+This Skill may read supplied local files, validate a local bundle, calculate descriptive measures from compatible rows, compare dated ad, query, asset, product, destination, measurement, and business evidence, and write local findings or experiment plans. Under the explicit authorization and minimum-access gates in [core-read-only-ad-platforms.md](core-read-only-ad-platforms.md), it may also issue bounded Google Ads or Meta Ads read queries and convert the responses into the same evidence bundle.
 
-It must not access Google accounts or ask for credentials; call a live API; create, edit, publish, pause, or delete campaigns or related entities; change bids, budgets, goals, networks, feeds, placements, audiences, exclusions, tracking, or destinations; upload Customer Match or conversion data; or claim those actions occurred.
+It must not ask for or expose credentials; use unapproved accounts, fields, windows, or write-capable operations; create, edit, publish, pause, or delete campaigns or related entities; apply recommendations; change bids, budgets, goals, networks, feeds, placements, audiences, exclusions, tracking, or destinations; upload Customer Match or conversion data; retrieve leads; or claim those actions occurred.
 
 Do not process direct identifiers, credentials, developer tokens, OAuth secrets, Customer Match lists, payment records, raw offline-conversion identifiers, or click identifiers linked to people. Stop using the affected artifact without reproducing sensitive values and request a redacted or aggregated replacement.
 

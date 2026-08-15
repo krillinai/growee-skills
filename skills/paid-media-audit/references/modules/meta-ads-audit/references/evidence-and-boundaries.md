@@ -51,6 +51,7 @@ Business outcomes should be aggregated by date, campaign, ad set, ad, market, or
 This Skill may:
 
 - read user-supplied local files;
+- analyze a bounded evidence bundle collected under the parent Skill's explicitly authorized `ads_read` path;
 - validate and normalize a local bundle;
 - calculate descriptive measures from compatible fields;
 - compare dated creative, landing, measurement, and business evidence;
@@ -58,9 +59,9 @@ This Skill may:
 
 This Skill must not:
 
-- log into Meta or ask for login credentials;
-- connect an ad account or obtain tokens;
-- call the Marketing API or Graph API against a live account;
+- ask for, expose, or store login credentials or tokens;
+- access an account, field set, date window, or entity outside the explicitly approved read boundary;
+- use `ads_management`, retrieve leads, or retrieve audience members;
 - create, edit, duplicate, publish, pause, or delete campaigns, ad sets, ads, or creatives;
 - change bids, budgets, placements, objectives, attribution settings, or account configuration;
 - upload audiences, customer lists, events, or conversions;

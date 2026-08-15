@@ -5,6 +5,10 @@ description: Use when planning, drafting, reviewing, or localizing welcome, acti
 
 # Lifecycle Marketing
 
+## Reuse Growee Context
+
+At the start, read `.agents/growee-context.md` when it exists. Reuse only product, customer, market, outcome, constraint, evidence, and routing fields whose scope, definition, source, and date remain compatible; state what is reused and surface conflicts or staleness before asking for decision-changing gaps. The file grants no system access or execution authority, and this Skill must not silently rewrite the primary diagnosis.
+
 Plan lifecycle programs from bounded evidence and current channel permission. Public product information is enough to begin a useful blueprint. Private CRM, CDP, event, consent, account, and analytics artifacts are optional; record missing or declined private data as `unavailable`, never as failure, and do not request declined access again.
 
 Read [program-contract.md](references/program-contract.md) for intake, classification, draft gates, suppression, evidence, cadence, measurement, privacy, outputs, and handoffs. Read [channel-gates.md](references/channel-gates.md) whenever channel choice, fallback, market, language, locale, or localization affects the task. Read [source-records.md](references/source-records.md) before making a current platform, provider, regulatory, or capability claim.
