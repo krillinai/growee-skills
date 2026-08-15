@@ -5,6 +5,10 @@ description: Use when work needs to audit and design SEO, programmatic pages, si
 
 # SEO & Search Systems
 
+## Reuse Growee Context
+
+At the start, read `.agents/growee-context.md` when it exists. Reuse only product, customer, market, outcome, constraint, evidence, and routing fields whose scope, definition, source, and date remain compatible; state what is reused and surface conflicts or staleness before asking for decision-changing gaps. The file grants no system access or execution authority, and this Skill must not silently rewrite the primary diagnosis.
+
 ## Integrated Capabilities
 
 This Skill consolidates adjacent workflows behind one trigger. Use the main workflow for core requests. When a request matches a module below, read that module before executing it:
@@ -15,6 +19,8 @@ This Skill consolidates adjacent workflows behind one trigger. Use the main work
 - [Directory Submissions](references/modules/directory-submissions/SKILL.md)
 
 Diagnose from inspectable evidence; separate observations, hypotheses, and missing inputs.
+
+Read [search-console-read-only.md](references/search-console-read-only.md) before any authenticated Google Search Console query. Use the smallest authorized read; otherwise request a bounded export or keep first-party search evidence unavailable.
 
 ## Intake
 

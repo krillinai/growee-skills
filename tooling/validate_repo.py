@@ -402,6 +402,159 @@ def validate_catalog(skill_ids: set[str], report: Report) -> None:
                 report.error(f"{bundle_id}: bundle contains unknown integrations")
 
 
+def validate_task_aliases(skill_ids: set[str], report: Report) -> None:
+    data = load_json(CATALOG_DIR / "task-aliases.json", report)
+    if data is None:
+        return
+    jobs = data.get("jobs")
+    if data.get("schema_version") != "1.0" or not isinstance(jobs, list):
+        report.error("catalog/task-aliases.json: invalid schema_version or jobs")
+        return
+
+    required = {
+        "id",
+        "title_en",
+        "title_zh",
+        "queries_en",
+        "queries_zh",
+        "primary_skill",
+        "related_skills",
+    }
+    job_ids: set[str] = set()
+    primary_skills: list[str] = []
+    for index, job in enumerate(jobs):
+        label = f"catalog/task-aliases.json: job[{index}]"
+        if not isinstance(job, dict) or set(job) != required:
+            report.error(f"{label} has invalid keys")
+            continue
+        job_id = job.get("id")
+        if (
+            not isinstance(job_id, str)
+            or not SKILL_NAME_RE.fullmatch(job_id)
+            or job_id in job_ids
+        ):
+            report.error(f"{label} has an invalid or duplicate id")
+            continue
+        job_ids.add(job_id)
+        for key in ("title_en", "title_zh"):
+            if not isinstance(job.get(key), str) or not job[key].strip():
+                report.error(f"{job_id}: task alias {key} must be non-empty")
+        for key in ("queries_en", "queries_zh"):
+            values = job.get(key)
+            if (
+                not isinstance(values, list)
+                or not values
+                or not all(isinstance(value, str) and value.strip() for value in values)
+                or len(values) != len(set(values))
+            ):
+                report.error(f"{job_id}: task alias {key} must contain unique strings")
+        primary = job.get("primary_skill")
+        related = job.get("related_skills")
+        if primary not in skill_ids:
+            report.error(f"{job_id}: unknown primary Skill")
+        else:
+            primary_skills.append(primary)
+        if (
+            not isinstance(related, list)
+            or not all(isinstance(value, str) for value in related)
+            or len(related) != len(set(related))
+            or not set(related) <= skill_ids
+            or primary in related
+        ):
+            report.error(f"{job_id}: invalid related Skills")
+
+    if len(primary_skills) != len(set(primary_skills)) or set(primary_skills) != skill_ids:
+        report.error(
+            "catalog/task-aliases.json: every top-level Skill must be one primary task exactly once"
+        )
+
+
+def validate_tool_integrations(skill_ids: set[str], report: Report) -> None:
+    data = load_json(CATALOG_DIR / "tool-integrations.json", report)
+    if data is None:
+        return
+    integrations = data.get("integrations")
+    if data.get("schema_version") != "1.0" or not isinstance(integrations, list):
+        report.error(
+            "catalog/tool-integrations.json: invalid schema_version or integrations"
+        )
+        return
+
+    required = {
+        "id",
+        "name",
+        "access_mode",
+        "owner_skills",
+        "minimum_access",
+        "read_operations",
+        "blocked_operations",
+    }
+    integration_ids: set[str] = set()
+    for index, integration in enumerate(integrations):
+        label = f"catalog/tool-integrations.json: integration[{index}]"
+        if not isinstance(integration, dict) or set(integration) != required:
+            report.error(f"{label} has invalid keys")
+            continue
+        integration_id = integration.get("id")
+        if (
+            not isinstance(integration_id, str)
+            or not SKILL_NAME_RE.fullmatch(integration_id)
+            or integration_id in integration_ids
+        ):
+            report.error(f"{label} has an invalid or duplicate id")
+            continue
+        integration_ids.add(integration_id)
+        if not isinstance(integration.get("name"), str) or not integration["name"].strip():
+            report.error(f"{integration_id}: tool name must be non-empty")
+        if integration.get("access_mode") != "read_only":
+            report.error(f"{integration_id}: tool access_mode must be read_only")
+        owners = integration.get("owner_skills")
+        if (
+            not isinstance(owners, list)
+            or not owners
+            or not all(isinstance(value, str) for value in owners)
+            or len(owners) != len(set(owners))
+            or not set(owners) <= skill_ids
+        ):
+            report.error(f"{integration_id}: invalid owner Skills")
+        for key in ("minimum_access", "read_operations", "blocked_operations"):
+            values = integration.get(key)
+            if (
+                not isinstance(values, list)
+                or not values
+                or not all(isinstance(value, str) and value.strip() for value in values)
+                or len(values) != len(set(values))
+            ):
+                report.error(f"{integration_id}: {key} must contain unique strings")
+
+
+def validate_growee_context(skill_dirs: list[Path], report: Report) -> None:
+    context_path = ".agents/growee-context.md"
+    for skill_dir in skill_dirs:
+        skill_path = skill_dir / "SKILL.md"
+        if skill_path.is_file() and context_path not in skill_path.read_text(encoding="utf-8"):
+            report.error(f"{skill_dir.name}: must reuse {context_path}")
+
+    template = SKILLS_DIR / "growth-diagnosis" / "assets" / "growee-context-template.md"
+    if not template.is_file():
+        report.error("growth-diagnosis: missing Growee context template")
+        return
+    text = template.read_text(encoding="utf-8")
+    for heading in (
+        "# Growee Context",
+        "## Scope",
+        "## Target Outcome",
+        "## Current Diagnosis",
+        "## Evidence Boundary",
+        "## 30-Day Execution",
+        "## Experiments",
+        "## Next Skills",
+        "## Reuse Notes",
+    ):
+        if heading not in text:
+            report.error(f"growth-diagnosis: context template missing {heading}")
+
+
 def validate_consolidations(skill_ids: set[str], report: Report) -> None:
     data = load_json(CATALOG_DIR / "consolidations.json", report)
     catalog = load_json(CATALOG_DIR / "skills.json", report)
@@ -636,6 +789,9 @@ def main() -> int:
         eval_count += validate_eval_file(skill_dir, global_eval_ids, report)
 
     validate_catalog(skill_ids, report)
+    validate_task_aliases(skill_ids, report)
+    validate_tool_integrations(skill_ids, report)
+    validate_growee_context(skill_dirs, report)
     validate_consolidations(skill_ids, report)
     validate_consolidated_modules(skill_ids, report)
     validate_retired_skill_references(report)

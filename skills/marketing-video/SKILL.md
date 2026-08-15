@@ -5,6 +5,10 @@ description: Use when a team needs to brief, script, storyboard, generate, recor
 
 # Marketing Video
 
+## Reuse Growee Context
+
+At the start, read `.agents/growee-context.md` when it exists. Reuse only product, customer, market, outcome, constraint, evidence, and routing fields whose scope, definition, source, and date remain compatible; state what is reused and surface conflicts or staleness before asking for decision-changing gaps. The file grants no system access or execution authority, and this Skill must not silently rewrite the primary diagnosis.
+
 Turn one bounded audience decision into truthful, comprehensible, accessible, production-ready video and purposeful adaptations. Optimize qualified customer understanding and downstream value, not video volume, opening-hook metrics, watch time, engagement, attributed conversion, or production polish alone.
 
 ## Read The Relevant References

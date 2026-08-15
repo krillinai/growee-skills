@@ -103,6 +103,25 @@ cp -R growee-skills/skills/growth-diagnosis "${CODEX_HOME:-$HOME/.codex}/skills/
 
 明确约束后，将示例中的 `growth-diagnosis` 替换为对应 Skill 名称。CLI 可通过 `--agent` 支持其他兼容 Agent Skills 的客户端；否则将所选 `skills/<name>/` 目录复制或链接到对应的 Skill 目录即可。
 
+### 按用户任务查找 Skill
+
+知道要完成的任务、但不知道 Skill 名称时，可以搜索中英文任务别名目录：
+
+```bash
+python3 tooling/find_skill.py "用户为什么流失"
+python3 tooling/find_skill.py "分析GA4或PostHog" --json
+```
+
+[按任务查找 Growee Skills](TASKS.md) 提供常见入口。任务别名只路由到现有 27 个顶层 Skills，不会增加新的可安装入口。
+
+### 复用增长诊断上下文
+
+完成最终诊断后，`growth-diagnosis` 会写入 `.agents/growee-context.md`。后续 Growee Skills 会在信息收集前读取该文件，复用范围和定义仍兼容的产品、客户、市场、结果指标、证据、约束与执行路径信息；遇到过期或冲突字段时会明确提示，不会把文件静默当成当前事实。凭据、原始个人数据和系统操作授权不得写入该文件。
+
+### 核心只读数据源
+
+增长诊断及对应的专业 Skills 可以使用已经配置且经过明确授权的 GA4、PostHog、Google Search Console、HubSpot、Google Ads 与 Meta Ads 只读路径。每次读取都限定到指定媒体资源、项目、门户或广告账户，并记录查询口径和局限。没有连接器时退回到边界明确的导出文件；任何接入都不授权修改数据、营销活动、预算、追踪、受众、看板或客户状态。
+
 <!-- BEGIN GENERATED: catalog -->
 ## 完整增长能力图谱
 
@@ -131,7 +150,7 @@ cp -R growee-skills/skills/growth-diagnosis "${CODEX_HOME:-$HOME/.codex}/skills/
     <tr><td><a href="skills/acquisition-strategy/">获客策略与营销活动</a></td><td>预览版</td><td>围绕受众、产品方案、渠道、旅程、资产、经济性、测量与运营约束设计获客组合和边界明确的营销活动</td></tr>
     <tr><td><a href="skills/partnership-marketing/">合作伙伴与社区增长</a></td><td>预览版</td><td>围绕共同客户价值、角色、贡献、信任、运营、经济性与产品路径设计可问责的合作伙伴和社区体系</td></tr>
     <tr><td><a href="skills/sales-enablement/">销售赋能与外联</a></td><td>预览版</td><td>围绕购买情境、声明、证据、沟通序列、本地化与停止状态构建证据驱动的销售赋能和许可型 B2B 外联</td></tr>
-    <tr><td><a href="skills/paid-media-audit/">付费媒体诊断</a></td><td>预览版</td><td>在不访问实时账户或执行外部更改的前提下，诊断用户提供的 Google、Meta、TikTok 与抖音广告证据</td></tr>
+    <tr><td><a href="skills/paid-media-audit/">付费媒体诊断</a></td><td>预览版</td><td>在不执行外部更改的前提下，诊断用户提供或经明确授权只读获取的 Google、Meta、TikTok 与抖音广告证据</td></tr>
     <tr><td><a href="skills/seo-audit/">SEO&nbsp;与搜索系统</a></td><td>预览版</td><td>以有证据支撑的质量与发布控制诊断和设计 SEO、程序化页面、站点架构、结构化数据与目录展示</td></tr>
     <tr><td><a href="skills/aso-audit/">ASO（应用商店优化）诊断</a></td><td>预览版</td><td>基于可验证证据诊断 App Store 与 Google Play 的可见性、商店页面、素材及转化问题，并提供优化建议</td></tr>
     <tr><td><a href="skills/geo/">GEO（生成式引擎优化）诊断</a></td><td>预览版</td><td>基于证据评估网站面向 AI（人工智能）生成式搜索的准备度，并通过边界明确的查询面板独立观测品牌提及与引用表现</td></tr>

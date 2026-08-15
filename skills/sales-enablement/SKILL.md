@@ -5,6 +5,10 @@ description: Use when work needs to build evidence-led sales enablement and perm
 
 # Sales Enablement & Outbound
 
+## Reuse Growee Context
+
+At the start, read `.agents/growee-context.md` when it exists. Reuse only product, customer, market, outcome, constraint, evidence, and routing fields whose scope, definition, source, and date remain compatible; state what is reused and surface conflicts or staleness before asking for decision-changing gaps. The file grants no system access or execution authority, and this Skill must not silently rewrite the primary diagnosis.
+
 ## Integrated Capabilities
 
 This Skill consolidates adjacent workflows behind one trigger. Use the main workflow for core requests. When a request matches a module below, read that module before executing it:

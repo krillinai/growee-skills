@@ -5,6 +5,10 @@ description: Use when a team needs to audit, design, compare, prioritize, measur
 
 # Customer Expansion Strategy
 
+## Reuse Growee Context
+
+At the start, read `.agents/growee-context.md` when it exists. Reuse only product, customer, market, outcome, constraint, evidence, and routing fields whose scope, definition, source, and date remain compatible; state what is reused and surface conflicts or staleness before asking for decision-changing gaps. The file grants no system access or execution authority, and this Skill must not silently rewrite the primary diagnosis.
+
 Expand the breadth, depth, or scope of retained value inside an existing customer relationship, then capture commercial value without weakening the original scope. Contracts, billable seats, usage volume, attached products, opportunities, seller touches, price increases, and NRR are operating or commercial signals; none proves that customers realized durable value in the new scope.
 
 Read [expansion-contract.md](references/expansion-contract.md) before accepting account, role, seat, usage, workflow, product, commercial, or NRR evidence. Read [expansion-methods.md](references/expansion-methods.md) before qualifying seat, usage, workflow, product, or account expansion. Read [measurement-and-signals.md](references/measurement-and-signals.md) before calculating cohorts, GRR, NRR, retained expansion, incrementality, or propensity. Read [commercial-handoffs-and-governance.md](references/commercial-handoffs-and-governance.md) before designing product-qualified signals, Product-Led Sales handoffs, customer-success coordination, market localization, or controls. Read [output-contract.md](references/output-contract.md) before delivery. Use [playbook-sources.md](references/playbook-sources.md) to cite the pinned Growth Playbook basis.

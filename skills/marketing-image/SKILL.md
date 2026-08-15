@@ -5,6 +5,10 @@ description: Use when a team needs to create, generate, edit, composite, adapt, 
 
 # Marketing Image
 
+## Reuse Growee Context
+
+At the start, read `.agents/growee-context.md` when it exists. Reuse only product, customer, market, outcome, constraint, evidence, and routing fields whose scope, definition, source, and date remain compatible; state what is reused and surface conflicts or staleness before asking for decision-changing gaps. The file grants no system access or execution authority, and this Skill must not silently rewrite the primary diagnosis.
+
 Turn one bounded communication decision into truthful, brand-coherent, accessible, production-ready image assets and purposeful adaptations. Optimize audience comprehension and qualified downstream value, not image count, aesthetic novelty, engagement, clicks, or attributed conversion alone.
 
 ## Read The Relevant References

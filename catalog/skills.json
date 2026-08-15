@@ -421,8 +421,8 @@
       "status": "experimental",
       "name_en": "Paid Media Audit",
       "name_zh": "付费媒体诊断",
-      "description_en": "Audit supplied Google, Meta, TikTok, and Douyin advertising evidence without live account access or external changes",
-      "description_zh": "在不访问实时账户或执行外部更改的前提下，诊断用户提供的 Google、Meta、TikTok 与抖音广告证据",
+      "description_en": "Audit supplied or explicitly authorized read-only Google, Meta, TikTok, and Douyin advertising evidence without external changes",
+      "description_zh": "在不执行外部更改的前提下，诊断用户提供或经明确授权只读获取的 Google、Meta、TikTok 与抖音广告证据",
       "playbook_revisions": [
         "b2ae914"
       ],

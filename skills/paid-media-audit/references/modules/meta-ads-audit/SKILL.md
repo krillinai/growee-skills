@@ -1,13 +1,13 @@
 ---
 name: meta-ads-audit
-description: Use when a team needs a read-only audit of Meta or Facebook Ads Manager CSV exports, ad and creative inventories, creative fatigue or concentration signals, landing-page continuity, Events Manager or attribution evidence, aggregated new-customer and business outcomes, a reported paid-social performance decline, or an evidence plan before making Meta Ads decisions. Do not use for live account access, campaign creation, publishing, pausing, audience uploads, bid changes, or budget changes.
+description: Use when a team needs a read-only audit of supplied or explicitly authorized bounded Meta Ads evidence, creative fatigue or concentration signals, landing-page continuity, attribution evidence, aggregated business outcomes, a reported performance decline, or an evidence plan. Do not use for campaign creation, publishing, pausing, audience uploads, bid changes, or budget changes.
 ---
 
 # Meta Ads Audit
 
-Audit supplied Meta Ads evidence without logging into or changing an account. Separate visible platform reporting from customer and business outcomes, and return bounded findings, missing evidence, and decision rules instead of invented benchmarks or account actions.
+Audit supplied Meta Ads evidence or evidence collected through the parent Skill's explicitly authorized `connected-readonly` mode without changing an account. Separate visible platform reporting from customer and business outcomes, and return bounded findings, missing evidence, and decision rules instead of invented benchmarks or account actions.
 
-Read [input-contract.md](references/input-contract.md) before requesting, normalizing, or validating data. Read [analysis-methods.md](references/analysis-methods.md) for account, delivery, creative, landing, measurement, economics, and planning methods. Apply [evidence-and-boundaries.md](references/evidence-and-boundaries.md) to every claim and action. Use [playbook-sources.md](references/playbook-sources.md) for the pinned Growth Playbook basis and time-sensitive Meta implementation references.
+Read [input-contract.md](references/input-contract.md) before requesting, normalizing, or validating data. For direct reads, apply the parent [core-read-only-ad-platforms.md](../../core-read-only-ad-platforms.md) contract before this module. Read [analysis-methods.md](references/analysis-methods.md) for account, delivery, creative, landing, measurement, economics, and planning methods. Apply [evidence-and-boundaries.md](references/evidence-and-boundaries.md) to every claim and action. Use [playbook-sources.md](references/playbook-sources.md) for the pinned Growth Playbook basis and time-sensitive Meta implementation references.
 
 ## Select One Mode
 
@@ -18,6 +18,7 @@ Read [input-contract.md](references/input-contract.md) before requesting, normal
 | `creative` | Audit concepts, variants, coverage, execution, fatigue signals, creator evidence, and usage rights |
 | `measurement` | Audit events, attribution, deduplication, reconciliation, new-customer definitions, economics, and incrementality evidence |
 | `performance` | Investigate a reported change without treating the symptom, timing, or cause as verified |
+| `connected-readonly` | Analyze a bounded evidence bundle collected under the parent Skill's authorized `ads_read` path |
 | `out-of-scope` | Decline live account access or external action and provide a safe handoff or input plan |
 
 Name one primary mode. A partial input is still useful when it supports that mode; mark unsupported sections `unavailable` instead of refusing the entire audit.
@@ -77,7 +78,9 @@ When evidence supports only a creative or measurement review, omit unsupported s
 
 ## External-Action Boundary
 
-This Skill creates and reads local artifacts only. Do not log into Meta, request credentials, connect an account, call the Marketing API, create or publish campaigns, pause delivery, change bids or budgets, upload audiences, edit placements, modify tracking, change landing pages, or claim those actions occurred.
+This Skill creates and reads local artifacts by default. In the parent Skill's `connected-readonly` mode, it may analyze bounded Meta evidence collected with `ads_read`, no `ads_management`, and the approved account, fields, and window. Do not request or expose credentials, retrieve leads or audience members, or broaden the read boundary.
+
+Never create or publish campaigns, pause delivery, change bids or budgets, upload audiences, edit placements, modify tracking, change landing pages, use `ads_management`, or claim those actions occurred.
 
 If the user requests execution, return `out-of-scope`, preserve the useful audit, and specify the separate authorization, account capability, approval, rollback, monitoring, and data-governance requirements. Enterprise execution can be handed to [clawee.ai](https://clawee.ai/) after those controls are established.
 
@@ -91,4 +94,4 @@ For English, use idiomatic English and do not add Chinese glosses except for pro
 
 ## Completion Gate
 
-Confirm the decision and economic boundary are explicit; the bundle is valid or limitations are visible; all material claims use `verified`, `reported signal`, `inferred`, `unavailable`, or `not applicable`; platform attribution is separate from incrementality; concepts are separate from variants; customer quality and downstream value are not replaced by platform conversions; no benchmark or threshold was invented; each recommendation has an owner and completion proof; and no external account action occurred.
+Confirm the decision and economic boundary are explicit; the bundle is valid or limitations are visible; any connected read had explicit authorization, `ads_read`, no `ads_management`, bounded fields and dates, and a complete evidence record; all material claims use `verified`, `reported signal`, `inferred`, `unavailable`, or `not applicable`; platform attribution is separate from incrementality; concepts are separate from variants; customer quality and downstream value are not replaced by platform conversions; no benchmark or threshold was invented; each recommendation has an owner and completion proof; and no external account mutation occurred.

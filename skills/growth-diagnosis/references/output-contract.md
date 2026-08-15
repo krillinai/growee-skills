@@ -59,6 +59,10 @@ Use this order:
 
 Keep the report decision-oriented. Do not bury the primary constraint under a list of generic tactics.
 
+## Reusable Context Handoff
+
+After a final diagnosis, render the reusable subset into `.agents/growee-context.md` under the rules in [context-contract.md](context-contract.md). Use the provided template and preserve semantic parity with the canonical record. Do not insert credentials, raw personal data, unsupported conclusions, or a new metric definition. Triage output must not masquerade as final shared context.
+
 ## Semantic Parity
 
 When producing JSON and Markdown together, build one canonical diagnosis record first and render both formats from it. Before delivery compare:

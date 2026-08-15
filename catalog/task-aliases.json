@@ -1,0 +1,248 @@
+{
+  "schema_version": "1.0",
+  "jobs": [
+    {
+      "id": "diagnose-growth",
+      "title_en": "Diagnose the primary growth constraint",
+      "title_zh": "诊断首要增长约束",
+      "queries_en": ["why is growth slowing", "find our growth bottleneck", "what should we work on next", "growth diagnosis"],
+      "queries_zh": ["为什么增长变慢", "找到增长瓶颈", "下一步应该做什么", "增长诊断"],
+      "primary_skill": "growth-diagnosis",
+      "related_skills": ["growth-measurement", "growth-operations"]
+    },
+    {
+      "id": "plan-acquisition",
+      "title_en": "Plan qualified customer acquisition",
+      "title_zh": "规划有效客户获客",
+      "queries_en": ["build an acquisition strategy", "choose growth channels", "plan a campaign", "improve customer acquisition"],
+      "queries_zh": ["制定获客策略", "选择增长渠道", "规划营销活动", "提升客户获取"],
+      "primary_skill": "acquisition-strategy",
+      "related_skills": ["paid-media-audit", "seo-audit", "partnership-marketing"]
+    },
+    {
+      "id": "audit-paid-media",
+      "title_en": "Audit paid advertising performance",
+      "title_zh": "诊断付费广告表现",
+      "queries_en": ["audit Google Ads", "audit Meta Ads", "why did paid performance drop", "review ad account exports"],
+      "queries_zh": ["诊断谷歌广告", "诊断Meta广告", "广告效果为什么下降", "分析广告账户导出"],
+      "primary_skill": "paid-media-audit",
+      "related_skills": ["acquisition-strategy", "growth-measurement"]
+    },
+    {
+      "id": "improve-search-discovery",
+      "title_en": "Improve search discovery",
+      "title_zh": "提升搜索发现",
+      "queries_en": ["audit SEO", "improve organic search", "fix indexing", "analyze Search Console"],
+      "queries_zh": ["诊断SEO", "提升自然搜索", "修复收录", "分析Search Console"],
+      "primary_skill": "seo-audit",
+      "related_skills": ["acquisition-strategy", "geo"]
+    },
+    {
+      "id": "improve-app-store",
+      "title_en": "Improve app-store discovery and conversion",
+      "title_zh": "提升应用商店发现与转化",
+      "queries_en": ["audit App Store listing", "audit Google Play listing", "improve app store conversion", "ASO audit"],
+      "queries_zh": ["诊断App Store页面", "诊断Google Play页面", "提升应用商店转化", "ASO诊断"],
+      "primary_skill": "aso-audit",
+      "related_skills": ["acquisition-strategy", "activation"]
+    },
+    {
+      "id": "improve-ai-discovery",
+      "title_en": "Audit AI search visibility",
+      "title_zh": "诊断AI搜索可见性",
+      "queries_en": ["audit GEO", "improve AI search visibility", "track citations in AI answers", "generative engine optimization"],
+      "queries_zh": ["诊断GEO", "提升AI搜索可见性", "跟踪AI答案引用", "生成式引擎优化"],
+      "primary_skill": "geo",
+      "related_skills": ["seo-audit", "content-strategy"]
+    },
+    {
+      "id": "improve-activation",
+      "title_en": "Move new users to first value",
+      "title_zh": "推动新用户到达首次价值",
+      "queries_en": ["improve activation", "fix onboarding dropoff", "audit a landing page", "reduce signup friction"],
+      "queries_zh": ["提升激活", "修复新手引导流失", "诊断落地页", "降低注册摩擦"],
+      "primary_skill": "activation",
+      "related_skills": ["growth-measurement", "copywriting"]
+    },
+    {
+      "id": "improve-retention",
+      "title_en": "Understand and improve retention",
+      "title_zh": "理解并提升留存",
+      "queries_en": ["why are users churning", "analyze retention cohorts", "improve repeat usage", "design customer health"],
+      "queries_zh": ["用户为什么流失", "分析留存同期群", "提升重复使用", "设计客户健康度"],
+      "primary_skill": "retention",
+      "related_skills": ["lifecycle-marketing", "growth-measurement"]
+    },
+    {
+      "id": "plan-lifecycle-messaging",
+      "title_en": "Plan lifecycle messaging",
+      "title_zh": "规划生命周期沟通",
+      "queries_en": ["write onboarding emails", "plan retention messages", "build a win-back campaign", "design lifecycle messaging"],
+      "queries_zh": ["写新手引导邮件", "规划留存消息", "设计召回活动", "设计生命周期沟通"],
+      "primary_skill": "lifecycle-marketing",
+      "related_skills": ["activation", "retention", "copywriting"]
+    },
+    {
+      "id": "improve-monetization",
+      "title_en": "Improve pricing and monetization",
+      "title_zh": "改进定价与变现",
+      "queries_en": ["design pricing and packaging", "analyze LTV and CAC", "improve payback", "audit unit economics"],
+      "queries_zh": ["设计定价和套餐", "分析LTV和CAC", "改善回收期", "诊断单位经济"],
+      "primary_skill": "monetization",
+      "related_skills": ["growth-measurement", "customer-expansion-strategy"]
+    },
+    {
+      "id": "design-growth-loop",
+      "title_en": "Design referrals and growth loops",
+      "title_zh": "设计推荐与增长循环",
+      "queries_en": ["design a referral program", "build a growth loop", "analyze network effects", "design marketplace growth"],
+      "queries_zh": ["设计推荐计划", "构建增长循环", "分析网络效应", "设计多边市场增长"],
+      "primary_skill": "growth-loop-design",
+      "related_skills": ["customer-expansion-strategy", "monetization"]
+    },
+    {
+      "id": "expand-customers",
+      "title_en": "Expand value inside existing customers",
+      "title_zh": "扩大现有客户价值",
+      "queries_en": ["improve expansion revenue", "design product qualified leads", "analyze NRR", "plan upsell and cross-sell"],
+      "queries_zh": ["提升扩张收入", "设计产品合格线索", "分析NRR", "规划增购和交叉销售"],
+      "primary_skill": "customer-expansion-strategy",
+      "related_skills": ["retention", "monetization", "sales-enablement"]
+    },
+    {
+      "id": "build-content-strategy",
+      "title_en": "Build a content strategy and creative system",
+      "title_zh": "构建内容策略与创意体系",
+      "queries_en": ["build a content strategy", "plan a content calendar", "develop customer proof", "plan ad creative"],
+      "queries_zh": ["制定内容策略", "规划内容日历", "开发客户证据", "规划广告创意"],
+      "primary_skill": "content-strategy",
+      "related_skills": ["copywriting", "marketing-image", "marketing-video"]
+    },
+    {
+      "id": "write-marketing-copy",
+      "title_en": "Write or improve marketing copy",
+      "title_zh": "撰写或改进营销文案",
+      "queries_en": ["write landing page copy", "edit marketing copy", "localize product copy", "write campaign copy"],
+      "queries_zh": ["写落地页文案", "修改营销文案", "本地化产品文案", "写营销活动文案"],
+      "primary_skill": "copywriting",
+      "related_skills": ["content-strategy", "activation"]
+    },
+    {
+      "id": "create-marketing-images",
+      "title_en": "Create governed marketing images",
+      "title_zh": "创作受治理的营销图片",
+      "queries_en": ["create an ad image", "adapt campaign images", "audit marketing visuals", "generate product marketing images"],
+      "queries_zh": ["创作广告图片", "适配营销活动图片", "诊断营销视觉", "生成产品营销图片"],
+      "primary_skill": "marketing-image",
+      "related_skills": ["content-strategy", "copywriting"]
+    },
+    {
+      "id": "create-marketing-video",
+      "title_en": "Create and localize marketing video",
+      "title_zh": "创作并本地化营销视频",
+      "queries_en": ["create a marketing video", "write a video script", "localize a product video", "adapt video for social"],
+      "queries_zh": ["创作营销视频", "写视频脚本", "本地化产品视频", "适配社交媒体视频"],
+      "primary_skill": "marketing-video",
+      "related_skills": ["content-strategy", "copywriting"]
+    },
+    {
+      "id": "assess-product-market-fit",
+      "title_en": "Assess product-market fit and journey",
+      "title_zh": "评估产品市场匹配与客户旅程",
+      "queries_en": ["assess product market fit", "map the customer journey", "find journey friction", "analyze repeated value"],
+      "queries_zh": ["评估产品市场匹配", "绘制客户旅程", "寻找旅程摩擦", "分析重复价值"],
+      "primary_skill": "product-market-fit-assessment",
+      "related_skills": ["customer-research", "growth-diagnosis"]
+    },
+    {
+      "id": "define-positioning",
+      "title_en": "Define ICP and positioning",
+      "title_zh": "定义ICP与市场定位",
+      "queries_en": ["define our ICP", "improve positioning", "choose a category", "build a messaging foundation"],
+      "queries_zh": ["定义ICP", "改进市场定位", "选择产品品类", "构建信息基础"],
+      "primary_skill": "positioning",
+      "related_skills": ["customer-research", "content-strategy"]
+    },
+    {
+      "id": "research-customers",
+      "title_en": "Research customers and run surveys",
+      "title_zh": "研究客户并开展调查",
+      "queries_en": ["plan customer interviews", "design a survey", "synthesize customer research", "understand customer needs"],
+      "queries_zh": ["规划客户访谈", "设计调查问卷", "综合客户研究", "理解客户需求"],
+      "primary_skill": "customer-research",
+      "related_skills": ["positioning", "product-market-fit-assessment"]
+    },
+    {
+      "id": "size-market",
+      "title_en": "Research competitors and size a market",
+      "title_zh": "研究竞争与测算市场规模",
+      "queries_en": ["size the market", "calculate TAM SAM SOM", "research competitors", "estimate market opportunity"],
+      "queries_zh": ["测算市场规模", "计算TAM SAM SOM", "研究竞争对手", "估算市场机会"],
+      "primary_skill": "market-sizing",
+      "related_skills": ["growth-model-design", "growth-strategy"]
+    },
+    {
+      "id": "design-growth-model",
+      "title_en": "Design a growth model and size opportunity",
+      "title_zh": "设计增长模型并测算机会",
+      "queries_en": ["build a growth model", "model stocks and flows", "size a growth opportunity", "create growth scenarios"],
+      "queries_zh": ["构建增长模型", "建立存量流量模型", "测算增长机会", "创建增长情景"],
+      "primary_skill": "growth-model-design",
+      "related_skills": ["growth-strategy", "growth-measurement"]
+    },
+    {
+      "id": "define-growth-strategy",
+      "title_en": "Define growth and market strategy",
+      "title_zh": "制定增长与市场策略",
+      "queries_en": ["create a growth strategy", "choose growth bets", "plan market entry", "decide where to grow"],
+      "queries_zh": ["制定增长策略", "选择增长投入", "规划市场进入", "决定在哪里增长"],
+      "primary_skill": "growth-strategy",
+      "related_skills": ["growth-diagnosis", "market-sizing", "growth-model-design"]
+    },
+    {
+      "id": "plan-go-to-market",
+      "title_en": "Plan go-to-market and launch",
+      "title_zh": "规划市场进入与产品发布",
+      "queries_en": ["build a go to market plan", "plan a product launch", "choose a GTM motion", "assess launch readiness"],
+      "queries_zh": ["制定市场进入计划", "规划产品发布", "选择GTM路径", "评估发布准备度"],
+      "primary_skill": "go-to-market-strategy",
+      "related_skills": ["positioning", "acquisition-strategy", "activation"]
+    },
+    {
+      "id": "design-growth-measurement",
+      "title_en": "Design measurement and experiments",
+      "title_zh": "设计增长测量与实验",
+      "queries_en": ["define a North Star metric", "audit tracking", "design an experiment", "fix attribution", "analyze GA4 or PostHog"],
+      "queries_zh": ["定义北极星指标", "诊断数据追踪", "设计实验", "修复归因", "分析GA4或PostHog"],
+      "primary_skill": "growth-measurement",
+      "related_skills": ["growth-diagnosis", "growth-operations"]
+    },
+    {
+      "id": "operate-growth-system",
+      "title_en": "Operate the growth system",
+      "title_zh": "运行增长体系",
+      "queries_en": ["plan growth operations", "prioritize growth initiatives", "allocate growth budget", "design growth organization", "improve RevOps"],
+      "queries_zh": ["规划增长运营", "确定增长项目优先级", "分配增长预算", "设计增长组织", "改进收入运营"],
+      "primary_skill": "growth-operations",
+      "related_skills": ["growth-diagnosis", "growth-strategy", "growth-measurement"]
+    },
+    {
+      "id": "build-partnerships",
+      "title_en": "Build partnerships and community growth",
+      "title_zh": "构建合作伙伴与社区增长",
+      "queries_en": ["design a partner program", "plan community growth", "evaluate a partnership", "build partner economics"],
+      "queries_zh": ["设计合作伙伴计划", "规划社区增长", "评估合作关系", "设计合作经济模型"],
+      "primary_skill": "partnership-marketing",
+      "related_skills": ["acquisition-strategy", "growth-loop-design"]
+    },
+    {
+      "id": "enable-sales",
+      "title_en": "Enable sales and permitted outbound",
+      "title_zh": "赋能销售与许可型外联",
+      "queries_en": ["build sales enablement", "write an outbound sequence", "create sales proof", "localize sales messaging"],
+      "queries_zh": ["构建销售赋能", "撰写外联序列", "制作销售证据", "本地化销售信息"],
+      "primary_skill": "sales-enablement",
+      "related_skills": ["positioning", "copywriting", "customer-expansion-strategy"]
+    }
+  ]
+}

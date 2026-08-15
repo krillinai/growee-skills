@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "integrations": [
+    {
+      "id": "google-analytics-4",
+      "name": "Google Analytics 4",
+      "access_mode": "read_only",
+      "owner_skills": ["growth-diagnosis", "growth-measurement"],
+      "minimum_access": ["https://www.googleapis.com/auth/analytics.readonly", "named GA4 property"],
+      "read_operations": ["property metadata", "dimensions and metrics metadata", "bounded aggregate reports", "bounded realtime reports when required by the decision"],
+      "blocked_operations": ["property administration", "audience creation", "event or key-event changes", "data import", "user deletion", "raw personal-data export"]
+    },
+    {
+      "id": "posthog",
+      "name": "PostHog",
+      "access_mode": "read_only",
+      "owner_skills": ["growth-diagnosis", "growth-measurement"],
+      "minimum_access": ["named PostHog project", "view-only project role or read-restricted personal API key"],
+      "read_operations": ["event and property definitions", "bounded trends", "bounded funnels", "bounded retention", "existing insight results"],
+      "blocked_operations": ["event ingestion", "person or group mutation", "feature-flag changes", "experiment changes", "dashboard or insight mutation", "session replay download", "raw personal-data export"]
+    },
+    {
+      "id": "google-search-console",
+      "name": "Google Search Console",
+      "access_mode": "read_only",
+      "owner_skills": ["growth-diagnosis", "seo-audit", "growth-measurement"],
+      "minimum_access": ["https://www.googleapis.com/auth/webmasters.readonly", "named verified property"],
+      "read_operations": ["property inventory", "bounded Search Analytics queries", "sitemap inventory", "URL inspection results when a capable read path exists"],
+      "blocked_operations": ["sitemap submission or deletion", "indexing requests", "ownership or user changes", "site-setting changes", "broad query or page export without minimization"]
+    },
+    {
+      "id": "hubspot",
+      "name": "HubSpot",
+      "access_mode": "read_only",
+      "owner_skills": ["growth-diagnosis", "growth-measurement"],
+      "minimum_access": ["named HubSpot portal", "only required crm.objects.*.read scopes", "property allowlist"],
+      "read_operations": ["object schemas and selected properties", "bounded aggregate contact, company, deal, and lifecycle-stage evidence", "owners and pipelines when needed for reconciliation"],
+      "blocked_operations": ["record creation or mutation", "association changes", "list enrollment", "workflow activation", "email or message sends", "property or pipeline mutation", "unbounded personal-data export"]
+    },
+    {
+      "id": "google-ads",
+      "name": "Google Ads",
+      "access_mode": "read_only",
+      "owner_skills": ["growth-diagnosis", "paid-media-audit", "growth-measurement"],
+      "minimum_access": ["named Google Ads customer", "Google Ads Read only account role", "approved developer token and OAuth path when API access is used"],
+      "read_operations": ["bounded GAQL reporting", "campaign and asset configuration reads", "conversion-action configuration reads", "change history reads", "search-term and product performance reads when privacy-safe"],
+      "blocked_operations": ["mutate operations", "recommendation application", "budget or bid changes", "campaign or asset changes", "audience upload", "conversion upload", "customer-data export"]
+    },
+    {
+      "id": "meta-ads",
+      "name": "Meta Ads",
+      "access_mode": "read_only",
+      "owner_skills": ["growth-diagnosis", "paid-media-audit", "growth-measurement"],
+      "minimum_access": ["named Meta ad account", "ads_read permission", "no ads_management permission"],
+      "read_operations": ["bounded Insights reads", "campaign, ad set, ad, and creative configuration reads", "delivery and attribution-setting reads", "change evidence when exposed through the approved read path"],
+      "blocked_operations": ["campaign, ad set, ad, or creative mutation", "budget or bid changes", "audience creation or upload", "lead retrieval", "pixel or Conversions API changes", "ads_management use"]
+    }
+  ]
+}
