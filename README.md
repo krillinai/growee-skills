@@ -83,19 +83,6 @@ Use $growth-diagnosis to identify our primary growth constraint and define the n
 Once the constraint is clear, replace `growth-diagnosis` with the relevant Skill name. For another Agent Skills-compatible client, copy or link the selected `skills/<name>/` directory into that client's Skill directory.
 
 <!-- BEGIN GENERATED: catalog -->
-## Follow the Growth Playbook
-
-| Growth decision | Start with |
-| --- | --- |
-| Identify the primary constraint and choose the smallest evidence-backed execution route | [`Growth Diagnosis`](skills/growth-diagnosis/) |
-| Connect qualified demand to the product through channels, campaigns, search, paid media, partnerships, and outbound | [`Acquisition Strategy & Campaigns`](skills/acquisition-strategy/), [`SEO & Search Systems`](skills/seo-audit/) |
-| Move qualified visitors and new users to first value and the next meaningful action | [`Activation & Conversion`](skills/activation/) |
-| Sustain recurring value, understand cohorts and churn, and recover valuable customer relationships | [`Retention & Customer Health`](skills/retention/), [`Lifecycle Marketing`](skills/lifecycle-marketing/) |
-| Convert customer value into durable revenue through pricing, packaging, LTV, and unit economics | [`Monetization & Economics`](skills/monetization/) |
-| Create deeper value and new distribution through referrals, loops, expansion, marketplaces, and network effects | [`Growth Loops & Network Effects`](skills/growth-loop-design/), [`Customer Expansion Strategy`](skills/customer-expansion-strategy/) |
-| Turn strategy, customer evidence, and proof into governed content and creative assets | [`Content Strategy & Creative`](skills/content-strategy/), [`Copywriting & Editing`](skills/copywriting/), [`Marketing Video`](skills/marketing-video/) |
-| Define customer, market, fit, positioning, growth model, measurement, experimentation, and operating foundations | [`Product-Market Fit & Journey`](skills/product-market-fit-assessment/), [`ICP & Positioning`](skills/positioning/), [`Growth Measurement & Experimentation`](skills/growth-measurement/), [`Growth Operations & Infrastructure`](skills/growth-operations/) |
-
 ## Complete growth capability map
 
 **Structure:** This map lists 27 top-level Skills. They route to 59 specialist workflows under `references/modules/` and load those modules only when needed.
