@@ -135,7 +135,7 @@ Use AI to create the parts that benefit from synthesis. Use deterministic compos
 
 ### Ads And Campaign Systems
 
-- route audience, promise, proof, concept hypothesis, placement strategy, and test design to `ad-creative` when needed;
+- route audience, promise, proof, concept hypothesis, placement strategy, and test design to the Ad Creative module in `content-strategy` when needed;
 - keep concept, composition, and execution variants separately identified;
 - map every asset to campaign, audience, placement, offer, destination, and learning purpose;
 - do not infer platform approval or performance from visual polish.
@@ -186,7 +186,7 @@ For deterministic composition, specify canvas, grid, margins, safe areas, focal 
 
 Do not prompt for living artists' exact style, counterfeit brand assets, deceptive documentary evidence, fake customers or endorsements, misleading body or product outcomes, or sensitive personal inference. Do not reproduce a competitor image, remove watermarks, expose private information, or use an accessible public image as proof of reuse rights.
 
-Use a real supplied logo rather than regenerating it. Use approved product screenshots or a clearly labeled conceptual mockup; never let a generated UI imply available functionality. Build charts from attributable structured data with labels, units, source, period, and uncertainty. Route copy to `copywriting`, PR usage to `public-relations`, and localization claims to the appropriate market owner.
+Use a real supplied logo rather than regenerating it. Use approved product screenshots or a clearly labeled conceptual mockup; never let a generated UI imply available functionality. Build charts from attributable structured data with labels, units, source, period, and uncertainty. Route copy to `copywriting`, public communications usage to the Public Relations module in `content-strategy`, and localization claims to the appropriate market owner.
 
 ## Generate, Edit, And Iterate Honestly
 

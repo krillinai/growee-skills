@@ -1,4 +1,0 @@
-interface:
-  display_name: "Ad Creative"
-  short_description: "Design and audit evidence-led ad creative systems"
-  default_prompt: "Use $ad-creative to design or audit concepts, briefs, variants, rights, and learning for this campaign."

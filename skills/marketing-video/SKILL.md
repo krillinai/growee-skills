@@ -137,14 +137,14 @@ Use generation for the layers that benefit from synthesis. Use real captures and
 - verify the exact platform, account, placement, player, duration, ratio, safe area, caption, thumbnail, file, and review requirements;
 - design the opening around the audience decision and evidence rather than a universal hook rule;
 - create placement-specific edits and format adaptations instead of stretching one master everywhere;
-- route concept hypothesis and test strategy to `ad-creative` when needed.
+- route concept hypothesis and test strategy to the Ad Creative module in `content-strategy` when needed.
 
 ### Customer Story, Interview, PR, And Event
 
 - verify participant identity, testimony, source, releases, edit scope, market, media, paid use, term, and approval;
 - preserve meaning and context when trimming or restructuring;
 - distinguish documentary footage, reenactment, generated media, and illustrative B-roll;
-- route evidence development to `customer-research` and PR use to `public-relations` when appropriate.
+- route evidence development to `customer-research` and public communications use to the Public Relations module in `content-strategy` when appropriate.
 
 ### Long-Form Repurposing
 

@@ -1,4 +1,0 @@
-interface:
-  display_name: "Public Relations"
-  short_description: "Plan evidence-led PR and media materials"
-  default_prompt: "Use $public-relations to plan or review this PR initiative and its materials."
