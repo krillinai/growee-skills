@@ -96,21 +96,7 @@ Once the constraint is clear, replace `growth-diagnosis` with the relevant Skill
 | Turn strategy, customer evidence, and proof into governed content and creative assets | [`Content Strategy & Creative`](skills/content-strategy/), [`Copywriting & Editing`](skills/copywriting/), [`Marketing Video`](skills/marketing-video/) |
 | Define customer, market, fit, positioning, growth model, measurement, experimentation, and operating foundations | [`Product-Market Fit & Journey`](skills/product-market-fit-assessment/), [`ICP & Positioning`](skills/positioning/), [`Growth Measurement & Experimentation`](skills/growth-measurement/), [`Growth Operations & Infrastructure`](skills/growth-operations/) |
 
-## Choose your operating scope
-
-Choose the smallest bundle that matches the current constraint. Counts refer to top-level Skills and integrations; specialist workflows stay inside their parent Skill and load only when needed.
-
-| Scope | Description | Entry points |
-| --- | --- | ---: |
-| `content-growth` · Content Growth | A focused content-marketing path connecting customer questions, content production, localization, distribution, and conversion. | 8 |
-| `measurement-analytics` · Measurement & Analytics | Make growth observable and decision-ready through metrics, tracking, attribution, economics, forecasting, cohorts, and experiments. | 4 |
-| `acquisition-distribution` · Acquisition & Distribution | Connect qualified demand to product value through channels, campaigns, search, conversion surfaces, partnerships, community, and outbound. | 8 |
-| `growth-operating-system` · Growth Operating System | Turn growth decisions into a repeatable operating cadence across planning, capacity, investment, governance, reviews, learning, infrastructure, organization, and RevOps. | 3 |
-
 ## Complete growth capability map
-
-<details>
-<summary>Browse every Skill and integration by growth function</summary>
 
 **Structure:** This map lists 27 top-level Skills. They route to 59 specialist workflows under `references/modules/` and load those modules only when needed.
 
@@ -224,8 +210,6 @@ Choose the smallest bundle that matches the current constraint. Counts refer to 
     <tr><td><a href="skills/growth-operations/">Growth&nbsp;Operations&nbsp;&amp;&nbsp;Infrastructure</a></td><td>Preview</td><td>Plan and operate growth across allocation, reviews, decisions, learning, infrastructure, organization, RevOps, and experiment programs</td></tr>
   </tbody>
 </table>
-
-</details>
 <!-- END GENERATED: catalog -->
 
 ## Growth principles

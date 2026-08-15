@@ -17,7 +17,6 @@ class GeneratedCatalogTest(unittest.TestCase):
         return GENERATOR.generated_block(
             GENERATOR.load_json("taxonomy.json"),
             GENERATOR.load_json("skills.json"),
-            GENERATOR.load_json("bundles.json"),
             GENERATOR.load_json("integrations.json"),
             language,
         )
@@ -68,31 +67,13 @@ class GeneratedCatalogTest(unittest.TestCase):
                 self.assertIn(current_label, rendered)
                 self.assertNotIn(old_label, rendered)
 
-    def test_bundles_count_entry_points(self):
-        cases = (
-            (
-                "en",
-                "| `content-growth` · Content Growth |",
-                "| 8 |",
-            ),
-            (
-                "zh",
-                "| `content-growth` · 内容增长 |",
-                "| 8 |",
-            ),
-        )
-
-        for language, row_start, row_end in cases:
+    def test_operating_scope_is_not_rendered(self):
+        for language in ("en", "zh"):
             with self.subTest(language=language):
                 rendered = self.render(language)
-                row = next(
-                    line for line in rendered.splitlines() if line.startswith(row_start)
-                )
-                self.assertTrue(row.endswith(row_end))
-                self.assertNotIn("`core-growth`", rendered)
-                self.assertIn(
-                    "Entry points" if language == "en" else "入口数量", rendered
-                )
+                self.assertNotIn("Choose your operating scope", rendered)
+                self.assertNotIn("选择运营范围", rendered)
+                self.assertNotIn("`content-growth`", rendered)
 
     def test_structure_note_reports_consolidated_surface(self):
         cases = (
@@ -106,34 +87,35 @@ class GeneratedCatalogTest(unittest.TestCase):
                 self.assertIn(skill_count, rendered)
                 self.assertIn(module_count, rendered)
 
-    def test_complete_catalog_is_collapsed(self):
+    def test_complete_catalog_is_expanded(self):
         cases = (
             (
                 "en",
                 "## Complete growth capability map",
-                "Browse every Skill and integration by growth function",
+                "### Growth Diagnosis",
             ),
             (
                 "zh",
                 "## 完整增长能力图谱",
-                "按增长职能展开查看全部 Skill 与集成",
+                "### 增长诊断",
             ),
         )
 
-        for language, heading, summary in cases:
+        for language, heading, first_category in cases:
             with self.subTest(language=language):
                 rendered = self.render(language)
                 catalog = rendered.split(heading, 1)[1]
-                self.assertIn("<details>", catalog)
-                self.assertIn(f"<summary>{summary}</summary>", catalog)
-                self.assertIn("</details>\n<!-- END GENERATED: catalog -->", catalog)
+                self.assertIn(first_category, catalog)
+                self.assertNotIn("<details>", catalog)
+                self.assertNotIn("<summary>", catalog)
+                self.assertNotIn("</details>", catalog)
 
     def test_sections_follow_the_growth_sequence(self):
         cases = (
             (
                 "en",
                 "## Follow the Growth Playbook",
-                "## Choose your operating scope",
+                "## Complete growth capability map",
                 (
                     "### Growth Diagnosis",
                     "### Acquisition",
@@ -148,7 +130,7 @@ class GeneratedCatalogTest(unittest.TestCase):
             (
                 "zh",
                 "## 按增长手册主线选择能力",
-                "## 选择运营范围",
+                "## 完整增长能力图谱",
                 (
                     "### 增长诊断",
                     "### 获客",
@@ -162,10 +144,10 @@ class GeneratedCatalogTest(unittest.TestCase):
             ),
         )
 
-        for language, chooser, scopes, headings in cases:
+        for language, chooser, catalog, headings in cases:
             with self.subTest(language=language):
                 rendered = self.render(language)
-                self.assertLess(rendered.index(chooser), rendered.index(scopes))
+                self.assertLess(rendered.index(chooser), rendered.index(catalog))
                 positions = [rendered.index(heading) for heading in headings]
                 self.assertEqual(positions, sorted(positions))
 
