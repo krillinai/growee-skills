@@ -68,6 +68,27 @@ v
 
 `skills/` 下的每个目录都是一个可独立安装的 Agent Skill。合集提供 27 个顶层 Skills，覆盖增长诊断、客户生命周期、内容生产与增长基础；另有 59 个专业工作流存放在 `references/modules/` 中，仅在所属 Skill 路由到它们时加载。先从增长诊断开始，再只安装与首要约束和执行路径匹配的顶层 Skill。
 
+使用通用 Agent Skills CLI 从 GitHub 安装（需要 Node.js 22.20 或更高版本）：
+
+```bash
+npx skills add krillinai/growee-skills
+```
+
+查看 27 个可安装 Skills，或直接安装增长诊断：
+
+```bash
+npx skills add krillinai/growee-skills --list
+npx skills add krillinai/growee-skills --skill growth-diagnosis
+```
+
+Claude Code 可显式选择其原生 Skill 目录：
+
+```bash
+npx skills add krillinai/growee-skills --skill growth-diagnosis --agent claude-code
+```
+
+对于尚不支持 Agent Skills CLI 的客户端，可手动安装：
+
 ```bash
 git clone https://github.com/krillinai/growee-skills.git
 mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
@@ -80,7 +101,7 @@ cp -R growee-skills/skills/growth-diagnosis "${CODEX_HOME:-$HOME/.codex}/skills/
 使用 $growth-diagnosis，识别当前最主要的增长约束，并定义下一项有证据支撑的决策。
 ```
 
-明确约束后，将示例中的 `growth-diagnosis` 替换为对应 Skill 名称。对于其他兼容 Agent Skills 的客户端，将所选 `skills/<name>/` 目录复制或链接到对应的 Skill 目录即可。
+明确约束后，将示例中的 `growth-diagnosis` 替换为对应 Skill 名称。CLI 可通过 `--agent` 支持其他兼容 Agent Skills 的客户端；否则将所选 `skills/<name>/` 目录复制或链接到对应的 Skill 目录即可。
 
 <!-- BEGIN GENERATED: catalog -->
 ## 完整增长能力图谱
