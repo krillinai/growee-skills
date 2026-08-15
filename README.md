@@ -1,8 +1,7 @@
-<p align="center">
-  <img src="Growee-logo.png" alt="Growee Skills logo" width="180">
-</p>
-
-<h1 align="center">Full-Lifecycle AI Growth Skills</h1>
+<div align="center">
+  <img src="Growee-logo-header.png" alt="Growee Skills logo" width="360">
+  <h1>Full-Lifecycle AI Growth Skills</h1>
+</div>
 
 <p align="center">AI-executable capabilities for growth diagnosis, acquisition, activation, retention, monetization, referral and expansion, content production, and growth foundations.</p>
 
