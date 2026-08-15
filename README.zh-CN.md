@@ -83,19 +83,6 @@ cp -R growee-skills/skills/growth-diagnosis "${CODEX_HOME:-$HOME/.codex}/skills/
 明确约束后，将示例中的 `growth-diagnosis` 替换为对应 Skill 名称。对于其他兼容 Agent Skills 的客户端，将所选 `skills/<name>/` 目录复制或链接到对应的 Skill 目录即可。
 
 <!-- BEGIN GENERATED: catalog -->
-## 按增长手册主线选择能力
-
-| 增长决策 | 建议从这里开始 |
-| --- | --- |
-| 识别首要增长约束，并选择最小且有证据支撑的执行路径 | [`增长诊断`](skills/growth-diagnosis/) |
-| 通过渠道、营销活动、搜索、广告、合作与外联，把有效需求连接到产品 | [`获客策略与营销活动`](skills/acquisition-strategy/)、[`SEO 与搜索系统`](skills/seo-audit/) |
-| 推动有效访客和新用户到达首次价值与下一项关键行动 | [`激活与转化`](skills/activation/) |
-| 维持持续价值，理解同期群与流失，并修复有价值的客户关系 | [`留存与客户健康`](skills/retention/)、[`生命周期营销`](skills/lifecycle-marketing/) |
-| 通过定价、套餐、LTV 与单位经济，把客户价值转化为可持续收入 | [`变现与单位经济`](skills/monetization/) |
-| 通过推荐、增长循环、客户扩张、多边市场与网络效应创造更深价值和新分发 | [`增长循环与网络效应`](skills/growth-loop-design/)、[`客户扩张策略`](skills/customer-expansion-strategy/) |
-| 把战略、客户证据与证明转化为受治理的内容和创意资产 | [`内容策略与创意`](skills/content-strategy/)、[`文案创作与编辑`](skills/copywriting/)、[`营销视频`](skills/marketing-video/) |
-| 定义客户、市场、匹配、定位、增长模型、测量、实验与运营基础 | [`产品市场匹配与客户旅程`](skills/product-market-fit-assessment/)、[`ICP 与市场定位`](skills/positioning/)、[`增长测量与实验`](skills/growth-measurement/)、[`增长运营与基础设施`](skills/growth-operations/) |
-
 ## 完整增长能力图谱
 
 **结构：** 本图谱展示 27 个顶层 Skills；59 个专业工作流保留在 `references/modules/` 中，由所属 Skill 按需加载。

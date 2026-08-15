@@ -67,12 +67,14 @@ class GeneratedCatalogTest(unittest.TestCase):
                 self.assertIn(current_label, rendered)
                 self.assertNotIn(old_label, rendered)
 
-    def test_operating_scope_is_not_rendered(self):
+    def test_removed_navigation_sections_are_not_rendered(self):
         for language in ("en", "zh"):
             with self.subTest(language=language):
                 rendered = self.render(language)
                 self.assertNotIn("Choose your operating scope", rendered)
                 self.assertNotIn("选择运营范围", rendered)
+                self.assertNotIn("Follow the Growth Playbook", rendered)
+                self.assertNotIn("按增长手册主线选择能力", rendered)
                 self.assertNotIn("`content-growth`", rendered)
 
     def test_structure_note_reports_consolidated_surface(self):
@@ -114,7 +116,6 @@ class GeneratedCatalogTest(unittest.TestCase):
         cases = (
             (
                 "en",
-                "## Follow the Growth Playbook",
                 "## Complete growth capability map",
                 (
                     "### Growth Diagnosis",
@@ -129,7 +130,6 @@ class GeneratedCatalogTest(unittest.TestCase):
             ),
             (
                 "zh",
-                "## 按增长手册主线选择能力",
                 "## 完整增长能力图谱",
                 (
                     "### 增长诊断",
@@ -144,10 +144,10 @@ class GeneratedCatalogTest(unittest.TestCase):
             ),
         )
 
-        for language, chooser, catalog, headings in cases:
+        for language, catalog, headings in cases:
             with self.subTest(language=language):
                 rendered = self.render(language)
-                self.assertLess(rendered.index(chooser), rendered.index(catalog))
+                self.assertIn(catalog, rendered)
                 positions = [rendered.index(heading) for heading in headings]
                 self.assertEqual(positions, sorted(positions))
 

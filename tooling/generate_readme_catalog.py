@@ -28,11 +28,6 @@ def load_json(name: str) -> dict:
         return json.load(handle)
 
 
-def skill_link(skill: dict, language: str) -> str:
-    label = skill[f"name_{language}"]
-    return f"[`{label}`]({skill['path']})"
-
-
 def table_name(value: str) -> str:
     return html.escape(value).replace(" ", "&nbsp;")
 
@@ -46,35 +41,6 @@ def specialist_module_count() -> int:
     return sum(
         1 for _ in ROOT.glob("skills/*/references/modules/*/SKILL.md")
     )
-
-
-def chooser_section(
-    taxonomy: dict, skills_by_id: dict[str, dict], language: str
-) -> str:
-    if language == "en":
-        lines = [
-            "## Follow the Growth Playbook",
-            "",
-            "| Growth decision | Start with |",
-            "| --- | --- |",
-        ]
-    else:
-        lines = [
-            "## 按增长手册主线选择能力",
-            "",
-            "| 增长决策 | 建议从这里开始 |",
-            "| --- | --- |",
-        ]
-
-    for category in growth_ordered_categories(taxonomy):
-        job = category[f"job_{language}"]
-        separator = ", " if language == "en" else "、"
-        links = separator.join(
-            skill_link(skills_by_id[skill_id], language)
-            for skill_id in category["start_skills"]
-        )
-        lines.append(f"| {job} | {links} |")
-    return "\n".join(lines)
 
 
 def catalog_section(
@@ -183,10 +149,7 @@ def generated_block(
     language: str,
 ) -> str:
     skills_by_id = {skill["id"]: skill for skill in catalog["skills"]}
-    sections = [
-        chooser_section(taxonomy, skills_by_id, language),
-        catalog_section(taxonomy, skills_by_id, integrations, language),
-    ]
+    sections = [catalog_section(taxonomy, skills_by_id, integrations, language)]
     return (
         "<!-- BEGIN GENERATED: catalog -->\n"
         + "\n\n".join(sections)
