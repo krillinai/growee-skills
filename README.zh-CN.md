@@ -1,8 +1,7 @@
-<p align="center">
-  <img src="Growee-logo.png" alt="Growee Skills logo" width="180">
-</p>
-
-<h1 align="center">全生命周期AI增长技能合集</h1>
+<div align="center">
+  <img src="Growee-logo-header.png" alt="Growee Skills logo" width="360">
+  <h1>全生命周期AI增长技能合集</h1>
+</div>
 
 <p align="center">覆盖增长诊断、获客、激活、留存、变现、分享传播、内容生产与增长基础的 AI 可执行能力。</p>
 
