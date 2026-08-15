@@ -68,6 +68,27 @@ Measured customer behavior and business outcomes feed the next diagnosis. That f
 
 Each directory under `skills/` is a standalone Agent Skill. The collection exposes 27 top-level Skills across diagnosis, the customer lifecycle, content production, and growth foundations. Another 59 specialist workflows live under `references/modules/` and load only when their parent Skill routes to them. Start with Growth Diagnosis, then install only the top-level Skills that match the primary constraint and execution route.
 
+Install from GitHub with the universal Agent Skills CLI (Node.js 22.20 or later):
+
+```bash
+npx skills add krillinai/growee-skills
+```
+
+List the 27 installable Skills or install Growth Diagnosis directly:
+
+```bash
+npx skills add krillinai/growee-skills --list
+npx skills add krillinai/growee-skills --skill growth-diagnosis
+```
+
+For Claude Code, select its native Skill directory explicitly:
+
+```bash
+npx skills add krillinai/growee-skills --skill growth-diagnosis --agent claude-code
+```
+
+For a client without Agent Skills CLI support, install manually:
+
 ```bash
 git clone https://github.com/krillinai/growee-skills.git
 mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
@@ -80,7 +101,7 @@ Invoke an installed Skill explicitly when the task could match several capabilit
 Use $growth-diagnosis to identify our primary growth constraint and define the next evidence-backed decision.
 ```
 
-Once the constraint is clear, replace `growth-diagnosis` with the relevant Skill name. For another Agent Skills-compatible client, copy or link the selected `skills/<name>/` directory into that client's Skill directory.
+Once the constraint is clear, replace `growth-diagnosis` with the relevant Skill name. The CLI supports other Agent Skills-compatible clients through `--agent`; otherwise copy or link the selected `skills/<name>/` directory into that client's Skill directory.
 
 <!-- BEGIN GENERATED: catalog -->
 ## Complete growth capability map
